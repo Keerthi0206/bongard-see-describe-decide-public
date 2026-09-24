@@ -1,0 +1,319 @@
+{
+ "bp": "bp0010",
+ "model": "gpt-4o",
+ "cost_usd": 0.020605000000000005,
+ "fields": {
+  "right_6": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A small square in the top-left corner."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A large jagged polygon."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A medium square in the center."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A large diamond shape."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A large wavy triangle."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A tiny jagged shape."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A large equilateral triangle."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "down"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A small inverted triangle."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "up"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A medium triangle."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A large jagged triangle."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A small jagged shape."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A large jagged shape."
+  }
+ }
+}

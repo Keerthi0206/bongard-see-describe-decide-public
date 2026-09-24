@@ -1,0 +1,331 @@
+{
+ "bp": "bp0030",
+ "model": "gpt-4o",
+ "cost_usd": 0.02169500000000002,
+ "fields": {
+  "left_6": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A complex self-crossing curve."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A simple open curve."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A zigzag line with acute angles."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A looped curve with self-crossing."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A line forming an acute angle."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A simple open curve."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A wavy open curve."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A closed polygon with right angles."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A closed loop with self-crossing."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A self-crossing polygon with acute and concave angles."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A heart-shaped symmetric curve."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A simple V-shaped line."
+  }
+ }
+}

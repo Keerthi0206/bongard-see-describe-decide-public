@@ -1,0 +1,451 @@
+{
+ "bp": "bp0046",
+ "model": "gpt-4o",
+ "cost_usd": 0.024185000000000012,
+ "fields": {
+  "left_4": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "large",
+     "position": "center",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Triangle is larger than the circle."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "right",
+     "pointing": "right",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle touching circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is partially inside the circle."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "left",
+     "pointing": "right",
+     "orientation": "horizontal"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle touching triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is larger than the circle."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top",
+     "pointing": "down",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle above circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Triangle is smaller than the circle."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Circle is smaller than the triangle."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "right",
+     "orientation": "diagonal"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle touching circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Both shapes are of similar size."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "top",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle below circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Circle is larger than the triangle."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle below circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Circle is larger than the triangle."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Circle is larger than the triangle."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "large",
+     "position": "center",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Tiny circle inside a large triangle."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "right",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle touching triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Both shapes are of similar size."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Triangle is smaller than the circle."
+  }
+ }
+}

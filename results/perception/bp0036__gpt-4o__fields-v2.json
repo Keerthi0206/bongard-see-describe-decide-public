@@ -1,0 +1,451 @@
+{
+ "bp": "bp0036",
+ "model": "gpt-4o",
+ "cost_usd": 0.024145,
+ "fields": {
+  "right_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle above triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Circle and triangle are separate."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "down",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle left of triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is pointing down."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom-left",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle above triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Objects are diagonally opposite."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle above circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is above the circle."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle left of triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Objects are horizontally aligned."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top",
+     "pointing": "down",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle below triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is pointing down."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom-left",
+     "pointing": "down",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle right of triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is pointing down."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom-right",
+     "pointing": "down",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle above triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Objects are diagonally opposite."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle left of triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Objects are horizontally aligned."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom-left",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle right of triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Objects are diagonally opposite."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-left",
+     "pointing": "down",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle below triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Objects are diagonally opposite."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "down",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle right of triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is pointing down."
+  }
+ }
+}

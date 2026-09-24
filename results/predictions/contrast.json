@@ -1,0 +1,26 @@
+{
+ "arm": "contrast",
+ "rows": [
+  {
+   "bp": "bp0002",
+   "rule": "Left = large figures, Right = small figures",
+   "verified": true,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0036",
+   "rule": "Left = compact figures, Right = elongated figures",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0038",
+   "rule": "Left = figures with more corners, Right = figures with fewer corners",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  }
+ ]
+}

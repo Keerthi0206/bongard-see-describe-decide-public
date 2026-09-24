@@ -1,0 +1,331 @@
+{
+ "bp": "bp0004",
+ "model": "gpt-4o",
+ "cost_usd": 0.021425,
+ "fields": {
+  "right_6": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "solid",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Solid abstract shape."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Polygon with mixed angles."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Irregular pentagon."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Hexagon with irregular sides."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Abstract outline shape."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Simple circle outline."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "solid",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Solid ellipse."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Zigzag polygon."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Irregular triangle."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Solid abstract shape with concave angles."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Outline shape resembling a dumbbell."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "down",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Solid downward-pointing triangle."
+  }
+ }
+}

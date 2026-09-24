@@ -1,0 +1,513 @@
+{
+ "bp": "bp0022",
+ "model": "gpt-4o",
+ "cost_usd": 0.02752500000000002,
+ "fields": {
+  "left_5": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom-right",
+     "pointing": "up",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "square above triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Square and triangle are similar in size."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circles are separate"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Two small circles are evenly spaced."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "top-right",
+     "pointing": "down",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangle larger than square",
+    "triangle larger than circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is the largest object."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom-left",
+     "pointing": "right",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle larger than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Circle is larger than the triangle."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "up",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "bottom",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "circle larger than square",
+    "circle larger than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Circle is the largest object."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "large circle larger than medium circle",
+    "medium circle larger than small circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Three circles of different sizes."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "up",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "down",
+     "orientation": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangles are opposite",
+    "square separate"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two triangles pointing in opposite directions."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "right",
+     "orientation": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangle larger than square"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is significantly larger than the square."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "up",
+     "orientation": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "all objects are small and separate"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "All objects are of similar small size."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "circles are separate",
+    "square separate"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two circles and a square of similar size."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "bottom-right",
+     "pointing": "up",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangle larger than circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is much larger than the circle."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "rectangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up",
+     "orientation": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "rectangle larger than square",
+    "rectangle larger than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Rectangle is the largest object."
+  }
+ }
+}

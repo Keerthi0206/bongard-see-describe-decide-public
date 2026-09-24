@@ -1,0 +1,110 @@
+{
+ "arm": "direct__gpt-4o",
+ "rows": [
+  {
+   "bp": "bp0002",
+   "rule": "Left = One shape per panel, Right = Two shapes per panel",
+   "cost_usd": 0.001965
+  },
+  {
+   "bp": "bp0036",
+   "rule": "Left = Triangles point up, Right = Triangles point down",
+   "cost_usd": 0.0019450000000000001
+  },
+  {
+   "bp": "bp0038",
+   "rule": "Left = Triangle is larger than circle., Right = Circle is larger than triangle.",
+   "cost_usd": 0.0019950000000000002
+  },
+  {
+   "bp": "bp0004",
+   "rule": "Left = Convex shapes, Right = Non-convex shapes",
+   "cost_usd": 0.001965
+  },
+  {
+   "bp": "bp0007",
+   "rule": "Left = Symmetrical shapes, Right = Asymmetrical shapes",
+   "cost_usd": 0.0019549999999999997
+  },
+  {
+   "bp": "bp0010",
+   "rule": "Left = Contains a triangle, Right = Does not contain a triangle",
+   "cost_usd": 0.0019649999999999997
+  },
+  {
+   "bp": "bp0031",
+   "rule": "Left = One continuous line, Right = Multiple separate lines",
+   "cost_usd": 0.0019450000000000005
+  },
+  {
+   "bp": "bp0047",
+   "rule": "Left = Triangles are inside circles., Right = Triangles are outside circles.",
+   "cost_usd": 0.001975000000000001
+  },
+  {
+   "bp": "bp0050",
+   "rule": "Left = Shapes are symmetrical., Right = Shapes are asymmetrical.",
+   "cost_usd": 0.0019649999999999997
+  },
+  {
+   "bp": "bp0056",
+   "rule": "Left = All triangles point upwards., Right = At least one triangle points downwards.",
+   "cost_usd": 0.002005
+  },
+  {
+   "bp": "bp0097",
+   "rule": "Left = Triangle shape, Right = Circle shape",
+   "cost_usd": 0.0019250000000000014
+  },
+  {
+   "bp": "bp0049",
+   "rule": "Left = Dots inside the shape are clustered together., Right = Dots inside the shape are spread out.",
+   "cost_usd": 0.0020349999999999986
+  },
+  {
+   "bp": "bp0011",
+   "rule": "Left = Shapes with pointed edges, Right = Shapes with rounded edges",
+   "cost_usd": 0.0019650000000000015
+  },
+  {
+   "bp": "bp0022",
+   "rule": "Left = All panels contain at least one circle., Right = No panel contains a circle.",
+   "cost_usd": 0.0020149999999999994
+  },
+  {
+   "bp": "bp0025",
+   "rule": "Left = Contains at least one black triangle., Right = Does not contain a black triangle.",
+   "cost_usd": 0.0020149999999999994
+  },
+  {
+   "bp": "bp0028",
+   "rule": "Left = All triangles point up., Right = At least one triangle points down.",
+   "cost_usd": 0.0019950000000000002
+  },
+  {
+   "bp": "bp0030",
+   "rule": "Left = Contains a closed loop, Right = No closed loop",
+   "cost_usd": 0.001955000000000002
+  },
+  {
+   "bp": "bp0033",
+   "rule": "Left = Shapes have pointed parts, Right = Shapes have no pointed parts",
+   "cost_usd": 0.001975000000000001
+  },
+  {
+   "bp": "bp0046",
+   "rule": "Left = Triangle inside circle, Right = Circle inside triangle",
+   "cost_usd": 0.0019449999999999988
+  },
+  {
+   "bp": "bp0057",
+   "rule": "Left = All shapes are the same size., Right = Shapes are of different sizes.",
+   "cost_usd": 0.002005
+  },
+  {
+   "bp": "bp0096",
+   "rule": "Left = Lines are parallel to the base of the triangle., Right = Lines are not parallel to the base of the triangle.",
+   "cost_usd": 0.0020849999999999966
+  }
+ ]
+}

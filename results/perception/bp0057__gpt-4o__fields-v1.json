@@ -1,0 +1,427 @@
+{
+ "bp": "bp0057",
+ "model": "gpt-4o",
+ "cost_usd": 0.02287499999999998,
+ "fields": {
+  "left_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "down"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "down"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangles are separate"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Two identical triangles pointing down."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": true
+   },
+   "relations": [
+    "polygons are separate"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two irregular polygons with self-crossing lines."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangles are separate"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two solid triangles pointing up."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "square larger than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Square and triangle with different sizes."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circles are separate"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two circles of different sizes."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle and triangle are separate"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Circle and triangle of similar sizes."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "large",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "large square above tiny square"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two squares of significantly different sizes."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "right",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "large circle next to tiny circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two circles with a large size difference."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "solid",
+     "size": "medium",
+     "position": "top",
+     "pointing": "none"
+    },
+    {
+     "type": "other",
+     "fill": "solid",
+     "size": "medium",
+     "position": "bottom",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": true
+   },
+   "relations": [
+    "shapes are separate"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two irregular solid shapes."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "left",
+     "pointing": "down"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "solid triangle larger than outline triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two triangles with different fills and orientations."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": true
+   },
+   "relations": [
+    "polygon and circle are separate"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Irregular polygon and circle."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "medium square larger than small square"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two squares with different sizes."
+  }
+ }
+}

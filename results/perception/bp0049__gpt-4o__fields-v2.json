@@ -1,0 +1,675 @@
+{
+ "bp": "bp0049",
+ "model": "gpt-4o",
+ "cost_usd": 0.035105,
+ "fields": {
+  "left_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "dots inside circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Circle with dots inside and outside."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "dots inside triangle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Triangle with dots inside and outside."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "dots inside circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Circle with dots inside and outside."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "dots inside polygon"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Irregular polygon with dots inside and outside."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "dots inside triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle with dots inside and outside."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "dots inside ellipse"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Ellipse with dots inside and outside."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "dots inside polygon"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Diamond shape with dots inside and outside."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "dots inside square"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Square with dots inside and outside."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "dots inside ellipse"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Ellipse with dots inside and outside."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "dots inside ellipse"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Ellipse with dots inside and outside."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "dots inside ellipse"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Ellipse with dots inside and outside."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "dots inside circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Circle with dots inside and outside."
+  }
+ }
+}

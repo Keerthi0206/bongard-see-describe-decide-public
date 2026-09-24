@@ -1,0 +1,763 @@
+{
+ "bp": "bp0049",
+ "model": "gpt-4o",
+ "cost_usd": 0.03911499999999998,
+ "fields": {
+  "left_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle contains dots"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Dots are symmetrically placed inside and outside the circle."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle contains dots"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Dots are symmetrically placed inside and outside the triangle."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle contains dots"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Dots are symmetrically placed inside and outside the circle."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "rectangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "rectangle contains dots"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Rectangle is tilted with dots symmetrically placed inside and outside."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle contains dots"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is tilted with dots symmetrically placed inside and outside."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "ellipse contains dots"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Dots are symmetrically placed inside and outside the ellipse."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "polygon contains dots"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Polygon is tilted with dots symmetrically placed inside and outside."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "square contains dots"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Square is tilted with dots symmetrically placed inside and outside."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "ellipse contains dots"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Dots are symmetrically placed inside and outside the ellipse."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "ellipse contains dots"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Dots are symmetrically placed inside and outside the ellipse."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "ellipse contains dots"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Dots are symmetrically placed inside and outside the ellipse."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle contains dots"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Dots are symmetrically placed inside and outside the circle."
+  }
+ }
+}

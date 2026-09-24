@@ -1,0 +1,22 @@
+{
+ "arm": "router__cv-else-direct",
+ "rows": [
+  {
+   "bp": "bp0002",
+   "rule": "Left = large figures, Right = small figures",
+   "verified": true,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0036",
+   "rule": "Left = Triangles point up, Right = Triangles point down",
+   "cost_usd": 0.0019450000000000001
+  },
+  {
+   "bp": "bp0038",
+   "rule": "Left = Triangle is larger than circle., Right = Circle is larger than triangle.",
+   "cost_usd": 0.0019950000000000002
+  }
+ ]
+}

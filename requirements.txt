@@ -1,0 +1,12 @@
+numpy
+pandas
+pillow
+scipy
+opencv-python
+matplotlib
+langgraph
+groq
+openai
+python-dotenv
+nbformat
+jupyter

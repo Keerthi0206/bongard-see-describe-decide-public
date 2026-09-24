@@ -1,0 +1,341 @@
+{
+ "bp": "bp0031",
+ "model": "gpt-4o",
+ "cost_usd": 0.021525000000000002,
+ "fields": {
+  "left_3": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A twisted curve with symmetry."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two parallel wavy lines."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "lines crossing"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two crossing curves."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "medium",
+     "position": "top-right",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "curve attached to circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A circle with a curve attached."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "overlapping circles"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two overlapping circles."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A single open curve."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "none",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "medium",
+     "position": "right",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "curve attached to circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A circle with an attached curve."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A self-crossing curve."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A self-crossing curve."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A single large circle."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A single open curve."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A self-crossing curve."
+  }
+ }
+}
