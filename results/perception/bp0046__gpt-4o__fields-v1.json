@@ -1,0 +1,427 @@
+{
+ "bp": "bp0046",
+ "model": "gpt-4o",
+ "cost_usd": 0.022724999999999995,
+ "fields": {
+  "left_4": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Triangle is solid and overlaps the circle."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "right",
+     "pointing": "right"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle touching circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is solid and touches the circle."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "left",
+     "pointing": "right"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Circle is solid and inside the triangle."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle above circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is outlined and above the circle."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle touching triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Circle is outlined and touches the triangle."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "right"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle touching circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Triangle is outlined and touches the circle."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "top",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle below circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Circle is solid and above the triangle."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle below circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Both shapes are outlined and symmetric."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Circle is solid and inside the triangle."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Tiny circle inside a solid triangle."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "right",
+     "pointing": "right"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle touching triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Circle is solid and touches the triangle."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Small triangle inside a solid circle."
+  }
+ }
+}

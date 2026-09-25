@@ -1,0 +1,217 @@
+{
+ "bp": "bp0011",
+ "model": "gpt-4o",
+ "cost_usd": 0.07029249999999987,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "outline triangle inside outline triangle"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "rectangle",
+     "s": 4,
+     "f": "outline"
+    },
+    {
+     "t": "rectangle",
+     "s": 4,
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "outline rectangle inside outline rectangle"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline"
+    },
+    {
+     "t": "curve",
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "curve inside curve"
+   ],
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 6,
+     "f": "outline",
+     "p": "right"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4,
+     "f": "outline"
+    },
+    {
+     "t": "square",
+     "s": 4,
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "outline square inside outline square"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 6,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline",
+     "hole": true
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "square",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  }
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "bp": "bp0033",
+ "questions": [
+  "Do any two objects in the panel have the same shape type?"
+ ],
+ "cost_usd": 0.0031250000000000028,
+ "answers": {
+  "right_2": {
+   "Q1": "No"
+  },
+  "right_3": {
+   "Q1": "No"
+  },
+  "left_4": {
+   "Q1": "Yes"
+  },
+  "left_6": {
+   "Q1": "No"
+  },
+  "right_5": {
+   "Q1": "Yes"
+  },
+  "left_2": {
+   "Q1": "No"
+  },
+  "right_4": {
+   "Q1": "No"
+  },
+  "right_6": {
+   "Q1": "No"
+  },
+  "left_5": {
+   "Q1": "Yes"
+  },
+  "right_1": {
+   "Q1": "No"
+  },
+  "left_3": {
+   "Q1": "No"
+  },
+  "left_1": {
+   "Q1": "No"
+  }
+ }
+}

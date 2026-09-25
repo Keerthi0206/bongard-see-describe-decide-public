@@ -1,0 +1,97 @@
+{
+ "bp": "bp0030",
+ "questions": [
+  "Does any object contain a hole?",
+  "Are any objects in the panel noticeably longer than the other objects?",
+  "Does any object in the panel have a clearly defined long axis (horizontal or vertical)?",
+  "Does any shape in the panel intersect itself?",
+  "Do any objects in the panel lie along a single straight line?"
+ ],
+ "cost_usd": 0.006790000000000074,
+ "answers": {
+  "left_6": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_3": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "left_5": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "left_1": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "left_3": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "left_2": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "left_4": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_2": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes"
+  }
+ }
+}

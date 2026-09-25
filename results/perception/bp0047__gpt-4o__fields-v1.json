@@ -1,0 +1,582 @@
+{
+ "bp": "bp0047",
+ "model": "gpt-4o",
+ "cost_usd": 0.029905,
+ "fields": {
+  "right_2": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "right"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "left"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "small triangle inside medium triangle",
+    "tiny circle inside small triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Nested shapes in top-right."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "down"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "left"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 6,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "small triangle inside medium circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Central nested shapes."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "right"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "left"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top",
+     "pointing": "down"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "small triangle inside small circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Right-side nested shapes."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "medium triangle inside large circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Simple nested shapes."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "down"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "right"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "left"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "tiny circle inside medium triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Central nested shapes."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "left"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 6,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "tiny circle inside large triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Central nested shapes."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "right"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "medium triangle inside large circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Central nested shapes."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-right",
+     "pointing": "down"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "tiny circle inside medium triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Top-right nested shapes."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "left",
+     "pointing": "right"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "right",
+     "pointing": "left"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "tiny triangle inside small circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Right-side nested shapes."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "small circle inside large triangle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Simple nested shapes."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-left",
+     "pointing": "down"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "right",
+     "pointing": "left"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "tiny circle inside medium triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Top-left nested shapes."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom-left",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "tiny circle inside medium triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Bottom-left nested shapes."
+  }
+ }
+}

@@ -1,0 +1,1502 @@
+{
+  "bp0001": {
+    "concept": "Left = Empty picture, Right = Not empty picture",
+    "left_rule": "Empty picture",
+    "right_rule": "Not empty picture",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0002": {
+    "concept": "Left = Large figures, Right = Small figures",
+    "left_rule": "Large figures",
+    "right_rule": "Small figures",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0003": {
+    "concept": "Left = Outline figures, Right = Solid figures",
+    "left_rule": "Outline figures",
+    "right_rule": "Solid figures",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0004": {
+    "concept": "Left = Convex figures, Right = Nonconvex figures",
+    "left_rule": "Convex figures",
+    "right_rule": "Nonconvex figures",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0005": {
+    "concept": "Left = Polygons, Right = Curvilinear figures",
+    "left_rule": "Polygons",
+    "right_rule": "Curvilinear figures",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0006": {
+    "concept": "Left = Triangles, Right = Quadrangles",
+    "left_rule": "Triangles",
+    "right_rule": "Quadrangles",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0007": {
+    "concept": "Left = Figures elongated vertically, Right = Figures elongated horizontally",
+    "left_rule": "Figures elongated vertically",
+    "right_rule": "Figures elongated horizontally",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0008": {
+    "concept": "Left = Figures on the right side, Right = Figures on the left side",
+    "left_rule": "Figures on the right side",
+    "right_rule": "Figures on the left side",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0009": {
+    "concept": "Left = Smooth contour figures, Right = Twisting contour figures",
+    "left_rule": "Smooth contour figures",
+    "right_rule": "Twisting contour figures",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0010": {
+    "concept": "Left = Triangles, Right = Quadrangles",
+    "left_rule": "Triangles",
+    "right_rule": "Quadrangles",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0011": {
+    "concept": "Left = Elongated figures, Right = Compact figures",
+    "left_rule": "Elongated figures",
+    "right_rule": "Compact figures",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0012": {
+    "concept": "Left = Convex hull of figure elongated, Right = Convex hull of figure compact",
+    "left_rule": "Convex hull of figure elongated",
+    "right_rule": "Convex hull of figure compact",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0013": {
+    "concept": "Left = Vertical rectangles or horizontal ellipses, Right = Vertical ellipses or horizontal rectangles",
+    "left_rule": "Vertical rectangles or horizontal ellipses",
+    "right_rule": "Vertical ellipses or horizontal rectangles",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0014": {
+    "concept": "Left = Large total line length, Right = Small total line length",
+    "left_rule": "Large total line length",
+    "right_rule": "Small total line length",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0015": {
+    "concept": "Left = Closed lines, Right = Open lines",
+    "left_rule": "Closed lines",
+    "right_rule": "Open lines",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0016": {
+    "concept": "Left = Spiral curls counterclockwise, Right = Spiral curls clockwise",
+    "left_rule": "Spiral curls counterclockwise",
+    "right_rule": "Spiral curls clockwise",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0017": {
+    "concept": "Left = An acute angle directed inward, Right = No angle directed inward",
+    "left_rule": "An acute angle directed inward",
+    "right_rule": "No angle directed inward",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0018": {
+    "concept": "Left = A neck, Right = No neck",
+    "left_rule": "A neck",
+    "right_rule": "No neck",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0019": {
+    "concept": "Left = Neck horizontal, Right = Neck vertical",
+    "left_rule": "Neck horizontal",
+    "right_rule": "Neck vertical",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0020": {
+    "concept": "Left = Points located on one side of the neck, Right = Points located on both sides of the neck",
+    "left_rule": "Points located on one side of the neck",
+    "right_rule": "Points located on both sides of the neck",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0021": {
+    "concept": "Left = Small figure present, Right = No small figure present",
+    "left_rule": "Small figure present",
+    "right_rule": "No small figure present",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0022": {
+    "concept": "Left = Areas of figures approximately equal, Right = Areas of figures differ greatly",
+    "left_rule": "Areas of figures approximately equal",
+    "right_rule": "Areas of figures differ greatly",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0023": {
+    "concept": "Left = One figure, Right = Two figures",
+    "left_rule": "One figure",
+    "right_rule": "Two figures",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0024": {
+    "concept": "Left = A circle, Right = No circle",
+    "left_rule": "A circle",
+    "right_rule": "No circle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0025": {
+    "concept": "Left = Black figure is a triangle, Right = Black figure is a circle",
+    "left_rule": "Black figure is a triangle",
+    "right_rule": "Black figure is a circle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0026": {
+    "concept": "Left = Solid black triangle, Right = No solid black triangle",
+    "left_rule": "Solid black triangle",
+    "right_rule": "No solid black triangle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0027": {
+    "concept": "Left = More solid black figures, Right = More outline figures",
+    "left_rule": "More solid black figures",
+    "right_rule": "More outline figures",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0028": {
+    "concept": "Left = More solid black circles, Right = More outline circles",
+    "left_rule": "More solid black circles",
+    "right_rule": "More outline circles",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0029": {
+    "concept": "Left = More small circles inside the figure outline than outside, Right = Fewer small circles inside the figure outline than outside",
+    "left_rule": "More small circles inside the figure outline than outside",
+    "right_rule": "Fewer small circles inside the figure outline than outside",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0030": {
+    "concept": "Left = A line with a self-crossing, Right = A line without a self-crossing",
+    "left_rule": "A line with a self-crossing",
+    "right_rule": "A line without a self-crossing",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0031": {
+    "concept": "Left = One line, Right = Two lines",
+    "left_rule": "One line",
+    "right_rule": "Two lines",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0032": {
+    "concept": "Left = A sharp projection, Right = No sharp projection",
+    "left_rule": "A sharp projection",
+    "right_rule": "No sharp projection",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0033": {
+    "concept": "Left = Acute angle, Right = No acute angle",
+    "left_rule": "Acute angle",
+    "right_rule": "No acute angle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0034": {
+    "concept": "Left = A large hole, Right = A small hole",
+    "left_rule": "A large hole",
+    "right_rule": "A small hole",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0035": {
+    "concept": "Left = The axis of the hole is parallel to the figure axis, Right = The axis of the hole is perpendicular to the figure axis",
+    "left_rule": "The axis of the hole is parallel to the figure axis",
+    "right_rule": "The axis of the hole is perpendicular to the figure axis",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0036": {
+    "concept": "Left = Triangle above circle, Right = Circle above triangle",
+    "left_rule": "Triangle above circle",
+    "right_rule": "Circle above triangle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0037": {
+    "concept": "Left = Triangle above circle, Right = Circle above triangle",
+    "left_rule": "Triangle above circle",
+    "right_rule": "Circle above triangle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0038": {
+    "concept": "Left = Triangle larger than circle, Right = Triangle smaller than circle",
+    "left_rule": "Triangle larger than circle",
+    "right_rule": "Triangle smaller than circle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0039": {
+    "concept": "Left = Segments almost parallel to each other, Right = Large angles between segments",
+    "left_rule": "Segments almost parallel to each other",
+    "right_rule": "Large angles between segments",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0040": {
+    "concept": "Left = Three points on a straight line, Right = No three points on a straight line",
+    "left_rule": "Three points on a straight line",
+    "right_rule": "No three points on a straight line",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0041": {
+    "concept": "Left = Outline circles on one straight line, Right = Outline circles not on one straight line",
+    "left_rule": "Outline circles on one straight line",
+    "right_rule": "Outline circles not on one straight line",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0042": {
+    "concept": "Left = Points inside the figure outline are on a straight line, Right = Points inside the figure outline are not on a straight line",
+    "left_rule": "Points inside the figure outline are on a straight line",
+    "right_rule": "Points inside the figure outline are not on a straight line",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0043": {
+    "concept": "Left = The vibration amplitude increases from left to right, Right = The vibration amplitude decreases from left to right",
+    "left_rule": "The vibration amplitude increases from left to right",
+    "right_rule": "The vibration amplitude decreases from left to right",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0044": {
+    "concept": "Left = Small circles on different arcs, Right = Small circles on one arc",
+    "left_rule": "Small circles on different arcs",
+    "right_rule": "Small circles on one arc",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0045": {
+    "concept": "Left = Outline figure on top of solid black figure, Right = Black figure on top of outline figure",
+    "left_rule": "Outline figure on top of solid black figure",
+    "right_rule": "Black figure on top of outline figure",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0046": {
+    "concept": "Left = Triangle on top of the circle, Right = Circle on top of the triangle",
+    "left_rule": "Triangle on top of the circle",
+    "right_rule": "Circle on top of the triangle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0047": {
+    "concept": "Left = Triangle inside of the circle, Right = Circle inside of the triangle",
+    "left_rule": "Triangle inside of the circle",
+    "right_rule": "Circle inside of the triangle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0048": {
+    "concept": "Left = Solid dark figures above the outline figures, Right = Outline figures above the solid dark figures",
+    "left_rule": "Solid dark figures above the outline figures",
+    "right_rule": "Outline figures above the solid dark figures",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0049": {
+    "concept": "Left = Points inside the figure outline are grouped more densely than outside the contour, Right = Points outside the figure contour are grouped more densely than inside the contour",
+    "left_rule": "Points inside the figure outline are grouped more densely than outside the contour",
+    "right_rule": "Points outside the figure contour are grouped more densely than inside the contour",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0050": {
+    "concept": "Left = Axes of symmetry, Right = No axes of symmetry",
+    "left_rule": "Axes of symmetry",
+    "right_rule": "No axes of symmetry",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0051": {
+    "concept": "Left = Two circles close to each other, Right = No two circles close to each other",
+    "left_rule": "Two circles close to each other",
+    "right_rule": "No two circles close to each other",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0052": {
+    "concept": "Left = Arrows pointing in different directions, Right = Arrows pointing in the same direction",
+    "left_rule": "Arrows pointing in different directions",
+    "right_rule": "Arrows pointing in the same direction",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0053": {
+    "concept": "Left = Inside figure has fewer angles than outside figure, Right = Inside figure has more angles than outside figure",
+    "left_rule": "Inside figure has fewer angles than outside figure",
+    "right_rule": "Inside figure has more angles than outside figure",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0054": {
+    "concept": "Left = A cross, circle, and triangle arranged counterclockwise, Right = A cross, circle, and triangle arranged clockwise",
+    "left_rule": "A cross, circle, and triangle arranged counterclockwise",
+    "right_rule": "A cross, circle, and triangle arranged clockwise",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0055": {
+    "concept": "Left = A circle is at the left of the cavity if you look from inside the figure, Right = A circle is at the right of the cavity if you look from inside the figure",
+    "left_rule": "A circle is at the left of the cavity if you look from inside the figure",
+    "right_rule": "A circle is at the right of the cavity if you look from inside the figure",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0056": {
+    "concept": "Left = All figures of the same color, Right = Figures of different colors",
+    "left_rule": "All figures of the same color",
+    "right_rule": "Figures of different colors",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0057": {
+    "concept": "Left = Identical figures, Right = Figures not identical",
+    "left_rule": "Identical figures",
+    "right_rule": "Figures not identical",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0058": {
+    "concept": "Left = Solid dark quadrangles are identical, Right = Solid dark quadrangles are different",
+    "left_rule": "Solid dark quadrangles are identical",
+    "right_rule": "Solid dark quadrangles are different",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0059": {
+    "concept": "Left = Figures are similar, Right = Figures are not similar",
+    "left_rule": "Figures are similar",
+    "right_rule": "Figures are not similar",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0060": {
+    "concept": "Left = Some similar figures, Right = No similar figures",
+    "left_rule": "Some similar figures",
+    "right_rule": "No similar figures",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0061": {
+    "concept": "Left = A line separates the crosses in half, Right = A line does not separate the crosses in half",
+    "left_rule": "A line separates the crosses in half",
+    "right_rule": "A line does not separate the crosses in half",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0062": {
+    "concept": "Left = Ends of the curve are far apart, Right = Ends of the curve are close together",
+    "left_rule": "Ends of the curve are far apart",
+    "right_rule": "Ends of the curve are close together",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0063": {
+    "concept": "Left = Shading thicker on the right side, Right = Shading thicker on the left side",
+    "left_rule": "Shading thicker on the right side",
+    "right_rule": "Shading thicker on the left side",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0064": {
+    "concept": "Left = A cross is located on the extension of the ellipse axis, Right = A circle is located on the extension of the ellipse axis",
+    "left_rule": "A cross is located on the extension of the ellipse axis",
+    "right_rule": "A circle is located on the extension of the ellipse axis",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0065": {
+    "concept": "Left = A set of triangles elongated horizontally, Right = A set of triangles elongated vertically",
+    "left_rule": "A set of triangles elongated horizontally",
+    "right_rule": "A set of triangles elongated vertically",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0066": {
+    "concept": "Left = Unconnected circles on a horizontal line, Right = Unconnected circles on a vertical line",
+    "left_rule": "Unconnected circles on a horizontal line",
+    "right_rule": "Unconnected circles on a vertical line",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0067": {
+    "concept": "Left = The right branch begins at a higher point than the left branch, Right = The right branch begins at a lower point than the left branch",
+    "left_rule": "The right branch begins at a higher point than the left branch",
+    "right_rule": "The right branch begins at a lower point than the left branch",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0068": {
+    "concept": "Left = The end of the right branch is higher than that of the left branch, Right = The end of the right branch is lower than that of the left branch",
+    "left_rule": "The end of the right branch is higher than that of the left branch",
+    "right_rule": "The end of the right branch is lower than that of the left branch",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0069": {
+    "concept": "Left = Large black dot on the main branch, Right = Large black dot on a side branch",
+    "left_rule": "Large black dot on the main branch",
+    "right_rule": "Large black dot on a side branch",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0070": {
+    "concept": "Left = There are no side branches of the second order, Right = There are side branches of the second order",
+    "left_rule": "There are no side branches of the second order",
+    "right_rule": "There are side branches of the second order",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0071": {
+    "concept": "Left = There are inside figures of the second order, Right = There are no inside figures of the second order",
+    "left_rule": "There are inside figures of the second order",
+    "right_rule": "There are no inside figures of the second order",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0072": {
+    "concept": "Left = Ends of the curve are parallel, Right = Ends of the curve are perpendicular",
+    "left_rule": "Ends of the curve are parallel",
+    "right_rule": "Ends of the curve are perpendicular",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0073": {
+    "concept": "Left = The long axes of the ellipse and rectangle are perpendicular, Right = The long axes of the ellipse and rectangle are parallel",
+    "left_rule": "The long axes of the ellipse and rectangle are perpendicular",
+    "right_rule": "The long axes of the ellipse and rectangle are parallel",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0074": {
+    "concept": "Left = A tail grows from the obtuse end, Right = A tail grows from the acute end",
+    "left_rule": "A tail grows from the obtuse end",
+    "right_rule": "A tail grows from the acute end",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0075": {
+    "concept": "Left = Triangle located at the concave side of an arc, Right = Triangle located at the convex side of an arc",
+    "left_rule": "Triangle located at the concave side of an arc",
+    "right_rule": "Triangle located at the convex side of an arc",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0076": {
+    "concept": "Left = Long sides concave, Right = Long sides convex",
+    "left_rule": "Long sides concave",
+    "right_rule": "Long sides convex",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0077": {
+    "concept": "Left = Angle divided in half, Right = Angle not divided in half",
+    "left_rule": "Angle divided in half",
+    "right_rule": "Angle not divided in half",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0078": {
+    "concept": "Left = Extensions of segments cross at one point, Right = Extensions of segments do not cross at one point",
+    "left_rule": "Extensions of segments cross at one point",
+    "right_rule": "Extensions of segments do not cross at one point",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0079": {
+    "concept": "Left = A dark circle is closer to the outline circle than to the triangle, Right = A dark circle is closer to the triangle than to the outline circle",
+    "left_rule": "A dark circle is closer to the outline circle than to the triangle",
+    "right_rule": "A dark circle is closer to the triangle than to the outline circle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0080": {
+    "concept": "Left = Points located at the same distances from a cross, Right = Points located at different distances from a cross",
+    "left_rule": "Points located at the same distances from a cross",
+    "right_rule": "Points located at different distances from a cross",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0081": {
+    "concept": "Left = Dark figures can be divided from outline figures by a straight line, Right = Dark figures are impossible to separate from the outline ones",
+    "left_rule": "Dark figures can be divided from outline figures by a straight line",
+    "right_rule": "Dark figures are impossible to separate from the outline ones",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0082": {
+    "concept": "Left = The convex hull of the crosses forms an equilateral triangle, Right = The convex hull of the crosses does not form an equilateral triangle",
+    "left_rule": "The convex hull of the crosses forms an equilateral triangle",
+    "right_rule": "The convex hull of the crosses does not form an equilateral triangle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0083": {
+    "concept": "Left = A circle is inside of a figure made by crosses, Right = A circle is outside of a figure made by crosses",
+    "left_rule": "A circle is inside of a figure made by crosses",
+    "right_rule": "A circle is outside of a figure made by crosses",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0084": {
+    "concept": "Left = A quadrangle is outside of a figure made by circles, Right = A quadrangle is inside of a figure made by circles",
+    "left_rule": "A quadrangle is outside of a figure made by circles",
+    "right_rule": "A quadrangle is inside of a figure made by circles",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0085": {
+    "concept": "Left = Three parts, Right = Five parts",
+    "left_rule": "Three parts",
+    "right_rule": "Five parts",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0086": {
+    "concept": "Left = Three parts, Right = Five parts",
+    "left_rule": "Three parts",
+    "right_rule": "Five parts",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0087": {
+    "concept": "Left = Four parts, Right = Five parts",
+    "left_rule": "Four parts",
+    "right_rule": "Five parts",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0088": {
+    "concept": "Left = Three parts, Right = Five parts",
+    "left_rule": "Three parts",
+    "right_rule": "Five parts",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0089": {
+    "concept": "Left = Three parts, Right = Five parts",
+    "left_rule": "Three parts",
+    "right_rule": "Five parts",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0090": {
+    "concept": "Left = Three parts, Right = Four parts",
+    "left_rule": "Three parts",
+    "right_rule": "Four parts",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0091": {
+    "concept": "Left = Three identical elements, Right = Four identical elements",
+    "left_rule": "Three identical elements",
+    "right_rule": "Four identical elements",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0092": {
+    "concept": "Left = The chain does not branch, Right = The chain branches",
+    "left_rule": "The chain does not branch",
+    "right_rule": "The chain branches",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0093": {
+    "concept": "Left = Branches at outlined circle, Right = Branches at solid dark circle",
+    "left_rule": "Branches at outlined circle",
+    "right_rule": "Branches at solid dark circle",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0094": {
+    "concept": "Left = Solid dark circle not at end, Right = Solid dark circle at end",
+    "left_rule": "Solid dark circle not at end",
+    "right_rule": "Solid dark circle at end",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0095": {
+    "concept": "Left = Vertical hatched lines, Right = Horizontal hatched lines",
+    "left_rule": "Vertical hatched lines",
+    "right_rule": "Horizontal hatched lines",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0096": {
+    "concept": "Left = Triangles, Right = Quadrangles",
+    "left_rule": "Triangles",
+    "right_rule": "Quadrangles",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0097": {
+    "concept": "Left = Triangles, Right = Circles",
+    "left_rule": "Triangles",
+    "right_rule": "Circles",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0098": {
+    "concept": "Left = Triangles, Right = Quadrangles",
+    "left_rule": "Triangles",
+    "right_rule": "Quadrangles",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0099": {
+    "concept": "Left = Outlines made by triangles and circles intersect, Right = Outlines made by triangles and circles do not intersect",
+    "left_rule": "Outlines made by triangles and circles intersect",
+    "right_rule": "Outlines made by triangles and circles do not intersect",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  },
+  "bp0100": {
+    "concept": "Left = The letter \u0410, Right = The letter \u0411",
+    "left_rule": "The letter \u0410",
+    "right_rule": "The letter \u0411",
+    "concept_rule": null,
+    "evaluable": true,
+    "exclude_reason": null,
+    "sources": [
+      "foundalis",
+      "project-legacy"
+    ],
+    "verified_by": null,
+    "verified_date": null,
+    "notes": "real concept from Foundalis solutions page (Bongard 1967 appendix) \u2014 eye-verify crop"
+  }
+}

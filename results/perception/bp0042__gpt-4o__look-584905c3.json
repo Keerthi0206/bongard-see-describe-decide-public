@@ -1,0 +1,97 @@
+{
+ "bp": "bp0042",
+ "questions": [
+  "Does the primary shape have any straight edges?",
+  "How many dots are inside the main shape?",
+  "Does the non\u2011dot shape touch any dot?",
+  "Is the longest dimension of the main shape oriented vertically?",
+  "Is the larger shape positioned above the round figure?"
+ ],
+ "cost_usd": 0.007584999999999953,
+ "answers": {
+  "right_2": {
+   "Q1": "No",
+   "Q2": "4",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "4",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "3",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "4",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "4",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "4",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "4",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "4",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "4",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "4",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "3",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "4",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  }
+ }
+}

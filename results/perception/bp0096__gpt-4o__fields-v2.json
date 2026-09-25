@@ -1,0 +1,331 @@
+{
+ "bp": "bp0096",
+ "model": "gpt-4o",
+ "cost_usd": 0.022015000000000007,
+ "fields": {
+  "right_6": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 12,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "hatched-vertical",
+   "notes": "Trapezoid shape with vertical lines."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 10,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "hatched-diagonal",
+   "notes": "Triangle shape with diagonal lines."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 11,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "hatched-vertical",
+   "notes": "Triangle shape with vertical lines."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 9,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "hatched-horizontal",
+   "notes": "Diamond shape with horizontal lines."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 12,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "hatched-diagonal",
+   "notes": "Irregular polygon with diagonal lines."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 11,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "hatched-vertical",
+   "notes": "Inverted trapezoid shape with vertical lines."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 8,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "hatched-diagonal",
+   "notes": "Small triangle with diagonal lines."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 11,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "hatched-diagonal",
+   "notes": "Triangle shape with diagonal lines."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 12,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "hatched-horizontal",
+   "notes": "Triangle shape with horizontal lines."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 11,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "hatched-vertical",
+   "notes": "Inverted triangle with vertical lines."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 11,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "hatched-diagonal",
+   "notes": "Triangle shape with diagonal lines."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 12,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "hatched-diagonal",
+   "notes": "Square shape with diagonal lines."
+  }
+ }
+}

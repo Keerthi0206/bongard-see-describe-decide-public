@@ -1,0 +1,58 @@
+{
+ "bp": "bp0073",
+ "questions": [
+  "Do any two shapes share a boundary (touch) in the panel?",
+  "Is the shape that is positioned highest also the one that is positioned farthest to the left?"
+ ],
+ "cost_usd": 0.004062499999999969,
+ "answers": {
+  "right_6": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No"
+  }
+ }
+}

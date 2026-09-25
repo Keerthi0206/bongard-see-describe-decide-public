@@ -1,0 +1,319 @@
+{
+ "bp": "bp0007",
+ "model": "gpt-4o",
+ "cost_usd": 0.020535,
+ "fields": {
+  "right_2": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Shape resembles a bow tie."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Simple ellipse shape."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "hatched-vertical",
+   "notes": "Vertical hatching pattern."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Shape resembles a ribbon."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Wavy line pattern."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Zigzag line pattern."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Wavy line with varying width."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Shape resembles a bone."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Vertical ellipse shape."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "rectangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Simple rectangle shape."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Wavy line pattern."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "hatched-horizontal",
+   "notes": "Horizontal hatching pattern."
+  }
+ }
+}

@@ -1,0 +1,319 @@
+{
+ "bp": "bp0002",
+ "model": "gpt-4o",
+ "cost_usd": 0.020595000000000006,
+ "fields": {
+  "left_6": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "solid",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A solid pentagon shape."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "solid",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "An irregular solid shape."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A large outlined circle."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "up"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A small solid triangle."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A tiny outlined curve."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "solid",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A small solid polygon with a crown-like shape."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A large outlined irregular polygon."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A tiny solid bowtie-like shape."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "dot",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 0,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A tiny solid dot."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A large outlined right triangle."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A large outlined curve."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A tiny outlined square."
+  }
+ }
+}

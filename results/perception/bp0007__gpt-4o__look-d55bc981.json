@@ -1,0 +1,97 @@
+{
+ "bp": "bp0007",
+ "questions": [
+  "Is there a rectangle in the panel?",
+  "How many distinct object types are present in the panel?",
+  "Is the solid figure a rectangle?",
+  "Is any object filled (solid) rather than just an outline?",
+  "Is any object inside another object?"
+ ],
+ "cost_usd": 0.007577500000000001,
+ "answers": {
+  "right_2": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  }
+ }
+}

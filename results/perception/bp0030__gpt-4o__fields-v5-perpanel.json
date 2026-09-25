@@ -1,0 +1,210 @@
+{
+ "bp": "bp0030",
+ "model": "gpt-4o",
+ "cost_usd": 0.06733499999999948,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 3,
+   "k": {
+    "outline triangle": 1,
+    "solid line": 2
+   },
+   "rel": [
+    "triangle joined to line",
+    "triangle joined to line",
+    "line joined to line"
+   ],
+   "sym": false
+  },
+  "left_2": {
+   "ln": 1,
+   "open": false,
+   "xs": true,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_3": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_4": {
+   "ln": 2,
+   "open": true,
+   "x": 1,
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "polygon",
+     "s": 4,
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "line crossing polygon"
+   ],
+   "sym": false
+  },
+  "left_5": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_6": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "x": 2,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "line",
+     "f": "outline",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "outline",
+     "len": "short"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "line joined to line"
+   ],
+   "sym": false
+  },
+  "right_2": {
+   "ln": 1,
+   "open": false,
+   "xs": false,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_3": {
+   "ln": 2,
+   "open": true,
+   "ends": 4,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    },
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "short"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "curve touching curve"
+   ],
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_5": {
+   "ln": 1,
+   "open": true,
+   "x": 0,
+   "ends": 2,
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_6": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  }
+ }
+}

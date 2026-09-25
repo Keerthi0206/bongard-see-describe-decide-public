@@ -1,0 +1,501 @@
+{
+ "bp": "bp0047",
+ "model": "gpt-4o",
+ "cost_usd": 0.07224000000000014,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "triangle inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    }
+   ],
+   "n": 4,
+   "k": {
+    "outline circle": 2,
+    "outline triangle": 2
+   },
+   "rel": [
+    "outline triangle inside outline circle",
+    "outline circle touching outline circle",
+    "outline triangle right of outline circle",
+    "outline triangle above outline circle",
+    "outline triangle left of outline triangle",
+    "outline circle below outline triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "p": "down"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "p": "up"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "triangle outside circle",
+    "triangle inside circle",
+    "triangle left of circle",
+    "triangle below circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    }
+   ],
+   "n": 7,
+   "k": {
+    "outline circle": 4,
+    "outline triangle": 3
+   },
+   "rel": [
+    "outline circle touching outline triangle",
+    "outline circle touching outline circle",
+    "outline triangle inside outline circle",
+    "outline triangle touching outline circle",
+    "outline triangle touching outline triangle",
+    "outline circle touching outline circle",
+    "outline circle touching outline triangle",
+    "outline circle touching outline circle",
+    "outline triangle touching outline circle",
+    "outline triangle touching outline triangle",
+    "outline circle touching outline circle",
+    "outline circle touching outline triangle",
+    "outline triangle touching outline circle",
+    "outline triangle touching outline triangle",
+    "outline circle touching outline circle",
+    "outline circle touching outline triangle",
+    "outline triangle touching outline circle",
+    "outline triangle touching outline triangle",
+    "outline circle touching outline circle",
+    "outline circle touching outline triangle",
+    "outline triangle touching outline circle",
+    "outline triangle touching outline triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    }
+   ],
+   "n": 5,
+   "rel": [
+    "outline triangle inside outline circle",
+    "outline triangle near outline triangle",
+    "outline triangle near outline triangle",
+    "outline triangle near outline circle",
+    "outline triangle near outline triangle",
+    "outline triangle near outline circle",
+    "outline triangle near outline triangle",
+    "outline triangle near outline triangle",
+    "outline triangle near outline circle",
+    "outline circle near outline triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "triangle outside circle",
+    "triangle inside circle",
+    "triangle larger than circle",
+    "triangle larger than triangle",
+    "circle right of triangle",
+    "triangle inside triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "triangle touching triangle",
+    "circle below triangle",
+    "circle right of triangle",
+    "circle below triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "outline triangle left of outline circle",
+    "solid circle inside outline triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    }
+   ],
+   "n": 4,
+   "k": {
+    "outline triangle": 3,
+    "solid circle": 1
+   },
+   "rel": [
+    "circle inside triangle",
+    "triangle touching triangle",
+    "triangle touching triangle",
+    "triangle touching triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true
+    }
+   ],
+   "n": 4,
+   "k": {
+    "outline circle": 3,
+    "outline triangle": 1
+   },
+   "rel": [
+    "outline circle inside outline triangle",
+    "outline circle inside outline circle",
+    "outline circle outside outline circle",
+    "outline circle outside outline triangle",
+    "outline triangle outside outline circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true
+    }
+   ],
+   "n": 6,
+   "k": {
+    "outline circle": 3,
+    "outline triangle": 3
+   },
+   "rel": [
+    "outline circle outside outline triangle",
+    "outline circle outside outline triangle",
+    "outline circle outside outline triangle",
+    "outline triangle outside outline circle",
+    "outline triangle outside outline circle",
+    "outline triangle outside outline circle",
+    "outline triangle touching outline triangle",
+    "outline triangle touching outline triangle",
+    "outline triangle touching outline triangle",
+    "outline triangle touching outline triangle",
+    "outline triangle touching outline triangle",
+    "outline triangle touching outline triangle",
+    "outline triangle inside outline triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  }
+ }
+}

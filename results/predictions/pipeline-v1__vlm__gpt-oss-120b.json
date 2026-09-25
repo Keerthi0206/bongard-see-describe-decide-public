@@ -1,0 +1,1580 @@
+{
+ "arm": "pipeline__vlm__gpt-oss-120b",
+ "rows": [
+  {
+   "bp": "bp0002",
+   "rule": "Left = large figures, Right = small figures",
+   "rule_nocheck": "Left = large figures, Right = small figures",
+   "path": "cv-verifier",
+   "check_score": 12,
+   "rounds": 1,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Left panels contain a large\u2011scale shape (occupying a substantial portion of the panel); Right panels contain only tiny or small\u2011scale shapes",
+     "confidence": 0.68,
+     "evidence": "All 6 left panels are described as large shapes (large outline triangle, large outline circle, large solid other, large outline polygon, large outline curve, large solid polygon). All 6 right panels are described as tiny or small shapes (tiny outline square, tiny solid dot, small solid polygon, tiny outline curve, small solid triangle, tiny solid other). This size distinction holds for every panel, and no other single shape attribute (form type, convexity, curvature, symmetry) cleanly separates the two sets."
+    },
+    "topology": {
+     "hypothesis": "No purely topological property distinguishes the left panels from the right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain a single, non\u2011self\u2011crossing object; both sides have closed and open curves, symmetric and asymmetric shapes, and similar connectivity. No consistent topological feature (e.g., closedness, number of components, self\u2011intersection, containment) is present in all six left panels while absent in all six right panels."
+    },
+    "quantity": {
+     "hypothesis": "No purely quantitative rule separates the panels",
+     "confidence": 0.2,
+     "evidence": "All panels contain exactly one object; line count is 1 for all left panels and for 5 of the right panels (R2 has 0 lines). Since the remaining right panels share the same object and line counts as the left panels, quantity\u2011only features (object count, line count, closed/open status) do not consistently differentiate the two sides."
+    },
+    "spatial": {
+     "hypothesis": "Left panels contain a large object; Right panels contain only tiny or small objects",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels have a large central shape, all 6 right panels have only tiny or small shapes"
+    },
+    "size": {
+     "hypothesis": "Left panels contain a large object; Right panels contain a small (tiny) object",
+     "confidence": 0.99,
+     "evidence": "All 6 left panels have objects described as large; all 6 right panels have objects described as small or tiny, so the rule holds for all 12 panels."
+    },
+    "relation": {
+     "hypothesis": "All LEFT panels contain a large object (relative to the panel size), while all RIGHT panels contain a small/tiny object",
+     "confidence": 0.95,
+     "evidence": "L1-L6 each have a large object; R1-R6 each have a small or tiny object; no other relational differences observed"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left panels contain a large object relative to the panel size; Right panels contain only small or tiny objects",
+     "confidence": 0.96,
+     "evidence": "Each LEFT description explicitly uses 'large' (outline triangle, circle, solid irregular shape, etc.) and the objects occupy the central area, while every RIGHT description uses 'tiny' or 'small' and the objects are markedly smaller. No counter\u2011example appears, and this rule matches the higher\u2011confidence spatial/size/relation rules proposed by other specialists, so the hypothesis is retained and its confidence is raised."
+    },
+    "topology": {
+     "hypothesis": "Left panels contain a large object relative to panel size; Right panels contain a small/tiny object",
+     "confidence": 0.96,
+     "evidence": "All six LEFT panels are described as having large (outline or solid) shapes that dominate the panel, while all six RIGHT panels are described as tiny or small shapes. No consistent topological distinction (containment, touching, overlap, crossing) separates the groups, but the size contrast holds for every example, matching the high\u2011confidence rules proposed by other specialists."
+    },
+    "quantity": {
+     "hypothesis": "All LEFT panels contain a large object (relative to panel size), while all RIGHT panels contain a small or tiny object",
+     "confidence": 0.97,
+     "evidence": "The size difference consistently separates the two groups: every LEFT panel has a single large shape occupying most of the panel, whereas every RIGHT panel has a single small or tiny shape. No counter\u2011example appears, and this quantitative rule matches the spatial and size specialists' high\u2011confidence proposals."
+    },
+    "spatial": {
+     "hypothesis": "Left panels contain a large object; Right panels contain only small or tiny objects",
+     "confidence": 0.98,
+     "evidence": "All six LEFT panels feature a single large object that occupies a substantial portion of the panel, while each of the six RIGHT panels contains only a tiny or small object. No LEFT panel shows a small object, and no RIGHT panel shows a large object, so the rule holds for every panel. The size and relation specialists propose essentially the same rule with high confidence, reinforcing this interpretation. Topological and quantity rules do not explain the observed difference. Therefore the current hypothesis is retained with very high confidence."
+    },
+    "size": {
+     "hypothesis": "Left panels contain a large object (relative to panel size); Right panels contain a small or tiny object",
+     "confidence": 1.0,
+     "evidence": "Each of the six LEFT panels is explicitly described as having a large shape (outline or solid) that occupies a substantial portion of the panel. Each of the six RIGHT panels is described as tiny or small (tiny square, tiny dot, small polygon, tiny curve, small triangle, tiny bow\u2011tie). No counter\u2011example appears, so the size\u2011based rule fully accounts for the data and aligns with the spatial specialist\u2019s rule, giving maximal confidence."
+    },
+    "relation": {
+     "hypothesis": "Left panels contain a large object relative to panel size; Right panels contain a small or tiny object",
+     "confidence": 0.96,
+     "evidence": "All six LEFT panels are explicitly described as large (outline or solid) and dominate the panel area, while all six RIGHT panels are described as tiny or small and occupy only a minor portion. No panel contradicts this pattern, and the spatial/size rules from other specialists align with it, supporting a high confidence."
+    }
+   },
+   "cost_usd": 0.0065694,
+   "perception_cost_usd": 0.020595000000000006
+  },
+  {
+   "bp": "bp0036",
+   "rule": "Left = triangle is at same level or above the circle, Right = triangle is at same level or below the circle",
+   "rule_nocheck": "Left = triangle is at same level or above the circle, Right = triangle is at same level or below the circle",
+   "path": "synthesis-unchecked",
+   "check_score": 9,
+   "rounds": 1,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "No distinguishing shape-only rule found",
+     "confidence": 0.15,
+     "evidence": "All panels share the same shape types (one circle and one triangle), both convex, same line counts, and similar positional relations; no consistent difference in form type, convexity, curvature, or symmetry separates left from right."
+    },
+    "topology": {
+     "hypothesis": "No topological property distinguishes the left from the right panels",
+     "confidence": 0.15,
+     "evidence": "All 12 panels consist of two separate, non\u2011overlapping, non\u2011touching outline shapes (one circle, one triangle). The topological relations (disconnected components, no containment, no touching, no crossing) are identical for every panel, so no rule based solely on topology can separate the groups."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule separates left and right panels",
+     "confidence": 0.2,
+     "evidence": "All panels contain exactly 2 objects, each with the same number of lines, closed shapes, and angles; no difference in pure quantity metrics (object count, line count, groups) distinguishes the left set from the right set."
+    },
+    "spatial": {
+     "hypothesis": "In every LEFT panel the triangle is never positioned below the circle (it is either level with or above the circle); in every RIGHT panel the triangle is never positioned above the circle (it is either level with or below the circle).",
+     "confidence": 0.78,
+     "evidence": "fits 12 of 12 panels because all LEFT cases have triangle at same height or higher than the circle, and all RIGHT cases have triangle at same height or lower than the circle."
+    },
+    "size": {
+     "hypothesis": "No size\u2011based rule distinguishes the two sets",
+     "confidence": 0.1,
+     "evidence": "All panels contain a medium\u2011sized circle and a medium\u2011sized triangle; there is no absolute or relative size difference between left and right panels, so size information alone cannot separate them."
+    },
+    "relation": {
+     "hypothesis": "No simple relational rule distinguishes the left panels from the right panels based on the given object relations",
+     "confidence": 0.2,
+     "evidence": "All six left panels and all six right panels exhibit a mix of relative positions (above/below/left/right/diagonal) and triangle orientations, with no consistent pattern that holds for all left and fails for all right"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "In LEFT panels the triangle is never positioned below the circle (it is at the same level or above); in RIGHT panels the triangle is never positioned above the circle (it is at the same level or below).",
+     "confidence": 0.85,
+     "evidence": "The spatial rule proposed by the spatial specialist matches all 12 panels. Every LEFT panel has the triangle at the same height or above the circle, never below. Every RIGHT panel has the triangle at the same height or below the circle, never above. No other specialist's rule fits as consistently. Therefore we adopt the spatial rule with high confidence."
+    },
+    "topology": {
+     "hypothesis": "In LEFT panels the triangle is never positioned below the circle (it is at the same level or above); in RIGHT panels the triangle is never positioned above the circle (it is at the same level or below).",
+     "confidence": 0.85,
+     "evidence": "The topological hypothesis fails because the left and right sets differ consistently in vertical ordering of triangle vs. circle. All six LEFT panels have the triangle at the same height or above the circle, never below. All six RIGHT panels have the triangle at the same height or below the circle, never above. No other specialist rule (shape, quantity, size, relation) explains this pattern as well as the spatial rule, which matches every panel. Hence we replace the hypothesis with the spatial rule and assign high confidence."
+    },
+    "quantity": {
+     "hypothesis": "In LEFT panels the triangle is never below the circle (it is at the same level or above); in RIGHT panels the triangle is never above the circle (it is at the same level or below)",
+     "confidence": 0.85,
+     "evidence": "All six LEFT panels have the triangle at or above the circle (never below). All six RIGHT panels have the triangle at or below the circle (never above). The quantity\u2011based hypothesis does not separate the sets because every panel contains exactly two objects, two closed non\u2011crossing lines, and identical angle types. The spatial relation rule explains every panel consistently, so we replace the quantity hypothesis with the spatial one and raise confidence."
+    },
+    "spatial": {
+     "hypothesis": "In every LEFT panel the triangle is never positioned below the circle (it is either level with or above the circle); in every RIGHT panel the triangle is never positioned above the circle (it is either level with or below the circle).",
+     "confidence": 0.85,
+     "evidence": "All six LEFT panels either state \"triangle above circle\" or give only horizontal relations, never indicating the triangle is below the circle. All six RIGHT panels either state \"circle above triangle\" or give only horizontal relations, never indicating the triangle is above the circle. No alternative rule from other specialists accounts for both sets as cleanly, and their confidence scores are low. Therefore the current spatial\u2011vertical rule remains the best explanation, with slightly increased confidence."
+    },
+    "size": {
+     "hypothesis": "In LEFT panels the triangle is never positioned below the circle (it is at the same level or above); in RIGHT panels the triangle is never positioned above the circle (it is at the same level or below).",
+     "confidence": 0.85,
+     "evidence": "The spatial rule matches all six LEFT and six RIGHT panels, while the size\u2011based hypothesis fails to explain any consistent difference. Other specialists report low confidence for their rules. Therefore the spatial relation rule is adopted as the best explanation."
+    },
+    "relation": {
+     "hypothesis": "In every LEFT panel the triangle is never positioned below the circle (it is either level with or above the circle); in every RIGHT panel the triangle is never positioned above the circle (it is either level with or below the circle).",
+     "confidence": 0.85,
+     "evidence": "All six LEFT panels either have the triangle above the circle or have no vertical relation, never below. All six RIGHT panels either have the triangle below the circle or have no vertical relation, never above. No counter\u2011example found, so the spatial rule explains the split better than other proposed rules."
+    }
+   },
+   "cost_usd": 0.0160884,
+   "perception_cost_usd": 0.022645
+  },
+  {
+   "bp": "bp0038",
+   "rule": "Left = triangle larger than circle, Right = circle larger than triangle",
+   "rule_nocheck": "Left = triangle larger than circle, Right = circle larger than triangle",
+   "path": "synthesis",
+   "check_score": 12,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "In each LEFT panel the triangle is larger than the circle (triangle area > circle area); in each RIGHT panel the circle is larger than the triangle",
+     "confidence": 0.97,
+     "evidence": "All 6 LEFT panels have a triangle that is larger than the circle; all 6 RIGHT panels have a circle that is larger than the triangle (including the case where the triangle is inside the circle)."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule distinguishes the left from the right panels",
+     "confidence": 0.15,
+     "evidence": "All panels consist of two closed, non\u2011intersecting outlines; both sides contain examples of disjoint shapes and one case of containment (L2: circle inside triangle, R3: triangle inside circle). No consistent containment, touching, overlap, or connectivity pattern separates all six left panels from all six right panels."
+    },
+    "quantity": {
+     "hypothesis": "In left panels the triangle is the larger shape (the larger object is a triangle); in right panels the circle is the larger shape (the larger object is a circle)",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have the triangle larger than the circle; all 6 right panels have the circle larger than the triangle, so the rule fits 12 of 12 panels."
+    },
+    "spatial": {
+     "hypothesis": "In every LEFT panel the triangle is the larger shape (larger than the circle); in every RIGHT panel the circle is the larger shape (larger than the triangle).",
+     "confidence": 0.97,
+     "evidence": "All 6 LEFT panels have a triangle larger than the circle (including one where the circle is inside the triangle). All 6 RIGHT panels have a circle larger than the triangle. No other spatial attribute consistently separates the sets."
+    },
+    "size": {
+     "hypothesis": "In left panels the triangle is larger than the circle; in right panels the circle is larger than the triangle",
+     "confidence": 0.97,
+     "evidence": "All 6 left panels have a triangle that is larger than the circle (L1-L6). All 6 right panels have a circle that is larger than the triangle (R1-R6)."
+    },
+    "relation": {
+     "hypothesis": "In every LEFT panel the triangle is larger than the circle, while in every RIGHT panel the circle is larger than the triangle",
+     "confidence": 0.97,
+     "evidence": "All 6 LEFT panels have a triangle that is larger than the circle (size comparison). All 6 RIGHT panels have a circle that is larger than the triangle, violating the rule."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "In each LEFT panel the triangle is larger than the circle (triangle area > circle area); in each RIGHT panel the circle is larger than the triangle",
+     "confidence": 0.97,
+     "evidence": "All 6 LEFT panels have a triangle that is larger than the circle; all 6 RIGHT panels have a circle that is larger than the triangle (including the case where the triangle is inside the circle)."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule distinguishes the left from the right panels",
+     "confidence": 0.15,
+     "evidence": "All panels consist of two closed, non\u2011intersecting outlines; both sides contain examples of disjoint shapes and one case of containment (L2: circle inside triangle, R3: triangle inside circle). No consistent containment, touching, overlap, or connectivity pattern separates all six left panels from all six right panels."
+    },
+    "quantity": {
+     "hypothesis": "In left panels the triangle is the larger shape (the larger object is a triangle); in right panels the circle is the larger shape (the larger object is a circle)",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have the triangle larger than the circle; all 6 right panels have the circle larger than the triangle, so the rule fits 12 of 12 panels."
+    },
+    "spatial": {
+     "hypothesis": "In every LEFT panel the triangle is the larger shape (larger than the circle); in every RIGHT panel the circle is the larger shape (larger than the triangle).",
+     "confidence": 0.97,
+     "evidence": "All 6 LEFT panels have a triangle larger than the circle (including one where the circle is inside the triangle). All 6 RIGHT panels have a circle larger than the triangle. No other spatial attribute consistently separates the sets."
+    },
+    "size": {
+     "hypothesis": "In left panels the triangle is larger than the circle; in right panels the circle is larger than the triangle",
+     "confidence": 0.97,
+     "evidence": "All 6 left panels have a triangle that is larger than the circle (L1-L6). All 6 right panels have a circle that is larger than the triangle (R1-R6)."
+    },
+    "relation": {
+     "hypothesis": "In every LEFT panel the triangle is larger than the circle, while in every RIGHT panel the circle is larger than the triangle",
+     "confidence": 0.97,
+     "evidence": "All 6 LEFT panels have a triangle that is larger than the circle (size comparison). All 6 RIGHT panels have a circle that is larger than the triangle, violating the rule."
+    }
+   },
+   "cost_usd": 0.0036715499999999957,
+   "perception_cost_usd": 0.023165
+  },
+  {
+   "bp": "bp0004",
+   "rule": "Left = convex figures, Right = nonconvex figures",
+   "rule_nocheck": "Left = convex figures, Right = nonconvex figures",
+   "path": "cv-verifier",
+   "check_score": 12,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "All LEFT panels contain convex shapes (no interior angle >180\u00b0, no indentation); all RIGHT panels contain concave shapes (at least one interior angle >180\u00b0 or indentation).",
+     "confidence": 0.96,
+     "evidence": "All 6 LEFT shapes (circle, hexagon, scalene triangle, equilateral triangle, ellipse, pentagon) are convex; all 6 RIGHT shapes (C\u2011like, crown, dumbbell, zigzag polygons, question\u2011mark) are concave. Fits 12 of 12 panels."
+    },
+    "topology": {
+     "hypothesis": "No topological property distinguishes left from right",
+     "confidence": 0.12,
+     "evidence": "All 12 panels contain a single simple closed shape with no self\u2011crossing, no containment, no overlapping, and identical connectivity; topology alone does not separate the sides"
+    },
+    "quantity": {
+     "hypothesis": "All left panels contain only acute angles (or no angles at all), whereas every right panel contains at least one non\u2011acute angle (right, obtuse or concave).",
+     "confidence": 0.68,
+     "evidence": "L1\u2013L6 each have only acute angles or none; R1\u2013R6 each mention a concave or right angle, so they violate the left rule."
+    },
+    "spatial": {
+     "hypothesis": "All LEFT panels contain convex shapes (no interior angle >180\u00b0), while all RIGHT panels contain at least one concave interior angle (>180\u00b0).",
+     "confidence": 0.95,
+     "evidence": "All 6 LEFT panels are convex (circle, hexagon, scalene triangle, equilateral triangle, ellipse, pentagon). All 6 RIGHT panels are concave (distorted C, crown, dumbbell, zigzag shapes, question\u2011mark)."
+    },
+    "size": {
+     "hypothesis": "No size-based rule distinguishes left from right",
+     "confidence": 0.2,
+     "evidence": "Size categories (medium vs small) appear on both sides; left panels contain 4 medium and 2 small objects, right panels contain 5 medium and 1 small object. There is no consistent absolute or relative size difference, nor uniformity pattern, that separates all left panels from all right panels."
+    },
+    "relation": {
+     "hypothesis": "No relational rule based on inter\u2011object relations can distinguish the panels (each panel contains a single object, so no relations exist)",
+     "confidence": 0.1,
+     "evidence": "All 12 panels have only one object, so any rule that relies on relations between objects fits 0 of 12 panels; thus the left/right distinction cannot be explained by such a rule"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "All LEFT panels contain convex shapes (no interior angle >180\u00b0, no indentation); all RIGHT panels contain concave shapes (at least one interior angle >180\u00b0 or indentation).",
+     "confidence": 0.96,
+     "evidence": "All 6 LEFT shapes (circle, hexagon, scalene triangle, equilateral triangle, ellipse, pentagon) are convex; all 6 RIGHT shapes (C\u2011like, crown, dumbbell, zigzag polygons, question\u2011mark) are concave. Fits 12 of 12 panels."
+    },
+    "topology": {
+     "hypothesis": "No topological property distinguishes left from right",
+     "confidence": 0.12,
+     "evidence": "All 12 panels contain a single simple closed shape with no self\u2011crossing, no containment, no overlapping, and identical connectivity; topology alone does not separate the sides"
+    },
+    "quantity": {
+     "hypothesis": "All left panels contain only acute angles (or no angles at all), whereas every right panel contains at least one non\u2011acute angle (right, obtuse or concave).",
+     "confidence": 0.68,
+     "evidence": "L1\u2013L6 each have only acute angles or none; R1\u2013R6 each mention a concave or right angle, so they violate the left rule."
+    },
+    "spatial": {
+     "hypothesis": "All LEFT panels contain convex shapes (no interior angle >180\u00b0), while all RIGHT panels contain at least one concave interior angle (>180\u00b0).",
+     "confidence": 0.95,
+     "evidence": "All 6 LEFT panels are convex (circle, hexagon, scalene triangle, equilateral triangle, ellipse, pentagon). All 6 RIGHT panels are concave (distorted C, crown, dumbbell, zigzag shapes, question\u2011mark)."
+    },
+    "size": {
+     "hypothesis": "No size-based rule distinguishes left from right",
+     "confidence": 0.2,
+     "evidence": "Size categories (medium vs small) appear on both sides; left panels contain 4 medium and 2 small objects, right panels contain 5 medium and 1 small object. There is no consistent absolute or relative size difference, nor uniformity pattern, that separates all left panels from all right panels."
+    },
+    "relation": {
+     "hypothesis": "No relational rule based on inter\u2011object relations can distinguish the panels (each panel contains a single object, so no relations exist)",
+     "confidence": 0.1,
+     "evidence": "All 12 panels have only one object, so any rule that relies on relations between objects fits 0 of 12 panels; thus the left/right distinction cannot be explained by such a rule"
+    }
+   },
+   "cost_usd": 0.0037293,
+   "perception_cost_usd": 0.020745000000000003
+  },
+  {
+   "bp": "bp0007",
+   "rule": "No consistent rule identified",
+   "rule_nocheck": "No consistent rule identified",
+   "path": "synthesis-unchecked",
+   "check_score": 0,
+   "rounds": 1,
+   "consensus": false,
+   "round1": {
+    "shape": {
+     "hypothesis": "No distinguishing shape-only rule found",
+     "confidence": 0.15,
+     "evidence": "All examined shape attributes (form type, closed/open, symmetry, angles, convexity) appear in both left and right panels; no single property consistently true for all left and false for all right."
+    },
+    "topology": {
+     "hypothesis": "No purely topological property distinguishes the left panels from the right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain a single, non\u2011self\u2011crossing object; each side has three closed shapes and three open shapes; symmetry, acute angles, and connectivity are evenly split across sides. Thus topology alone does not separate the groups."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule separates the two sides",
+     "confidence": 0.1,
+     "evidence": "All panels have identical quantity attributes: each contains exactly one object, one line, and the same distribution of closed/open, symmetric/asymmetric, and angle types across left and right sets, so quantity information alone does not differentiate them."
+    },
+    "spatial": {
+     "hypothesis": "No clear spatial rule distinguishes all left panels from all right panels based on the given information",
+     "confidence": 0.1,
+     "evidence": "Examined position, orientation, symmetry, angles, hatching, closed/open status; each attribute appears on both sides across panels, so no rule fits all six left and none of the right"
+    },
+    "size": {
+     "hypothesis": "There is no size\u2011based rule that distinguishes the left from the right panels",
+     "confidence": 0.2,
+     "evidence": "All panels contain a single medium\u2011sized object; size (absolute, relative, uniformity) is identical across left and right, so no size rule fits any panel"
+    },
+    "relation": {
+     "hypothesis": "No distinguishing relational rule found between left and right panels",
+     "confidence": 0.2,
+     "evidence": "All panels contain a single central object; properties such as closed/open, symmetry, angles, texture, and shape type are mixed on both sides, so no simple rule separates all six left from all six right panels."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "No distinguishing shape-only rule found",
+     "confidence": 0.25,
+     "evidence": "A systematic comparison of the 12 panels shows that left and right sides share the same variety of form types (ellipse, line, other, curve), both contain closed and open outlines, both have symmetric and non\u2011symmetric items, and both include acute\u2011angled and smooth shapes. No consistent difference in convexity, curvature or symmetry emerges that can separate all left panels from all right panels. Hence the original hypothesis that no shape\u2011only rule distinguishes the sides remains valid, with slightly higher confidence after re\u2011evaluation."
+    },
+    "topology": {
+     "hypothesis": "No purely topological property distinguishes left from right panels",
+     "confidence": 0.25,
+     "evidence": "Examined all 12 panels for topological differences (closed vs open, self\u2011crossing, containment, connectivity) and found both sides contain a mix of closed and open single objects with no consistent pattern. Other attributes (shape type, symmetry, angles, texture, size, quantity) also appear in both groups without a clear split. The alternative specialist hypotheses all have low confidence and no evidence supports them uniquely. Therefore the original topological hypothesis remains the best explanation, with slightly higher confidence after systematic review."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule separates left and right panels",
+     "confidence": 0.3,
+     "evidence": "All panels contain exactly one object and one line; the object count and line count are identical for every left and right panel, so quantity does not differentiate the sides. No alternative specialist rule shows a consistent pattern across the 12 panels. Hence the quantity hypothesis is retained and confidence is increased."
+    },
+    "spatial": {
+     "hypothesis": "No clear spatial rule distinguishes all left panels from all right panels based on the given information",
+     "confidence": 0.1,
+     "evidence": "I compared the left and right panels on all spatial attributes provided (symmetry, closed/open status, angle types, texture orientation, shape categories, and implied orientation). Both sides contain a mix of symmetric and asymmetric figures, equal numbers of closed and open outlines, similar distributions of acute/right angles, and both include textured (hatching) panels but with opposite orientations only in a single case each. Shape types (ellipse, rectangle, other, line, curve) appear on both sides. No single spatial property consistently separates all six left panels from the six right panels, so the original hypothesis remains unchanged with low confidence."
+    },
+    "size": {
+     "hypothesis": "No size\u2011based rule distinguishes left from right panels; all objects are medium size",
+     "confidence": 0.85,
+     "evidence": "All twelve panels describe a single object of medium size. Neither absolute nor relative size differences appear; other attributes (shape, texture, symmetry, angles) vary, but size remains constant, supporting the hypothesis that size does not drive the left/right distinction."
+    },
+    "relation": {
+     "hypothesis": "No distinguishing relational rule found between left and right panels",
+     "confidence": 0.2,
+     "evidence": "A systematic comparison of the twelve panels shows that symmetry, count, closed/open status, presence of angles, and texture patterns are distributed similarly across left and right groups. The only apparent differences (horizontal hatching in L2 vs vertical hatching in R4, or the presence of a right\u2011angled rectangle in R1) are isolated cases and do not hold for all panels on either side. Consequently no consistent relational rule separates the left set from the right set, and the confidence in the current hypothesis remains low."
+    }
+   },
+   "cost_usd": 0.0121008,
+   "perception_cost_usd": 0.020535
+  },
+  {
+   "bp": "bp0010",
+   "rule": "Left = shapes with exactly three vertices (triangles), Right = shapes with a number of vertices different from three",
+   "rule_nocheck": "Left = shapes with exactly three vertices (triangles), Right = shapes with a number of vertices different from three",
+   "path": "synthesis",
+   "check_score": 11,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Left panels contain shapes with exactly three vertices (triangular), Right panels contain shapes with a number of vertices different from three",
+     "confidence": 0.93,
+     "evidence": "All 6 left panels are triangles (including jagged or wavy variants) having three corners; all 6 right panels are squares, diamonds, or jagged polygons with four or more corners, so the rule fits every panel."
+    },
+    "topology": {
+     "hypothesis": "No topological rule separates left and right panels",
+     "confidence": 0.1,
+     "evidence": "All panels contain a single closed, non\u2011self\u2011crossing outline; there is no difference in containment, touching, overlapping, crossing, or connectivity between left and right sets."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule separates left and right panels",
+     "confidence": 0.12,
+     "evidence": "All panels contain exactly one closed object with one continuous outline; both sides include acute and right angles, symmetric and non\u2011symmetric shapes, and a range of sizes, so no purely quantitative feature (count of objects, lines, vertices, or groups) consistently distinguishes the left set from the right set."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule separates left and right panels",
+     "confidence": 0.2,
+     "evidence": "All left panels have a single centered object, but five of the six right panels also have a centered object; orientation, size, and symmetry vary inconsistently across both sides, so no purely spatial feature consistently distinguishes all left from all right."
+    },
+    "size": {
+     "hypothesis": "No size-only rule separates left and right panels",
+     "confidence": 0.1,
+     "evidence": "Both left and right sets contain objects of all size categories (large, medium, small, tiny). The distribution of size adjectives overlaps (e.g., large appears on both sides, small appears on both sides), and there is no uniformity or relative size relationship that holds for all left panels and fails for all right panels."
+    },
+    "relation": {
+     "hypothesis": "All LEFT panels contain a shape with exactly three vertices (a triangle), while all RIGHT panels contain shapes with a different number of vertices",
+     "confidence": 0.7,
+     "evidence": "L1\u2011L6 each have a triangle (including jagged or inverted variants); R1,R4,R6 are squares/diamond (4 vertices) and R2,R3,R5 are jagged polygons with more than three vertices, so the rule holds for all 12 panels"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left panels contain shapes with exactly three vertices (triangular), Right panels contain shapes with a number of vertices different from three",
+     "confidence": 0.93,
+     "evidence": "All 6 left panels are triangles (including jagged or wavy variants) having three corners; all 6 right panels are squares, diamonds, or jagged polygons with four or more corners, so the rule fits every panel."
+    },
+    "topology": {
+     "hypothesis": "No topological rule separates left and right panels",
+     "confidence": 0.1,
+     "evidence": "All panels contain a single closed, non\u2011self\u2011crossing outline; there is no difference in containment, touching, overlapping, crossing, or connectivity between left and right sets."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule separates left and right panels",
+     "confidence": 0.12,
+     "evidence": "All panels contain exactly one closed object with one continuous outline; both sides include acute and right angles, symmetric and non\u2011symmetric shapes, and a range of sizes, so no purely quantitative feature (count of objects, lines, vertices, or groups) consistently distinguishes the left set from the right set."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule separates left and right panels",
+     "confidence": 0.2,
+     "evidence": "All left panels have a single centered object, but five of the six right panels also have a centered object; orientation, size, and symmetry vary inconsistently across both sides, so no purely spatial feature consistently distinguishes all left from all right."
+    },
+    "size": {
+     "hypothesis": "No size-only rule separates left and right panels",
+     "confidence": 0.1,
+     "evidence": "Both left and right sets contain objects of all size categories (large, medium, small, tiny). The distribution of size adjectives overlaps (e.g., large appears on both sides, small appears on both sides), and there is no uniformity or relative size relationship that holds for all left panels and fails for all right panels."
+    },
+    "relation": {
+     "hypothesis": "All LEFT panels contain a shape with exactly three vertices (a triangle), while all RIGHT panels contain shapes with a different number of vertices",
+     "confidence": 0.7,
+     "evidence": "L1\u2011L6 each have a triangle (including jagged or inverted variants); R1,R4,R6 are squares/diamond (4 vertices) and R2,R3,R5 are jagged polygons with more than three vertices, so the rule holds for all 12 panels"
+    }
+   },
+   "cost_usd": 0.005355000000000002,
+   "perception_cost_usd": 0.020605000000000005
+  },
+  {
+   "bp": "bp0031",
+   "rule": "Left = single centered object, Right = multiple objects",
+   "rule_nocheck": "Left = single centered object, Right = multiple objects",
+   "path": "synthesis",
+   "check_score": 11,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Each LEFT panel contains exactly one object, while each RIGHT panel contains more than one object",
+     "confidence": 0.2,
+     "evidence": "All 6 LEFT panels have count\u202f=\u202f1. 5 of the 6 RIGHT panels have count\u202f=\u202f2, but R6 also has count\u202f=\u202f1, so the rule fits 11 of 12 panels."
+    },
+    "topology": {
+     "hypothesis": "Left panels contain exactly one object; Right panels contain more than one object",
+     "confidence": 0.35,
+     "evidence": "All 6 left panels have a single object (count=1). Five of the six right panels have two objects (count=2); only R6 has a single object, so the rule fits 11 of 12 panels."
+    },
+    "quantity": {
+     "hypothesis": "Left panels contain exactly one object (and thus one line); Right panels contain more than one object",
+     "confidence": 0.2,
+     "evidence": "All 6 left panels have 1 object (and 1 line). Right panels 1\u20115 have 2 objects, but R6 also has 1 object, so the rule fails for that panel, giving low confidence."
+    },
+    "spatial": {
+     "hypothesis": "Left panels contain exactly one object that is positioned at the geometric centre of the panel; Right panels either contain more than one object or (if only one) the object is not centred.",
+     "confidence": 0.3,
+     "evidence": "The rule holds for all 6 left panels (each has a single centred object) and for 5 of the 6 right panels (R1\u2011R5 have multiple objects, R6 has a single centred object and thus violates the rule)."
+    },
+    "size": {
+     "hypothesis": "No size\u2011only rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "The left panels vary in size (large, medium) and all have a single object, while the right panels also include single\u2011object cases (R6) and mostly medium objects; no consistent absolute or relative size pattern distinguishes all six left from all six right panels."
+    },
+    "relation": {
+     "hypothesis": "No clear relational rule distinguishes the left panels from the right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels have a single central object, but right panel R6 also has a single central self\u2011crossing curve, so simple relations like count, centrality, or self\u2011crossing do not separate the sets. Other relational features (attachment, overlap) are present in many right panels but not all, and are absent in left panels, yet R5 and R6 lack such relations, preventing a consistent rule."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Each LEFT panel contains exactly one object, while each RIGHT panel contains more than one object",
+     "confidence": 0.2,
+     "evidence": "All 6 LEFT panels have count\u202f=\u202f1. 5 of the 6 RIGHT panels have count\u202f=\u202f2, but R6 also has count\u202f=\u202f1, so the rule fits 11 of 12 panels."
+    },
+    "topology": {
+     "hypothesis": "Left panels contain exactly one object; Right panels contain more than one object",
+     "confidence": 0.35,
+     "evidence": "All 6 left panels have a single object (count=1). Five of the six right panels have two objects (count=2); only R6 has a single object, so the rule fits 11 of 12 panels."
+    },
+    "quantity": {
+     "hypothesis": "Left panels contain exactly one object (and thus one line); Right panels contain more than one object",
+     "confidence": 0.2,
+     "evidence": "All 6 left panels have 1 object (and 1 line). Right panels 1\u20115 have 2 objects, but R6 also has 1 object, so the rule fails for that panel, giving low confidence."
+    },
+    "spatial": {
+     "hypothesis": "Left panels contain exactly one object that is positioned at the geometric centre of the panel; Right panels either contain more than one object or (if only one) the object is not centred.",
+     "confidence": 0.3,
+     "evidence": "The rule holds for all 6 left panels (each has a single centred object) and for 5 of the 6 right panels (R1\u2011R5 have multiple objects, R6 has a single centred object and thus violates the rule)."
+    },
+    "size": {
+     "hypothesis": "No size\u2011only rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "The left panels vary in size (large, medium) and all have a single object, while the right panels also include single\u2011object cases (R6) and mostly medium objects; no consistent absolute or relative size pattern distinguishes all six left from all six right panels."
+    },
+    "relation": {
+     "hypothesis": "No clear relational rule distinguishes the left panels from the right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels have a single central object, but right panel R6 also has a single central self\u2011crossing curve, so simple relations like count, centrality, or self\u2011crossing do not separate the sets. Other relational features (attachment, overlap) are present in many right panels but not all, and are absent in left panels, yet R5 and R6 lack such relations, preventing a consistent rule."
+    }
+   },
+   "cost_usd": 0.006712649999999997,
+   "perception_cost_usd": 0.021525000000000002
+  },
+  {
+   "bp": "bp0047",
+   "rule": "There is no purely quantity\u2011based rule that distinguishes all left panels from all right panels.",
+   "rule_nocheck": "No distinguishing rule identified",
+   "path": "checked-alternative",
+   "check_score": 12,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "No distinguishing rule based solely on shape information separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels contain nested shapes of differing types, as do the right panels; both sides include circles and triangles, convex and symmetric configurations, and similar counts of objects, making it impossible to find a simple shape-only rule that holds for all six left and none of the right panels."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule distinguishes the two sets",
+     "confidence": 0.1,
+     "evidence": "All left panels exhibit a single containment relation (one shape inside another) and the container can be a circle or triangle; right panels also show a single containment in most cases and share the same types of relations, so no rule based solely on containment, touching, overlapping, crossing, or connectivity fits all six left panels while excluding all six right panels."
+    },
+    "quantity": {
+     "hypothesis": "There is no purely quantity\u2011based rule that distinguishes all left panels from all right panels.",
+     "confidence": 0.15,
+     "evidence": "All examined quantitative features (object count, line count, number of circles vs triangles, presence of solid vs outline objects, number of containment relations, symmetry, location coincidences, etc.) appear in both left and right sets, so no single quantity property fits all six left panels while failing all six right panels."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes left from right panels",
+     "confidence": 0.2,
+     "evidence": "Examined positions, orientations, nesting, symmetry, and count across all panels. Both sides contain center\u2011only configurations, left\u2011side triangles, right\u2011side circles, nested triangle\u2011in\u2011circle and circle\u2011in\u2011triangle cases, and similar orientation patterns. No consistent spatial feature (position, alignment, orientation, or pointing direction) is present in all six left panels while absent in all six right panels."
+    },
+    "size": {
+     "hypothesis": "No size\u2011only rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All six left panels and all six right panels contain a mix of large, medium, small and tiny objects with various nesting relationships; no consistent absolute or relative size pattern (e.g., largest always contains smallest, unique size categories, uniform size distribution, etc.) distinguishes left from right using size information alone."
+    },
+    "relation": {
+     "hypothesis": "No distinguishing relational rule found between left and right panels",
+     "confidence": 0.15,
+     "evidence": "Examined multiple candidate relations (containment type, outer shape, symmetry, count of shapes, centering, orientation) but each candidate is violated by at least one panel on the left or right side. Therefore the data do not support a simple universal rule."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "No distinguishing rule based solely on shape information separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels contain nested shapes of differing types, as do the right panels; both sides include circles and triangles, convex and symmetric configurations, and similar counts of objects, making it impossible to find a simple shape-only rule that holds for all six left and none of the right panels."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule distinguishes the two sets",
+     "confidence": 0.1,
+     "evidence": "All left panels exhibit a single containment relation (one shape inside another) and the container can be a circle or triangle; right panels also show a single containment in most cases and share the same types of relations, so no rule based solely on containment, touching, overlapping, crossing, or connectivity fits all six left panels while excluding all six right panels."
+    },
+    "quantity": {
+     "hypothesis": "There is no purely quantity\u2011based rule that distinguishes all left panels from all right panels.",
+     "confidence": 0.15,
+     "evidence": "All examined quantitative features (object count, line count, number of circles vs triangles, presence of solid vs outline objects, number of containment relations, symmetry, location coincidences, etc.) appear in both left and right sets, so no single quantity property fits all six left panels while failing all six right panels."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes left from right panels",
+     "confidence": 0.2,
+     "evidence": "Examined positions, orientations, nesting, symmetry, and count across all panels. Both sides contain center\u2011only configurations, left\u2011side triangles, right\u2011side circles, nested triangle\u2011in\u2011circle and circle\u2011in\u2011triangle cases, and similar orientation patterns. No consistent spatial feature (position, alignment, orientation, or pointing direction) is present in all six left panels while absent in all six right panels."
+    },
+    "size": {
+     "hypothesis": "No size\u2011only rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All six left panels and all six right panels contain a mix of large, medium, small and tiny objects with various nesting relationships; no consistent absolute or relative size pattern (e.g., largest always contains smallest, unique size categories, uniform size distribution, etc.) distinguishes left from right using size information alone."
+    },
+    "relation": {
+     "hypothesis": "No distinguishing relational rule found between left and right panels",
+     "confidence": 0.15,
+     "evidence": "Examined multiple candidate relations (containment type, outer shape, symmetry, count of shapes, centering, orientation) but each candidate is violated by at least one panel on the left or right side. Therefore the data do not support a simple universal rule."
+    }
+   },
+   "cost_usd": 0.018254250000000007,
+   "perception_cost_usd": 0.029905
+  },
+  {
+   "bp": "bp0050",
+   "rule": "Left = bilaterally symmetric, Right = not bilaterally symmetric",
+   "rule_nocheck": "Left = bilaterally symmetric, Right = not bilaterally symmetric",
+   "path": "synthesis",
+   "check_score": 11,
+   "rounds": 1,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "No simple shape\u2011only rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All left panels share some symmetry or shape properties, but panel R4 is visually identical to L5, preventing a clear rule based solely on form type, convexity, curvature, or symmetry."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule (based on containment, touching, overlapping, crossing, or connectivity) distinguishes all left panels from all right panels",
+     "confidence": 0.0,
+     "evidence": "Examined each panel for consistent topological properties (e.g., touching, overlapping, crossing, containment, connectivity). Left panels show a mix: some have no touching (L1\u2011L4, L6), one has intersecting lines (L5). Right panels also show a mix: some have no touching (R1\u2011R3, R5\u2011R6), one has intersecting lines (R4). No single topological relation holds for all six left panels while being absent in all six right panels."
+    },
+    "quantity": {
+     "hypothesis": "All LEFT panels are bilaterally symmetric (objects can be divided into two mirror\u2011matching halves); all RIGHT panels are not symmetric (except R4)",
+     "confidence": 0.9,
+     "evidence": "L1\u2011L6 each display perfect left\u2011right symmetry; R1,R2,R3,R5,R6 lack symmetry while only R4 is symmetric, so the rule holds for 6 left and 5 right panels"
+    },
+    "spatial": {
+     "hypothesis": "No purely spatial rule distinguishes the left panels from the right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels share left\u2011right symmetry, but panel R4 also has that symmetry and is a right panel; other spatial attributes (counts, alignments, orientations) are identical across many left/right pairs, so no consistent spatial property separates all six left from all six right"
+    },
+    "size": {
+     "hypothesis": "No size-only rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels and right panels share similar size distributions (mix of small, medium, large objects) and no consistent size pattern (e.g., unique maximal size, size symmetry, size ordering) distinguishes them solely by size"
+    },
+    "relation": {
+     "hypothesis": "There is no simple relational rule that separates all six left panels from all six right panels; the panels share many similar relational features (e.g., symmetry, central alignment) and even one pair (L5 vs R4) is identical, making a consistent rule unlikely.",
+     "confidence": 0.15,
+     "evidence": "All left panels are vertically symmetric except L5 which is identical to R4, a right panel. Many relational patterns (symmetry, central objects, paired elements) appear on both sides, so no clear distinguishing rule was found."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left panels are bilaterally symmetric; Right panels are not symmetric (the sole symmetric right panel, R4, is a duplicate of a left panel)",
+     "confidence": 0.85,
+     "evidence": "All six LEFT panels are explicitly described as symmetric. Five of the six RIGHT panels are described as not symmetric; the only symmetric RIGHT panel (R4) is identical in composition to LEFT panel L5, indicating the symmetry rule still separates the sets except for this duplicate case. The quantity specialist\u2019s symmetry rule therefore explains the data far better than the original shape\u2011only hypothesis, which had low confidence. The rule holds for 11 of 12 panels and the single exception is accounted for by the duplication, justifying a high confidence in the revised hypothesis."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule (based on containment, touching, overlapping, crossing, or connectivity) distinguishes all left panels from all right panels",
+     "confidence": 0.0,
+     "evidence": "All twelve panels exhibit the same basic topological relationships: shapes are either isolated or intersect at a single point (e.g., the line sets in L5 and R4). There is no consistent pattern of containment, touching, overlapping, crossing, or connectivity that separates the LEFT group from the RIGHT group. The high\u2011confidence symmetry rule proposed by the quantity specialist does separate most panels (all LEFT panels are bilaterally symmetric, most RIGHT panels are not), but symmetry is a geometric/spatial property, not a topological one. Because the task for the topology specialist is to find a rule based solely on topological features, the symmetry observation does not affect the validity of the current hypothesis. Hence the hypothesis is retained with unchanged confidence."
+    },
+    "quantity": {
+     "hypothesis": "All LEFT panels are bilaterally symmetric; all RIGHT panels are not symmetric (R4 is symmetric)",
+     "confidence": 0.95,
+     "evidence": "The symmetry rule correctly classifies every panel: L1\u2011L6 are all bilaterally symmetric, while R1, R2, R3, R5, and R6 lack bilateral symmetry. R4 is the only right\u2011hand panel that is symmetric, which the hypothesis explicitly permits as an exception. No alternative rule proposed by other specialists (shape, topology, spatial, size, relational) can separate the two groups as cleanly, and their confidence scores are low. Therefore the current hypothesis remains valid and its confidence is increased."
+    },
+    "spatial": {
+     "hypothesis": "All LEFT panels exhibit bilateral symmetry; RIGHT panels are generally asymmetric (the only symmetric RIGHT panel, R4, is identical to a LEFT panel)",
+     "confidence": 0.85,
+     "evidence": "Every LEFT panel (L1\u2011L6) is bilaterally symmetric about a vertical axis. Among the RIGHT panels, five (R1,R2,R3,R5,R6) lack that symmetry; only R4 is symmetric, but it is a duplicate of L5, showing that symmetry alone separates the sets except for this duplicate. No purely spatial, topological, size\u2011only, or shape\u2011only rule accounts for all panels, whereas the symmetry rule matches 11 of 12 cases and explains the single exception as a copy of a LEFT example. Hence the symmetry rule is the strongest candidate."
+    },
+    "size": {
+     "hypothesis": "No size\u2011only rule separates the LEFT and RIGHT panels",
+     "confidence": 0.12,
+     "evidence": "Examining absolute and relative object sizes shows no consistent pattern that distinguishes the two sets. Both LEFT and RIGHT panels contain mixtures of small, medium, and large objects, and the uniformity of sizes varies within each set (e.g., L1 mixes small and medium, R1 mixes small and medium). The only clear differentiator is bilateral symmetry, as noted by the quantity specialist, not size. Therefore the size\u2011only hypothesis remains unsupported, and confidence stays low."
+    },
+    "relation": {
+     "hypothesis": "Left panels are bilaterally symmetric; Right panels are not symmetric (except R4)",
+     "confidence": 0.85,
+     "evidence": "All six LEFT panels exhibit clear bilateral symmetry in the arrangement of their objects. Five of the six RIGHT panels (R1,R2,R3,R5,R6) lack such symmetry, while R4 is the only right\u2011hand panel that is symmetric\u2014and it is identical to L5, showing that the symmetry criterion is the strongest distinguishing feature despite this single exception. No other proposed rule (shape, topology, size, pure spatial relations) separates the sets as cleanly. Therefore the best current rule is a symmetry\u2011based distinction, with high confidence but acknowledging the R4 outlier."
+    }
+   },
+   "cost_usd": 0.019419150000000003,
+   "perception_cost_usd": 0.029605000000000006
+  },
+  {
+   "bp": "bp0056",
+   "rule": "Left = all shapes have the same fill (all solid or all outline), Right = shapes include both solid and outline fills",
+   "rule_nocheck": "Left = all shapes have the same fill (all solid or all outline), Right = shapes include both solid and outline fills",
+   "path": "synthesis",
+   "check_score": 11,
+   "rounds": 1,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Left panels have uniform fill (all shapes solid or all shapes outline); Right panels have mixed fill types",
+     "confidence": 0.2,
+     "evidence": "All 6 left panels are either all solid or all outline, while 5 of 6 right panels contain both solid and outline shapes (R6 is an exception)"
+    },
+    "topology": {
+     "hypothesis": "No topological property (containment, touching, overlapping, crossing, connectivity) distinguishes the left panels from the right panels",
+     "confidence": 0.1,
+     "evidence": "All panels consist of separate, non\u2011overlapping, non\u2011touching closed shapes; both left and right sets have the same counts of components and no containment or crossing relations, so topology alone does not separate them"
+    },
+    "quantity": {
+     "hypothesis": "All left panels have uniform fill (all objects are either all solid or all outline), while right panels have mixed fill",
+     "confidence": 0.35,
+     "evidence": "Fits 6 of 6 left panels (uniform fill) and 5 of 6 right panels (mixed fill); R6 is all outline like left panels, so rule is not perfect"
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes the left and right panels based solely on position, alignment, orientation, or pointing direction.",
+     "confidence": 0.15,
+     "evidence": "All left panels and right panels share similar spatial configurations (objects placed left/right/center, triangles pointing up or down, no consistent pattern of relative vertical/horizontal ordering that separates the groups)."
+    },
+    "size": {
+     "hypothesis": "No size\u2011only rule distinguishes the left from the right panels",
+     "confidence": 0.15,
+     "evidence": "Examined absolute sizes, relative size comparisons, uniformity, and presence of size repeats. All left panels satisfy various size patterns (e.g., equal triangle sizes, circles not smaller than triangles), but right panels also exhibit many of the same patterns (e.g., circles larger than triangles, adjacent size steps). No single size\u2011based condition holds for all six left panels while failing for all six right panels."
+    },
+    "relation": {
+     "hypothesis": "No simple relational rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "Examined fill uniformity, size relations, shape types, and symmetry; each candidate rule is violated by at least one panel on each side (e.g., uniform fill holds for left but also for R6; circle larger than triangle holds for left but also for R6; same\u2011shape size equality holds for left but also for R1). Thus no clear rule found."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left panels have uniform fill (all shapes solid or all shapes outline); Right panels have mixed fill types (both solid and outline)",
+     "confidence": 0.55,
+     "evidence": "All six LEFT panels indeed contain shapes that share the same fill style \u2013 either all solid (L2,L3,L6) or all outline (L1,L4,L5). Every RIGHT panel except R6 mixes solid and outline shapes, matching the proposed rule. R6 is an outlier: it contains three outline shapes only, which would place it on the LEFT side under the current rule. Because the rule explains 11 of 12 panels, it remains the best candidate but its confidence is reduced to reflect the exception."
+    },
+    "topology": {
+     "hypothesis": "Left panels have all shapes with the same fill (all solid or all outline); Right panels contain at least two different fill types",
+     "confidence": 0.88,
+     "evidence": "Topological relations (containment, touching, overlapping, crossing, connectivity) are identical across all panels, so they cannot explain the split. Every left panel is uniform in fill\u2014either all solid or all outline\u2014whereas each right panel (except R6) mixes solid and outline shapes. This fill\u2011uniformity rule accounts for all observed examples and is more predictive than the previous hypotheses."
+    },
+    "quantity": {
+     "hypothesis": "All left panels have uniform fill (all objects are either all solid or all outline), while right panels have mixed fill",
+     "confidence": 0.0,
+     "evidence": "The original rule (left panels have uniform fill, right panels have mixed fill) holds for all left panels but fails for right panel R6, which contains three outline shapes and thus has uniform fill. Since this counter\u2011example cannot be reconciled without adding ad\u2011hoc exceptions, the hypothesis does not explain all 12 panels and must be discarded. No alternative specialist rule fits the data better, so we abandon the current hypothesis."
+    },
+    "spatial": {
+     "hypothesis": "Left panels have uniform fill: all objects are either solid or all outline. Right panels contain a mixture of solid and outline objects (with one exception).",
+     "confidence": 0.62,
+     "evidence": "Examining the spatial attributes (position, alignment, orientation, pointing direction) shows no consistent difference between left and right panels; some left panels are symmetric, others are not, and orientations vary similarly on both sides. Therefore the original spatial rule does not hold for all 12 panels. In contrast, the shape\u2011fill rule proposed by the shape and quantity specialists matches five of the six right panels (R1\u2011R5) and all six left panels: every left panel consists entirely of solid shapes or entirely of outline shapes, whereas each right panel (except R6) mixes solid and outline shapes. The single counter\u2011example (R6) is an all\u2011outline right panel, but the overall pattern strongly supports the fill\u2011uniformity rule as the primary distinguishing property. Hence we adopt the fill\u2011uniformity hypothesis with moderate confidence."
+    },
+    "size": {
+     "hypothesis": "Left panels have uniform fill (all shapes solid or all outline); Right panels contain a mixture of solid and outline shapes",
+     "confidence": 0.78,
+     "evidence": "A size\u2011only rule does not separate the panels: both sides show varied size relationships. The strongest distinguishing pattern is fill type. Every left panel is either all solid (L2,L3,L6) or all outline (L1,L4,L5). Every right panel except R6 includes both solid and outline shapes, indicating mixed fill. R6 is the only outlier, so the rule holds for 5/6 right panels, giving high confidence. No other specialist rule fits the data better. Hence we replace the size hypothesis with the uniform\u2011fill rule."
+    },
+    "relation": {
+     "hypothesis": "Left panels have uniform fill (all shapes solid or all shapes outline); Right panels have mixed fill (both solid and outline)",
+     "confidence": 0.55,
+     "evidence": "All six left panels consist exclusively of either solid shapes or outline shapes. Five of the six right panels contain at least one solid and one outline shape, breaking the uniform\u2011fill pattern. The only outlier is R6, which has three outline shapes; this single exception reduces confidence but the uniform\u2011fill distinction explains the majority of cases and matches the quantity specialist\u2019s proposal, giving a moderate confidence in the new rule."
+    }
+   },
+   "cost_usd": 0.025750650000000014,
+   "perception_cost_usd": 0.025334999999999996
+  },
+  {
+   "bp": "bp0097",
+   "rule": "Left = contains a triangle, Right = contains no triangle",
+   "rule_nocheck": "Left = contains a triangle, Right = contains no triangle",
+   "path": "synthesis",
+   "check_score": 11,
+   "rounds": 1,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "All LEFT panels contain a triangle shape, while no RIGHT panel contains a triangle",
+     "confidence": 1.0,
+     "evidence": "All 6 LEFT panels are triangles (various orientations, fills, textures) and all 6 RIGHT panels are circles or lines, none are triangles; thus the rule fits all 12 panels."
+    },
+    "topology": {
+     "hypothesis": "No topological rule separates left and right panels",
+     "confidence": 0.2,
+     "evidence": "All panels contain a single connected object (except R5 with many lines) and all objects are simple closed curves or line segments; properties like containment, touching, overlapping, crossing, and connectivity do not differ consistently between the left and right sets."
+    },
+    "quantity": {
+     "hypothesis": "No purely quantitative rule separates the panels",
+     "confidence": 0.2,
+     "evidence": "All left panels have exactly 1 object and 1 line, but three right panels (R1,R2,R3) also have 1 object and 1 line, so quantity alone does not differentiate the sides."
+    },
+    "spatial": {
+     "hypothesis": "Left panels contain a closed shape that has at least one vertex (i.e., a polygon); Right panels do not contain any such shape",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels are triangles \u2013 closed polygons with vertices. All 6 right panels are circles (no vertices) or an open radiating line pattern (no closed polygon), so the rule holds for every panel."
+    },
+    "size": {
+     "hypothesis": "No size-only rule distinguishes left from right",
+     "confidence": 0.2,
+     "evidence": "All left panels contain a single medium-sized triangle; right panels contain circles of various sizes (large and medium) and a multi\u2011line pattern. Size alone does not consistently separate the two groups, as at least one right panel (R2) also has a medium-sized object, making any simple size rule either true for some right panels or false for some left panels."
+    },
+    "relation": {
+     "hypothesis": "Left panels contain a closed shape that has at least one acute angle; Right panels do not contain any closed shape with an acute angle",
+     "confidence": 0.93,
+     "evidence": "All 6 left panels feature a single triangle (a closed shape) which always includes acute angles, satisfying the rule. All 6 right panels show circles (no acute angles) or open lines (no closed shape), thus violating the rule."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left panels contain a closed shape with at least one vertex (i.e., a polygon); Right panels contain no such shape",
+     "confidence": 0.96,
+     "evidence": "The original triangle rule is true for all panels, but the spatial rule ('closed shape with a vertex') also holds and is more general: every LEFT panel shows a triangle (a polygon with vertices) while every RIGHT panel shows only circles (no vertices) or open lines (no closed shape). This rule is supported by the spatial specialist (confidence\u202f0.95) and also explains the absence of acute angles in RIGHT panels. Hence we adopt the spatial rule with high confidence."
+    },
+    "topology": {
+     "hypothesis": "Left panels contain a triangle shape; Right panels contain no triangle",
+     "confidence": 0.98,
+     "evidence": "All six LEFT panels feature a single triangle (closed polygon with three sides and acute angles). None of the RIGHT panels contain a triangle; they show circles (closed curves without vertices) or radiating lines (open). This fully accounts for the observed separation and aligns with the shape specialist\u2019s rule (confidence\u202f1.00) as well as the spatial and relation rules. Hence the previous hypothesis that no topological rule separates the panels is rejected."
+    },
+    "quantity": {
+     "hypothesis": "Left panels contain a closed shape with at least one vertex (a polygon); Right panels lack such a shape.",
+     "confidence": 0.96,
+     "evidence": "All LEFT panels are triangles, which are closed shapes with vertices. All RIGHT panels are circles (no vertices) or a set of lines (open), so they do not contain a polygon. The spatial rule fits all 12 panels, whereas the shape rule fails for R5 and the acute\u2011angle rule fails for R5 as well. Thus the spatial rule best explains the data."
+    },
+    "spatial": {
+     "hypothesis": "Left panels contain a triangle; Right panels contain no triangle",
+     "confidence": 1.0,
+     "evidence": "All six LEFT panels are triangles (closed polygons with vertices and acute angles). None of the six RIGHT panels are triangles; they are circles or radiating lines, which lack vertices. The triangle\u2011specific rule is a stricter version of the previous polygon rule and matches the data perfectly, giving it higher confidence than the more general hypothesis."
+    },
+    "size": {
+     "hypothesis": "Left panels contain a closed shape with at least one vertex (a polygon); Right panels contain no such shape",
+     "confidence": 0.95,
+     "evidence": "The size-only hypothesis fails because both sides include objects of various sizes and there is no consistent size distinction. The spatial rule fits all panels: every LEFT panel has a triangle (a closed polygon with vertices), while every RIGHT panel either has a circle (no vertices) or open lines (no closed polygon). This rule cleanly separates the sets, so we adopt it with high confidence."
+    },
+    "relation": {
+     "hypothesis": "Left panels contain a triangle shape, Right panels contain no triangle shape",
+     "confidence": 0.98,
+     "evidence": "All six LEFT panels are triangles (closed shapes with acute angles). None of the RIGHT panels have a triangle as a primary object; they are circles or lines. The triangle rule fits perfectly and has higher specialist confidence than the acute-angle rule, which could be ambiguous for R3 (circle outlined with triangles)."
+    }
+   },
+   "cost_usd": 0.008614200000000016,
+   "perception_cost_usd": 0.020745000000000013
+  },
+  {
+   "bp": "bp0049",
+   "rule": "Left = unknown, Right = unknown",
+   "rule_nocheck": "Left = unknown, Right = unknown",
+   "path": "synthesis-unchecked",
+   "check_score": 0,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "No distinguishing shape-only rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels contain a variety of shapes (circle, ellipse, square, triangle) that also appear on the right (ellipse, triangle, circle). Features like symmetry, convexity, curvature, and regularity are shared across both sides, so shape information alone does not consistently separate the two sets (fits 0 of 12 panels)."
+    },
+    "topology": {
+     "hypothesis": "No topological distinction separates left and right panels",
+     "confidence": 0.1,
+     "evidence": "All panels consist of one simple closed outline (circle, ellipse, square, triangle, polygon, rectangle) and six isolated dots; containment, touching, overlapping, crossing, and connectivity relations are identical for both sides"
+    },
+    "quantity": {
+     "hypothesis": "No purely quantitative distinction separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain exactly 6 objects (1 outline shape + 5 dots), 1 closed non\u2011self\u2011crossing line, and the same dot arrangement; quantity\u2011only features (counts of objects, lines, groups) are identical on both sides, so a simple quantity rule cannot be found"
+    },
+    "spatial": {
+     "hypothesis": "No distinguishing spatial rule found",
+     "confidence": 0.1,
+     "evidence": "Examined spatial features (symmetry, orientation, shape type, angles, containment) do not consistently separate the left panels from the right panels; both sides contain symmetric and non\u2011symmetric shapes, aligned and tilted orientations, and the same dot arrangement."
+    },
+    "size": {
+     "hypothesis": "No size-based rule separates left and right panels",
+     "confidence": 0.2,
+     "evidence": "All panels contain a single outline shape (either large or medium) and multiple tiny dots. Both left and right sets include the same size categories (large/medium outline with tiny dots), and there is no consistent difference in absolute or relative sizes, uniformity, or size relationships that distinguishes the two sides."
+    },
+    "relation": {
+     "hypothesis": "No discernible relational rule separates the left and right panels based on the given object relations",
+     "confidence": 0.15,
+     "evidence": "All panels share the same configuration: one outline shape containing a central dot and four peripheral dots placed symmetrically at the corners. The listed attributes (size, shape type, symmetry, angles) do not consistently differ between left and right sets, so no simple rule fits all six left panels while failing all six right panels."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "No distinguishing shape-only rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels contain a variety of shapes (circle, ellipse, square, triangle) that also appear on the right (ellipse, triangle, circle). Features like symmetry, convexity, curvature, and regularity are shared across both sides, so shape information alone does not consistently separate the two sets (fits 0 of 12 panels)."
+    },
+    "topology": {
+     "hypothesis": "No topological distinction separates left and right panels",
+     "confidence": 0.1,
+     "evidence": "All panels consist of one simple closed outline (circle, ellipse, square, triangle, polygon, rectangle) and six isolated dots; containment, touching, overlapping, crossing, and connectivity relations are identical for both sides"
+    },
+    "quantity": {
+     "hypothesis": "No purely quantitative distinction separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain exactly 6 objects (1 outline shape + 5 dots), 1 closed non\u2011self\u2011crossing line, and the same dot arrangement; quantity\u2011only features (counts of objects, lines, groups) are identical on both sides, so a simple quantity rule cannot be found"
+    },
+    "spatial": {
+     "hypothesis": "No distinguishing spatial rule found",
+     "confidence": 0.1,
+     "evidence": "Examined spatial features (symmetry, orientation, shape type, angles, containment) do not consistently separate the left panels from the right panels; both sides contain symmetric and non\u2011symmetric shapes, aligned and tilted orientations, and the same dot arrangement."
+    },
+    "size": {
+     "hypothesis": "No size-based rule separates left and right panels",
+     "confidence": 0.2,
+     "evidence": "All panels contain a single outline shape (either large or medium) and multiple tiny dots. Both left and right sets include the same size categories (large/medium outline with tiny dots), and there is no consistent difference in absolute or relative sizes, uniformity, or size relationships that distinguishes the two sides."
+    },
+    "relation": {
+     "hypothesis": "No discernible relational rule separates the left and right panels based on the given object relations",
+     "confidence": 0.15,
+     "evidence": "All panels share the same configuration: one outline shape containing a central dot and four peripheral dots placed symmetrically at the corners. The listed attributes (size, shape type, symmetry, angles) do not consistently differ between left and right sets, so no simple rule fits all six left panels while failing all six right panels."
+    }
+   },
+   "cost_usd": 0.00900345000000001,
+   "perception_cost_usd": 0.03911499999999998
+  },
+  {
+   "bp": "bp0011",
+   "rule": "Left = single central shape with rotational symmetry order at most 2 (no 3\u2011fold or higher); Right = single central shape with rotational symmetry order greater than 2 (3\u2011fold, 4\u2011fold, 6\u2011fold, or infinite)",
+   "rule_nocheck": "Left = single central shape with rotational symmetry order at most 2 (no 3\u2011fold or higher); Right = single central shape with rotational symmetry order greater than 2 (3\u2011fold, 4\u2011fold, 6\u2011fold, or infinite)",
+   "path": "synthesis",
+   "check_score": 12,
+   "rounds": 1,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Left panels contain non\u2011regular shapes (irregular polygons, non\u2011circular curves, or shapes with unequal angles); Right panels contain regular shapes (circles or regular polygons).",
+     "confidence": 0.78,
+     "evidence": "All 6 left panels are irregular (diamond with unequal angles, tilted ellipse, right\u2011pointing triangle, rectangle, open concave curve, irregular polygon) and all 6 right panels are regular (circles, square, regular hexagon, tilted square)."
+    },
+    "topology": {
+     "hypothesis": "No topological property distinguishes left from right",
+     "confidence": 0.1,
+     "evidence": "All panels contain a single connected object at the center. Both sides include closed outlines, open outlines, symmetric and asymmetric shapes, convex and non\u2011convex forms. No consistent difference in containment, touching, overlapping, crossing, or connectivity is present across all six left panels versus the six right panels."
+    },
+    "quantity": {
+     "hypothesis": "No purely quantitative property (object count, line count, closed/open status, angle count, symmetry count, etc.) consistently distinguishes all left panels from all right panels",
+     "confidence": 0.15,
+     "evidence": "All panels have a single object and a single outline; both sides contain closed and open shapes, symmetric and asymmetric shapes, and various angle types, so no single quantity rule fits every left panel while failing every right panel."
+    },
+    "spatial": {
+     "hypothesis": "Left panels contain a single central shape whose rotational symmetry order is at most 2 (no 3\u2011fold or higher symmetry); Right panels contain a single central shape with rotational symmetry order greater than 2 (3\u2011fold, 4\u2011fold, 6\u2011fold, or infinite).",
+     "confidence": 0.92,
+     "evidence": "All 6 left panels (diamond 2\u2011fold, ellipse 2\u2011fold, right\u2011pointing triangle 0\u2011fold, rectangle 2\u2011fold, open curve 0\u2011fold, irregular polygon 0\u2011fold) have \u22642 rotational symmetry. All 6 right panels (circle infinite, square 4\u2011fold, hexagon 6\u2011fold, tiny circle infinite, tilted square 4\u2011fold, medium circle infinite) have >2 rotational symmetry, so the rule fits every panel."
+    },
+    "size": {
+     "hypothesis": "No size\u2011only rule separates the two sets",
+     "confidence": 0.2,
+     "evidence": "All 12 panels share overlapping size categories (tiny, small, medium, large). The left panels include medium, small and large objects; the right panels include large, medium, small, and tiny objects. Size information alone does not produce a rule that is true for every left panel and false for every right panel."
+    },
+    "relation": {
+     "hypothesis": "No distinguishing relational rule between objects can be identified because each panel contains only a single object, making relational comparisons impossible.",
+     "confidence": 0.15,
+     "evidence": "All left panels (L1-L6) and right panels (R1-R6) each have exactly one object, so any rule based on relations between multiple objects cannot be applied; observed differences in shape, size, symmetry, etc., do not form a consistent pattern across all panels."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left panels have shapes with rotational symmetry order at most 2 (including 1\u2011fold); Right panels have shapes with rotational symmetry order greater than 2 (3\u2011fold or more, including circles with infinite symmetry)",
+     "confidence": 0.93,
+     "evidence": "All left shapes have at most 2\u2011fold symmetry (diamond, ellipse, triangle, rectangle, hook, irregular polygon). All right shapes have higher symmetry (circles infinite, square 4\u2011fold, hexagon 6\u2011fold, tilted square still 4\u2011fold). The spatial symmetry rule fits every panel without exception and aligns with the specialist having the highest confidence, while the regular\u2011vs\u2011irregular rule is less specific. Hence we adopt the symmetry rule as the updated hypothesis."
+    },
+    "topology": {
+     "hypothesis": "Left panels contain a single central shape whose rotational symmetry order is at most 2 (no 3\u2011fold or higher symmetry); Right panels contain a single central shape with rotational symmetry order greater than 2 (3\u2011fold, 4\u2011fold, 6\u2011fold, or infinite).",
+     "confidence": 0.94,
+     "evidence": "The original topological hypothesis fails because all panels show a single object, so containment or connectivity does not differ. The spatial hypothesis fits every case: L1 (diamond) 2\u2011fold, L2 (ellipse) 2\u2011fold, L3 (asymmetric triangle) 1\u2011fold, L4 (rectangle) 2\u2011fold, L5 (open curve) 1\u2011fold, L6 (irregular polygon) 1\u2011fold \u2013 all \u22642. All right\u2011hand panels are regular shapes with higher rotational symmetry: circles (infinite), square (4\u2011fold), hexagon (6\u2011fold), tilted square (still 4\u2011fold). No counter\u2011example appears, giving high confidence. The shape\u2011based rule is weaker because some left objects (ellipse, diamond) could be considered regular, and the spatial rule directly captures the observed symmetry distinction."
+    },
+    "quantity": {
+     "hypothesis": "Left panels have central shape with rotational symmetry order \u22642; Right panels have central shape with rotational symmetry order >2",
+     "confidence": 0.93,
+     "evidence": "The spatial rule matches all panels: left shapes (diamond 2\u2011fold, tilted ellipse 2\u2011fold, right\u2011pointing triangle 1\u2011fold, rectangle 2\u2011fold, open curve 0\u2011fold, irregular polygon 0\u2011fold) have symmetry \u22642, while right shapes (circles infinite, square 4\u2011fold, hexagon 6\u2011fold, small circle infinite, tilted square 4\u2011fold, medium circle infinite) have symmetry >2. No counter\u2011example found, and this rule explains the set better than quantitative or shape rules."
+    },
+    "spatial": {
+     "hypothesis": "Left panels contain a single central shape whose rotational symmetry order is at most 2 (including 1 or 2); Right panels contain a single central shape with rotational symmetry order greater than 2 (3\u2011fold, 4\u2011fold, 6\u2011fold, or infinite).",
+     "confidence": 0.92,
+     "evidence": "All six LEFT panels have shapes with symmetry order \u22642 (diamond, tilted ellipse, asymmetric triangle, rectangle, open curve, irregular polygon). All six RIGHT panels have shapes with symmetry order >2 (circles with infinite order, square (order\u202f4), hexagon (order\u202f6), tilted square (order\u202f4)). The alternative shape\u2011regularity rule also fits, but the symmetry\u2011order rule is more specific and directly accounts for every example, so the original hypothesis is retained with the same confidence."
+    },
+    "size": {
+     "hypothesis": "Left panels have rotational symmetry order \u22642 (no 3\u2011fold or higher), Right panels have rotational symmetry order >2 (3\u2011fold, 4\u2011fold, 6\u2011fold, or infinite)",
+     "confidence": 0.95,
+     "evidence": "The spatial rule matches every panel: all left objects exhibit at most 2\u2011fold rotational symmetry (diamond, ellipse, triangle, rectangle, open curve, irregular polygon), while all right objects show higher symmetry (circles infinite, square 4\u2011fold, hexagon 6\u2011fold, tilted square still 4\u2011fold). No size\u2011only rule separates the sets, and the shape rule is less precise. Thus we adopt the spatial rule with high confidence."
+    },
+    "relation": {
+     "hypothesis": "Left panels have rotational symmetry order \u22642, Right panels have rotational symmetry order >2",
+     "confidence": 0.93,
+     "evidence": "All left\u2011hand shapes either have no rotational symmetry or only 180\u00b0 symmetry (order\u202f1 or\u202f2), while every right\u2011hand shape is a regular figure with symmetry order greater than\u202f2 (circles infinite, square order\u202f4, hexagon order\u202f6). The shape\u2011regularity rule fails for L1 (diamond) and L4 (rectangle) which are regular enough, and the topology/quantity rules do not separate the sets. The spatial symmetry rule cleanly distinguishes every panel, so it replaces the previous hypothesis."
+    }
+   },
+   "cost_usd": 0.01012589999999998,
+   "perception_cost_usd": 0.020394999999999996
+  },
+  {
+   "bp": "bp0022",
+   "rule": "Left = all object size differences are at most one category; Right = at least one pair of objects differs by two or more size categories",
+   "rule_nocheck": "Left = all object size differences are at most one category; Right = at least one pair of objects differs by two or more size categories",
+   "path": "synthesis",
+   "check_score": 11,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "No shape-only rule distinguishes the left from the right panels",
+     "confidence": 0.15,
+     "evidence": "Examined form type, convexity, curvature, symmetry, angles, size relations, and count across all 12 panels. Both sides share convex shapes, include circles, squares, triangles, and rectangles; both have acute and right angles, symmetric and asymmetric arrangements, and varied size hierarchies. No consistent property (e.g., presence/absence of right\u2011angled triangles, number of shape types, symmetry, or size ordering) holds for all left panels while failing for all right panels. Hence confidence in any proposed rule is low."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule separates the panels",
+     "confidence": 0.12,
+     "evidence": "All panels (left and right) lack containment, touching, overlapping, crossing, or connectivity relations among objects; topology alone does not differentiate them"
+    },
+    "quantity": {
+     "hypothesis": "No simple quantity\u2011based rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All examined numeric attributes (object count, line count, shape types, size categories, edge totals, right\u2011angle counts) appear in both left and right panels; no single quantity property holds for all six LEFT panels while failing for all six RIGHT panels."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes the left and right panels based on the given descriptions",
+     "confidence": 0.15,
+     "evidence": "Examined positions, alignments, orientations, and relative directions across all panels. No consistent spatial pattern (e.g., symmetry, shared axis alignment, specific orientation of pointed shapes) holds for all six left panels while being absent in all six right panels. The left panels vary widely in layout, and the right panels also show diverse spatial arrangements, making it impossible to isolate a simple spatial rule that fits all left and none of the right."
+    },
+    "size": {
+     "hypothesis": "Left panels never contain a pair of objects whose sizes differ by two or more size categories (e.g., tiny vs large); the maximum size gap is at most one step (adjacent categories or equal). Right panels always contain at least one such large gap (a tiny object paired with a large object).",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels fit: L1 (tiny vs small), L2 (medium vs large), L3 (small vs medium), L4 (equal), L5 (equal), L6 (all equal) \u2013 no tiny\u2011large or small\u2011large gaps. All 6 right panels break the rule: each has at least one tiny\u2011large or small\u2011large pair (R1 small\u2011large, R2 tiny\u2011large, R3 tiny\u2011large, R4 large\u2011tiny, R5 small\u2011large, R6 large\u2011tiny)."
+    },
+    "relation": {
+     "hypothesis": "No clear relational rule separates the left and right panels based on the given descriptions",
+     "confidence": 0.15,
+     "evidence": "Examined size, position, symmetry, and explicit relations; none consistently holds for all six left panels while failing for all six right panels."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "No shape-only rule distinguishes the left from the right panels",
+     "confidence": 0.15,
+     "evidence": "Examined form type, convexity, curvature, symmetry, angles, size relations, and count across all 12 panels. Both sides share convex shapes, include circles, squares, triangles, and rectangles; both have acute and right angles, symmetric and asymmetric arrangements, and varied size hierarchies. No consistent property (e.g., presence/absence of right\u2011angled triangles, number of shape types, symmetry, or size ordering) holds for all left panels while failing for all right panels. Hence confidence in any proposed rule is low."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule separates the panels",
+     "confidence": 0.12,
+     "evidence": "All panels (left and right) lack containment, touching, overlapping, crossing, or connectivity relations among objects; topology alone does not differentiate them"
+    },
+    "quantity": {
+     "hypothesis": "No simple quantity\u2011based rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All examined numeric attributes (object count, line count, shape types, size categories, edge totals, right\u2011angle counts) appear in both left and right panels; no single quantity property holds for all six LEFT panels while failing for all six RIGHT panels."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes the left and right panels based on the given descriptions",
+     "confidence": 0.15,
+     "evidence": "Examined positions, alignments, orientations, and relative directions across all panels. No consistent spatial pattern (e.g., symmetry, shared axis alignment, specific orientation of pointed shapes) holds for all six left panels while being absent in all six right panels. The left panels vary widely in layout, and the right panels also show diverse spatial arrangements, making it impossible to isolate a simple spatial rule that fits all left and none of the right."
+    },
+    "size": {
+     "hypothesis": "Left panels never contain a pair of objects whose sizes differ by two or more size categories (e.g., tiny vs large); the maximum size gap is at most one step (adjacent categories or equal). Right panels always contain at least one such large gap (a tiny object paired with a large object).",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels fit: L1 (tiny vs small), L2 (medium vs large), L3 (small vs medium), L4 (equal), L5 (equal), L6 (all equal) \u2013 no tiny\u2011large or small\u2011large gaps. All 6 right panels break the rule: each has at least one tiny\u2011large or small\u2011large pair (R1 small\u2011large, R2 tiny\u2011large, R3 tiny\u2011large, R4 large\u2011tiny, R5 small\u2011large, R6 large\u2011tiny)."
+    },
+    "relation": {
+     "hypothesis": "No clear relational rule separates the left and right panels based on the given descriptions",
+     "confidence": 0.15,
+     "evidence": "Examined size, position, symmetry, and explicit relations; none consistently holds for all six left panels while failing for all six right panels."
+    }
+   },
+   "cost_usd": 0.020611199999999955,
+   "perception_cost_usd": 0.02326499999999998
+  },
+  {
+   "bp": "bp0025",
+   "rule": "Left = uniformly small objects with a solid triangle, Right = contains a larger solid circle among uniformly small objects",
+   "rule_nocheck": "Left = uniformly small objects with a solid triangle, Right = contains a larger solid circle among uniformly small objects",
+   "path": "synthesis",
+   "check_score": 12,
+   "rounds": 1,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "All LEFT panels contain exactly one solid (filled) shape and it is a triangle; all RIGHT panels contain exactly one solid shape and it is a circle (no solid triangle).",
+     "confidence": 0.96,
+     "evidence": "L1\u2011L6 each have one filled triangle and the other three shapes are outlines; R1\u2011R6 each have one filled circle (the largest object) and the remaining shapes are outlines. Thus the rule fits all 6 left panels and none of the right panels."
+    },
+    "topology": {
+     "hypothesis": "No topological distinction separates the left and right panels",
+     "confidence": 0.2,
+     "evidence": "Both left and right panels consist of four disjoint closed shapes (one solid, three outlines) with no containment, touching, overlapping, crossing, or connectivity differences described; thus topology alone does not differentiate them"
+    },
+    "quantity": {
+     "hypothesis": "Left panels contain exactly one solid triangle and no solid circles; Right panels contain exactly one solid circle and no solid triangles",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have 1 solid triangle and 0 solid circles; all 6 right panels have 1 solid circle and 0 solid triangles"
+    },
+    "spatial": {
+     "hypothesis": "No purely spatial rule distinguishes the left and right panels",
+     "confidence": 0.15,
+     "evidence": "Examined positions, alignments, orientations, and relative directions across all panels. Any candidate rule (e.g., specific shape at top\u2011right, vertical ordering, corner occupancy, triangle orientation) either fails for at least one left panel or also holds for some right panels. Since shape identity, size, and fill are excluded, the remaining spatial attributes do not yield a consistent rule that is true for all six left panels and false for all six right panels."
+    },
+    "size": {
+     "hypothesis": "All objects in left panels are of uniform size; right panels contain a larger object",
+     "confidence": 1.0,
+     "evidence": "fits 12 of 12 panels: each left panel has all shapes same size, each right panel has a medium solid circle larger than the others"
+    },
+    "relation": {
+     "hypothesis": "All objects in the panel are of the same size (no size hierarchy) \u2013 true for all LEFT panels, false for all RIGHT panels which contain a larger solid circle",
+     "confidence": 0.97,
+     "evidence": "Fits all 6 LEFT panels (each notes objects are of similar size) and fails all 6 RIGHT panels (each notes a medium solid circle is larger than the other shapes)"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left panels have exactly one solid triangle (the only solid shape) and all objects are uniformly small; Right panels have exactly one solid circle (the only solid shape) which is larger than the other uniformly small objects",
+     "confidence": 0.98,
+     "evidence": "The original shape\u2011based rule holds for every panel. Moreover the size\u2011based rule is perfectly satisfied: all left objects are the same small size, while each right panel contains a medium solid circle that is larger than the other shapes. Combining shape and size yields a more comprehensive hypothesis with high confidence."
+    },
+    "topology": {
+     "hypothesis": "Left panels have all objects of similar size and contain a solid triangle; Right panels contain a larger solid circle (size hierarchy)",
+     "confidence": 0.98,
+     "evidence": "The size/shape rule fits every panel: every LEFT panel\u2019s four shapes are uniformly sized and the only solid shape is a triangle, while every RIGHT panel includes a medium solid circle that is noticeably larger than the other shapes. This consistently separates the two groups, whereas the topological hypothesis finds no distinction. The rule aligns with the strongest specialist confidence and explains all evidence."
+    },
+    "quantity": {
+     "hypothesis": "Left panels contain exactly one solid (filled) triangle and all objects are of uniform size (no larger shape); Right panels contain exactly one solid (filled) circle that is larger than the other outline shapes and no solid triangles",
+     "confidence": 0.98,
+     "evidence": "The original shape\u2011based rule correctly classifies all 12 panels, but it ignores the consistent size difference noted in the descriptions: every LEFT panel has objects of similar size, while each RIGHT panel features a medium solid circle that is explicitly larger than the other shapes. Incorporating the size distinction alongside the solid\u2011shape distinction yields a more comprehensive rule that accounts for all observed evidence, matching the high confidences of the size and relation specialists. Hence the hypothesis is updated to combine shape and size criteria, raising confidence to 0.98."
+    },
+    "spatial": {
+     "hypothesis": "Left panels have all objects of uniform size; Right panels contain a larger solid circle creating a size hierarchy",
+     "confidence": 0.98,
+     "evidence": "The spatial analysis shows no consistent positional or orientation difference, but a clear size difference: every LEFT panel notes that all objects are of similar size, while every RIGHT panel notes that the solid circle is the largest object. This rule accounts for all 12 panels and aligns with the high\u2011confidence size specialist, outperforming the previous hypothesis."
+    },
+    "size": {
+     "hypothesis": "All objects in left panels are of uniform small size; right panels contain a larger solid circle",
+     "confidence": 1.0,
+     "evidence": "The six LEFT panels each consist solely of small shapes that are all roughly the same size, as noted in the panel descriptions. The six RIGHT panels each include a medium solid circle that is explicitly described as larger than the other shapes in the panel. No LEFT panel contains a larger object, and no RIGHT panel lacks a larger object, so the size\u2011based rule holds for all twelve panels. Although the shape, quantity, and relation specialists propose rules that also fit the data, the size rule directly captures the distinguishing characteristic and has the highest confidence, so it is retained unchanged."
+    },
+    "relation": {
+     "hypothesis": "All objects in left panels are uniformly small (no size hierarchy) and contain a solid triangle; right panels contain a larger solid circle that breaks the uniform size",
+     "confidence": 0.99,
+     "evidence": "The size hierarchy rule holds for every left panel (all shapes are small and equal) and fails for every right panel (a medium solid circle is larger than the other shapes). The shape\u2011based rule also fits, but the size rule captures the distinguishing feature with higher confidence (1.00) and explains all panels without exception. Therefore the original rule is retained, slightly refined to mention the solid triangle on the left, and confidence is raised to reflect the perfect fit."
+    }
+   },
+   "cost_usd": 0.013953750000000015,
+   "perception_cost_usd": 0.03156500000000001
+  },
+  {
+   "bp": "bp0028",
+   "rule": "No spatial rule distinguishes the left and right panels based solely on position, alignment, orientation, or pointing direction.",
+   "rule_nocheck": "Left = no solid triangle larger than any outline circle, Right = contains a solid triangle larger than an outline circle",
+   "path": "checked-alternative",
+   "check_score": 12,
+   "rounds": 1,
+   "consensus": false,
+   "round1": {
+    "shape": {
+     "hypothesis": "No simple shape\u2011only rule distinguishes the left from the right panels",
+     "confidence": 0.15,
+     "evidence": "Examined form type, convexity, curvature, symmetry, orientation, size relations, counts of solid vs outline shapes, and presence of both circles and triangles. All plausible candidates (e.g., solid shapes larger than outlines, triangle orientation, symmetry, mixed types) hold for some right panels as well, so a consistent rule across all six left and none of the right panels could not be identified."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule (containment, touching, overlapping, crossing, connectivity) distinguishes the left panels from the right panels",
+     "confidence": 0.15,
+     "evidence": "All panels consist of separate, non\u2011overlapping, non\u2011touching shapes; there is no consistent difference in containment, touching, overlap, crossing or connectivity between the left and right sets"
+    },
+    "quantity": {
+     "hypothesis": "No simple quantity\u2011based rule separates the two sides",
+     "confidence": 0.15,
+     "evidence": "Examined counts of objects, solid vs outline numbers, parity of outline objects, presence of both fills for a shape, symmetry, and distinct\u2011shape counts. None of these quantitative features holds for all six LEFT panels while failing for all six RIGHT panels."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes the left and right panels based solely on position, alignment, orientation, or pointing direction.",
+     "confidence": 0.15,
+     "evidence": "All panels share similar spatial configurations (objects in corners, possible central object, various orientations). The given descriptions do not reveal a consistent spatial pattern that holds for all six left panels and fails for all six right panels."
+    },
+    "size": {
+     "hypothesis": "No size-only rule separates left and right panels",
+     "confidence": 0.1,
+     "evidence": "All left panels have solid objects larger than outline objects, but right panels also exhibit solid > outline in many cases; other size patterns (e.g., largest shape type) are not consistent across sides, so size information alone does not distinguish the sets."
+    },
+    "relation": {
+     "hypothesis": "No clear distinguishing relational rule found between left and right panels",
+     "confidence": 0.15,
+     "evidence": "Examined size relations, shape types, symmetry, and count across all panels. Left panels often state solid circles larger than outline triangles or circles, while right panels include solid triangles larger than outline circles, but no consistent rule separates all six left from all six right panels."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "No simple shape\u2011only rule distinguishes the left from the right panels",
+     "confidence": 0.2,
+     "evidence": "Examining all 12 panels shows overlapping patterns: both sides contain mixtures of solid and outline circles and triangles, with similar size\u2011relations (solid larger than outline) and occasional symmetry. No consistent distinction based solely on shape type, convexity, curvature, or symmetry emerges. Other specialists' proposals (topology, quantity, spatial, size, relational) also fail to capture a unique rule. Therefore the original hypothesis remains the best explanation, with a modest increase in confidence due to the lack of any counter\u2011example."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule (containment, touching, overlapping, crossing, connectivity) distinguishes the left panels from the right panels",
+     "confidence": 0.18,
+     "evidence": "All 12 panels consist of separate, non\u2011intersecting objects; none of them contain, touch, overlap, or cross each other. The left and right sets share the same topological relationships (no connectivity, no containment, no crossing). Attempts to find a distinguishing topological pattern (e.g., symmetry, number of components, presence of a closed loop) fail because both sides contain symmetric and asymmetric examples, and the count of objects is identical (5 or 4). Other specialists' proposals (shape\u2011only, quantity\u2011only, spatial\u2011only, size\u2011only, relational) also do not yield a consistent rule across all panels. Therefore the original hypothesis remains the best explanation, albeit with low confidence."
+    },
+    "quantity": {
+     "hypothesis": "No simple quantity\u2011based rule separates the left from the right panels",
+     "confidence": 0.2,
+     "evidence": "The only numeric difference is that L1 contains 4 objects while every right panel has 5, but the other left panels also have 5 objects. Counts of solid vs outline items, numbers of circles vs triangles, and numbers of distinct shape types vary on both sides and do not form a consistent pattern that separates all left panels from all right panels. Therefore no simple quantity rule accounts for the split, supporting the original hypothesis (confidence slightly increased)."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes the left and right panels based solely on position, alignment, orientation, or pointing direction.",
+     "confidence": 0.25,
+     "evidence": "Examined all twelve panels for spatial patterns such as symmetry, distribution of objects across quadrants, orientation of triangles relative to vertical position, and presence of a central object. Symmetry appears in both sides (L1, R3, R5) and orientation of triangles follows the same rule on both sides (down when at the top, up when at the bottom). No consistent difference in alignment, relative placement, or pointing direction separates left from right. Other specialists' rules (shape, topology, quantity, size, relational) also lack consistent support across the panels. Therefore the spatial hypothesis remains the best explanation, albeit with modest confidence."
+    },
+    "size": {
+     "hypothesis": "Left panels never contain a solid triangle that is larger than any outline circle, while right panels include at least one such cross\u2011shape size relation",
+     "confidence": 0.72,
+     "evidence": "The original size\u2011only hypothesis does not explain the panels because both sides show solid objects larger than outlines of the same shape. Examining cross\u2011shape size relations reveals a consistent difference: in the left set no solid triangle is described as larger than an outline circle (the only solid triangles are either larger than outline triangles or have no size relation given), whereas in the right set two panels (R1 and R4) explicitly state that solid triangles are larger than outline circles. This rule cleanly separates all six left panels from the six right panels, matching the observed data and giving a higher confidence than the previous hypothesis."
+    },
+    "relation": {
+     "hypothesis": "No clear distinguishing relational rule between left and right panels",
+     "confidence": 0.15,
+     "evidence": "Examined several candidate rules (size dominance, shape dominance, symmetry, count, orientation) but each is violated by at least one panel on each side. The left panels do not consistently have larger circles nor exclusively outline triangles, and the right panels do not consistently have larger triangles nor a uniform symmetry pattern. Therefore the original hypothesis remains the best explanation, albeit with low confidence."
+    }
+   },
+   "cost_usd": 0.03195180000000003,
+   "perception_cost_usd": 0.034735000000000016
+  },
+  {
+   "bp": "bp0030",
+   "rule": "Left panels contain a self\u2011crossing object; Right panels contain only non\u2011self\u2011crossing objects",
+   "rule_nocheck": "Left panels contain a self\u2011crossing object; Right panels contain only non\u2011self\u2011crossing objects",
+   "path": "synthesis",
+   "check_score": 11,
+   "rounds": 1,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "All left panels contain a self\u2011crossing line (the single shape crosses itself); right panels do not contain a self\u2011crossing line",
+     "confidence": 0.3,
+     "evidence": "All 6 left panels fit the rule (each has self\u2011crossing). 5 of the 6 right panels fit the opposite (no self\u2011crossing); R6 is a right panel that also self\u2011crosses, so the rule fails for one right panel (11 of 12 panels overall)."
+    },
+    "topology": {
+     "hypothesis": "All left panels contain a single self\u2011crossing object; all right panels do not contain a self\u2011crossing object",
+     "confidence": 0.2,
+     "evidence": "Fits 5 of 6 left panels (L1\u2011L5) and 5 of 6 right panels (R1\u2011R5); R6 is a right\u2011panel object that is also self\u2011crossing, breaking the rule"
+    },
+    "quantity": {
+     "hypothesis": "None",
+     "confidence": 0.0,
+     "evidence": "No quantity-based rule (using object count, line count, self-crossing presence, openness/closedness, acute angle count, symmetry) separates all six LEFT panels from all six RIGHT panels. Each candidate rule fails on at least one panel (e.g., self-crossing is present in LEFT panels but also in RIGHT panel R6; openness/closedness and acute angle presence are not consistent). Therefore, with only the provided quantitative information, a rule that is true for every LEFT panel and false for every RIGHT panel cannot be identified."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule based solely on position, alignment, orientation, or pointing direction cleanly separates the left and right panels",
+     "confidence": 0.1,
+     "evidence": "The left panels all share self\u2011crossing lines, but one right panel (R6) also has a self\u2011crossing line; other spatial attributes (open/closed, shape type, acute angles, symmetry) do not consistently differentiate the two groups, so no rule fits all six left and none of the right panels."
+    },
+    "size": {
+     "hypothesis": "No size-based rule distinguishes the left and right panels",
+     "confidence": 0.1,
+     "evidence": "None of the size attributes (absolute size, relative size, uniformity) differ between the left and right panels; all objects are described as large, single, and occupy the central region, so a size-only rule cannot separate them."
+    },
+    "relation": {
+     "hypothesis": "All left panels contain a single object that self\u2011crosses; right panels do not (i.e., the object has at least one self\u2011intersection).",
+     "confidence": 0.78,
+     "evidence": "The rule holds for all 6 left panels (each object self\u2011crosses) and fails for 5 of the 6 right panels (only R6 self\u2011crosses), so it fits 11 of 12 panels."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left panels contain a self\u2011crossing object; Right panels lack a self\u2011crossing object (except R6)",
+     "confidence": 0.25,
+     "evidence": "All six left panels have a single self\u2011crossing shape and are not symmetric. Five of the six right panels have no self\u2011crossing shape; R6 is an outlier that also self\u2011crosses, so the original rule does not hold universally. Confidence in the self\u2011crossing distinction is therefore reduced."
+    },
+    "topology": {
+     "hypothesis": "Left panels contain a self\u2011crossing object; Right panels lack a self\u2011crossing object (with one noted exception)",
+     "confidence": 0.45,
+     "evidence": "All six LEFT panels feature exactly one object that self\u2011intersects. Five of the six RIGHT panels have no self\u2011intersection, but R6 is an outlier that also self\u2011crosses. Because the rule accounts for the majority of cases but is violated by a single example, we keep the hypothesis but lower confidence to reflect the exception."
+    },
+    "quantity": {
+     "hypothesis": "None",
+     "confidence": 0.1,
+     "evidence": "All six left panels contain a single self\u2011crossing object, while five of the six right panels do not. However, R6 on the right also contains a self\u2011crossing curve, breaking the pure self\u2011crossing rule proposed by other specialists. No other consistent property (shape type, closure, symmetry, angle type, or size) separates the two groups without exceptions. Therefore the current evidence does not support a single clear rule, and the hypothesis remains that no rule has been identified yet, albeit with a slight increase in confidence after reviewing the data."
+    },
+    "spatial": {
+     "hypothesis": "Left panels contain a self\u2011crossing object; right panels do not (except R6)",
+     "confidence": 0.7,
+     "evidence": "The spatial attributes (position, alignment, orientation, pointing direction) do not consistently differentiate the two groups. The clear pattern is that every left panel features a single object that self\u2011intersects, whereas five of the six right panels lack any self\u2011intersection. R6 is the only right\u2011hand example with a self\u2011crossing curve, making it an outlier. Thus the best explanatory rule is the relation\u2011based rule (presence of a self\u2011intersection), adopted with high confidence despite the single exception."
+    },
+    "size": {
+     "hypothesis": "No size-based rule distinguishes left and right panels",
+     "confidence": 0.25,
+     "evidence": "All panels contain a single large object; there is no systematic difference in absolute or relative size, uniformity, or scaling between left and right sets. The self\u2011crossing rule proposed by other specialists fails because R6 on the right also self\u2011crosses, so the best explanation remains that size does not differentiate the groups."
+    },
+    "relation": {
+     "hypothesis": "Left panels contain a self\u2011crossing object; right panels contain objects without self\u2011crossing (with one exception)",
+     "confidence": 0.6,
+     "evidence": "All six left panels feature a single object that self\u2011intersects. Five of the six right panels lack any self\u2011intersection, but R6 shows an open self\u2011crossing curve, breaking the strict rule. No alternative specialist rule (shape, topology, spatial, size, quantity) accounts for the majority of panels better. Therefore the hypothesis is retained in a weakened form, acknowledging the exception and lowering confidence."
+    }
+   },
+   "cost_usd": 0.010006650000000006,
+   "perception_cost_usd": 0.020724999999999993
+  },
+  {
+   "bp": "bp0033",
+   "rule": "Left = ?, Right = ?",
+   "rule_nocheck": "Left = ?, Right = ?",
+   "path": "synthesis-unchecked",
+   "check_score": 0,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "No simple shape\u2011based rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All left panels contain a mix of convex, concave, symmetric and asymmetric shapes, and the right panels show a similar mix; no single property like convexity, symmetry, angle type, or curvature consistently holds for all left and fails for all right."
+    },
+    "topology": {
+     "hypothesis": "No topological distinction separates the left and right panels",
+     "confidence": 0.12,
+     "evidence": "Each panel contains a single closed, non\u2011self\u2011crossing outline. All shapes are simply connected (no holes), have one boundary component, and exhibit identical connectivity, containment, and crossing properties on both sides. Hence topology alone does not differentiate the groups."
+    },
+    "quantity": {
+     "hypothesis": "No simple quantity-based rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All panels share the same count of objects (1), lines (1), closedness, and lack of self\u2011crossing. Variations in symmetry, angle types, curvature, and shape complexity do not yield a consistent numeric distinction across all six left versus six right examples."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes left from right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain a single centered object; orientation, alignment, and pointing direction are not consistently different between left and right sets, so spatial features alone do not separate them."
+    },
+    "size": {
+     "hypothesis": "No size-based rule separates the left and right panels",
+     "confidence": 0.1,
+     "evidence": "None of the left panels share a unique size characteristic (e.g., all medium or all small) that is absent from the right panels; both sides contain five medium-sized objects and one small-sized object, so size alone does not distinguish them"
+    },
+    "relation": {
+     "hypothesis": "No distinguishing relational rule between objects can be identified; both sides consist of a single centered outline shape, making relational comparison impossible",
+     "confidence": 0.15,
+     "evidence": "All 12 panels contain exactly one object, so object\u2011to\u2011object relations (position, containment, etc.) are absent. The left and right sets differ in shape attributes (e.g., symmetry, concavity) but no single relational rule applies to all left panels and none of the right panels."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "No simple shape\u2011based rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All left panels contain a mix of convex, concave, symmetric and asymmetric shapes, and the right panels show a similar mix; no single property like convexity, symmetry, angle type, or curvature consistently holds for all left and fails for all right."
+    },
+    "topology": {
+     "hypothesis": "No topological distinction separates the left and right panels",
+     "confidence": 0.12,
+     "evidence": "Each panel contains a single closed, non\u2011self\u2011crossing outline. All shapes are simply connected (no holes), have one boundary component, and exhibit identical connectivity, containment, and crossing properties on both sides. Hence topology alone does not differentiate the groups."
+    },
+    "quantity": {
+     "hypothesis": "No simple quantity-based rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All panels share the same count of objects (1), lines (1), closedness, and lack of self\u2011crossing. Variations in symmetry, angle types, curvature, and shape complexity do not yield a consistent numeric distinction across all six left versus six right examples."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes left from right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain a single centered object; orientation, alignment, and pointing direction are not consistently different between left and right sets, so spatial features alone do not separate them."
+    },
+    "size": {
+     "hypothesis": "No size-based rule separates the left and right panels",
+     "confidence": 0.1,
+     "evidence": "None of the left panels share a unique size characteristic (e.g., all medium or all small) that is absent from the right panels; both sides contain five medium-sized objects and one small-sized object, so size alone does not distinguish them"
+    },
+    "relation": {
+     "hypothesis": "No distinguishing relational rule between objects can be identified; both sides consist of a single centered outline shape, making relational comparison impossible",
+     "confidence": 0.15,
+     "evidence": "All 12 panels contain exactly one object, so object\u2011to\u2011object relations (position, containment, etc.) are absent. The left and right sets differ in shape attributes (e.g., symmetry, concavity) but no single relational rule applies to all left panels and none of the right panels."
+    }
+   },
+   "cost_usd": 0.006514649999999983,
+   "perception_cost_usd": 0.019399999999999973
+  },
+  {
+   "bp": "bp0046",
+   "rule": "No consistent rule identified",
+   "rule_nocheck": "No consistent rule identified",
+   "path": "synthesis-unchecked",
+   "check_score": 0,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "No simple shape-only rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All examined shape attributes (type, fill, relative position, symmetry, touching/inside) appear in both left and right panels; no single property consistently holds for all left panels and fails for all right panels."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule separates the panels",
+     "confidence": 0.2,
+     "evidence": "All six left panels include examples of disjoint, touching, and containment relations, and the right panels also contain examples of each. Any rule based solely on containment direction, touching, or disjointness is violated by at least one panel on each side, so no simple topology\u2011only rule fits all left and none of the right."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule separates left and right panels",
+     "confidence": 0.2,
+     "evidence": "All panels contain exactly two objects, two closed shapes, the same number of lines, and the same count of acute angles; solid/outline counts, symmetry, and positional relations vary but are not pure quantity features, so no simple quantity rule fits all left panels while excluding all right panels."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes left from right panels",
+     "confidence": 0.2,
+     "evidence": "All examined spatial features (relative position, containment, touching, symmetry, size relations) appear in both sides; no consistent spatial rule found that holds for all left panels and fails for all right panels."
+    },
+    "size": {
+     "hypothesis": "No size-only rule separates the panels",
+     "confidence": 0.2,
+     "evidence": "All left panels have the circle size >= triangle size, but three right panels also have circle size equal to triangle size, so a simple size comparison does not fully separate the sets. Other size-based distinctions (e.g., circle never being the smallest shape) fail because some right panels also satisfy them. Hence no pure size rule fits all six left and none of the right panels."
+    },
+    "relation": {
+     "hypothesis": "No simple relational rule distinguishes all left panels from all right panels",
+     "confidence": 0.15,
+     "evidence": "Examined multiple candidate rules (e.g., triangle size relative to circle, containment direction, positional offset, touching vs inside). Each candidate fits some left panels but also fits at least one right panel, or vice\u2011versa. No rule found that is true for all six left panels and false for all six right panels."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "No simple shape-only rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All examined shape attributes (type, fill, relative position, symmetry, touching/inside) appear in both left and right panels; no single property consistently holds for all left panels and fails for all right panels."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule separates the panels",
+     "confidence": 0.2,
+     "evidence": "All six left panels include examples of disjoint, touching, and containment relations, and the right panels also contain examples of each. Any rule based solely on containment direction, touching, or disjointness is violated by at least one panel on each side, so no simple topology\u2011only rule fits all left and none of the right."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule separates left and right panels",
+     "confidence": 0.2,
+     "evidence": "All panels contain exactly two objects, two closed shapes, the same number of lines, and the same count of acute angles; solid/outline counts, symmetry, and positional relations vary but are not pure quantity features, so no simple quantity rule fits all left panels while excluding all right panels."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes left from right panels",
+     "confidence": 0.2,
+     "evidence": "All examined spatial features (relative position, containment, touching, symmetry, size relations) appear in both sides; no consistent spatial rule found that holds for all left panels and fails for all right panels."
+    },
+    "size": {
+     "hypothesis": "No size-only rule separates the panels",
+     "confidence": 0.2,
+     "evidence": "All left panels have the circle size >= triangle size, but three right panels also have circle size equal to triangle size, so a simple size comparison does not fully separate the sets. Other size-based distinctions (e.g., circle never being the smallest shape) fail because some right panels also satisfy them. Hence no pure size rule fits all six left and none of the right panels."
+    },
+    "relation": {
+     "hypothesis": "No simple relational rule distinguishes all left panels from all right panels",
+     "confidence": 0.15,
+     "evidence": "Examined multiple candidate rules (e.g., triangle size relative to circle, containment direction, positional offset, touching vs inside). Each candidate fits some left panels but also fits at least one right panel, or vice\u2011versa. No rule found that is true for all six left panels and false for all six right panels."
+    }
+   },
+   "cost_usd": 0.023640899999999965,
+   "perception_cost_usd": 0.022724999999999995
+  },
+  {
+   "bp": "bp0057",
+   "rule": "No simple shape\u2011only rule separates the two sets",
+   "rule_nocheck": "Left = no consistent property, Right = no consistent property",
+   "path": "checked-alternative",
+   "check_score": 12,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "No simple shape\u2011only rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All left panels share various shape attributes (type, fill, size, orientation) but each of these is also found in at least one right panel; likewise, each right panel shares attributes with left panels. No single shape feature (e.g., same type, same fill, same convexity, same orientation) is true for all six left panels and false for all six right panels."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels share various topological features (closed shapes, no touching, etc.) but the right panels also share many of these features; only one right panel (R4) differs in self\u2011crossing status, so no rule holds for all six left and none of the six right."
+    },
+    "quantity": {
+     "hypothesis": "No simple quantity\u2011based rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain exactly two objects, each object is a closed shape with two lines, and other purely quantitative features (object count, line count, closedness) are identical on both sides; the described differences (shape type, size, fill, orientation, self\u2011crossing, symmetry) are non\u2011quantitative. Hence no quantity\u2011only rule fits all six left panels while excluding all six right panels."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes all left panels from all right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels share various spatial features (e.g., opposite-side placement, symmetry, same fill) but each of these is also present in at least one right panel; likewise, right panels share features that appear in left panels. Therefore no single spatial-only rule fits all six left and none of the right panels."
+    },
+    "size": {
+     "hypothesis": "No size-only rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "Examining all 12 panels, left panels include both equal-sized objects and size-different objects, and right panels also include both equal-sized and size-different objects. No consistent absolute or relative size pattern (e.g., all left objects being small/medium, left object always larger, size difference magnitude, presence of large objects, etc.) holds for all left panels while failing for all right panels."
+    },
+    "relation": {
+     "hypothesis": "No clear relational rule distinguishes all left panels from right panels",
+     "confidence": 0.15,
+     "evidence": "Examined attributes such as shape type, fill, size, orientation, symmetry, and position. Left panels share various combinations (e.g., same shape and fill) but right panels also exhibit many of these properties (e.g., R2 has two squares with same fill). No single relation consistently holds for all six left and fails for all six right."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "No simple shape\u2011only rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All left panels share various shape attributes (type, fill, size, orientation) but each of these is also found in at least one right panel; likewise, each right panel shares attributes with left panels. No single shape feature (e.g., same type, same fill, same convexity, same orientation) is true for all six left panels and false for all six right panels."
+    },
+    "topology": {
+     "hypothesis": "No purely topological rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels share various topological features (closed shapes, no touching, etc.) but the right panels also share many of these features; only one right panel (R4) differs in self\u2011crossing status, so no rule holds for all six left and none of the six right."
+    },
+    "quantity": {
+     "hypothesis": "No simple quantity\u2011based rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain exactly two objects, each object is a closed shape with two lines, and other purely quantitative features (object count, line count, closedness) are identical on both sides; the described differences (shape type, size, fill, orientation, self\u2011crossing, symmetry) are non\u2011quantitative. Hence no quantity\u2011only rule fits all six left panels while excluding all six right panels."
+    },
+    "spatial": {
+     "hypothesis": "No spatial rule distinguishes all left panels from all right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels share various spatial features (e.g., opposite-side placement, symmetry, same fill) but each of these is also present in at least one right panel; likewise, right panels share features that appear in left panels. Therefore no single spatial-only rule fits all six left and none of the right panels."
+    },
+    "size": {
+     "hypothesis": "No size-only rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "Examining all 12 panels, left panels include both equal-sized objects and size-different objects, and right panels also include both equal-sized and size-different objects. No consistent absolute or relative size pattern (e.g., all left objects being small/medium, left object always larger, size difference magnitude, presence of large objects, etc.) holds for all left panels while failing for all right panels."
+    },
+    "relation": {
+     "hypothesis": "No clear relational rule distinguishes all left panels from right panels",
+     "confidence": 0.15,
+     "evidence": "Examined attributes such as shape type, fill, size, orientation, symmetry, and position. Left panels share various combinations (e.g., same shape and fill) but right panels also exhibit many of these properties (e.g., R2 has two squares with same fill). No single relation consistently holds for all six left and fails for all six right."
+    }
+   },
+   "cost_usd": 0.015003900000000014,
+   "perception_cost_usd": 0.02287499999999998
+  },
+  {
+   "bp": "bp0096",
+   "rule": "No distinguishing spatial rule found",
+   "rule_nocheck": "Left = (no discernible pattern), Right = (no discernible pattern)",
+   "path": "checked-alternative",
+   "check_score": 12,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "No simple shape-only rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels are triangles except one convex quadrilateral; right panels include squares, various polygons, and also convex shapes. Features like angle type, symmetry, texture, line count, and convexity overlap between sides, so no clear rule fits all left and none of the right."
+    },
+    "topology": {
+     "hypothesis": "No topological distinction found",
+     "confidence": 0.1,
+     "evidence": "All panels contain a single open, non\u2011self\u2011crossing shape; there are no containment, touching, overlapping, crossing, or connectivity differences between left and right sets."
+    },
+    "quantity": {
+     "hypothesis": "No purely quantitative rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All examined quantitative attributes (object count, line count, parity, primality, divisibility, symmetry count) appear in both left and right panels; no single quantity consistently holds for all left panels and fails for all right panels."
+    },
+    "spatial": {
+     "hypothesis": "No distinguishing spatial rule found",
+     "confidence": 0.2,
+     "evidence": "The left panels contain triangles of different orientations (right, up, down) and one polygon, while the right panels include a mix of squares, polygons, and even a triangle. No single spatial attribute\u2014such as shape type, orientation, symmetry, or pointing direction\u2014consistently holds for all six left panels and is absent from all six right panels."
+    },
+    "size": {
+     "hypothesis": "There is no size\u2011only rule that distinguishes the left panels from the right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain a single object; left panels include large, medium, and small sizes, while right panels are mostly medium with one large. No consistent absolute or relative size pattern holds for all left panels and fails for all right panels."
+    },
+    "relation": {
+     "hypothesis": "No distinguishing relational rule found between left and right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain a single object, so relational comparisons between objects are impossible; attributes like shape, symmetry, texture, line count, and angle type do not consistently separate the six left from the six right panels."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "No simple shape-only rule separates the left and right panels",
+     "confidence": 0.15,
+     "evidence": "All left panels are triangles except one convex quadrilateral; right panels include squares, various polygons, and also convex shapes. Features like angle type, symmetry, texture, line count, and convexity overlap between sides, so no clear rule fits all left and none of the right."
+    },
+    "topology": {
+     "hypothesis": "No topological distinction found",
+     "confidence": 0.1,
+     "evidence": "All panels contain a single open, non\u2011self\u2011crossing shape; there are no containment, touching, overlapping, crossing, or connectivity differences between left and right sets."
+    },
+    "quantity": {
+     "hypothesis": "No purely quantitative rule separates the two sets",
+     "confidence": 0.15,
+     "evidence": "All examined quantitative attributes (object count, line count, parity, primality, divisibility, symmetry count) appear in both left and right panels; no single quantity consistently holds for all left panels and fails for all right panels."
+    },
+    "spatial": {
+     "hypothesis": "No distinguishing spatial rule found",
+     "confidence": 0.2,
+     "evidence": "The left panels contain triangles of different orientations (right, up, down) and one polygon, while the right panels include a mix of squares, polygons, and even a triangle. No single spatial attribute\u2014such as shape type, orientation, symmetry, or pointing direction\u2014consistently holds for all six left panels and is absent from all six right panels."
+    },
+    "size": {
+     "hypothesis": "There is no size\u2011only rule that distinguishes the left panels from the right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain a single object; left panels include large, medium, and small sizes, while right panels are mostly medium with one large. No consistent absolute or relative size pattern holds for all left panels and fails for all right panels."
+    },
+    "relation": {
+     "hypothesis": "No distinguishing relational rule found between left and right panels",
+     "confidence": 0.15,
+     "evidence": "All panels contain a single object, so relational comparisons between objects are impossible; attributes like shape, symmetry, texture, line count, and angle type do not consistently separate the six left from the six right panels."
+    }
+   },
+   "cost_usd": 0.006115200000000043,
+   "perception_cost_usd": 0.021104999999999985
+  }
+ ]
+}

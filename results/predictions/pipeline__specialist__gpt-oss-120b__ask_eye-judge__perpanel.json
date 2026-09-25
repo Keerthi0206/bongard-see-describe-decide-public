@@ -1,0 +1,873 @@
+{
+ "arm": "pipeline__specialist__gpt-oss-120b__ask_eye-judge__perpanel",
+ "rows": [
+  {
+   "bp": "bp0002",
+   "rule": "Left = large figures, Right = small figures",
+   "rule_nocheck": "Left = large figures, Right = small figures",
+   "path": "judge",
+   "round2": "ask_eye",
+   "final": "judge",
+   "check_score": 0,
+   "verified": true,
+   "rounds": 1,
+   "consensus": true,
+   "strong_consensus": true,
+   "judge_llm": null,
+   "pick": "C1",
+   "source_agents": [
+    "relation",
+    "size"
+   ],
+   "source_rounds": [
+    1,
+    2
+   ],
+   "why": "L1\u2011L6 have large figures; R1\u2011R6 have small figures",
+   "questions": [
+    "Is there a shape in the panel that consists only of smooth curves with no straight edges?",
+    "How many distinct object types are present?",
+    "Is there both a solid and an outline figure in the panel?",
+    "Is the figure located near the centre of the panel?",
+    "Is there a single continuous outline enclosing the objects in the panel?"
+   ],
+   "look_again": {
+    "left_6": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> No; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> No; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes",
+    "left_3": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> Yes; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> No; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes",
+    "left_2": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> Yes; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> Yes; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes",
+    "right_5": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> No; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> No; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes",
+    "right_4": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> Yes; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> Yes; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes",
+    "right_3": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> No; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> No; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes",
+    "left_4": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> No; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> Yes; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes",
+    "right_6": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> No; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> Yes; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes",
+    "right_2": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> Yes; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> No; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes",
+    "left_1": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> No; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> Yes; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes",
+    "left_5": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> Yes; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> Yes; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes",
+    "right_1": "Is there a shape in the panel that consists only of smooth curves with no straight edges? -> No; How many distinct object types are present? -> 1; Is there both a solid and an outline figure in the panel? -> Yes; Is the figure located near the centre of the panel? -> Yes; Is there a single continuous outline enclosing the objects in the panel? -> Yes"
+   },
+   "switches": [],
+   "cv_rule": "Left = large figures, Right = small figures",
+   "cv_margin": 0.401,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No measured attribute separates the sides.",
+     "rule": "",
+     "question": ""
+    },
+    "contour": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No contour property consistently distinguishes the left panels from the right panels.",
+     "rule": "",
+     "question": "Is there a shape in the panel that consists only of smooth curves with no straight edges?"
+    },
+    "size": {
+     "has_rule": true,
+     "left": "large figures",
+     "right": "small figures",
+     "confidence": 1.0,
+     "evidence": "All left panels show relatively large figures and all right panels show small figures",
+     "rule": "Left = large figures, Right = small figures",
+     "question": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute separates left and right panels.",
+     "rule": "",
+     "question": "How many distinct object types are present?"
+    },
+    "fill": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "Fill patterns do not consistently separate the two sides.",
+     "rule": "",
+     "question": "Is there both a solid and an outline figure in the panel?"
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "centrally placed figures",
+     "right": "off\u2011center figures",
+     "confidence": 0.75,
+     "evidence": "All left panels have the figure near the panel centre, while several right panels are positioned away from the centre.",
+     "rule": "Left = centrally placed figures, Right = off\u2011center figures",
+     "question": "Is the figure located near the centre of the panel?"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No topological property consistently distinguishes the left panels from the right panels based on the given evidence.",
+     "rule": "",
+     "question": ""
+    },
+    "gestalt": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent gestalt property separates the two sides based on the given descriptions.",
+     "rule": "",
+     "question": "Is there a single continuous outline enclosing the objects in the panel?"
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "uniform fill figures",
+     "right": "mixed fill figures",
+     "confidence": 0.92,
+     "evidence": "In every left panel with more than one object, all objects share the same fill (all outline), while the right panel with multiple objects mixes outline and solid fills.",
+     "rule": "Left = uniform fill figures, Right = mixed fill figures",
+     "question": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not consistently separate the left and right panels.",
+     "rule": "",
+     "question": "Does the shape contain a hole?"
+    },
+    "contour": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No contour or line property consistently distinguishes all left panels from all right panels.",
+     "rule": "",
+     "question": "Does the figure contain any straight edges?"
+    },
+    "size": {
+     "has_rule": true,
+     "left": "large figures",
+     "right": "small figures",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a figure whose measured size is substantially larger than any figure in the right panels, which all have much smaller measured sizes",
+     "rule": "Left = large figures, Right = small figures",
+     "question": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No attribute separates the sides based on the provided evidence.",
+     "rule": "",
+     "question": ""
+    },
+    "fill": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent fill pattern separates left and right panels.",
+     "rule": "",
+     "question": "Does the panel contain both a solid and an outline figure?"
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing visual property consistently separates all left panels from all right panels.",
+     "rule": "",
+     "question": "Is the figure's outline convex?"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing topological property separates all left panels from all right panels based on the given evidence.",
+     "rule": "",
+     "question": "Is there a shape in the panel that consists only of smooth curves with no straight edges?"
+    },
+    "gestalt": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No single visual property consistently distinguishes all left panels from all right panels.",
+     "rule": "",
+     "question": "Does the figure consist only of straight edges?"
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No clear distinguishing property separates all left panels from all right panels with the given evidence.",
+     "rule": "",
+     "question": "Do all figures in the panel share the same fill (all solid or all outline)?"
+    }
+   },
+   "calls": 27,
+   "cost_usd": 0.0401507,
+   "perception_cost_usd": 0.06497499999999996
+  },
+  {
+   "bp": "bp0004",
+   "rule": "Left = convex figures, Right = figures with dents",
+   "rule_nocheck": "Left = convex figures, Right = figures with dents",
+   "path": "judge",
+   "round2": "ask_eye",
+   "final": "judge",
+   "check_score": 0,
+   "verified": true,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": null,
+   "pick": "C1",
+   "source_agents": [
+    "contour",
+    "shape"
+   ],
+   "source_rounds": [
+    1,
+    2
+   ],
+   "why": "All left panels (L1\u2011L6) are convex while all right panels (R1\u2011R6) have concave dents",
+   "questions": [
+    "Is there a noticeable size contrast between objects in the panel?",
+    "How many distinct objects are present in the panel?",
+    "Is any object inside another object?",
+    "Is any shape completely inside another shape?",
+    "Do any shapes consist solely of straight edges?"
+   ],
+   "look_again": {
+    "right_6": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> No",
+    "right_4": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> Yes",
+    "left_6": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> Yes",
+    "left_2": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> Yes",
+    "right_1": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> No",
+    "left_1": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> No",
+    "left_5": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> No",
+    "right_5": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> Yes",
+    "left_3": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> Yes",
+    "right_2": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> Yes",
+    "right_3": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> No",
+    "left_4": "Is there a noticeable size contrast between objects in the panel? -> No; How many distinct objects are present in the panel? -> 1; Is any object inside another object? -> No; Is any shape completely inside another shape? -> No; Do any shapes consist solely of straight edges? -> Yes"
+   },
+   "switches": [],
+   "cv_rule": "Left = convex figures, Right = nonconvex figures",
+   "cv_margin": 0.318,
+   "round1": {
+    "shape": {
+     "has_rule": true,
+     "left": "convex figures",
+     "right": "figures with dents",
+     "confidence": 0.95,
+     "evidence": "All left panels show only convex shapes, whereas each right panel includes a shape that is non\u2011convex (has dents).",
+     "rule": "Left = convex figures, Right = figures with dents",
+     "question": ""
+    },
+    "contour": {
+     "has_rule": true,
+     "left": "convex outlines",
+     "right": "concave dents",
+     "confidence": 0.95,
+     "evidence": "All left panels consist solely of convex (smooth) outlines, while every right panel includes a shape with a concave dent.",
+     "rule": "Left = convex outlines, Right = concave dents",
+     "question": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No measured size attribute consistently separates the left and right panels.",
+     "rule": "",
+     "question": "Is there a noticeable size contrast between objects in the panel?"
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity-based rule separates the panels.",
+     "rule": "",
+     "question": "How many distinct objects are present in the panel?"
+    },
+    "fill": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "Fill patterns do not consistently separate all left panels from all right panels.",
+     "rule": "",
+     "question": "How many figures are present in the panel?"
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial property consistently distinguishes all left panels from all right panels.",
+     "rule": "",
+     "question": "Is any object inside another object?"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent topological difference found between left and right panels.",
+     "rule": "",
+     "question": "Is any shape completely inside another shape?"
+    },
+    "gestalt": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent gestalt property separates the two sides based on the given descriptions.",
+     "rule": "",
+     "question": "Do any shapes consist solely of straight edges?"
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "single outline figure or solid figure inside an outline figure",
+     "right": "no solid figure inside an outline figure",
+     "confidence": 0.7,
+     "evidence": "All left panels either show only an outline shape or a solid shape contained within an outline shape, while right panels never contain a solid shape inside an outline shape.",
+     "rule": "Left = single outline figure or solid figure inside an outline figure, Right = no solid figure inside an outline figure",
+     "question": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": true,
+     "left": "convex figures",
+     "right": "figures with dents",
+     "confidence": 0.97,
+     "evidence": "All left panels contain only convex shapes (convexity \u22650.98) while all right panels contain shapes with dents (convexity <0.9).",
+     "rule": "Left = convex figures, Right = figures with dents",
+     "question": ""
+    },
+    "contour": {
+     "has_rule": true,
+     "left": "only convex outlines",
+     "right": "at least one concave dent",
+     "confidence": 0.96,
+     "evidence": "All left panels contain shapes whose outlines are fully convex, while every right panel includes a shape with a concave indentation",
+     "rule": "Left = only convex outlines, Right = at least one concave dent",
+     "question": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size-related attribute consistently separates the left and right panels.",
+     "rule": "",
+     "question": "Does the shape contain any straight edges?"
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing attribute separates left and right panels based on the provided evidence.",
+     "rule": "",
+     "question": "How many distinct objects are present in the panel?"
+    },
+    "fill": {
+     "has_rule": true,
+     "left": "solid figures are accompanied by an outline figure",
+     "right": "solid figures appear without any outline figure",
+     "confidence": 0.92,
+     "evidence": "In every left panel that contains a solid shape, there is also at least one outline shape, while the right panels with solid shapes have no outline shapes.",
+     "rule": "Left = solid figures are accompanied by an outline figure, Right = solid figures appear without any outline figure",
+     "question": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute (position, direction, alignment, inside relation, pointing) consistently distinguishes all left panels from all right panels.",
+     "rule": "",
+     "question": "Is any shape composed entirely of straight edges?"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "",
+     "rule": "",
+     "question": ""
+    },
+    "gestalt": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing gestalt property separates the two sides based on the given evidence.",
+     "rule": "",
+     "question": ""
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "any solid shape is inside an outline shape",
+     "right": "solid shapes are not inside an outline shape",
+     "confidence": 0.92,
+     "evidence": "In all left panels, whenever a solid figure appears it is contained within an outlined figure, while right panels contain solid figures that are not inside any outline.",
+     "rule": "Left = any solid shape is inside an outline shape, Right = solid shapes are not inside an outline shape",
+     "question": ""
+    }
+   },
+   "calls": 24,
+   "cost_usd": 0.03390794999999999,
+   "perception_cost_usd": 0.06211749999999999
+  },
+  {
+   "bp": "bp0007",
+   "rule": "Left = vertically elongated figures, Right = horizontally elongated figures",
+   "rule_nocheck": "Left = vertically elongated figures, Right = horizontally elongated figures",
+   "path": "judge",
+   "round2": "ask_eye",
+   "final": "judge",
+   "check_score": 0,
+   "verified": false,
+   "rounds": 1,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": null,
+   "pick": "C1",
+   "source_agents": [
+    "contour",
+    "size",
+    "spatial"
+   ],
+   "source_rounds": [
+    1,
+    2
+   ],
+   "why": "all left panels show a figure whose long axis is vertical, while all right panels show a figure whose long axis is horizontal",
+   "questions": [
+    "Is there a rectangle in the panel?",
+    "How many distinct object types are present in the panel?",
+    "Is the solid figure a rectangle?",
+    "Is any object filled (solid) rather than just an outline?",
+    "Is any object inside another object?"
+   ],
+   "look_again": {
+    "right_2": "Is there a rectangle in the panel? -> No; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> No; Is any object filled (solid) rather than just an outline? -> No; Is any object inside another object? -> No",
+    "right_5": "Is there a rectangle in the panel? -> No; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> No; Is any object filled (solid) rather than just an outline? -> No; Is any object inside another object? -> No",
+    "right_4": "Is there a rectangle in the panel? -> No; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> No; Is any object filled (solid) rather than just an outline? -> No; Is any object inside another object? -> No",
+    "left_4": "Is there a rectangle in the panel? -> No; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> No; Is any object filled (solid) rather than just an outline? -> No; Is any object inside another object? -> No",
+    "left_6": "Is there a rectangle in the panel? -> No; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> No; Is any object filled (solid) rather than just an outline? -> No; Is any object inside another object? -> No",
+    "left_3": "Is there a rectangle in the panel? -> No; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> No; Is any object filled (solid) rather than just an outline? -> No; Is any object inside another object? -> No",
+    "right_6": "Is there a rectangle in the panel? -> No; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> No; Is any object filled (solid) rather than just an outline? -> No; Is any object inside another object? -> No",
+    "left_5": "Is there a rectangle in the panel? -> No; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> No; Is any object filled (solid) rather than just an outline? -> Yes; Is any object inside another object? -> No",
+    "left_1": "Is there a rectangle in the panel? -> No; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> No; Is any object filled (solid) rather than just an outline? -> No; Is any object inside another object? -> No",
+    "right_1": "Is there a rectangle in the panel? -> Yes; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> Yes; Is any object filled (solid) rather than just an outline? -> No; Is any object inside another object? -> No",
+    "right_3": "Is there a rectangle in the panel? -> No; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> No; Is any object filled (solid) rather than just an outline? -> No; Is any object inside another object? -> No",
+    "left_2": "Is there a rectangle in the panel? -> No; How many distinct object types are present in the panel? -> 1; Is the solid figure a rectangle? -> No; Is any object filled (solid) rather than just an outline? -> No; Is any object inside another object? -> No"
+   },
+   "switches": [],
+   "cv_rule": "Left = figures elongated vertically, Right = figures elongated horizontally",
+   "cv_margin": 0.511,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No visual property consistently distinguishes the left from the right panels.",
+     "rule": "",
+     "question": "Is there a rectangle in the panel?"
+    },
+    "contour": {
+     "has_rule": true,
+     "left": "vertically elongated figures",
+     "right": "horizontally elongated figures",
+     "confidence": 0.95,
+     "evidence": "All left panels have the main shape\u2019s long axis vertical, all right panels have it horizontal.",
+     "rule": "Left = vertically elongated figures, Right = horizontally elongated figures",
+     "question": ""
+    },
+    "size": {
+     "has_rule": true,
+     "left": "taller\u2011than\u2011wide figures",
+     "right": "wider\u2011than\u2011tall figures",
+     "confidence": 0.95,
+     "evidence": "All left panels have figures whose long axis is vertical, whereas all right panels have figures whose long axis is horizontal.",
+     "rule": "Left = taller\u2011than\u2011wide figures, Right = wider\u2011than\u2011tall figures",
+     "question": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity-based property consistently distinguishes the two sides.",
+     "rule": "",
+     "question": "How many distinct object types are present in the panel?"
+    },
+    "fill": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent fill-only rule separates the left and right panels.",
+     "rule": "",
+     "question": "Is the solid figure a rectangle?"
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "vertical figures",
+     "right": "horizontal figures",
+     "confidence": 1.0,
+     "evidence": "All left panels have a single figure with a vertical long axis, all right panels have a single figure with a horizontal long axis.",
+     "rule": "Left = vertical figures, Right = horizontal figures",
+     "question": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No single topological property consistently distinguishes all left panels from all right panels based on the given evidence.",
+     "rule": "",
+     "question": "Is any object filled (solid) rather than just an outline?"
+    },
+    "gestalt": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent gestalt property separates the left and right panels based on the provided descriptions.",
+     "rule": "",
+     "question": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given evidence does not reveal a consistent visual property that separates all left panels from all right panels.",
+     "rule": "",
+     "question": "Is any object inside another object?"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not separate the left and right panels.",
+     "rule": "",
+     "question": "Does the figure have any right-angle corners?"
+    },
+    "contour": {
+     "has_rule": true,
+     "left": "vertical elongated figures",
+     "right": "horizontal elongated figures",
+     "confidence": 0.96,
+     "evidence": "All left panels have the main shape\u2019s long axis vertical, while all right panels have it horizontal.",
+     "rule": "Left = vertical elongated figures, Right = horizontal elongated figures",
+     "question": ""
+    },
+    "size": {
+     "has_rule": true,
+     "left": "vertical elongated figures",
+     "right": "horizontal elongated figures",
+     "confidence": 0.96,
+     "evidence": "Each left panel shows a figure that is taller than it is wide, whereas each right panel shows a figure that is wider than it is tall.",
+     "rule": "Left = vertical elongated figures, Right = horizontal elongated figures",
+     "question": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity-based attribute consistently separates all left panels from all right panels.",
+     "rule": "",
+     "question": "Is there a rectangle in the panel?"
+    },
+    "fill": {
+     "has_rule": true,
+     "left": "exactly one solid\u2011filled shape",
+     "right": "zero or more than one solid\u2011filled shape",
+     "confidence": 0.85,
+     "evidence": "In the left set the only panel with a filled (solid) closed figure has a single such figure, while in the right set the filled figure appears either not at all or many times (e.g., 18 solid rectangles).",
+     "rule": "Left = exactly one solid\u2011filled shape, Right = zero or more than one solid\u2011filled shape",
+     "question": ""
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "vertical figures",
+     "right": "horizontal figures",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a single figure whose measured long axis is vertical, while all right panels contain a single figure whose measured long axis is horizontal.",
+     "rule": "Left = vertical figures, Right = horizontal figures",
+     "question": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No single topological property consistently holds for all left panels and fails for all right panels based on the given evidence.",
+     "rule": "",
+     "question": "Is any shape filled (solid) in the panel?"
+    },
+    "gestalt": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not reveal a consistent visual property that separates all left panels from all right panels.",
+     "rule": "",
+     "question": "Does the figure contain any right-angle corners?"
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes (rectangle presence, fill, inside relations, etc.) do not consistently separate all left panels from all right panels.",
+     "rule": "",
+     "question": "Is there a touching relation between any two objects in the panel?"
+    }
+   },
+   "calls": 27,
+   "cost_usd": 0.039641800000000005,
+   "perception_cost_usd": 0.06091000000000002
+  },
+  {
+   "bp": "bp0010",
+   "rule": "Left = outline triangles, Right = outline non\u2011triangular shapes",
+   "rule_nocheck": "Left = triangle figures, Right = no triangle figures",
+   "path": "judge",
+   "round2": "ask_eye",
+   "final": "judge",
+   "check_score": 0,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": null,
+   "pick": "C1",
+   "source_agents": [
+    "topology"
+   ],
+   "source_rounds": [
+    2
+   ],
+   "why": "R2 and R5 contain triangles, breaking the rule",
+   "questions": [
+    "Does the panel contain a triangle?",
+    "Do any of the shapes contain a right angle?",
+    "Is there a clear size difference between the objects in the panel?",
+    "Is any figure solid-filled?",
+    "Is any object oriented horizontally?",
+    "Is there a triangle present in the panel?"
+   ],
+   "look_again": {
+    "right_6": "Does the panel contain a triangle? -> No; Do any of the shapes contain a right angle? -> Yes; Is there a clear size difference between the objects in the panel? -> Yes; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> No",
+    "right_3": "Does the panel contain a triangle? -> No; Do any of the shapes contain a right angle? -> Yes; Is there a clear size difference between the objects in the panel? -> No; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> No",
+    "right_1": "Does the panel contain a triangle? -> No; Do any of the shapes contain a right angle? -> Yes; Is there a clear size difference between the objects in the panel? -> No; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> No",
+    "right_4": "Does the panel contain a triangle? -> No; Do any of the shapes contain a right angle? -> No; Is there a clear size difference between the objects in the panel? -> No; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> No",
+    "left_3": "Does the panel contain a triangle? -> Yes; Do any of the shapes contain a right angle? -> No; Is there a clear size difference between the objects in the panel? -> No; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> Yes",
+    "left_6": "Does the panel contain a triangle? -> Yes; Do any of the shapes contain a right angle? -> No; Is there a clear size difference between the objects in the panel? -> No; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> Yes",
+    "left_1": "Does the panel contain a triangle? -> Yes; Do any of the shapes contain a right angle? -> No; Is there a clear size difference between the objects in the panel? -> No; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> Yes",
+    "left_4": "Does the panel contain a triangle? -> Yes; Do any of the shapes contain a right angle? -> No; Is there a clear size difference between the objects in the panel? -> Yes; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> Yes",
+    "left_5": "Does the panel contain a triangle? -> Yes; Do any of the shapes contain a right angle? -> Yes; Is there a clear size difference between the objects in the panel? -> No; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> Yes",
+    "left_2": "Does the panel contain a triangle? -> Yes; Do any of the shapes contain a right angle? -> No; Is there a clear size difference between the objects in the panel? -> No; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> Yes",
+    "right_5": "Does the panel contain a triangle? -> Yes; Do any of the shapes contain a right angle? -> No; Is there a clear size difference between the objects in the panel? -> No; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> Yes",
+    "right_2": "Does the panel contain a triangle? -> Yes; Do any of the shapes contain a right angle? -> No; Is there a clear size difference between the objects in the panel? -> No; Is any figure solid-filled? -> No; Is any object oriented horizontally? -> Yes; Is there a triangle present in the panel? -> Yes"
+   },
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property separates the six left panels from the six right panels based on the given shape data.",
+     "rule": "",
+     "question": "Does the panel contain a triangle?"
+    },
+    "contour": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No clear contour property consistently separates the two groups.",
+     "rule": "",
+     "question": "Do any of the shapes contain a right angle?"
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent size-related property distinguishes all left panels from all right panels.",
+     "rule": "",
+     "question": "Is there a clear size difference between the objects in the panel?"
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity-based rule separates the left and right panels.",
+     "rule": "",
+     "question": ""
+    },
+    "fill": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "All objects are outline in every panel, so fill does not differ.",
+     "rule": "",
+     "question": "Is any figure solid-filled?"
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the left panels from the right panels.",
+     "rule": "",
+     "question": "Is any object oriented horizontally?"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent topological property separates the panels based on the given evidence.",
+     "rule": "",
+     "question": "Is there a triangle present in the panel?"
+    },
+    "gestalt": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given evidence does not reveal a consistent gestalt property that distinguishes all left panels from all right panels.",
+     "rule": "",
+     "question": "Is there a triangle in the panel?"
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing visual rule separates the left and right panels based on the provided evidence.",
+     "rule": "",
+     "question": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No single visual property consistently distinguishes all left panels from all right panels based on the provided observations.",
+     "rule": "",
+     "question": "Is the triangle larger than the other shape(s) in the panel?"
+    },
+    "contour": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided contour and line attributes do not consistently separate all left panels from all right panels.",
+     "rule": "",
+     "question": "Is the triangle in the panel an acute triangle?"
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No visual property consistently distinguishes all left panels from all right panels based on the provided observations.",
+     "rule": "",
+     "question": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing attribute separates left and right panels based on the given evidence.",
+     "rule": "",
+     "question": "Is there a right angle in the panel?"
+    },
+    "fill": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No fill-based rule distinguishes the panels.",
+     "rule": "",
+     "question": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently separates the two sides based on the provided evidence.",
+     "rule": "",
+     "question": "Is there a triangle present?"
+    },
+    "topology": {
+     "has_rule": true,
+     "left": "triangle figures",
+     "right": "no triangle figures",
+     "confidence": 0.8,
+     "evidence": "Every left panel contains a triangle, whereas most right panels do not (R2 and R5 are exceptions).",
+     "rule": "Left = triangle figures, Right = no triangle figures",
+     "question": ""
+    },
+    "gestalt": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not separate all left panels from all right panels.",
+     "rule": "",
+     "question": "Is there a triangle in the panel?"
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The only attribute shared by all left panels (triangle present, horizontal orientation, no fill) is also present in some right panels, and other attributes do not consistently separate the sides.",
+     "rule": "",
+     "question": "Is there a triangle in the panel?"
+    }
+   },
+   "calls": 28,
+   "cost_usd": 0.042434599999999975,
+   "perception_cost_usd": 0.07278000000000007
+  }
+ ]
+}

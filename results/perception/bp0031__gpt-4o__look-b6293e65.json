@@ -1,0 +1,71 @@
+{
+ "bp": "bp0031",
+ "questions": [
+  "Is there exactly one outline object in the panel?",
+  "Is any object inside another object?",
+  "How many separate objects are shown in the panel?"
+ ],
+ "cost_usd": 0.004935,
+ "answers": {
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "1"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "2"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "2"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "2"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "2"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "1"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "1"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "1"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "1"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "1"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "1"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "1"
+  }
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bp": "bp0011",
+ "questions": [
+  "Are any two shapes in the panel touching each other?",
+  "Is the main shape noticeably elongated (has a clear long axis)?",
+  "Is there a square shape present?"
+ ],
+ "cost_usd": 0.004944999999999977,
+ "answers": {
+  "left_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  }
+ }
+}

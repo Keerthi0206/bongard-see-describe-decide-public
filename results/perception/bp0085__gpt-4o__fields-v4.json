@@ -1,0 +1,396 @@
+{
+ "bp": "bp0085",
+ "model": "gpt-4o",
+ "cost_usd": 0.023102500000000026,
+ "fields": {
+  "left_5": {
+   "parts": {
+    "ln": 3,
+    "br": 1,
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 3
+   },
+   "relations": [
+    "line joined to line",
+    "line joined to line",
+    "line joined to line"
+   ],
+   "sym": true
+  },
+  "right_5": {
+   "parts": {
+    "ln": 5,
+    "x": 1,
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 5
+   },
+   "relations": [
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line"
+   ],
+   "sym": false
+  },
+  "right_6": {
+   "parts": {
+    "ln": 5,
+    "br": 1,
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 5
+   },
+   "relations": [
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line"
+   ],
+   "sym": true
+  },
+  "left_4": {
+   "parts": {
+    "ln": 2,
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "relations": [
+    "line joined to line"
+   ],
+   "sym": false
+  },
+  "left_2": {
+   "objects": {
+    "o": [
+     {
+      "t": "triangle",
+      "s": 3
+     }
+    ],
+    "n": 1
+   },
+   "sym": true
+  },
+  "left_3": {
+   "parts": {
+    "ln": 4,
+    "x": 2,
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 4
+   },
+   "relations": [
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line"
+   ],
+   "sym": false
+  },
+  "right_4": {
+   "parts": {
+    "ln": 6,
+    "x": 3,
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 6
+   },
+   "relations": [
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line"
+   ],
+   "sym": false
+  },
+  "left_1": {
+   "parts": {
+    "ln": 3,
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 3
+   },
+   "relations": [
+    "line far from line",
+    "line far from line",
+    "line far from line"
+   ],
+   "sym": false
+  },
+  "right_2": {
+   "objects": {
+    "o": [
+     {
+      "t": "polygon",
+      "s": 5
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  },
+  "left_6": {
+   "parts": {
+    "ln": 3,
+    "x": 1,
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 3
+   },
+   "relations": [
+    "line overlapping line",
+    "line overlapping line",
+    "line overlapping line"
+   ],
+   "sym": false
+  },
+  "right_1": {
+   "parts": {
+    "ln": 5,
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 5
+   },
+   "relations": [
+    "line far from line",
+    "line far from line",
+    "line far from line",
+    "line far from line",
+    "line far from line",
+    "line far from line",
+    "line far from line",
+    "line far from line",
+    "line far from line",
+    "line far from line"
+   ],
+   "sym": false
+  },
+  "right_3": {
+   "parts": {
+    "ln": 3,
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 3
+   },
+   "relations": [
+    "line joined to line",
+    "line joined to line"
+   ],
+   "sym": false
+  }
+ }
+}

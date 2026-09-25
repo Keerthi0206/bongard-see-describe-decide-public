@@ -1,0 +1,110 @@
+{
+ "bp": "bp0049",
+ "questions": [
+  "Does the largest shape appear noticeably larger than the other shapes?",
+  "How many solid dots are present in the panel?",
+  "Is the single outline figure a square?",
+  "Is the larger outline shape positioned above most of the smaller shapes?",
+  "How many objects are completely inside another object in the panel?",
+  "Are all the small dots located inside the larger outline shape?"
+ ],
+ "cost_usd": 0.007697499999999913,
+ "answers": {
+  "left_1": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "3",
+   "Q6": "yes"
+  },
+  "left_5": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "3",
+   "Q6": "yes"
+  },
+  "left_6": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "3",
+   "Q6": "yes"
+  },
+  "right_6": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "3",
+   "Q6": "yes"
+  },
+  "right_4": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "3",
+   "Q6": "yes"
+  },
+  "left_2": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "1",
+   "Q6": "no"
+  },
+  "right_2": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "3",
+   "Q6": "yes"
+  },
+  "left_3": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "3",
+   "Q6": "yes"
+  },
+  "right_3": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "3",
+   "Q6": "yes"
+  },
+  "left_4": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "1",
+   "Q6": "no"
+  },
+  "right_1": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "3",
+   "Q6": "yes"
+  },
+  "right_5": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "3",
+   "Q6": "yes"
+  }
+ }
+}

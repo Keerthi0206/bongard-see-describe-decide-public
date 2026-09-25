@@ -1,0 +1,650 @@
+{
+ "bp": "bp0049",
+ "model": "gpt-4o",
+ "cost_usd": 0.06300000000000006,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    }
+   ],
+   "n": 6,
+   "k": {
+    "outline circle": 1,
+    "solid dot": 5
+   },
+   "rel": [
+    "outline circle inside solid dot",
+    "solid dot inside outline circle",
+    "solid dot inside outline circle",
+    "solid dot inside outline circle",
+    "solid dot outside outline circle",
+    "solid dot outside outline circle"
+   ],
+   "cl": 2,
+   "dist": "both",
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 5,
+   "rel": [
+    "circle outside circle",
+    "circle outside circle",
+    "circle outside circle",
+    "circle inside circle",
+    "circle inside circle",
+    "circle inside circle",
+    "circle inside circle",
+    "circle near circle",
+    "circle near circle",
+    "circle near circle",
+    "circle near circle"
+   ],
+   "cl": 2,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "square",
+     "f": "outline"
+    }
+   ],
+   "n": 6,
+   "k": {
+    "outline circle": 5,
+    "outline square": 1
+   },
+   "rel": [
+    "outline circle outside outline square",
+    "outline circle outside outline square",
+    "outline circle outside outline square",
+    "outline circle inside outline square",
+    "outline circle inside outline square",
+    "outline circle inside outline square",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle"
+   ],
+   "cl": 2,
+   "dist": "both",
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "outline"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    }
+   ],
+   "n": 7,
+   "k": {
+    "solid dot": 6,
+    "outline ellipse": 1
+   },
+   "rel": [
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse",
+    "ellipse outside dot",
+    "ellipse outside dot",
+    "ellipse outside dot"
+   ],
+   "cl": 2,
+   "dist": "both",
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 6,
+   "k": {
+    "outline triangle": 1,
+    "outline circle": 5
+   },
+   "rel": [
+    "outline circle inside outline triangle",
+    "outline circle inside outline triangle",
+    "outline circle inside outline triangle",
+    "outline circle outside outline triangle",
+    "outline circle outside outline triangle",
+    "outline circle outside outline triangle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle"
+   ],
+   "cl": 2,
+   "dist": "both",
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline",
+     "hole": true
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 6,
+   "k": {
+    "outline circle": 6
+   },
+   "rel": [
+    "outline circle inside outline circle",
+    "outline circle inside outline circle",
+    "outline circle inside outline circle",
+    "outline circle inside outline circle",
+    "outline circle outside outline circle",
+    "outline circle outside outline circle",
+    "outline circle outside outline circle",
+    "outline circle outside outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle"
+   ],
+   "cl": 2,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "outline"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    }
+   ],
+   "n": 6,
+   "k": {
+    "solid dot": 5,
+    "outline ellipse": 1
+   },
+   "rel": [
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse"
+   ],
+   "cl": 2,
+   "dist": "both",
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 5,
+   "k": {
+    "outline polygon": 1,
+    "outline circle": 4
+   },
+   "rel": [
+    "outline circle inside outline polygon",
+    "outline circle inside outline polygon",
+    "outline circle inside outline polygon",
+    "outline polygon left of outline circle",
+    "outline polygon left of outline circle",
+    "outline polygon left of outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle"
+   ],
+   "cl": 2,
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "outline"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    }
+   ],
+   "n": 7,
+   "k": {
+    "outline ellipse": 1,
+    "solid dot": 6
+   },
+   "rel": [
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot below ellipse",
+    "dot below ellipse",
+    "dot below ellipse",
+    "dot below ellipse",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot"
+   ],
+   "cl": 2,
+   "dist": "both",
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": true
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 6,
+   "k": {
+    "outline triangle": 1,
+    "outline circle": 5
+   },
+   "rel": [
+    "outline circle inside outline triangle",
+    "outline circle inside outline triangle",
+    "outline circle inside outline triangle",
+    "outline circle outside outline triangle",
+    "outline circle outside outline triangle",
+    "outline circle outside outline triangle",
+    "outline triangle near outline circle",
+    "outline triangle near outline circle",
+    "outline triangle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle"
+   ],
+   "cl": 2,
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline",
+     "hole": true
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    }
+   ],
+   "n": 5,
+   "k": {
+    "outline circle": 1,
+    "solid dot": 4
+   },
+   "rel": [
+    "dot inside circle",
+    "dot inside circle",
+    "dot inside circle",
+    "dot outside circle",
+    "dot outside circle",
+    "dot outside circle",
+    "dot outside circle"
+   ],
+   "cl": 2,
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 6,
+   "k": {
+    "outline polygon": 1,
+    "outline circle": 5
+   },
+   "rel": [
+    "outline circle inside outline polygon",
+    "outline circle inside outline polygon",
+    "outline circle inside outline polygon",
+    "outline polygon left of outline circle",
+    "outline polygon left of outline circle",
+    "outline polygon left of outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle",
+    "outline circle near outline circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  }
+ }
+}

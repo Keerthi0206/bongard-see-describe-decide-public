@@ -1,0 +1,97 @@
+{
+ "bp": "bp0019",
+ "questions": [
+  "Does the figure have any sharp corners (acute or right-angle)?",
+  "Is the shape a polygon?",
+  "Is the figure symmetric?",
+  "Does the shape contain any straight edges?",
+  "Is the outline shape a polygon (has straight edges)?"
+ ],
+ "cost_usd": 0.006749999999999978,
+ "answers": {
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_3": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  }
+ }
+}

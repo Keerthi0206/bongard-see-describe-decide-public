@@ -1,0 +1,7 @@
+arm,bp,conformity_events,volunteer_events,cognitive_island,debated,correct
+pipeline__specialist__gpt-oss-120b,bp0002,0,1,False,False,True
+pipeline__specialist__gpt-oss-120b,bp0036,0,0,False,False,False
+pipeline__specialist__gpt-oss-120b,bp0038,0,1,False,True,True
+pipeline__clone__gpt-oss-120b,bp0002,0,0,False,False,True
+pipeline__clone__gpt-oss-120b,bp0036,0,0,False,True,False
+pipeline__clone__gpt-oss-120b,bp0038,0,0,False,False,True

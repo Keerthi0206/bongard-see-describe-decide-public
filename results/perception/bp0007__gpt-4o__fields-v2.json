@@ -1,0 +1,331 @@
+{
+ "bp": "bp0007",
+ "model": "gpt-4o",
+ "cost_usd": 0.021535,
+ "fields": {
+  "right_2": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Shape resembles a bow tie."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Simple horizontal ellipse."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "solid",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Series of vertical lines forming a comb-like shape."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Shape resembles a vertical bow tie."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "solid",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Wavy vertical line."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "solid",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Zigzag vertical line."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "solid",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Wavy horizontal line."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "other",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Shape resembles a vertical hourglass."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Simple vertical ellipse."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "rectangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Simple horizontal rectangle."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "solid",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Wavy horizontal line."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "solid",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Series of horizontal lines forming a ladder-like shape."
+  }
+ }
+}

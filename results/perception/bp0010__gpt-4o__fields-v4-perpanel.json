@@ -1,0 +1,170 @@
+{
+ "bp": "bp0010",
+ "model": "gpt-4o",
+ "cost_usd": 0.07017499999999999,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_2": {
+   "PARTS": {
+    "tex": "zigzag"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "triangle",
+      "s": 3
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "triangle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "down"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_6": {
+   "PARTS": {
+    "ln": 1
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "polygon",
+      "s": "many"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "polygon"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "rectangle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": "many"
+    }
+   ],
+   "n": 1,
+   "hull": "polygon",
+   "sym": false
+  },
+  "right_3": {
+   "open": true,
+   "xs": true,
+   "tex": "zigzag",
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_5": {
+   "PARTS": {
+    "ln": 1,
+    "open": false,
+    "tex": "zigzag"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "polygon",
+      "s": "many"
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "rectangle",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": true
+  }
+ }
+}

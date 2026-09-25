@@ -1,0 +1,71 @@
+{
+ "bp": "bp0082",
+ "questions": [
+  "Is there any shape with an acute angle?",
+  "Is the circle positioned above any 12\u2011corner shape?",
+  "Does the angle formed by lines from the circle to the two nearest crosses measure less than 90 degrees?"
+ ],
+ "cost_usd": 0.004972500000000046,
+ "answers": {
+  "left_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  }
+ }
+}

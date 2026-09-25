@@ -1,0 +1,305 @@
+{
+ "bp": "bp0057",
+ "model": "gpt-4o",
+ "cost_usd": 0.08275499999999991,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "triangle above triangle",
+    "triangle left of triangle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle far from circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "square left of square",
+    "square below square"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "other",
+     "f": "solid"
+    },
+    {
+     "t": "other",
+     "f": "solid"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "solid other above solid other",
+    "solid other left of solid other"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    },
+    {
+     "t": "polygon",
+     "s": 5
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "polygon near polygon"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "down"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "down",
+     "hole": true
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "triangle left of triangle",
+    "triangle outside triangle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle left of triangle",
+    "circle above triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "square",
+     "s": 4
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "smaller square inside larger square"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid",
+     "p": "down"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "down",
+     "hole": true
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "solid triangle left of triangle with hole",
+    "solid triangle below triangle with hole"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "polygon left of circle",
+    "polygon near circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle left of circle",
+    "circle larger than circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "square left of triangle",
+    "triangle right of square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  }
+ }
+}

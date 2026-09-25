@@ -1,0 +1,271 @@
+{
+ "bp": "bp0084",
+ "model": "gpt-4o",
+ "cost_usd": 0.01549250000000002,
+ "fields": {
+  "right_1": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_1": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 37,
+   "rel": [
+    "square inside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  }
+ }
+}

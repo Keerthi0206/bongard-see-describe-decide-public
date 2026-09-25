@@ -1,0 +1,131 @@
+{
+ "bp": "bp0010",
+ "model": "gpt-4o",
+ "cost_usd": 0.0101925,
+ "fields": {
+  "right_6": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_3": {
+   "tex": "zigzag",
+   "o": [
+    {
+     "t": "rectangle",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_3": {
+   "tex": "wavy",
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_6": {
+   "tex": "zigzag",
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_2": {
+   "tex": "zigzag",
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_5": {
+   "tex": "zigzag",
+   "o": [
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_2": {
+   "tex": "zigzag",
+   "o": [
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  }
+ }
+}

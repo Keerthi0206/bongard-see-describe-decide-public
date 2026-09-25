@@ -1,0 +1,451 @@
+{
+ "bp": "bp0028",
+ "model": "gpt-4o",
+ "cost_usd": 0.024285,
+ "fields": {
+  "left_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle touching circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Mix of solid and outline circles."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "down",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle above circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Contains a downward-pointing triangle."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle touching circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Mix of solid and outline circles."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle touching circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Mix of solid and outline circles."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Contains an upward-pointing triangle."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Contains an upward-pointing triangle."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Contains an upward-pointing triangle."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle touching circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Mix of solid and outline circles."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Contains an upward-pointing triangle."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Contains an upward-pointing triangle."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Contains an upward-pointing triangle."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up",
+     "orientation": "none"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Contains an upward-pointing triangle."
+  }
+ }
+}

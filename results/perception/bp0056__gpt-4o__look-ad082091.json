@@ -1,0 +1,58 @@
+{
+ "bp": "bp0056",
+ "questions": [
+  "Do any objects in the panel touch each other?",
+  "Is there any object that is both left of and right of another object in the panel?"
+ ],
+ "cost_usd": 0.004049999999999998,
+ "answers": {
+  "right_2": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "left_3": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "left_1": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "left_2": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "right_3": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "left_5": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "left_4": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "yes"
+  }
+ }
+}

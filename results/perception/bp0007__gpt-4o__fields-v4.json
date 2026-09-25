@@ -1,0 +1,270 @@
+{
+ "bp": "bp0007",
+ "model": "gpt-4o",
+ "cost_usd": 0.017112500000000003,
+ "fields": {
+  "right_2": {
+   "PARTS": {
+    "ln": 3,
+    "open": true,
+    "ends": 6
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "arrow",
+      "p": "left"
+     },
+     {
+      "t": "arrow",
+      "p": "right"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": {
+    "rel": [
+     "line joined to arrow",
+     "line joined to arrow"
+    ]
+   },
+   "WHOLE": {
+    "cl": 1,
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "same": {
+     "shape": false,
+     "size": false,
+     "fill": true,
+     "identical": false,
+     "similar": false
+    }
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_5": {
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "ellipse"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "ellipse"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_4": {
+   "PARTS": {
+    "ln": 1,
+    "tex": "hatched-vertical"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "rectangle"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_4": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_6": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_3": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "ends": 2,
+    "tex": "zigzag"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_6": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "ends": 2,
+    "tex": "wavy"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_5": {
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "other"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_1": {
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "ellipse"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "ellipse"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_1": {
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "rectangle"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_3": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "ends": 2,
+    "tex": "wavy"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_2": {
+   "PARTS": {
+    "ln": 1,
+    "tex": "hatched-horizontal"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "rectangle"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  }
+ }
+}

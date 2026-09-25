@@ -1,0 +1,568 @@
+{
+ "bp": "bp0050",
+ "model": "gpt-4o",
+ "cost_usd": 0.029605000000000006,
+ "fields": {
+  "left_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "rectangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangle above rectangle",
+    "circles above triangle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Resembles a face."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "square above circle",
+    "triangles on the right"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Contains a mix of shapes."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "polygon larger than squares"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Polygon resembles a shield."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top",
+     "pointing": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "polygon above squares"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Symmetrical arrangement."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "diamond",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Single large diamond shape."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "parallelogram",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Single parallelogram shape."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "up"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangles below circles",
+    "square above circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Contains both solid and outline shapes."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "rectangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangle above rectangle",
+    "circle and ellipse above triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Resembles a face with different eye shapes."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "medium",
+     "position": "left",
+     "pointing": "right"
+    },
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "right"
+    },
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "medium",
+     "position": "right",
+     "pointing": "right"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "lines intersect at center"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Resembles a tree or antenna."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up"
+    }
+   ],
+   "count": 6,
+   "lines": {
+    "separate_lines": 6,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangles below circles",
+    "squares below circles"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Symmetrical arrangement of shapes."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "down"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "down"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "circle surrounded by triangles"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Circle is central with triangles around."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "medium",
+     "position": "left",
+     "pointing": "right"
+    },
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "medium",
+     "position": "center",
+     "pointing": "right"
+    },
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "medium",
+     "position": "right",
+     "pointing": "right"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "lines intersect at center"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Similar to P9, resembles a tree or antenna."
+  }
+ }
+}

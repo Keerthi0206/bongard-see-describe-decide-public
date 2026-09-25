@@ -1,0 +1,319 @@
+{
+ "bp": "bp0030",
+ "model": "gpt-4o",
+ "cost_usd": 0.020724999999999993,
+ "fields": {
+  "left_6": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Complex self-crossing curve."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Open curve with no self-crossing."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Zigzag line with acute angles."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Looping curve with self-crossing."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Open polygon with self-crossing."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Curved line with self-crossing."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "S-shaped curve with self-crossing."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Closed polygon with concave angle."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Closed loop with self-crossing."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": true
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Open polygon with acute angles."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Heart-shaped closed curve."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "line",
+     "fill": "none",
+     "size": "large",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "V-shaped line with acute angle."
+  }
+ }
+}

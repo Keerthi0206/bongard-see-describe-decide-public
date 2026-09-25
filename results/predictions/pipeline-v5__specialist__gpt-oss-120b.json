@@ -1,0 +1,2581 @@
+{
+ "arm": "pipeline__specialist__gpt-oss-120b",
+ "rows": [
+  {
+   "bp": "bp0002",
+   "rule": "Left = large figures, Right = small figures",
+   "rule_nocheck": "Left = large figures, Right = small figures",
+   "path": "cv-verifier",
+   "check_score": 12,
+   "verified": true,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": true,
+   "judge_llm": null,
+   "judge_dominant": "size",
+   "switches": [],
+   "cv_rule": "Left = large figures, Right = small figures",
+   "cv_margin": 0.401,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual attribute (fill, shape type, corners, convexity, symmetry) separates all left panels from all right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given topology attributes (inside, touching, overlapping, line crossing) are identical across left and right panels, providing no separating rule.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No measured attribute separates the two sides.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": true,
+     "left": "large figures",
+     "right": "small figures",
+     "confidence": 0.98,
+     "evidence": "Left panels have objects with much larger measured sizes than those in the right panels",
+     "rule": "Left = large figures, Right = small figures"
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given panel descriptions do not reveal a consistent visual property that separates all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual attribute (fill, shape type, corners, convexity, symmetry) separates all left panels from all right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given topology attributes (inside, touching, overlapping, line crossing) are identical across left and right panels, providing no separating rule.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No measured attribute separates the two sides.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": true,
+     "left": "large figures",
+     "right": "small figures",
+     "confidence": 0.98,
+     "evidence": "Left panels have objects with much larger measured sizes than those in the right panels",
+     "rule": "Left = large figures, Right = small figures"
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given panel descriptions do not reveal a consistent visual property that separates all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "calls": 6,
+   "cost_usd": 0.0043713,
+   "perception_cost_usd": 0.021524999999999996
+  },
+  {
+   "bp": "bp0004",
+   "rule": "Left = convex figures, Right = nonconvex figures",
+   "rule_nocheck": "Left = convex figures, Right = nonconvex figures",
+   "path": "cv-verifier",
+   "check_score": 12,
+   "verified": true,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": true,
+   "judge_llm": null,
+   "judge_dominant": "shape",
+   "switches": [],
+   "cv_rule": "Left = convex figures, Right = nonconvex figures",
+   "cv_margin": 0.318,
+   "round1": {
+    "shape": {
+     "has_rule": true,
+     "left": "convex shapes",
+     "right": "concave shapes",
+     "confidence": 0.95,
+     "evidence": "All left panels contain convex figures while all right panels contain figures with dents (concave)",
+     "rule": "Left = convex shapes, Right = concave shapes"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No topological difference found between left and right panels",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No attribute distinguishes left from right based on provided data.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent spatial attribute distinguishes all left panels from right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute separates the left and right panels",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided descriptions do not contain a clear distinguishing property that separates all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": true,
+     "left": "convex shapes",
+     "right": "concave shapes",
+     "confidence": 0.95,
+     "evidence": "All left panels contain convex figures while all right panels contain figures with dents (concave)",
+     "rule": "Left = convex shapes, Right = concave shapes"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No topological difference found between left and right panels",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No attribute distinguishes left from right based on provided data.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent spatial attribute distinguishes all left panels from right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute separates the left and right panels",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided descriptions do not contain a clear distinguishing property that separates all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "calls": 7,
+   "cost_usd": 0.0052224,
+   "perception_cost_usd": 0.021425
+  },
+  {
+   "bp": "bp0007",
+   "rule": "Left = figures taller than wide, Right = figures wider than tall",
+   "rule_nocheck": "Left = figures elongated vertically, Right = figures elongated horizontally",
+   "path": "agent-over-cv",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": false,
+   "judge_dominant": "spatial",
+   "switches": [
+    {
+     "round": 1,
+     "agent": "spatial",
+     "from": "Left = tall vertical figures, Right = wide horizontal figures",
+     "to": "Left = vertically elongated figures, Right = horizontally elongated figures",
+     "counterexample": "",
+     "kept_own": true
+    },
+    {
+     "round": 1,
+     "agent": "size",
+     "from": "Left = figures taller than wide, Right = figures wider than tall",
+     "to": "Left = vertically elongated figures, Right = horizontally elongated figures",
+     "counterexample": "",
+     "kept_own": true
+    }
+   ],
+   "cv_rule": "Left = figures elongated vertically, Right = figures elongated horizontally",
+   "cv_margin": 0.511,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing visual attribute separates the left panels from the right panels based on the given shape information.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided topology evidence shows no consistent difference between left and right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity difference separates the sides",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "tall vertical figures",
+     "right": "wide horizontal figures",
+     "confidence": 1.0,
+     "evidence": "All left panels have a vertical long axis (taller than wide) while all right panels have a horizontal long axis (wider than tall).",
+     "rule": "Left = tall vertical figures, Right = wide horizontal figures"
+    },
+    "size": {
+     "has_rule": true,
+     "left": "figures taller than wide",
+     "right": "figures wider than tall",
+     "confidence": 0.99,
+     "evidence": "All left panels contain vertically elongated figures, while all right panels contain horizontally elongated figures.",
+     "rule": "Left = figures taller than wide, Right = figures wider than tall"
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given object types and styles do not provide a consistent property that separates all six left panels from all six right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing visual rule found",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "All panels have a single non-self-crossing object with no topological relations.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "All panels have exactly one object and one line",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "tall vertical figures",
+     "right": "wide horizontal figures",
+     "confidence": 1.0,
+     "evidence": "All left panels have a vertical long axis (taller than wide) while all right panels have a horizontal long axis (wider than tall).",
+     "rule": "Left = tall vertical figures, Right = wide horizontal figures"
+    },
+    "size": {
+     "has_rule": true,
+     "left": "figures taller than wide",
+     "right": "figures wider than tall",
+     "confidence": 0.99,
+     "evidence": "All left panels contain vertically elongated figures, while all right panels contain horizontally elongated figures.",
+     "rule": "Left = figures taller than wide, Right = figures wider than tall"
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent relation found across panels.",
+     "rule": ""
+    }
+   },
+   "calls": 15,
+   "cost_usd": 0.00836595,
+   "perception_cost_usd": 0.021535
+  },
+  {
+   "bp": "bp0010",
+   "rule": "Left = triangular outlines (any style), Right = non\u2011triangular outlines",
+   "rule_nocheck": "Left = symmetric triangles, asymmetric other shapes, Right = some non-triangles are symmetric",
+   "path": "look-again",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": true,
+   "judge_llm": null,
+   "judge_dominant": "shape",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": true,
+     "left": "symmetric triangles, asymmetric polygons",
+     "right": "some non\u2011triangle shapes are symmetric",
+     "confidence": 0.95,
+     "evidence": "In every left panel the triangle shapes are symmetric and all other polygons are asymmetric, a pattern broken on the right side",
+     "rule": "Left = symmetric triangles, asymmetric polygons, Right = some non\u2011triangle shapes are symmetric"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "All panels contain a single closed non\u2011self\u2011crossing shape with no relations, so no topological property separates left from right.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No visual attribute consistently distinguishes the left panels from the right panels based on the given evidence.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given shape types (triangles, polygons, squares) do not provide a consistent property that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": true,
+     "left": "symmetric triangles, asymmetric polygons",
+     "right": "some non\u2011triangle shapes are symmetric",
+     "confidence": 0.95,
+     "evidence": "In every left panel the triangle shapes are symmetric and all other polygons are asymmetric, a pattern broken on the right side",
+     "rule": "Left = symmetric triangles, asymmetric polygons, Right = some non\u2011triangle shapes are symmetric"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "All panels contain a single closed non\u2011self\u2011crossing shape with no relations, so no topological property separates left from right.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No visual attribute consistently distinguishes the left panels from the right panels based on the given evidence.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given shape types (triangles, polygons, squares) do not provide a consistent property that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    }
+   },
+   "calls": 12,
+   "cost_usd": 0.008594250000000001,
+   "perception_cost_usd": 0.021675
+  },
+  {
+   "bp": "bp0031",
+   "rule": "Left = single small shape, Right = larger shape(s)",
+   "rule_nocheck": "Left = single small shape, Right = larger shape(s)",
+   "path": "synthesis",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": null,
+   "judge_dominant": "size",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual attribute distinguishes all left panels from right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No topology rule separates all left panels from all right panels based on the given evidence.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute (object count, line count, or blob count) consistently distinguishes all left panels from all right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent spatial attribute (position, pointing direction, or long\u2011axis orientation) distinguishes all left panels from all right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The size difference does not consistently separate all left and right panels (one right panel has small figures).",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given evidence does not provide a clear visual relation that distinguishes all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing visual attribute found.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent topology distinguishes left from right.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent quantity difference separates left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": true,
+     "left": "smaller figures",
+     "right": "larger figures",
+     "confidence": 0.9,
+     "evidence": "All left panels contain figures smaller than those on the right, except R5",
+     "rule": "Left = smaller figures, Right = larger figures"
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent relation distinguishes left from right panels",
+     "rule": ""
+    }
+   },
+   "calls": 14,
+   "cost_usd": 0.0109122,
+   "perception_cost_usd": 0.02265500000000001
+  },
+  {
+   "bp": "bp0036",
+   "rule": "Left = ruler oriented upward, Right = ruler oriented downward",
+   "rule_nocheck": "Left = larger shape above smaller shape, Right = larger shape below smaller shape",
+   "path": "unchecked-best",
+   "check_score": 10,
+   "verified": false,
+   "rounds": 1,
+   "consensus": true,
+   "strong_consensus": true,
+   "judge_llm": null,
+   "judge_dominant": "spatial",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No measured attribute separates the sides.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given topological relations (above, below, left, right) do not consistently separate all left panels from all right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "All panels contain the same objects and counts, providing no distinguishing feature.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute (position, pointing direction, or long\u2011axis orientation) consistently distinguishes all left panels from all right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute consistently distinguishes left from right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given evidence does not yield a consistent distinguishing rule.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing visual attribute separates left and right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent topology distinguishes left from right.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "All panels share identical visual features",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "ruler oriented upward",
+     "right": "ruler oriented downward",
+     "confidence": 1.0,
+     "evidence": "In every left panel the first blob lies below the second, while in every right panel the first blob lies above the second.",
+     "rule": "Left = ruler oriented upward, Right = ruler oriented downward"
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute distinguishes left from right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent relational pattern found across left panels",
+     "rule": ""
+    }
+   },
+   "calls": 22,
+   "cost_usd": 0.022970399999999995,
+   "perception_cost_usd": 0.024145
+  },
+  {
+   "bp": "bp0047",
+   "rule": "Left = triangle inside a circle, Right = circle inside a triangle",
+   "rule_nocheck": "Left = triangle inside a circle, Right = circle inside a triangle",
+   "path": "synthesis",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 1,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "judge_dominant": "topology",
+   "switches": [
+    {
+     "round": 1,
+     "agent": "topology",
+     "from": "Left = a triangle inside a circle, Right = a circle inside a triangle",
+     "to": "Left = triangle inside circle, Right = circle inside triangle",
+     "counterexample": "",
+     "kept_own": true
+    },
+    {
+     "round": 1,
+     "agent": "relation",
+     "from": "Left = triangle inside circle, Right = circle inside triangle",
+     "to": "Left = a triangle inside a circle, Right = a circle inside a triangle",
+     "counterexample": "",
+     "kept_own": true
+    }
+   ],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent attribute distinguishes left from right panels",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": true,
+     "left": "a triangle inside a circle",
+     "right": "a circle inside a triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a triangle wholly inside a circle, whereas all right panels contain a circle wholly inside a triangle.",
+     "rule": "Left = a triangle inside a circle, Right = a circle inside a triangle"
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity-based attribute separates the left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent spatial relationship distinguishes all left panels from all right panels based on the given positions, pointing directions, or long\u2011axis orientations.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "Size measurements overlap and do not consistently differentiate left from right panels",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "triangle inside circle",
+     "right": "circle inside triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a triangle that is inside a circle, while all right panels contain a circle that is inside a triangle.",
+     "rule": "Left = triangle inside circle, Right = circle inside triangle"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual attribute separates the left and right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": true,
+     "left": "a triangle inside a circle",
+     "right": "a circle inside a triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a triangle wholly inside a circle, whereas all right panels contain a circle wholly inside a triangle.",
+     "rule": "Left = a triangle inside a circle, Right = a circle inside a triangle"
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute distinguishes the left and right panels",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "triangle inside a circle",
+     "right": "circle inside a triangle",
+     "confidence": 0.95,
+     "evidence": "All left panels show a triangle wholly contained by a circle, while all right panels show a circle wholly contained by a triangle.",
+     "rule": "Left = triangle inside a circle, Right = circle inside a triangle"
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent size rule found.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "triangle inside circle",
+     "right": "circle inside triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a triangle that is inside a circle, while all right panels contain a circle that is inside a triangle.",
+     "rule": "Left = triangle inside circle, Right = circle inside triangle"
+    }
+   },
+   "calls": 20,
+   "cost_usd": 0.020428350000000005,
+   "perception_cost_usd": 0.032025
+  },
+  {
+   "bp": "bp0050",
+   "rule": "Left = symmetrically arranged figures, Right = non\u2011symmetrically arranged figures",
+   "rule_nocheck": "Left = symmetrically arranged figures, Right = non\u2011symmetrically arranged figures",
+   "path": "synthesis",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": null,
+   "judge_dominant": "shape",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property separates left from right panels",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given topology evidence does not provide a relation that holds for all six left panels while being absent from all six right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided counts and blob counts do not yield a consistent distinguishing property between all left and all right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial rule separates the panels",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent size\u2011based attribute distinguishes all left panels from all right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided descriptions do not reveal a consistent visual relation that holds for all left panels while being violated by all right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": true,
+     "left": "overall symmetric arrangement",
+     "right": "overall non-symmetric arrangement",
+     "confidence": 0.7,
+     "evidence": "All left panels are symmetric while most right panels are not, with R4 being the only symmetric right panel.",
+     "rule": "Left = overall symmetric arrangement, Right = overall non-symmetric arrangement"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent topology found across left panels",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute consistently differs between left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently separates left from right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute separates the panels",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent relational rule found across panels.",
+     "rule": ""
+    }
+   },
+   "calls": 16,
+   "cost_usd": 0.016434600000000008,
+   "perception_cost_usd": 0.03189500000000001
+  },
+  {
+   "bp": "bp0056",
+   "rule": "Left = all shapes share the same fill (all solid or all outline), Right = shapes include both solid and outline fills",
+   "rule_nocheck": "Left = all shapes share the same fill (all solid or all outline), Right = shapes include both solid and outline fills",
+   "path": "synthesis",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": null,
+   "judge_dominant": "shape",
+   "switches": [
+    {
+     "round": 1,
+     "agent": "relation",
+     "from": "Left = largest shapes are of similar size, Right = largest shape is noticeably bigger than the others",
+     "to": "",
+     "counterexample": "L2",
+     "kept_own": false
+    }
+   ],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided shape attributes do not yield a rule that holds for all six left panels while failing for all six right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given topology evidence (containment, touching, overlapping, line crossing) does not provide a property that holds for all six left panels and fails for all six right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute separates the panels",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes left from right panels",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size\u2011related attribute consistently distinguishes all left panels from all right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "largest shapes are of similar size",
+     "right": "largest shape is noticeably bigger than the others",
+     "confidence": 0.78,
+     "evidence": "All left panels note the biggest blobs are about the same size as the next biggest, while each right panel describes a clear size gap",
+     "rule": "Left = largest shapes are of similar size, Right = largest shape is noticeably bigger than the others"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": true,
+     "left": "all shapes share the same fill (all solid or all outline)",
+     "right": "mix of solid and outline fills",
+     "confidence": 0.85,
+     "evidence": "Every left panel\u2019s objects are either all solid or all outline, while each right panel contains both solid and outline shapes",
+     "rule": "Left = all shapes share the same fill (all solid or all outline), Right = mix of solid and outline fills"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No topological difference observed across panels",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute separates left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial pattern consistently separates left from right panels",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent size pattern distinguishes left from right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "",
+     "rule": ""
+    }
+   },
+   "calls": 16,
+   "cost_usd": 0.017108100000000043,
+   "perception_cost_usd": 0.026845000000000008
+  },
+  {
+   "bp": "bp0097",
+   "rule": "Left = triangle, Right = no triangle",
+   "rule_nocheck": "Left = triangle, Right = no triangle",
+   "path": "synthesis",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "judge_dominant": "shape",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": true,
+     "left": "triangular shapes",
+     "right": "non\u2011triangular shapes",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a triangle, whereas none of the right panels contain a triangle.",
+     "rule": "Left = triangular shapes, Right = non\u2011triangular shapes"
+    },
+    "topology": {
+     "has_rule": true,
+     "left": "triangles",
+     "right": "no triangles",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a triangle, while none of the right panels do",
+     "rule": "Left = triangles, Right = no triangles"
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute consistently separates left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "shapes that point upward or rightward",
+     "right": "shapes that do not point in any direction",
+     "confidence": 0.9,
+     "evidence": "All left panels contain a triangle whose tip points up or right, while right panels contain circles or a line with no pointing direction",
+     "rule": "Left = shapes that point upward or rightward, Right = shapes that do not point in any direction"
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute consistently distinguishes left panels from right panels",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "panels contain a triangle",
+     "right": "panels contain no triangle",
+     "confidence": 0.99,
+     "evidence": "All six left panels feature a triangle shape, while none of the right panels do",
+     "rule": "Left = panels contain a triangle, Right = panels contain no triangle"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": true,
+     "left": "triangular shapes",
+     "right": "non\u2011triangular shapes",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a triangle, whereas none of the right panels contain a triangle.",
+     "rule": "Left = triangular shapes, Right = non\u2011triangular shapes"
+    },
+    "topology": {
+     "has_rule": true,
+     "left": "triangles",
+     "right": "no triangles",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a triangle, while none of the right panels do",
+     "rule": "Left = triangles, Right = no triangles"
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute consistently separates left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "shapes that point upward or rightward",
+     "right": "shapes that do not point in any direction",
+     "confidence": 0.9,
+     "evidence": "All left panels contain a triangle whose tip points up or right, while right panels contain circles or a line with no pointing direction",
+     "rule": "Left = shapes that point upward or rightward, Right = shapes that do not point in any direction"
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute consistently distinguishes left panels from right panels",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "panels contain a triangle",
+     "right": "panels contain no triangle",
+     "confidence": 0.99,
+     "evidence": "All six left panels feature a triangle shape, while none of the right panels do",
+     "rule": "Left = panels contain a triangle, Right = panels contain no triangle"
+    }
+   },
+   "calls": 9,
+   "cost_usd": 0.0047815499999999955,
+   "perception_cost_usd": 0.02152499999999999
+  },
+  {
+   "bp": "bp0049",
+   "rule": "Left = overall symmetric composition, Right = overall asymmetric composition",
+   "rule_nocheck": "Left = no vertically or horizontally oriented elongated figure, Right = contains a vertically or horizontally oriented elongated figure",
+   "path": "unchecked-best",
+   "check_score": 10,
+   "verified": false,
+   "rounds": 1,
+   "consensus": true,
+   "strong_consensus": true,
+   "judge_llm": null,
+   "judge_dominant": "spatial",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided shape attributes do not yield a consistent distinguishing rule that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No topology distinction found between left and right panels",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute separates the panels",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent spatial attribute (position, pointing direction, or long\u2011axis orientation) distinguishes all left panels from all right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size\u2011related attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given descriptions do not provide a consistent visual relation that distinguishes all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing visual attribute found.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent topological distinction found between left and right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity difference separates left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "no ruler with a defined orientation",
+     "right": "ruler with a clear vertical or horizontal orientation",
+     "confidence": 0.95,
+     "evidence": "All right panels have an elongated ruler with a specified vertical or horizontal long axis, whereas left panels lack any ruler with a defined orientation.",
+     "rule": "Left = no ruler with a defined orientation, Right = ruler with a clear vertical or horizontal orientation"
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute consistently distinguishes the left and right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent relational pattern distinguishes the left from the right panels.",
+     "rule": ""
+    }
+   },
+   "calls": 21,
+   "cost_usd": 0.028526849999999992,
+   "perception_cost_usd": 0.035105
+  },
+  {
+   "bp": "bp0011",
+   "rule": "Left = elongated convex shapes, Right = compact convex shapes",
+   "rule_nocheck": "Left = elongated convex shapes, Right = compact convex shapes",
+   "path": "synthesis",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": false,
+   "judge_dominant": "size",
+   "switches": [
+    {
+     "round": 1,
+     "agent": "shape",
+     "from": "Left = irregular (non\u2011regular) outline shapes, Right = regular outline shapes",
+     "to": "Left = irregular outline shapes, Right = regular outline shapes",
+     "counterexample": "",
+     "kept_own": true
+    },
+    {
+     "round": 1,
+     "agent": "size",
+     "from": "Left = elongated figures, Right = compact figures",
+     "to": "Left = irregular outline shapes, Right = regular outline shapes",
+     "counterexample": "",
+     "kept_own": true
+    }
+   ],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": true,
+     "left": "irregular (non\u2011regular) outline shapes",
+     "right": "regular outline shapes",
+     "confidence": 0.85,
+     "evidence": "Each left panel shows a non\u2011regular outline (unequal sides or angles), while each right panel shows a regular outline (circle, square, or regular polygon).",
+     "rule": "Left = irregular (non\u2011regular) outline shapes, Right = regular outline shapes"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given topology information (closed/open lines, self\u2011crossing, containment) does not distinguish all left panels from all right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity difference separates left and right panels",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes left from right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": true,
+     "left": "elongated figures",
+     "right": "compact figures",
+     "confidence": 0.95,
+     "evidence": "All left panels contain shapes with high elongation, while all right panels contain shapes with low elongation",
+     "rule": "Left = elongated figures, Right = compact figures"
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given shape listings do not provide a clear distinguishing property that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": true,
+     "left": "irregular (non\u2011regular) outline shapes",
+     "right": "regular outline shapes",
+     "confidence": 0.85,
+     "evidence": "Each left panel shows a non\u2011regular outline (unequal sides or angles), while each right panel shows a regular outline (circle, square, or regular polygon).",
+     "rule": "Left = irregular (non\u2011regular) outline shapes, Right = regular outline shapes"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent topological difference found",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity difference separates left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": true,
+     "left": "elongated figures",
+     "right": "compact figures",
+     "confidence": 0.95,
+     "evidence": "All left panels contain shapes with high elongation, while all right panels contain shapes with low elongation",
+     "rule": "Left = elongated figures, Right = compact figures"
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent relation found across panels",
+     "rule": ""
+    }
+   },
+   "calls": 16,
+   "cost_usd": 0.009469799999999945,
+   "perception_cost_usd": 0.02154500000000001
+  },
+  {
+   "bp": "bp0022",
+   "rule": "Left = objects of similar size, Right = mix of large and small objects",
+   "rule_nocheck": "Left = objects of comparable size, Right = one object much larger than the others",
+   "path": "checked-alternative",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "judge_dominant": "",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No shape attribute consistently separates left from right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given evidence does not provide a consistent topology property that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute separates the left and right panels based on the given counts",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": true,
+     "left": "objects of similar size",
+     "right": "mix of large and small objects",
+     "confidence": 0.95,
+     "evidence": "All left panels have object sizes that are close to each other, whereas each right panel contains at least one object that is much larger than another.",
+     "rule": "Left = objects of similar size, Right = mix of large and small objects"
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "largest shape is only slightly larger than the next biggest",
+     "right": "largest shape is clearly larger than the next biggest",
+     "confidence": 0.78,
+     "evidence": "All left panels describe the biggest object as about the same size as the second biggest, while every right panel (except the outlier) says the biggest object is noticeably larger than the second biggest",
+     "rule": "Left = largest shape is only slightly larger than the next biggest, Right = largest shape is clearly larger than the next biggest"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No shape attribute consistently separates left from right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given evidence does not provide a consistent topology property that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute separates the left and right panels based on the given counts",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": true,
+     "left": "objects of similar size",
+     "right": "mix of large and small objects",
+     "confidence": 0.95,
+     "evidence": "All left panels have object sizes that are close to each other, whereas each right panel contains at least one object that is much larger than another.",
+     "rule": "Left = objects of similar size, Right = mix of large and small objects"
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "largest shape is only slightly larger than the next biggest",
+     "right": "largest shape is clearly larger than the next biggest",
+     "confidence": 0.78,
+     "evidence": "All left panels describe the biggest object as about the same size as the second biggest, while every right panel (except the outlier) says the biggest object is noticeably larger than the second biggest",
+     "rule": "Left = largest shape is only slightly larger than the next biggest, Right = largest shape is clearly larger than the next biggest"
+    }
+   },
+   "calls": 12,
+   "cost_usd": 0.011727900000000013,
+   "perception_cost_usd": 0.02752500000000002
+  },
+  {
+   "bp": "bp0025",
+   "rule": "Left = solid triangle present, Right = no solid triangle",
+   "rule_nocheck": "Left = irregular, spread-out figures, Right = compact figures",
+   "path": "agent-over-cv",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "judge_dominant": "",
+   "switches": [],
+   "cv_rule": "Left = irregular, spread-out figures, Right = compact figures",
+   "cv_margin": 0.238,
+   "round1": {
+    "shape": {
+     "has_rule": true,
+     "left": "solid triangle present",
+     "right": "no solid triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels include a solid (filled) triangle, while none of the right panels contain a solid triangle.",
+     "rule": "Left = solid triangle present, Right = no solid triangle"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided evidence contains no consistent topological relation (inside, touching, overlapping, self\u2011crossing) that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute separates the left and right panels based on the given data.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial pattern separates the two sets",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size\u2011based attribute consistently distinguishes all left panels from all right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "solid triangle",
+     "right": "solid circle",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a solid triangle while all right panels contain a solid circle.",
+     "rule": "Left = solid triangle, Right = solid circle"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": true,
+     "left": "solid triangle present",
+     "right": "no solid triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels include a solid (filled) triangle, while none of the right panels contain a solid triangle.",
+     "rule": "Left = solid triangle present, Right = no solid triangle"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided evidence contains no consistent topological relation (inside, touching, overlapping, self\u2011crossing) that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute separates the left and right panels based on the given data.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial pattern separates the two sets",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size\u2011based attribute consistently distinguishes all left panels from all right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "solid triangle",
+     "right": "solid circle",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a solid triangle while all right panels contain a solid circle.",
+     "rule": "Left = solid triangle, Right = solid circle"
+    }
+   },
+   "calls": 8,
+   "cost_usd": 0.006396299999999994,
+   "perception_cost_usd": 0.03404499999999999
+  },
+  {
+   "bp": "bp0028",
+   "rule": "Left = any solid triangle present points down, Right = any solid triangle present points up",
+   "rule_nocheck": "Left = any solid triangle present points down, Right = any solid triangle present points up",
+   "path": "unchecked-best",
+   "check_score": 4,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": null,
+   "judge_dominant": "",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided shape attributes do not yield a consistent distinguishing rule between all left and right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No topology property distinguishes all left panels from all right panels based on the given evidence.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute separates the sides",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial relationship consistently distinguishes left from right panels",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size-based attribute consistently distinguishes left from right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given panel descriptions do not provide a clear visual property that consistently distinguishes all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual attribute distinguishes the left and right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent topology distinguishes left from right.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute consistently separates left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial pattern distinguishes the two sides.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute consistently separates left and right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent relational pattern distinguishes the left and right panels.",
+     "rule": ""
+    }
+   },
+   "calls": 22,
+   "cost_usd": 0.025510050000000034,
+   "perception_cost_usd": 0.024285
+  },
+  {
+   "bp": "bp0030",
+   "rule": "Left = shapes that self\u2011intersect (self\u2011crossing), Right = shapes that never self\u2011intersect",
+   "rule_nocheck": "Left = shapes that self\u2011intersect (self\u2011crossing), Right = shapes that never self\u2011intersect",
+   "path": "unchecked-best",
+   "check_score": 10,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": null,
+   "judge_dominant": "",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing attribute found.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No single topological property consistently distinguishes all left panels from all right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute distinguishes the panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute separates the left and right panels",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing rule found based on given evidence",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing visual property found across the panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No shared topology property distinguishes left from right.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity difference separates left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute consistently separates left and right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "All panels contain a single shape with no relational differences",
+     "rule": ""
+    }
+   },
+   "calls": 20,
+   "cost_usd": 0.021548250000000047,
+   "perception_cost_usd": 0.02169500000000002
+  },
+  {
+   "bp": "bp0033",
+   "rule": "Left = figures with at least one acute angle, Right = figures with no acute angles",
+   "rule_nocheck": "Left = figures with at least one acute angle, Right = figures with no acute angles",
+   "path": "synthesis",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": true,
+   "judge_llm": null,
+   "judge_dominant": "shape",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": true,
+     "left": "figures with at least one acute corner",
+     "right": "figures with no acute corners",
+     "confidence": 0.95,
+     "evidence": "All left panels contain at least one acute-angle corner, whereas none of the right panels have any acute corners.",
+     "rule": "Left = figures with at least one acute corner, Right = figures with no acute corners"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given attributes do not differentiate the two sets.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute distinguishes left from right panels",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute consistently distinguishes left from right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given shape listings do not provide a consistent property that holds for all left panels and fails for all right panels",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": true,
+     "left": "figures with at least one acute corner",
+     "right": "figures with no acute corners",
+     "confidence": 0.95,
+     "evidence": "All left panels contain at least one acute-angle corner, whereas none of the right panels have any acute corners.",
+     "rule": "Left = figures with at least one acute corner, Right = figures with no acute corners"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given attributes do not differentiate the two sets.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute distinguishes left from right panels",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute consistently distinguishes left from right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given shape listings do not provide a consistent property that holds for all left panels and fails for all right panels",
+     "rule": ""
+    }
+   },
+   "calls": 9,
+   "cost_usd": 0.006209700000000012,
+   "perception_cost_usd": 0.021394999999999997
+  },
+  {
+   "bp": "bp0038",
+   "rule": "Left = triangle larger than circle, Right = circle larger than triangle",
+   "rule_nocheck": "Left = triangle larger than circle, Right = circle larger than triangle",
+   "path": "synthesis",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": false,
+   "judge_dominant": "relation",
+   "switches": [
+    {
+     "round": 1,
+     "agent": "spatial",
+     "from": "Left = triangle positioned left of the circle, Right = triangle positioned right of the circle",
+     "to": "Left = triangle left of circle, Right = triangle right of circle",
+     "counterexample": "",
+     "kept_own": true
+    },
+    {
+     "round": 1,
+     "agent": "size",
+     "from": "Left = the elongated figure is the larger one, Right = the elongated figure is the smaller one",
+     "to": "Left = elongated figure larger than compact one, Right = elongated figure smaller than compact one",
+     "counterexample": "",
+     "kept_own": true
+    }
+   ],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No visual attribute consistently distinguishes all left panels from all right panels based on the given evidence.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given topological relations (containment, overlap, separation) do not consistently hold for all left panels while being absent for all right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No visual attribute separates the left and right panels based on the given evidence.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "triangle positioned left of the circle",
+     "right": "triangle positioned right of the circle",
+     "confidence": 0.99,
+     "evidence": "In every left panel the triangle lies to the left of the circle, while in every right panel the triangle lies to the right of the circle.",
+     "rule": "Left = triangle positioned left of the circle, Right = triangle positioned right of the circle"
+    },
+    "size": {
+     "has_rule": true,
+     "left": "the elongated figure is the larger one",
+     "right": "the elongated figure is the smaller one",
+     "confidence": 0.85,
+     "evidence": "In every left panel any shape that is elongated is also the larger shape, while in the right panels elongated shapes are always the smaller ones",
+     "rule": "Left = the elongated figure is the larger one, Right = the elongated figure is the smaller one"
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 1.0,
+     "evidence": "Every left panel shows the triangle as the biggest shape, whereas every right panel shows the circle as the biggest shape.",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": true,
+     "left": "triangle is at least as convex as circle",
+     "right": "circle is more convex than triangle",
+     "confidence": 0.92,
+     "evidence": "In all left panels the triangle's convexity is equal to or higher than the circle's, while in right panels the circle's convexity is equal to or higher than the triangle's",
+     "rule": "Left = triangle is at least as convex as circle, Right = circle is more convex than triangle"
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent topological relation across all left panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "All panels contain the same two objects, so no quantity rule distinguishes sides.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": true,
+     "left": "triangle positioned left of the circle",
+     "right": "triangle positioned right of the circle",
+     "confidence": 0.99,
+     "evidence": "In every left panel the triangle lies to the left of the circle, while in every right panel the triangle lies to the right of the circle.",
+     "rule": "Left = triangle positioned left of the circle, Right = triangle positioned right of the circle"
+    },
+    "size": {
+     "has_rule": true,
+     "left": "the elongated figure is the larger one",
+     "right": "the elongated figure is the smaller one",
+     "confidence": 0.85,
+     "evidence": "In every left panel any shape that is elongated is also the larger shape, while in the right panels elongated shapes are always the smaller ones",
+     "rule": "Left = the elongated figure is the larger one, Right = the elongated figure is the smaller one"
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 1.0,
+     "evidence": "In every left panel the triangle is the larger shape, while in every right panel the circle is the larger shape.",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    }
+   },
+   "calls": 18,
+   "cost_usd": 0.015595500000000012,
+   "perception_cost_usd": 0.024625
+  },
+  {
+   "bp": "bp0046",
+   "rule": "Left = when containment occurs the circle contains the triangle, Right = when containment occurs the triangle contains the circle",
+   "rule_nocheck": "Left = circle encloses triangle (circle outer, triangle inside or touching), Right = triangle encloses circle (triangle outer, circle inside or touching)",
+   "path": "checked-alternative",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 1,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "judge_dominant": "",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual attribute (fill, shape type, corners, convexity, symmetry) separates the left panels from the right panels.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given topology relations do not provide a property that holds for every left panel while failing for every right panel.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No measured attribute separates the two sides.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes all left panels from all right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size-related attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual relation separates all left panels from right panels",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property separates the left and right panels based on shape, fill, corners, convexity, or symmetry.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": true,
+     "left": "when containment occurs the circle contains the triangle",
+     "right": "when containment occurs the triangle contains the circle",
+     "confidence": 0.9,
+     "evidence": "In all left panels any containment has the circle as the outer shape, while in all right panels any containment has the triangle as the outer shape",
+     "rule": "Left = when containment occurs the circle contains the triangle, Right = when containment occurs the triangle contains the circle"
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "All panels contain the same two shapes with identical arrangement, so no distinguishing visual property",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes left from right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "triangle described relative to the circle",
+     "right": "circle described relative to the triangle",
+     "confidence": 0.85,
+     "evidence": "Every left panel states the triangle's relation (above, below, inside, touching) to the circle, whereas right panels state the circle's relation to the triangle (except one case).",
+     "rule": "Left = triangle described relative to the circle, Right = circle described relative to the triangle"
+    }
+   },
+   "calls": 20,
+   "cost_usd": 0.01862639999999996,
+   "perception_cost_usd": 0.024185000000000012
+  },
+  {
+   "bp": "bp0057",
+   "rule": "Left = two shapes of the same basic kind (both triangles, both circles, both squares, or both irregular polygons), Right = two shapes of different basic kinds (e.g., circle with triangle, polygon with circle, square with triangle)",
+   "rule_nocheck": "Left = two peripheral shapes of similar size, Right = two peripheral shapes of different size",
+   "path": "unchecked-best",
+   "check_score": 9,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "judge_dominant": "",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent attribute separates all left panels from all right panels based on the given shape evidence.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No topology rule separates left from right based on the given evidence.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No visual quantity difference separates left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": true,
+     "left": "two objects of equal size",
+     "right": "two objects of different sizes",
+     "confidence": 1.0,
+     "evidence": "All left panels have paired shapes with matching sizes, while all right panels have mismatched sizes",
+     "rule": "Left = two objects of equal size, Right = two objects of different sizes"
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "objects of comparable size",
+     "right": "objects of noticeably different size",
+     "confidence": 0.95,
+     "evidence": "In every left panel the two shapes are about the same size, whereas each right panel contains one shape that is clearly larger than the other.",
+     "rule": "Left = objects of comparable size, Right = objects of noticeably different size"
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent attribute separates all left panels from all right panels based on the given shape evidence.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No topology rule separates left from right based on the given evidence.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No visual quantity difference separates left and right panels.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial attribute consistently distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": true,
+     "left": "two objects of equal size",
+     "right": "two objects of different sizes",
+     "confidence": 1.0,
+     "evidence": "All left panels have paired shapes with matching sizes, while all right panels have mismatched sizes",
+     "rule": "Left = two objects of equal size, Right = two objects of different sizes"
+    },
+    "relation": {
+     "has_rule": true,
+     "left": "objects of comparable size",
+     "right": "objects of noticeably different size",
+     "confidence": 0.95,
+     "evidence": "In every left panel the two shapes are about the same size, whereas each right panel contains one shape that is clearly larger than the other.",
+     "rule": "Left = objects of comparable size, Right = objects of noticeably different size"
+    }
+   },
+   "calls": 20,
+   "cost_usd": 0.0367492499999999,
+   "perception_cost_usd": 0.024455000000000005
+  },
+  {
+   "bp": "bp0096",
+   "rule": "Left = hatched lines parallel to a polygon side, Right = hatched lines not parallel to any polygon side",
+   "rule_nocheck": "Left = hatched lines parallel to a polygon side, Right = hatched lines not parallel to any polygon side",
+   "path": "unchecked-best",
+   "check_score": 8,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": null,
+   "judge_dominant": "",
+   "switches": [],
+   "cv_rule": "",
+   "cv_margin": 0.0,
+   "round1": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No measured attribute separates the two sides",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No topology property distinguishes all left panels from all right panels based on the given evidence.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No quantity attribute separates left and right panels",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial rule distinguishes left from right panels",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size-based attribute consistently distinguishes left from right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided panel descriptions do not reveal a consistent visual relation that distinguishes all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No distinguishing visual attribute found.",
+     "rule": ""
+    },
+    "topology": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent topological rule distinguishes left from right panels.",
+     "rule": ""
+    },
+    "quantity": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent quantity difference observed.",
+     "rule": ""
+    },
+    "spatial": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No spatial pattern distinguishes left and right panels.",
+     "rule": ""
+    },
+    "size": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No size attribute consistently distinguishes left from right panels.",
+     "rule": ""
+    },
+    "relation": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent relation found across the six left panels and the six right panels.",
+     "rule": ""
+    }
+   },
+   "calls": 22,
+   "cost_usd": 0.025506749999999967,
+   "perception_cost_usd": 0.022015000000000007
+  }
+ ]
+}

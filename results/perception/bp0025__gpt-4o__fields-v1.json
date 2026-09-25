@@ -1,0 +1,606 @@
+{
+ "bp": "bp0025",
+ "model": "gpt-4o",
+ "cost_usd": 0.03156500000000001,
+ "fields": {
+  "right_2": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangle left of circle",
+    "circle above square",
+    "circle larger than other shapes"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "The solid circle is the largest object."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangle above square",
+    "circle right of triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "All objects are of similar size."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "circle larger than other shapes",
+    "triangles above square"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "The solid circle is the largest object."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangles above square",
+    "circle right of triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "All objects are of similar size."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "up"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "circle larger than other shapes",
+    "triangle above square"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "The solid circle is the largest object."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangle above square",
+    "circle right of square"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "All objects are of similar size."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "bottom-right",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "solid circle larger than other circles"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "All objects are circles."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangle above square",
+    "circles above triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "All objects are of similar size."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "up"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "circle larger than other shapes",
+    "triangle above square"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "The solid circle is the largest object."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "down"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "circle larger than other shapes",
+    "triangle below squares"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "The solid circle is the largest object."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "center",
+     "pointing": "up"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle surrounded by circles"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "The triangle is centrally positioned."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "up"
+    },
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [
+    "triangles above square",
+    "circle right of triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "All objects are of similar size."
+  }
+ }
+}

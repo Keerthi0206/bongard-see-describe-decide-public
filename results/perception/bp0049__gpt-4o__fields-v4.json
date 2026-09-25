@@ -1,0 +1,480 @@
+{
+ "bp": "bp0049",
+ "model": "gpt-4o",
+ "cost_usd": 0.027205000000000007,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside circle",
+    "dot inside circle",
+    "dot inside circle",
+    "dot outside circle",
+    "dot outside circle",
+    "dot outside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside triangle",
+    "dot inside triangle",
+    "dot inside triangle",
+    "dot outside triangle",
+    "dot outside triangle",
+    "dot outside triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside circle",
+    "dot inside circle",
+    "dot inside circle",
+    "dot outside circle",
+    "dot outside circle",
+    "dot outside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "other",
+     "s": 4
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside other",
+    "dot inside other",
+    "dot inside other",
+    "dot outside other",
+    "dot outside other",
+    "dot outside other"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside triangle",
+    "dot inside triangle",
+    "dot inside triangle",
+    "dot outside triangle",
+    "dot outside triangle",
+    "dot outside triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "other",
+     "s": 4
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside other",
+    "dot inside other",
+    "dot inside other",
+    "dot outside other",
+    "dot outside other",
+    "dot outside other"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside square",
+    "dot inside square",
+    "dot inside square",
+    "dot outside square",
+    "dot outside square",
+    "dot outside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside circle",
+    "dot inside circle",
+    "dot inside circle",
+    "dot outside circle",
+    "dot outside circle",
+    "dot outside circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  }
+ }
+}

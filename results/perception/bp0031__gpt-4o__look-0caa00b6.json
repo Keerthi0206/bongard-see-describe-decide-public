@@ -1,0 +1,84 @@
+{
+ "bp": "bp0031",
+ "questions": [
+  "Is any shape filled solid rather than just outlined?",
+  "Do any two distinct lines intersect each other?",
+  "Do any two shapes touch each other?",
+  "Is there any line that does not form a closed loop in the panel?"
+ ],
+ "cost_usd": 0.006519999999999998,
+ "answers": {
+  "left_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  }
+ }
+}

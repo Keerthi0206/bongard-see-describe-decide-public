@@ -1,0 +1,605 @@
+{
+ "bp": "bp0047",
+ "model": "gpt-4o",
+ "cost_usd": 0.032025,
+ "fields": {
+  "right_2": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle",
+    "triangle larger than circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A small circle is inside a triangle."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "bottom-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "down",
+     "orientation": "vertical"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "left",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle",
+    "circle larger than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A triangle is inside a medium circle."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "left",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "down",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "right",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle",
+    "triangle larger than circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A tiny triangle is inside a small circle."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A medium triangle is centered inside a large circle."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "down",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle",
+    "triangle larger than circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A tiny circle is inside a medium triangle."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "down",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 5,
+   "lines": {
+    "separate_lines": 5,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle",
+    "triangle larger than circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A tiny circle is inside a medium triangle."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle",
+    "circle larger than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A medium triangle is inside a large circle."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-right",
+     "pointing": "down",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "top-right",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 4,
+   "lines": {
+    "separate_lines": 4,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle",
+    "circle larger than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A tiny circle is inside a medium triangle."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "left",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "right",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle",
+    "triangle larger than circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A tiny triangle is inside a small circle."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "A medium circle is centered inside a large triangle."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "top-left",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "large",
+     "position": "right",
+     "pointing": "up",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle inside circle",
+    "triangle larger than circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A medium triangle is inside a small circle."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "right",
+     "pointing": "none",
+     "orientation": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "bottom-left",
+     "pointing": "up",
+     "orientation": "vertical"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle inside triangle",
+    "circle larger than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "A tiny circle is inside a medium triangle."
+  }
+ }
+}

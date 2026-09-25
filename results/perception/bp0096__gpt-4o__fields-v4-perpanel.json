@@ -1,0 +1,1312 @@
+{
+ "bp": "bp0096",
+ "model": "gpt-4o",
+ "cost_usd": 0.1235149999999996,
+ "fields": {
+  "left_1": {
+   "PARTS": {
+    "ln": 15,
+    "open": true,
+    "ends": 30
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 15
+   },
+   "RELATIONS": [
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line"
+   ],
+   "WHOLE": {
+    "cl": 1,
+    "hull": "triangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_2": {
+   "PARTS": {
+    "ln": 21,
+    "open": true,
+    "ends": 42
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 21
+   },
+   "RELATIONS": {
+    "rel": [
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line",
+     "line near line"
+    ]
+   },
+   "WHOLE": {
+    "cl": 1,
+    "forms": "the lines form a bell curve",
+    "hull": "polygon",
+    "sym": true
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_3": {
+   "PARTS": {
+    "ln": 16,
+    "open": true,
+    "tex": "hatched-diagonal"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "triangle",
+      "s": 3
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 17,
+    "k": {
+     "triangle": 1,
+     "line": 16
+    }
+   },
+   "RELATIONS": [
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle",
+    "line inside triangle"
+   ],
+   "WHOLE": {
+    "hull": "triangle"
+   },
+   "SAMENESS": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_4": {
+   "PARTS": {
+    "ln": 10,
+    "open": true,
+    "tex": "hatched-diagonal"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 10
+   },
+   "RELATIONS": [
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line"
+   ],
+   "WHOLE": {
+    "forms": "the lines form a triangle",
+    "hull": "triangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_5": {
+   "PARTS": {
+    "ln": 12,
+    "open": true,
+    "tex": "hatched-diagonal"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 12
+   },
+   "RELATIONS": [
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line"
+   ],
+   "WHOLE": {
+    "forms": "the lines form a triangle",
+    "hull": "triangle"
+   },
+   "SAME": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_6": {
+   "PARTS": {
+    "ln": 21,
+    "open": true,
+    "ends": 42
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 21
+   },
+   "RELATIONS": [
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line"
+   ],
+   "WHOLE": {
+    "forms": "the lines form a V shape",
+    "hull": "polygon",
+    "sym": true
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_1": {
+   "PARTS": {
+    "ln": 18,
+    "open": true,
+    "tex": "hatched-diagonal"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 18
+   },
+   "RELATIONS": [
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line",
+    "line parallel to line"
+   ],
+   "WHOLE": {
+    "hull": "square"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_2": {
+   "PARTS": {
+    "ln": 13,
+    "open": true,
+    "ends": 26
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 13
+   },
+   "RELATIONS": [
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line"
+   ],
+   "WHOLE": {
+    "cl": 1,
+    "forms": "the lines form a V shape",
+    "hull": "V shape"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_3": {
+   "PARTS": {
+    "ln": 15
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 15
+   },
+   "RELATIONS": [
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line"
+   ],
+   "WHOLE": {
+    "forms": "the lines form a diamond shape",
+    "sym": true
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_4": {
+   "PARTS": {
+    "ln": 16,
+    "open": true,
+    "tex": "hatched-diagonal"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 16
+   },
+   "RELATIONS": [],
+   "WHOLE": {
+    "cl": 1,
+    "hull": "parallelogram",
+    "sym": false
+   }
+  },
+  "right_5": {
+   "PARTS": {
+    "ln": 13,
+    "open": true,
+    "x": 0,
+    "ends": 26
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 13,
+    "k": {
+     "line": 12,
+     "dot": 1
+    }
+   },
+   "RELATIONS": [
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above dot"
+   ],
+   "WHOLE": {
+    "cl": 1,
+    "forms": "the lines form a triangle",
+    "hull": "triangle",
+    "seq": "regular"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_6": {
+   "PARTS": {
+    "ln": 21,
+    "open": true,
+    "ends": 42
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 21,
+    "k": {
+     "line": 20,
+     "dot": 1
+    }
+   },
+   "RELATIONS": [
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near dot"
+   ],
+   "WHOLE": {
+    "cl": 1,
+    "forms": "the lines form a wave",
+    "hull": "rectangle",
+    "seq": "regular"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  }
+ }
+}

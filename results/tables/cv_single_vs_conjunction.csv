@@ -1,0 +1,101 @@
+bp,single,with_conjunction
+bp0001,"Left = outline figures, Right = solid figures","Left = outline figures, Right = solid figures"
+bp0002,"Left = large figures, Right = small figures","Left = large figures, Right = small figures"
+bp0003,"Left = outline figures, Right = solid figures","Left = outline figures, Right = solid figures"
+bp0004,"Left = convex figures, Right = nonconvex figures","Left = convex figures, Right = nonconvex figures"
+bp0005,"Left = figures with fewer corners, Right = figures with more corners","Left = figures with fewer corners, Right = figures with more corners"
+bp0006,"Left = triangles, Right = non-triangles","Left = triangles, Right = non-triangles"
+bp0007,"Left = figures elongated vertically, Right = figures elongated horizontally","Left = figures elongated vertically, Right = figures elongated horizontally"
+bp0008,"Left = figures on the right side, Right = figures on the left side","Left = figures on the right side, Right = figures on the left side"
+bp0009,"Left = outline figures, Right = solid figures","Left = outline figures, Right = solid figures"
+bp0010,,
+bp0011,,
+bp0012,"Left = elongated figures, Right = compact figures","Left = elongated figures, Right = compact figures"
+bp0013,,
+bp0014,"Left = large figures, Right = small figures","Left = large figures, Right = small figures"
+bp0015,"Left = outline figures, Right = solid figures","Left = outline figures, Right = solid figures"
+bp0016,,
+bp0017,,
+bp0018,,
+bp0019,,
+bp0020,,
+bp0021,"Left = solid figures, Right = outline figures","Left = solid figures, Right = outline figures"
+bp0022,,
+bp0023,"Left = fewer figures, Right = more figures","Left = fewer figures, Right = more figures"
+bp0024,"Left = circles, Right = non-circles","Left = circles, Right = non-circles"
+bp0025,"Left = irregular, spread-out figures, Right = compact figures","Left = irregular, spread-out figures, Right = compact figures"
+bp0026,,
+bp0027,"Left = solid figures, Right = outline figures","Left = solid figures, Right = outline figures"
+bp0028,,
+bp0029,,
+bp0030,,
+bp0031,,
+bp0032,,
+bp0033,,
+bp0034,"Left = outline figures, Right = solid figures","Left = outline figures, Right = solid figures"
+bp0035,,
+bp0036,,
+bp0037,,
+bp0038,,
+bp0039,,
+bp0040,,
+bp0041,,
+bp0042,,
+bp0043,"Left = figures on the right side, Right = figures on the left side","Left = figures on the right side, Right = figures on the left side"
+bp0044,,
+bp0045,,
+bp0046,,
+bp0047,,
+bp0048,,
+bp0049,,
+bp0050,,
+bp0051,,
+bp0052,,
+bp0053,,
+bp0054,,
+bp0055,,
+bp0056,,
+bp0057,,
+bp0058,,
+bp0059,,
+bp0060,,
+bp0061,,
+bp0062,,
+bp0063,"Left = figures on the right side, Right = figures on the left side","Left = figures on the right side, Right = figures on the left side"
+bp0064,,
+bp0065,,
+bp0066,,
+bp0067,,
+bp0068,,
+bp0069,,
+bp0070,,
+bp0071,,
+bp0072,,
+bp0073,,
+bp0074,,
+bp0075,,
+bp0076,"Left = nonconvex figures, Right = convex figures","Left = nonconvex figures, Right = convex figures"
+bp0077,,
+bp0078,,
+bp0079,,
+bp0080,,
+bp0081,,
+bp0082,,
+bp0083,,
+bp0084,,
+bp0085,,
+bp0086,,
+bp0087,,
+bp0088,,
+bp0089,"Left = fewer figures, Right = more figures","Left = fewer figures, Right = more figures"
+bp0090,,
+bp0091,,
+bp0092,,
+bp0093,,
+bp0094,,
+bp0095,,
+bp0096,,
+bp0097,,
+bp0098,,
+bp0099,,
+bp0100,,

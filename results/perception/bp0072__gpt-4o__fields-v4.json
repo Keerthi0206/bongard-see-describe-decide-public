@@ -1,0 +1,314 @@
+{
+ "bp": "bp0072",
+ "model": "gpt-4o",
+ "cost_usd": 0.019072499999999992,
+ "fields": {
+  "left_2": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_6": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "xs": true,
+    "x": 1,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": {
+    "rel": [
+     "curve overlapping curve"
+    ]
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_3": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "ends": 4
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": {
+    "rel": [
+     "curve near curve"
+    ]
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_6": {
+   "PARTS": {
+    "open": true,
+    "xs": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_3": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_4": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "ends": 4
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": {
+    "rel": [
+     "curve near curve"
+    ]
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_4": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "ends": 4
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": {
+    "rel": [
+     "curve near curve"
+    ]
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_2": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_5": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "xs": true,
+    "x": 1,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": {
+    "rel": [
+     "curve overlapping curve"
+    ]
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_1": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_1": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_5": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  }
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "bp": "bp0001",
+ "questions": [
+  "How many objects are present?",
+  "Is there an open (unclosed) line in the panel?",
+  "Is there more than one distinct shape in the panel?"
+ ],
+ "cost_usd": 0.004942500000000016,
+ "answers": {
+  "right_2": {
+   "Q1": "1",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_4": {
+   "Q1": "9",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "left_5": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_1": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_1": {
+   "Q1": "1",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_2": {
+   "Q1": "1",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_5": {
+   "Q1": "1",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_3": {
+   "Q1": "1",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "left_3": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_6": {
+   "Q1": "2",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "left_4": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_6": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "No"
+  }
+ }
+}

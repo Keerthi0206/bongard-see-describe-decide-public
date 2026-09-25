@@ -1,0 +1,331 @@
+{
+ "bp": "bp0011",
+ "model": "gpt-4o",
+ "cost_usd": 0.02154500000000001,
+ "fields": {
+  "left_1": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Diamond shape with vertical symmetry."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "ellipse",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Elliptical shape oriented diagonally."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Perfect circle with symmetry."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "right",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Right-pointing triangle."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Large circle with symmetry."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "tiny",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Tiny circle with symmetry."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Small square rotated diagonally."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Hexagon with symmetry."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "rectangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "horizontal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Horizontal rectangle with symmetry."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "polygon",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "diagonal"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Irregular polygon with diagonal orientation."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "curve",
+     "fill": "outline",
+     "size": "large",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "none"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": false,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": true
+   },
+   "relations": [],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Curved shape with concave feature."
+  },
+  "right_2": {
+   "objects": [
+    {
+     "type": "square",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none",
+     "orientation": "vertical"
+    }
+   ],
+   "count": 1,
+   "lines": {
+    "separate_lines": 1,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": true,
+    "concave": false
+   },
+   "relations": [],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Square with vertical symmetry."
+  }
+ }
+}

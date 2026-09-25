@@ -1,0 +1,58 @@
+{
+ "bp": "bp0031",
+ "questions": [
+  "Are there exactly two distinct objects in the panel?",
+  "Do any two objects in the panel intersect or touch each other?"
+ ],
+ "cost_usd": 0.004037499999999916,
+ "answers": {
+  "left_3": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "right_5": {
+   "Q1": "yes",
+   "Q2": "no"
+  },
+  "right_3": {
+   "Q1": "yes",
+   "Q2": "yes"
+  },
+  "right_1": {
+   "Q1": "yes",
+   "Q2": "yes"
+  },
+  "right_2": {
+   "Q1": "yes",
+   "Q2": "yes"
+  },
+  "left_4": {
+   "Q1": "no",
+   "Q2": "no"
+  },
+  "right_4": {
+   "Q1": "yes",
+   "Q2": "yes"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "left_1": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "no"
+  },
+  "left_5": {
+   "Q1": "no",
+   "Q2": "no"
+  },
+  "left_2": {
+   "Q1": "yes",
+   "Q2": "yes"
+  }
+ }
+}

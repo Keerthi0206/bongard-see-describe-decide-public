@@ -1,0 +1,480 @@
+{
+ "bp": "bp0056",
+ "model": "gpt-4o",
+ "cost_usd": 0.025334999999999996,
+ "fields": {
+  "right_2": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "right",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle smaller than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two triangles with different fills."
+  },
+  "left_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "right",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle larger than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Solid circle and triangle."
+  },
+  "left_1": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "up"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangles are the same size"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Three identical outline triangles."
+  },
+  "right_4": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "right",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle smaller than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Solid triangle and outline circle."
+  },
+  "left_2": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "tiny",
+     "position": "bottom-left",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "small",
+     "position": "right",
+     "pointing": "up"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle larger than triangle",
+    "circle larger than circle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two solid circles and one solid triangle."
+  },
+  "right_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom-right",
+     "pointing": "down"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle larger than triangles"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Outline shapes with one circle and two triangles."
+  },
+  "right_3": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-right",
+     "pointing": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": false,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle larger than circles"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "One solid and two outline circles."
+  },
+  "left_5": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "right",
+     "pointing": "down"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "small",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangles are the same size",
+    "circle same size as triangles"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "All outline shapes with similar sizes."
+  },
+  "right_1": {
+   "objects": [
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "left",
+     "pointing": "none"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "right",
+     "pointing": "none"
+    },
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "bottom",
+     "pointing": "up"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circles are the same size",
+    "triangle smaller than circles"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Two solid circles and one outline triangle."
+  },
+  "right_5": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "left",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "right",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "solid",
+     "size": "small",
+     "position": "bottom",
+     "pointing": "none"
+    }
+   ],
+   "count": 3,
+   "lines": {
+    "separate_lines": 3,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangle larger than circle",
+    "triangle larger than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Mixed fill triangles and a solid circle."
+  },
+  "left_4": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "outline",
+     "size": "small",
+     "position": "top-left",
+     "pointing": "up"
+    },
+    {
+     "type": "circle",
+     "fill": "outline",
+     "size": "medium",
+     "position": "center",
+     "pointing": "none"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "circle larger than triangle"
+   ],
+   "symmetric": false,
+   "texture": "none",
+   "notes": "Outline triangle and circle."
+  },
+  "left_6": {
+   "objects": [
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "left",
+     "pointing": "up"
+    },
+    {
+     "type": "triangle",
+     "fill": "solid",
+     "size": "medium",
+     "position": "right",
+     "pointing": "up"
+    }
+   ],
+   "count": 2,
+   "lines": {
+    "separate_lines": 2,
+    "closed": true,
+    "self_crossing": false
+   },
+   "angles": {
+    "acute": true,
+    "right": false,
+    "concave": false
+   },
+   "relations": [
+    "triangles are the same size"
+   ],
+   "symmetric": true,
+   "texture": "none",
+   "notes": "Two identical solid triangles."
+  }
+ }
+}

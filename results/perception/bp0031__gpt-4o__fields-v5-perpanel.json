@@ -1,0 +1,229 @@
+{
+ "bp": "bp0031",
+ "model": "gpt-4o",
+ "cost_usd": 0.05366500000000013,
+ "fields": {
+  "left_1": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "sym": false
+  },
+  "left_2": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_3": {
+   "ln": 1,
+   "open": false,
+   "xs": true,
+   "x": 2,
+   "o": [
+    {
+     "t": "curve",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_4": {
+   "ln": 1,
+   "open": true,
+   "o": [
+    {
+     "t": "curve",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "curve",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "square",
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_1": {
+   "ln": 2,
+   "open": true,
+   "x": 1,
+   "o": [
+    {
+     "t": "curve",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "curve crossing circle"
+   ],
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle overlapping circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_3": {
+   "ln": 2,
+   "open": true,
+   "x": 1,
+   "ends": 4,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    },
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "curve crossing curve"
+   ],
+   "sym": false
+  },
+  "right_4": {
+   "ln": 2,
+   "open": true,
+   "xs": true,
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle above curve",
+    "curve touching circle"
+   ],
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    },
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 2,
+   "k": {
+    "outline curve": 2
+   },
+   "rel": [
+    "curve left of curve",
+    "curve parallel to curve"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_6": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "x": 2,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  }
+ }
+}

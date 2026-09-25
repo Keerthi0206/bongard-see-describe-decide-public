@@ -1,0 +1,58 @@
+{
+ "bp": "bp0046",
+ "questions": [
+  "Is there any shape with a hole?",
+  "Is the figure filled solid or outlined?"
+ ],
+ "cost_usd": 0.0040200000000000236,
+ "answers": {
+  "left_4": {
+   "Q1": "No",
+   "Q2": "Solid"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "Outlined"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "Solid"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "Outlined"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "Outlined"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "Outlined"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "Solid"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "Outlined"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "Solid"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "Solid"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Outlined"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "Solid"
+  }
+ }
+}

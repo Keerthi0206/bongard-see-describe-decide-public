@@ -1,0 +1,771 @@
+{
+ "bp": "bp0096",
+ "model": "gpt-4o",
+ "cost_usd": 0.12340249999999964,
+ "fields": {
+  "left_1": {
+   "ln": 15,
+   "open": true,
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 15,
+   "k": {
+    "solid line": 15
+   },
+   "col": true,
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    }
+   ],
+   "n": 19,
+   "col": true,
+   "forms": "the lines form a bell curve",
+   "sym": true
+  },
+  "left_3": {
+   "ln": 16,
+   "open": true,
+   "ends": 32,
+   "tex": "hatched-diagonal",
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 16,
+   "k": {
+    "solid line": 16
+   },
+   "rel": [
+    "line parallel to line"
+   ],
+   "sym": false
+  },
+  "left_4": {
+   "ln": 10,
+   "open": true,
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    }
+   ],
+   "n": 10,
+   "k": {
+    "solid line": 10
+   },
+   "rel": [
+    "line parallel to line",
+    "line left of line",
+    "line right of line",
+    "line above line",
+    "line below line"
+   ],
+   "col": true,
+   "forms": "the lines form a triangle",
+   "hull": "triangle",
+   "sym": true
+  },
+  "left_5": {
+   "ln": 12,
+   "open": true,
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    }
+   ],
+   "n": 12,
+   "k": {
+    "solid line": 12
+   },
+   "rel": [
+    "line inside triangle"
+   ],
+   "forms": "the lines form a triangle",
+   "hull": "triangle",
+   "sym": true
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    }
+   ],
+   "n": 17,
+   "k": {
+    "solid line": 17
+   },
+   "rel": [
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line"
+   ],
+   "cl": 1,
+   "col": true,
+   "seq": "regular",
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "right_1": {
+   "ln": 15,
+   "open": true,
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 15,
+   "k": {
+    "solid line": 15
+   },
+   "col": true,
+   "hull": "square",
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    }
+   ],
+   "n": 15,
+   "k": {
+    "solid line": 15
+   },
+   "rel": [
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line"
+   ],
+   "cl": 1,
+   "col": true,
+   "forms": "the lines form a V shape",
+   "sym": true
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    }
+   ],
+   "n": 13,
+   "k": {
+    "solid line": 13
+   },
+   "rel": [
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line"
+   ],
+   "col": true,
+   "sym": true
+  },
+  "right_4": {
+   "ln": 15,
+   "open": true,
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 15,
+   "k": {
+    "solid line": 15
+   },
+   "rel": [
+    "line parallel to line"
+   ],
+   "sym": false
+  },
+  "right_5": {
+   "ln": 13,
+   "open": true,
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    }
+   ],
+   "n": 13,
+   "rel": [
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above line",
+    "line above dot"
+   ],
+   "col": true,
+   "seq": "regular",
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    },
+    {
+     "t": "dot",
+     "f": "solid"
+    }
+   ],
+   "n": 17,
+   "rel": [
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "line near line",
+    "dot near line"
+   ],
+   "col": true,
+   "sym": false
+  }
+ }
+}

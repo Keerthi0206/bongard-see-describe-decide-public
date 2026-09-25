@@ -1,0 +1,13 @@
+grader,A,B,n,"A right, B wrong","B right, A wrong",risk difference,95% CI,p (McNemar),verdict
+semantic,pipeline__specialist__gpt-oss-120b,direct__gpt-4o,3,1,0,0.3333333333333333,"[-0.32, +0.99]",1.0,no significant difference
+semantic,pipeline__specialist__gpt-oss-120b,self-consistency__gpt-oss-120b,3,0,0,0.0,"[+0.00, +0.00]",1.0,no significant difference
+semantic,pipeline__specialist__gpt-oss-120b,single__gpt-oss-120b,3,0,0,0.0,"[+0.00, +0.00]",1.0,no significant difference
+semantic,pipeline__specialist__gpt-oss-120b,pipeline__clone__gpt-oss-120b,3,0,0,0.0,"[+0.00, +0.00]",1.0,no significant difference
+semantic,pipeline__specialist__gpt-oss-120b,pipeline__specialist__gpt-oss-120b (no check),3,0,0,0.0,"[+0.00, +0.00]",1.0,no significant difference
+semantic,pipeline__specialist__gpt-oss-120b,pipeline__specialist__gpt-oss-20b,3,0,0,0.0,"[+0.00, +0.00]",1.0,no significant difference
+verifier,pipeline__specialist__gpt-oss-120b,direct__gpt-4o,3,1,0,0.3333333333333333,"[-0.32, +0.99]",1.0,no significant difference
+verifier,pipeline__specialist__gpt-oss-120b,self-consistency__gpt-oss-120b,3,0,0,0.0,"[+0.00, +0.00]",1.0,no significant difference
+verifier,pipeline__specialist__gpt-oss-120b,single__gpt-oss-120b,3,0,0,0.0,"[+0.00, +0.00]",1.0,no significant difference
+verifier,pipeline__specialist__gpt-oss-120b,pipeline__clone__gpt-oss-120b,3,0,0,0.0,"[+0.00, +0.00]",1.0,no significant difference
+verifier,pipeline__specialist__gpt-oss-120b,pipeline__specialist__gpt-oss-120b (no check),3,0,0,0.0,"[+0.00, +0.00]",1.0,no significant difference
+verifier,pipeline__specialist__gpt-oss-120b,pipeline__specialist__gpt-oss-20b,3,0,0,0.0,"[+0.00, +0.00]",1.0,no significant difference

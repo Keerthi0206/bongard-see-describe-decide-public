@@ -1,0 +1,209 @@
+{
+ "bp": "bp0031",
+ "model": "gpt-4o",
+ "cost_usd": 0.014032500000000003,
+ "fields": {
+  "left_3": {
+   "open": true,
+   "xs": true,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_5": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    },
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "curve parallel to curve"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_3": {
+   "open": true,
+   "x": 1,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    },
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "curve crossing curve"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_1": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "curve touching circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle overlapping circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_4": {
+   "open": true,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_4": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "curve touching circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_6": {
+   "open": true,
+   "br": 1,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_1": {
+   "open": true,
+   "x": 1,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_5": {
+   "open": true,
+   "xs": true,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_2": {
+   "open": true,
+   "x": 1,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  }
+ }
+}

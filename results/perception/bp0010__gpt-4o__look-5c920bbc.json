@@ -1,0 +1,84 @@
+{
+ "bp": "bp0010",
+ "questions": [
+  "Is the primary shape a triangle?",
+  "Does the shape have any right angles?",
+  "Is there any open (unclosed) line in the panel?",
+  "Does the figure have a defined long axis direction (horizontal or vertical)?"
+ ],
+ "cost_usd": 0.006520000000000081,
+ "answers": {
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  }
+ }
+}

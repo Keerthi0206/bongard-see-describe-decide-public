@@ -1,0 +1,97 @@
+{
+ "bp": "bp0028",
+ "questions": [
+  "Is any object inside another object?",
+  "How many groups of touching shapes are present in each panel?",
+  "Is any triangle pointing left?",
+  "Is there at least one triangle in the panel?",
+  "Is the larger shape positioned left of the smaller shape?"
+ ],
+ "cost_usd": 0.006757499999999972,
+ "answers": {
+  "left_3": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  }
+ }
+}

@@ -1,0 +1,2420 @@
+{
+ "arm": "pipeline__clone__gpt-oss-120b",
+ "rows": [
+  {
+   "bp": "bp0002",
+   "rule": "Left = large figures, Right = small figures",
+   "rule_nocheck": "Left = large figures, Right = small figures",
+   "path": "cv-verifier",
+   "check_score": 12,
+   "verified": true,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "large central figure",
+     "right": "small central figure",
+     "confidence": 0.99,
+     "evidence": "All left panels contain a large central shape whereas all right panels contain a small shape",
+     "rule": "Left = large central figure, Right = small central figure"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "large central figure",
+     "right": "small central figure",
+     "confidence": 0.98,
+     "evidence": "All left panels contain a large central shape while all right panels contain a small central shape.",
+     "rule": "Left = large central figure, Right = small central figure"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "large central shape",
+     "right": "tiny shape",
+     "confidence": 0.96,
+     "evidence": "All left panels contain a large central shape whereas all right panels contain a tiny shape",
+     "rule": "Left = large central shape, Right = tiny shape"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "large central shape",
+     "right": "small central shape",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a large figure while all right panels contain a small figure",
+     "rule": "Left = large central shape, Right = small central shape"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "large central figure",
+     "right": "small central figure",
+     "confidence": 0.97,
+     "evidence": "All left panels contain a large central shape while all right panels contain a small central shape.",
+     "rule": "Left = large central figure, Right = small central figure"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "large central shape",
+     "right": "small/tiny central shape",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a large figure whereas all right panels contain a small figure",
+     "rule": "Left = large central shape, Right = small/tiny central shape"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "large central figure",
+     "right": "small central figure",
+     "confidence": 0.99,
+     "evidence": "All left panels contain a large central shape whereas all right panels contain a small shape",
+     "rule": "Left = large central figure, Right = small central figure"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "large central figure",
+     "right": "small central figure",
+     "confidence": 0.98,
+     "evidence": "All left panels contain a large central shape while all right panels contain a small central shape.",
+     "rule": "Left = large central figure, Right = small central figure"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "large central shape",
+     "right": "tiny shape",
+     "confidence": 0.96,
+     "evidence": "All left panels contain a large central shape whereas all right panels contain a tiny shape",
+     "rule": "Left = large central shape, Right = tiny shape"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "large central shape",
+     "right": "small central shape",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a large figure while all right panels contain a small figure",
+     "rule": "Left = large central shape, Right = small central shape"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "large central figure",
+     "right": "small central figure",
+     "confidence": 0.97,
+     "evidence": "All left panels contain a large central shape while all right panels contain a small central shape.",
+     "rule": "Left = large central figure, Right = small central figure"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "large central shape",
+     "right": "small/tiny central shape",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a large figure whereas all right panels contain a small figure",
+     "rule": "Left = large central shape, Right = small/tiny central shape"
+    }
+   },
+   "calls": 7,
+   "cost_usd": 0.0035601000000000105,
+   "perception_cost_usd": 0.021524999999999996
+  },
+  {
+   "bp": "bp0004",
+   "rule": "Left = convex figures, Right = nonconvex figures",
+   "rule_nocheck": "Left = convex figures, Right = nonconvex figures",
+   "path": "cv-verifier",
+   "check_score": 12,
+   "verified": true,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "all figures are convex shapes with no indentations",
+     "right": "each contains a concave indentation",
+     "confidence": 0.95,
+     "evidence": "left panels have high convexity and no concave angles, right panels show lower convexity and explicit concave features",
+     "rule": "Left = all figures are convex shapes with no indentations, Right = each contains a concave indentation"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "all figures are convex shapes",
+     "right": "at least one shape is concave",
+     "confidence": 0.95,
+     "evidence": "left panels have high convexity and no concave angles, while right panels show concave angles and lower convexity",
+     "rule": "Left = all figures are convex shapes, Right = at least one shape is concave"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "all left panels contain only convex shapes",
+     "right": "all right panels contain at least one concave indentation",
+     "confidence": 0.95,
+     "evidence": "left shapes have high convexity and few corners, while right shapes have lower convexity and many corners indicating concavity",
+     "rule": "Left = all left panels contain only convex shapes, Right = all right panels contain at least one concave indentation"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "all shapes are convex with no indentations",
+     "right": "all shapes contain at least one concave indentation",
+     "confidence": 0.94,
+     "evidence": "Left panels show simple convex outlines (circle, triangle, ellipse, etc.) while every right panel includes a shape with concave angles or a non\u2011convex outline",
+     "rule": "Left = all shapes are convex with no indentations, Right = all shapes contain at least one concave indentation"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "all figures are convex shapes",
+     "right": "all figures have at least one concave indentation",
+     "confidence": 0.95,
+     "evidence": "Each left panel shows a single convex outline or solid, while every right panel includes a shape with a concave angle or indentation",
+     "rule": "Left = all figures are convex shapes, Right = all figures have at least one concave indentation"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "all figures are convex without any indentations",
+     "right": "all figures contain a concave indentation",
+     "confidence": 0.95,
+     "evidence": "convexity values are high for left panels and low for right panels, and right panels are described as having concave angles",
+     "rule": "Left = all figures are convex without any indentations, Right = all figures contain a concave indentation"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "all figures are convex shapes with no indentations",
+     "right": "each contains a concave indentation",
+     "confidence": 0.95,
+     "evidence": "left panels have high convexity and no concave angles, right panels show lower convexity and explicit concave features",
+     "rule": "Left = all figures are convex shapes with no indentations, Right = each contains a concave indentation"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "all figures are convex shapes",
+     "right": "at least one shape is concave",
+     "confidence": 0.95,
+     "evidence": "left panels have high convexity and no concave angles, while right panels show concave angles and lower convexity",
+     "rule": "Left = all figures are convex shapes, Right = at least one shape is concave"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "all left panels contain only convex shapes",
+     "right": "all right panels contain at least one concave indentation",
+     "confidence": 0.95,
+     "evidence": "left shapes have high convexity and few corners, while right shapes have lower convexity and many corners indicating concavity",
+     "rule": "Left = all left panels contain only convex shapes, Right = all right panels contain at least one concave indentation"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "all shapes are convex with no indentations",
+     "right": "all shapes contain at least one concave indentation",
+     "confidence": 0.94,
+     "evidence": "Left panels show simple convex outlines (circle, triangle, ellipse, etc.) while every right panel includes a shape with concave angles or a non\u2011convex outline",
+     "rule": "Left = all shapes are convex with no indentations, Right = all shapes contain at least one concave indentation"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "all figures are convex shapes",
+     "right": "all figures have at least one concave indentation",
+     "confidence": 0.95,
+     "evidence": "Each left panel shows a single convex outline or solid, while every right panel includes a shape with a concave angle or indentation",
+     "rule": "Left = all figures are convex shapes, Right = all figures have at least one concave indentation"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "all figures are convex without any indentations",
+     "right": "all figures contain a concave indentation",
+     "confidence": 0.95,
+     "evidence": "convexity values are high for left panels and low for right panels, and right panels are described as having concave angles",
+     "rule": "Left = all figures are convex without any indentations, Right = all figures contain a concave indentation"
+    }
+   },
+   "calls": 7,
+   "cost_usd": 0.003637200000000007,
+   "perception_cost_usd": 0.021425
+  },
+  {
+   "bp": "bp0007",
+   "rule": "Left = figures elongated vertically, Right = figures elongated horizontally",
+   "rule_nocheck": "Left = figures elongated vertically, Right = figures elongated horizontally",
+   "path": "cv-verifier",
+   "check_score": 12,
+   "verified": true,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "vertical-oriented figure",
+     "right": "horizontal-oriented figure",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a shape whose main axis is vertical, while all right panels feature a shape whose main axis is horizontal.",
+     "rule": "Left = vertical-oriented figure, Right = horizontal-oriented figure"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "vertical orientation of the main shape",
+     "right": "horizontal orientation of the main shape",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a vertically aligned figure while all right panels feature a horizontally aligned figure",
+     "rule": "Left = vertical orientation of the main shape, Right = horizontal orientation of the main shape"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "vertical orientation",
+     "right": "horizontal orientation",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a vertically oriented shape while all right panels feature a horizontally oriented shape.",
+     "rule": "Left = vertical orientation, Right = horizontal orientation"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "vertical-oriented shapes",
+     "right": "horizontal-oriented shapes",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a single central element whose long axis is vertical, whereas all right panels feature a single central element whose long axis is horizontal.",
+     "rule": "Left = vertical-oriented shapes, Right = horizontal-oriented shapes"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "vertical orientation",
+     "right": "horizontal orientation",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a single vertically oriented shape, whereas all right panels contain a horizontally oriented shape.",
+     "rule": "Left = vertical orientation, Right = horizontal orientation"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "vertical main axis",
+     "right": "horizontal main axis",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a single dominant shape whose long axis is vertical, while all right panels have a dominant shape with a horizontal long axis.",
+     "rule": "Left = vertical main axis, Right = horizontal main axis"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "vertical-oriented figure",
+     "right": "horizontal-oriented figure",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a shape whose main axis is vertical, while all right panels feature a shape whose main axis is horizontal.",
+     "rule": "Left = vertical-oriented figure, Right = horizontal-oriented figure"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "vertical orientation of the main shape",
+     "right": "horizontal orientation of the main shape",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a vertically aligned figure while all right panels feature a horizontally aligned figure",
+     "rule": "Left = vertical orientation of the main shape, Right = horizontal orientation of the main shape"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "vertical orientation",
+     "right": "horizontal orientation",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a vertically oriented shape while all right panels feature a horizontally oriented shape.",
+     "rule": "Left = vertical orientation, Right = horizontal orientation"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "vertical-oriented shapes",
+     "right": "horizontal-oriented shapes",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a single central element whose long axis is vertical, whereas all right panels feature a single central element whose long axis is horizontal.",
+     "rule": "Left = vertical-oriented shapes, Right = horizontal-oriented shapes"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "vertical orientation",
+     "right": "horizontal orientation",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a single vertically oriented shape, whereas all right panels contain a horizontally oriented shape.",
+     "rule": "Left = vertical orientation, Right = horizontal orientation"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "vertical main axis",
+     "right": "horizontal main axis",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a single dominant shape whose long axis is vertical, while all right panels have a dominant shape with a horizontal long axis.",
+     "rule": "Left = vertical main axis, Right = horizontal main axis"
+    }
+   },
+   "calls": 7,
+   "cost_usd": 0.002851800000000043,
+   "perception_cost_usd": 0.021535
+  },
+  {
+   "bp": "bp0010",
+   "rule": "Left = all panels contain an outline triangle, Right = panels contain no triangle, only other shapes",
+   "rule_nocheck": "Left = central outline triangle, Right = central non-triangle shape",
+   "path": "checked-alternative",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "all panels contain an outline triangle",
+     "right": "panels contain no triangle, only other shapes",
+     "confidence": 0.97,
+     "evidence": "each left image shows a triangular outline, while none of the right images do",
+     "rule": "Left = all panels contain an outline triangle, Right = panels contain no triangle, only other shapes"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "triangular shapes",
+     "right": "non\u2011triangular shapes",
+     "confidence": 0.92,
+     "evidence": "All left panels depict a triangle (regular or irregular), while none of the right panels show a triangle.",
+     "rule": "Left = triangular shapes, Right = non\u2011triangular shapes"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "centered triangle shape",
+     "right": "non\u2011triangular shape",
+     "confidence": 0.92,
+     "evidence": "All left panels contain a triangle (or triangle\u2011like outline) and all right panels contain shapes that are not triangles.",
+     "rule": "Left = centered triangle shape, Right = non\u2011triangular shape"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "a triangle (any style) at the centre",
+     "right": "no triangle \u2013 other shapes such as squares or irregular polygons",
+     "confidence": 0.93,
+     "evidence": "Every left panel shows a triangular outline, while none of the right panels does.",
+     "rule": "Left = a triangle (any style) at the centre, Right = no triangle \u2013 other shapes such as squares or irregular polygons"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "central triangle (any style)",
+     "right": "no triangle, other shapes",
+     "confidence": 0.78,
+     "evidence": "All left panels feature a triangle at the center, while none of the right panels do",
+     "rule": "Left = central triangle (any style), Right = no triangle, other shapes"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "central shape is a triangle (or triangle\u2011like outline)",
+     "right": "central shape is not a triangle",
+     "confidence": 0.92,
+     "evidence": "All left panels contain a single central triangular outline, while all right panels contain a different shape such as a square, diamond, or irregular polygon.",
+     "rule": "Left = central shape is a triangle (or triangle\u2011like outline), Right = central shape is not a triangle"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "all panels contain an outline triangle",
+     "right": "panels contain no triangle, only other shapes",
+     "confidence": 0.97,
+     "evidence": "each left image shows a triangular outline, while none of the right images do",
+     "rule": "Left = all panels contain an outline triangle, Right = panels contain no triangle, only other shapes"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "triangular shapes",
+     "right": "non\u2011triangular shapes",
+     "confidence": 0.92,
+     "evidence": "All left panels depict a triangle (regular or irregular), while none of the right panels show a triangle.",
+     "rule": "Left = triangular shapes, Right = non\u2011triangular shapes"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "centered triangle shape",
+     "right": "non\u2011triangular shape",
+     "confidence": 0.92,
+     "evidence": "All left panels contain a triangle (or triangle\u2011like outline) and all right panels contain shapes that are not triangles.",
+     "rule": "Left = centered triangle shape, Right = non\u2011triangular shape"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "a triangle (any style) at the centre",
+     "right": "no triangle \u2013 other shapes such as squares or irregular polygons",
+     "confidence": 0.93,
+     "evidence": "Every left panel shows a triangular outline, while none of the right panels does.",
+     "rule": "Left = a triangle (any style) at the centre, Right = no triangle \u2013 other shapes such as squares or irregular polygons"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "central triangle (any style)",
+     "right": "no triangle, other shapes",
+     "confidence": 0.78,
+     "evidence": "All left panels feature a triangle at the center, while none of the right panels do",
+     "rule": "Left = central triangle (any style), Right = no triangle, other shapes"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "central shape is a triangle (or triangle\u2011like outline)",
+     "right": "central shape is not a triangle",
+     "confidence": 0.92,
+     "evidence": "All left panels contain a single central triangular outline, while all right panels contain a different shape such as a square, diamond, or irregular polygon.",
+     "rule": "Left = central shape is a triangle (or triangle\u2011like outline), Right = central shape is not a triangle"
+    }
+   },
+   "calls": 10,
+   "cost_usd": 0.008457150000000108,
+   "perception_cost_usd": 0.021675
+  },
+  {
+   "bp": "bp0031",
+   "rule": "Left = single centered shape, Right = multiple objects or strokes",
+   "rule_nocheck": "Left = single centered shape, Right = multiple objects or strokes",
+   "path": "synthesis",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": false,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "single central figure",
+     "right": "multiple or off\u2011center figures",
+     "confidence": 0.92,
+     "evidence": "All left panels show one shape positioned at the centre, while every right panel has either more than one shape or a shape placed away from the centre",
+     "rule": "Left = single central figure, Right = multiple or off\u2011center figures"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "a single isolated shape",
+     "right": "multiple shapes",
+     "confidence": 0.92,
+     "evidence": "All left panels contain exactly one figure, while every right panel contains two or more distinct figures",
+     "rule": "Left = a single isolated shape, Right = multiple shapes"
+    },
+    "analyst3": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given attributes do not provide a single simple visual property that holds for all six left panels while being absent from all six right panels.",
+     "rule": ""
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given attributes do not yield a visual property that separates all left panels from all right panels.",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given attributes do not yield a clear visual rule that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    },
+    "analyst6": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No simple visual property (such as number of objects, lines, or relations) consistently distinguishes all six left panels from all six right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "Right panel R6 has a single central figure just like the left panels, contradicting the rule",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual rule distinguishes all left panels from all right panels",
+     "rule": ""
+    },
+    "analyst3": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "Panel R6 contains a single self\u2011crossing curve like the left panels, breaking the proposed single\u2011vs\u2011multiple rule.",
+     "rule": ""
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent rule found",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "single central figure",
+     "right": "multiple or off\u2011center figures",
+     "confidence": 0.78,
+     "evidence": "All left panels contain one centrally placed shape, while right panels contain more than one shape or are positioned away from the centre.",
+     "rule": "Left = single central figure, Right = multiple or off\u2011center figures"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "single central figure",
+     "right": "multiple figures or multiple strokes",
+     "confidence": 0.93,
+     "evidence": "All left panels show exactly one isolated shape, while every right panel shows either more than one shape or a shape drawn with several separate lines.",
+     "rule": "Left = single central figure, Right = multiple figures or multiple strokes"
+    }
+   },
+   "calls": 16,
+   "cost_usd": 0.0133319999999999,
+   "perception_cost_usd": 0.02265500000000001
+  },
+  {
+   "bp": "bp0036",
+   "rule": "Left = circle never above triangle, Right = circle never below triangle",
+   "rule_nocheck": "Left = circle never positioned above the triangle, Right = circle positioned above the triangle",
+   "path": "checked-alternative",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": false,
+   "round1": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No visual property consistently separates the two sets.",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given attributes do not provide a property that holds for all six left panels while being absent from all six right panels.",
+     "rule": ""
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "the circle is positioned below the triangle",
+     "right": "the circle is positioned above the triangle",
+     "confidence": 0.85,
+     "evidence": "All left panels place the circle lower than the triangle, while all right panels place the circle higher than the triangle",
+     "rule": "Left = the circle is positioned below the triangle, Right = the circle is positioned above the triangle"
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given panels do not share a consistent visual property that separates the left set from the right set.",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given attributes do not provide a property that holds for all six left panels while being absent from all six right panels.",
+     "rule": ""
+    },
+    "analyst6": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a clear visual property that consistently distinguishes all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "circle never above triangle",
+     "right": "circle never below triangle",
+     "confidence": 0.9,
+     "evidence": "All left panels avoid a circle positioned above the triangle, while all right panels avoid a circle positioned below the triangle.",
+     "rule": "Left = circle never above triangle, Right = circle never below triangle"
+    },
+    "analyst2": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property separates the left and right panels.",
+     "rule": ""
+    },
+    "analyst3": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The left panels do not share a consistent spatial relation (circle is sometimes below, left, or right of the triangle) and the right panels also lack a uniform relation, so no single rule distinguishes the sides.",
+     "rule": ""
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property separates all left panels from all right panels",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent rule found.",
+     "rule": ""
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "circle never above triangle",
+     "right": "circle never below triangle",
+     "confidence": 0.9,
+     "evidence": "All left panels keep the circle at or below the triangle, while all right panels keep the circle at or above the triangle.",
+     "rule": "Left = circle never above triangle, Right = circle never below triangle"
+    }
+   },
+   "calls": 19,
+   "cost_usd": 0.02278065000000007,
+   "perception_cost_usd": 0.024145
+  },
+  {
+   "bp": "bp0047",
+   "rule": "Left = triangle inside a circle, Right = circle inside a triangle",
+   "rule_nocheck": "Left = triangle inside a circle, Right = circle inside a triangle",
+   "path": "synthesis",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "triangle inside a circle",
+     "right": "circle inside a triangle",
+     "confidence": 0.99,
+     "evidence": "Every left panel shows a triangle fully enclosed by a circle, whereas every right panel shows a circle fully enclosed by a triangle.",
+     "rule": "Left = triangle inside a circle, Right = circle inside a triangle"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "triangle enclosed by a circle",
+     "right": "circle enclosed by a triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels have a triangle inside a circle, while all right panels have a circle inside a triangle",
+     "rule": "Left = triangle enclosed by a circle, Right = circle enclosed by a triangle"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "triangle inside a circle",
+     "right": "circle inside a triangle",
+     "confidence": 1.0,
+     "evidence": "Every left panel shows a triangle enclosed by a circle, whereas every right panel shows a circle enclosed by a triangle.",
+     "rule": "Left = triangle inside a circle, Right = circle inside a triangle"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "triangle inside a circle",
+     "right": "circle inside a triangle",
+     "confidence": 1.0,
+     "evidence": "Every left panel shows a triangle enclosed by a circle, whereas every right panel shows a circle enclosed by a triangle.",
+     "rule": "Left = triangle inside a circle, Right = circle inside a triangle"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "a triangle enclosed by a circle",
+     "right": "a circle enclosed by a triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels have a triangle inside a circle, while all right panels have a circle inside a triangle.",
+     "rule": "Left = a triangle enclosed by a circle, Right = a circle enclosed by a triangle"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "a triangle enclosed by a circle",
+     "right": "a circle enclosed by a triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels have a triangle wholly inside a circle, while all right panels have a circle wholly inside a triangle",
+     "rule": "Left = a triangle enclosed by a circle, Right = a circle enclosed by a triangle"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "triangle inside a circle",
+     "right": "circle inside a triangle",
+     "confidence": 0.99,
+     "evidence": "Every left panel shows a triangle fully enclosed by a circle, whereas every right panel shows a circle fully enclosed by a triangle.",
+     "rule": "Left = triangle inside a circle, Right = circle inside a triangle"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "triangle enclosed by a circle",
+     "right": "circle enclosed by a triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels have a triangle inside a circle, while all right panels have a circle inside a triangle",
+     "rule": "Left = triangle enclosed by a circle, Right = circle enclosed by a triangle"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "triangle inside a circle",
+     "right": "circle inside a triangle",
+     "confidence": 1.0,
+     "evidence": "Every left panel shows a triangle enclosed by a circle, whereas every right panel shows a circle enclosed by a triangle.",
+     "rule": "Left = triangle inside a circle, Right = circle inside a triangle"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "triangle inside a circle",
+     "right": "circle inside a triangle",
+     "confidence": 1.0,
+     "evidence": "Every left panel shows a triangle enclosed by a circle, whereas every right panel shows a circle enclosed by a triangle.",
+     "rule": "Left = triangle inside a circle, Right = circle inside a triangle"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "a triangle enclosed by a circle",
+     "right": "a circle enclosed by a triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels have a triangle inside a circle, while all right panels have a circle inside a triangle.",
+     "rule": "Left = a triangle enclosed by a circle, Right = a circle enclosed by a triangle"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "a triangle enclosed by a circle",
+     "right": "a circle enclosed by a triangle",
+     "confidence": 1.0,
+     "evidence": "All left panels have a triangle wholly inside a circle, while all right panels have a circle wholly inside a triangle",
+     "rule": "Left = a triangle enclosed by a circle, Right = a circle enclosed by a triangle"
+    }
+   },
+   "calls": 9,
+   "cost_usd": 0.0066592500000000054,
+   "perception_cost_usd": 0.032025
+  },
+  {
+   "bp": "bp0050",
+   "rule": "Left = vertical line of symmetry, Right = no vertical symmetry",
+   "rule_nocheck": "Left = vertically symmetric arrangement with mirrored identical shapes, Right = no vertical symmetry and no mirrored identical shapes",
+   "path": "checked-alternative",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "Panel L5 and R4 are visually identical, so no simple visual rule separates all left from all right panels.",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "vertical line of symmetry",
+     "right": "no vertical symmetry",
+     "confidence": 0.78,
+     "evidence": "Every left panel is mirror\u2011symmetric across a vertical axis, whereas the right panels lack that symmetry.",
+     "rule": "Left = vertical line of symmetry, Right = no vertical symmetry"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "contains a vertically mirrored pair of identical shapes",
+     "right": "lacks any vertically mirrored identical shape pair",
+     "confidence": 0.78,
+     "evidence": "All left panels show at least one pair of the same shape placed symmetrically across a vertical axis, while none of the right panels do.",
+     "rule": "Left = contains a vertically mirrored pair of identical shapes, Right = lacks any vertically mirrored identical shape pair"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "overall figure is left\u2011right symmetric",
+     "right": "overall figure lacks left\u2011right symmetry",
+     "confidence": 0.78,
+     "evidence": "All six left panels are mirror\u2011symmetric while none of the right panels share that property",
+     "rule": "Left = overall figure is left\u2011right symmetric, Right = overall figure lacks left\u2011right symmetry"
+    },
+    "analyst5": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The left panels are mostly left\u2011right symmetric but the right side includes a symmetric panel (R4), so no simple rule cleanly separates all six left from all six right.",
+     "rule": ""
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "contains a pair of identical shapes mirrored left\u2011right",
+     "right": "lacks any identical shapes mirrored left\u2011right",
+     "confidence": 0.95,
+     "evidence": "All left panels show at least one matching shape on opposite sides of a vertical axis, while none of the right panels do",
+     "rule": "Left = contains a pair of identical shapes mirrored left\u2011right, Right = lacks any identical shapes mirrored left\u2011right"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "Panel L5 and R4 are visually identical, so no simple visual rule separates all left from all right panels.",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "vertical line of symmetry",
+     "right": "no vertical symmetry",
+     "confidence": 0.78,
+     "evidence": "Every left panel is mirror\u2011symmetric across a vertical axis, whereas the right panels lack that symmetry.",
+     "rule": "Left = vertical line of symmetry, Right = no vertical symmetry"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "contains a vertically mirrored pair of identical shapes",
+     "right": "lacks any vertically mirrored identical shape pair",
+     "confidence": 0.78,
+     "evidence": "All left panels show at least one pair of the same shape placed symmetrically across a vertical axis, while none of the right panels do.",
+     "rule": "Left = contains a vertically mirrored pair of identical shapes, Right = lacks any vertically mirrored identical shape pair"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "overall figure is left\u2011right symmetric",
+     "right": "overall figure lacks left\u2011right symmetry",
+     "confidence": 0.78,
+     "evidence": "All six left panels are mirror\u2011symmetric while none of the right panels share that property",
+     "rule": "Left = overall figure is left\u2011right symmetric, Right = overall figure lacks left\u2011right symmetry"
+    },
+    "analyst5": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The left panels are mostly left\u2011right symmetric but the right side includes a symmetric panel (R4), so no simple rule cleanly separates all six left from all six right.",
+     "rule": ""
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "contains a pair of identical shapes mirrored left\u2011right",
+     "right": "lacks any identical shapes mirrored left\u2011right",
+     "confidence": 0.95,
+     "evidence": "All left panels show at least one matching shape on opposite sides of a vertical axis, while none of the right panels do",
+     "rule": "Left = contains a pair of identical shapes mirrored left\u2011right, Right = lacks any identical shapes mirrored left\u2011right"
+    }
+   },
+   "calls": 15,
+   "cost_usd": 0.020058300000000084,
+   "perception_cost_usd": 0.03189500000000001
+  },
+  {
+   "bp": "bp0056",
+   "rule": "Left = uniform fill (all solid or all outline), Right = mixed fill (solid and outline)",
+   "rule_nocheck": "Left = uniform fill (all solid or all outline), Right = mixed fill (solid and outline)",
+   "path": "synthesis",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 1,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a simple visual property that separates all six left panels from all six right panels.",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No single visual property cleanly separates all six left panels from all six right panels.",
+     "rule": ""
+    },
+    "analyst3": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given properties do not provide a clear visual distinction that holds for all left panels and none of the right panels.",
+     "rule": ""
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "panels with relatively large shapes",
+     "right": "panels with relatively small shapes",
+     "confidence": 0.85,
+     "evidence": "the left side consistently shows larger overall figure area and larger individual shapes, while the right side shows smaller overall area",
+     "rule": "Left = panels with relatively large shapes, Right = panels with relatively small shapes"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "panels contain relatively large figures",
+     "right": "panels contain relatively small figures",
+     "confidence": 0.78,
+     "evidence": "The average area of the shapes is noticeably higher in all left panels than in any right panel.",
+     "rule": "Left = panels contain relatively large figures, Right = panels contain relatively small figures"
+    },
+    "analyst6": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No simple visual rule separates the two sets",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "all shapes share the same fill style",
+     "right": "shapes include both solid and outline fills",
+     "confidence": 0.78,
+     "evidence": "Every left panel contains either only solid or only outline figures, whereas most right panels combine solid and outline figures.",
+     "rule": "Left = all shapes share the same fill style, Right = shapes include both solid and outline fills"
+    },
+    "analyst2": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property separates all left panels from all right panels.",
+     "rule": ""
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "all shapes share the same fill (all solid or all outline)",
+     "right": "both solid and outline shapes appear together",
+     "confidence": 0.9,
+     "evidence": "Every left panel is uniformly filled while every right panel (except one) mixes solid and outline shapes",
+     "rule": "Left = all shapes share the same fill (all solid or all outline), Right = both solid and outline shapes appear together"
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No single visual property consistently separates the left and right panels",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "uniform fill (all solid or all outline)",
+     "right": "mixed fill (both solid and outline)",
+     "confidence": 0.88,
+     "evidence": "Every left panel contains shapes that are either all solid or all outline, while each right panel (except one) combines solid and outline shapes.",
+     "rule": "Left = uniform fill (all solid or all outline), Right = mixed fill (both solid and outline)"
+    },
+    "analyst6": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The examined size, fill, symmetry, and relational properties do not consistently separate the six left panels from the six right panels, so no single visual rule can be identified.",
+     "rule": ""
+    }
+   },
+   "calls": 24,
+   "cost_usd": 0.032788200000000156,
+   "perception_cost_usd": 0.026845000000000008
+  },
+  {
+   "bp": "bp0097",
+   "rule": "Left = centered triangle shape, Right = centered non-triangle shape (circle or line)",
+   "rule_nocheck": "Left = centered triangle shape, Right = centered non-triangle shape (circle or line)",
+   "path": "synthesis",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "centered triangle",
+     "right": "centered circle or line",
+     "confidence": 1.0,
+     "evidence": "Every left panel shows a triangle, none of the right panels do",
+     "rule": "Left = centered triangle, Right = centered circle or line"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "centered triangle shape",
+     "right": "non\u2011triangular shape (circle or line)",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a triangle, while all right panels contain circles or a line and no triangle",
+     "rule": "Left = centered triangle shape, Right = non\u2011triangular shape (circle or line)"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "a triangle shape",
+     "right": "a circle or line shape",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a triangle, while none of the right panels contain a triangle",
+     "rule": "Left = a triangle shape, Right = a circle or line shape"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "centered triangle figure",
+     "right": "centered circle or line figure",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a triangle, while all right panels contain circles or a line instead of a triangle",
+     "rule": "Left = centered triangle figure, Right = centered circle or line figure"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "centered triangle shape",
+     "right": "centered circle or line shape",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a triangle, while all right panels contain circles or a line",
+     "rule": "Left = centered triangle shape, Right = centered circle or line shape"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "central triangle shape",
+     "right": "central shape is not a triangle (circle or line)",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a triangle at the center, while all right panels have circles or a line instead",
+     "rule": "Left = central triangle shape, Right = central shape is not a triangle (circle or line)"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "centered triangle",
+     "right": "centered circle or line",
+     "confidence": 1.0,
+     "evidence": "Every left panel shows a triangle, none of the right panels do",
+     "rule": "Left = centered triangle, Right = centered circle or line"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "centered triangle shape",
+     "right": "non\u2011triangular shape (circle or line)",
+     "confidence": 1.0,
+     "evidence": "All left panels contain a triangle, while all right panels contain circles or a line and no triangle",
+     "rule": "Left = centered triangle shape, Right = non\u2011triangular shape (circle or line)"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "a triangle shape",
+     "right": "a circle or line shape",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a triangle, while none of the right panels contain a triangle",
+     "rule": "Left = a triangle shape, Right = a circle or line shape"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "centered triangle figure",
+     "right": "centered circle or line figure",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a triangle, while all right panels contain circles or a line instead of a triangle",
+     "rule": "Left = centered triangle figure, Right = centered circle or line figure"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "centered triangle shape",
+     "right": "centered circle or line shape",
+     "confidence": 0.95,
+     "evidence": "All left panels contain a triangle, while all right panels contain circles or a line",
+     "rule": "Left = centered triangle shape, Right = centered circle or line shape"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "central triangle shape",
+     "right": "central shape is not a triangle (circle or line)",
+     "confidence": 0.95,
+     "evidence": "All left panels feature a triangle at the center, while all right panels have circles or a line instead",
+     "rule": "Left = central triangle shape, Right = central shape is not a triangle (circle or line)"
+    }
+   },
+   "calls": 9,
+   "cost_usd": 0.005167199999999927,
+   "perception_cost_usd": 0.02152499999999999
+  },
+  {
+   "bp": "bp0049",
+   "rule": "Left = outline shape and dot pattern are mirror\u2011symmetric across a vertical axis, Right = outline shape or dot pattern lacks vertical mirror symmetry",
+   "rule_nocheck": "Left = outline shape and dot pattern are mirror\u2011symmetric across a vertical axis, Right = outline shape or dot pattern lacks vertical mirror symmetry",
+   "path": "synthesis-unchecked",
+   "check_score": 6,
+   "verified": false,
+   "rounds": 1,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a clear distinguishing rule that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No simple visual property consistently distinguishes all six left panels from all six right panels based on the provided descriptions.",
+     "rule": ""
+    },
+    "analyst3": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property separates the two sets",
+     "rule": ""
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given attributes do not reveal a single simple visual property that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided visual attributes do not yield a simple property that holds for all six left panels while being absent from all six right panels.",
+     "rule": ""
+    },
+    "analyst6": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a simple visual property that holds for all six left panels while being absent from all six right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property distinguishes the two sets",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "vertically symmetric arrangement of shape and dots",
+     "right": "no vertical symmetry in shape and dots",
+     "confidence": 0.78,
+     "evidence": "All left panels are described as symmetric while every right panel is noted as not symmetric, indicating a vertical mirror\u2011symmetry rule.",
+     "rule": "Left = vertically symmetric arrangement of shape and dots, Right = no vertical symmetry in shape and dots"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "axis\u2011aligned symmetric shape with vertically symmetric dot pattern",
+     "right": "shape or dot pattern that breaks vertical symmetry",
+     "confidence": 0.65,
+     "evidence": "All left panels keep a mirror image across the vertical centre line, while each right panel shows at least one element (shape orientation or dot placement) that is not mirrored.",
+     "rule": "Left = axis\u2011aligned symmetric shape with vertically symmetric dot pattern, Right = shape or dot pattern that breaks vertical symmetry"
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property distinguishes all six left panels from all six right panels based on the given descriptions.",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "figures with a vertical or horizontal line of symmetry",
+     "right": "figures lacking vertical/horizontal symmetry",
+     "confidence": 0.55,
+     "evidence": "Each left panel\u2019s main shape is symmetric about a vertical or horizontal axis, whereas the right panels do not share that axis-aligned symmetry.",
+     "rule": "Left = figures with a vertical or horizontal line of symmetry, Right = figures lacking vertical/horizontal symmetry"
+    },
+    "analyst6": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property distinguishes the left panels from the right panels based on the given descriptions.",
+     "rule": ""
+    }
+   },
+   "calls": 32,
+   "cost_usd": 0.052277850000000015,
+   "perception_cost_usd": 0.035105
+  },
+  {
+   "bp": "bp0011",
+   "rule": "Left = elongated, stretched outline shapes, Right = compact, regular symmetric shapes",
+   "rule_nocheck": "Left = elongated, stretched outline shapes, Right = compact, regular symmetric shapes",
+   "path": "synthesis",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "irregular shapes",
+     "right": "regular shapes",
+     "confidence": 0.95,
+     "evidence": "All left panels contain shapes that are not regular (unequal sides or non\u2011circular), while all right panels show regular, symmetric shapes like circles and squares.",
+     "rule": "Left = irregular shapes, Right = regular shapes"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "elongated, stretched outline shapes",
+     "right": "compact, roughly equal\u2011width shapes",
+     "confidence": 0.95,
+     "evidence": "All left panels have high elongation values while all right panels have low elongation, clearly separating the two groups",
+     "rule": "Left = elongated, stretched outline shapes, Right = compact, roughly equal\u2011width shapes"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "elongated (stretched) shapes",
+     "right": "compact (non\u2011stretched) shapes",
+     "confidence": 0.9,
+     "evidence": "All left panels contain shapes with high elongation while all right panels contain shapes with low elongation",
+     "rule": "Left = elongated (stretched) shapes, Right = compact (non\u2011stretched) shapes"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "elongated shapes",
+     "right": "compact shapes",
+     "confidence": 0.95,
+     "evidence": "The left panels all contain shapes with high elongation, while the right panels contain shapes with low elongation.",
+     "rule": "Left = elongated shapes, Right = compact shapes"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "elongated single outline shape",
+     "right": "compact, roughly circular shape",
+     "confidence": 0.95,
+     "evidence": "Left panels all contain a stretched, high\u2011elongation figure while right panels show compact, low\u2011elongation figures",
+     "rule": "Left = elongated single outline shape, Right = compact, roughly circular shape"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "elongated, stretched shapes",
+     "right": "compact, roughly circular shapes",
+     "confidence": 0.85,
+     "evidence": "Elongation values are markedly higher for all left panels than for any right panel",
+     "rule": "Left = elongated, stretched shapes, Right = compact, roughly circular shapes"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "irregular shapes",
+     "right": "regular shapes",
+     "confidence": 0.95,
+     "evidence": "All left panels contain shapes that are not regular (unequal sides or non\u2011circular), while all right panels show regular, symmetric shapes like circles and squares.",
+     "rule": "Left = irregular shapes, Right = regular shapes"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "elongated, stretched outline shapes",
+     "right": "compact, roughly equal\u2011width shapes",
+     "confidence": 0.95,
+     "evidence": "All left panels have high elongation values while all right panels have low elongation, clearly separating the two groups",
+     "rule": "Left = elongated, stretched outline shapes, Right = compact, roughly equal\u2011width shapes"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "elongated (stretched) shapes",
+     "right": "compact (non\u2011stretched) shapes",
+     "confidence": 0.9,
+     "evidence": "All left panels contain shapes with high elongation while all right panels contain shapes with low elongation",
+     "rule": "Left = elongated (stretched) shapes, Right = compact (non\u2011stretched) shapes"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "elongated shapes",
+     "right": "compact shapes",
+     "confidence": 0.95,
+     "evidence": "The left panels all contain shapes with high elongation, while the right panels contain shapes with low elongation.",
+     "rule": "Left = elongated shapes, Right = compact shapes"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "elongated single outline shape",
+     "right": "compact, roughly circular shape",
+     "confidence": 0.95,
+     "evidence": "Left panels all contain a stretched, high\u2011elongation figure while right panels show compact, low\u2011elongation figures",
+     "rule": "Left = elongated single outline shape, Right = compact, roughly circular shape"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "elongated, stretched shapes",
+     "right": "compact, roughly circular shapes",
+     "confidence": 0.85,
+     "evidence": "Elongation values are markedly higher for all left panels than for any right panel",
+     "rule": "Left = elongated, stretched shapes, Right = compact, roughly circular shapes"
+    }
+   },
+   "calls": 9,
+   "cost_usd": 0.005722200000000011,
+   "perception_cost_usd": 0.02154500000000001
+  },
+  {
+   "bp": "bp0022",
+   "rule": "Left = shapes of similar size, Right = a noticeably larger shape present",
+   "rule_nocheck": "Left = shapes of similar size, Right = a noticeably larger shape present",
+   "path": "synthesis",
+   "check_score": 11,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "all shapes are similar in size",
+     "right": "one shape dominates in size",
+     "confidence": 0.92,
+     "evidence": "Left panels show only modest size differences while each right panel contains a clearly larger figure",
+     "rule": "Left = all shapes are similar in size, Right = one shape dominates in size"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "objects of similar size",
+     "right": "one object noticeably larger than the others",
+     "confidence": 0.85,
+     "evidence": "All left panels contain shapes of comparable size, while each right panel has a shape that stands out as much larger than the rest.",
+     "rule": "Left = objects of similar size, Right = one object noticeably larger than the others"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "all shapes are of similar size",
+     "right": "at least one shape is noticeably larger than the others",
+     "confidence": 0.96,
+     "evidence": "Left panels show objects with comparable sizes, while every right panel includes a distinctly larger figure.",
+     "rule": "Left = all shapes are of similar size, Right = at least one shape is noticeably larger than the others"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "all shapes are of similar size",
+     "right": "contains a noticeably larger shape",
+     "confidence": 0.95,
+     "evidence": "Each left panel\u2019s objects share the same size category, while every right panel includes at least one shape that is significantly larger than the others",
+     "rule": "Left = all shapes are of similar size, Right = contains a noticeably larger shape"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "shapes of comparable size",
+     "right": "a clearly dominant large shape",
+     "confidence": 0.85,
+     "evidence": "All left panels contain objects that are similar in size, while each right panel features one object that is noticeably larger than the rest",
+     "rule": "Left = shapes of comparable size, Right = a clearly dominant large shape"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "objects of comparable size",
+     "right": "one object dominates in size",
+     "confidence": 0.95,
+     "evidence": "In all left panels the largest figure is less than about twice the size of the smallest, whereas each right panel contains a figure that is far larger than the others",
+     "rule": "Left = objects of comparable size, Right = one object dominates in size"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "all shapes are similar in size",
+     "right": "one shape dominates in size",
+     "confidence": 0.92,
+     "evidence": "Left panels show only modest size differences while each right panel contains a clearly larger figure",
+     "rule": "Left = all shapes are similar in size, Right = one shape dominates in size"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "objects of similar size",
+     "right": "one object noticeably larger than the others",
+     "confidence": 0.85,
+     "evidence": "All left panels contain shapes of comparable size, while each right panel has a shape that stands out as much larger than the rest.",
+     "rule": "Left = objects of similar size, Right = one object noticeably larger than the others"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "all shapes are of similar size",
+     "right": "at least one shape is noticeably larger than the others",
+     "confidence": 0.96,
+     "evidence": "Left panels show objects with comparable sizes, while every right panel includes a distinctly larger figure.",
+     "rule": "Left = all shapes are of similar size, Right = at least one shape is noticeably larger than the others"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "all shapes are of similar size",
+     "right": "contains a noticeably larger shape",
+     "confidence": 0.95,
+     "evidence": "Each left panel\u2019s objects share the same size category, while every right panel includes at least one shape that is significantly larger than the others",
+     "rule": "Left = all shapes are of similar size, Right = contains a noticeably larger shape"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "shapes of comparable size",
+     "right": "a clearly dominant large shape",
+     "confidence": 0.85,
+     "evidence": "All left panels contain objects that are similar in size, while each right panel features one object that is noticeably larger than the rest",
+     "rule": "Left = shapes of comparable size, Right = a clearly dominant large shape"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "objects of comparable size",
+     "right": "one object dominates in size",
+     "confidence": 0.95,
+     "evidence": "In all left panels the largest figure is less than about twice the size of the smallest, whereas each right panel contains a figure that is far larger than the others",
+     "rule": "Left = objects of comparable size, Right = one object dominates in size"
+    }
+   },
+   "calls": 9,
+   "cost_usd": 0.0077264999999999695,
+   "perception_cost_usd": 0.02752500000000002
+  },
+  {
+   "bp": "bp0025",
+   "rule": "Left = irregular, spread-out figures, Right = compact figures",
+   "rule_nocheck": "Left = irregular, spread-out figures, Right = compact figures",
+   "path": "cv-verifier",
+   "check_score": 12,
+   "verified": true,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "contains a solid (filled) triangle",
+     "right": "contains no solid triangle",
+     "confidence": 0.95,
+     "evidence": "All left panels include a filled triangle while none of the right panels do",
+     "rule": "Left = contains a solid (filled) triangle, Right = contains no solid triangle"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "contains a filled triangle",
+     "right": "contains a filled circle",
+     "confidence": 0.99,
+     "evidence": "All left panels include a solid triangle while all right panels include a solid circle and no solid triangle",
+     "rule": "Left = contains a filled triangle, Right = contains a filled circle"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "contains a filled triangle",
+     "right": "contains a filled circle",
+     "confidence": 0.95,
+     "evidence": "All left panels have a solid triangle and no solid circle, while all right panels have a solid circle and no solid triangle",
+     "rule": "Left = contains a filled triangle, Right = contains a filled circle"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "contains a solid (filled) triangle",
+     "right": "contains a solid (filled) circle",
+     "confidence": 1.0,
+     "evidence": "All left panels have a filled triangle and no filled circle, while all right panels have a filled circle and no filled triangle.",
+     "rule": "Left = contains a solid (filled) triangle, Right = contains a solid (filled) circle"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "contains a solid (filled) triangle",
+     "right": "contains a solid (filled) circle",
+     "confidence": 0.95,
+     "evidence": "All left panels have a filled triangle and no filled circles, while all right panels have a filled circle and no filled triangles",
+     "rule": "Left = contains a solid (filled) triangle, Right = contains a solid (filled) circle"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "contains a solid triangle",
+     "right": "contains a solid circle",
+     "confidence": 0.99,
+     "evidence": "All left panels include a solid triangle while all right panels include a solid circle",
+     "rule": "Left = contains a solid triangle, Right = contains a solid circle"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "contains a solid (filled) triangle",
+     "right": "contains no solid triangle",
+     "confidence": 0.95,
+     "evidence": "All left panels include a filled triangle while none of the right panels do",
+     "rule": "Left = contains a solid (filled) triangle, Right = contains no solid triangle"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "contains a filled triangle",
+     "right": "contains a filled circle",
+     "confidence": 0.99,
+     "evidence": "All left panels include a solid triangle while all right panels include a solid circle and no solid triangle",
+     "rule": "Left = contains a filled triangle, Right = contains a filled circle"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "contains a filled triangle",
+     "right": "contains a filled circle",
+     "confidence": 0.95,
+     "evidence": "All left panels have a solid triangle and no solid circle, while all right panels have a solid circle and no solid triangle",
+     "rule": "Left = contains a filled triangle, Right = contains a filled circle"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "contains a solid (filled) triangle",
+     "right": "contains a solid (filled) circle",
+     "confidence": 1.0,
+     "evidence": "All left panels have a filled triangle and no filled circle, while all right panels have a filled circle and no filled triangle.",
+     "rule": "Left = contains a solid (filled) triangle, Right = contains a solid (filled) circle"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "contains a solid (filled) triangle",
+     "right": "contains a solid (filled) circle",
+     "confidence": 0.95,
+     "evidence": "All left panels have a filled triangle and no filled circles, while all right panels have a filled circle and no filled triangles",
+     "rule": "Left = contains a solid (filled) triangle, Right = contains a solid (filled) circle"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "contains a solid triangle",
+     "right": "contains a solid circle",
+     "confidence": 0.99,
+     "evidence": "All left panels include a solid triangle while all right panels include a solid circle",
+     "rule": "Left = contains a solid triangle, Right = contains a solid circle"
+    }
+   },
+   "calls": 7,
+   "cost_usd": 0.005402249999999942,
+   "perception_cost_usd": 0.03404499999999999
+  },
+  {
+   "bp": "bp0028",
+   "rule": "Left = solid circle with outline upward triangle, Right = solid upward triangle inside outline circle",
+   "rule_nocheck": "Left = solid circle with outline upward triangle, Right = solid upward triangle inside outline circle",
+   "path": "synthesis-unchecked",
+   "check_score": 7,
+   "verified": false,
+   "rounds": 1,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a consistent visual distinction that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "any upward\u2011pointing triangle is an outline (not filled)",
+     "right": "upward\u2011pointing triangles are solid (filled)",
+     "confidence": 0.93,
+     "evidence": "All left panels with an upward triangle show it as an outline, while all right panels with an upward triangle show it as a solid shape.",
+     "rule": "Left = any upward\u2011pointing triangle is an outline (not filled), Right = upward\u2011pointing triangles are solid (filled)"
+    },
+    "analyst3": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a consistent visual property that separates all left panels from all right panels.",
+     "rule": ""
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given panels do not share a consistent distinguishing property.",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "upward triangle drawn as outline",
+     "right": "upward triangle drawn filled",
+     "confidence": 0.97,
+     "evidence": "All left panels have any upward\u2011pointing triangle as an outline shape, while all right panels show upward\u2011pointing triangles as solid fills",
+     "rule": "Left = upward triangle drawn as outline, Right = upward triangle drawn filled"
+    },
+    "analyst6": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given attributes do not yield a single visual property that holds for all six left panels while being absent from all six right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "upward triangle drawn as outline",
+     "right": "upward triangle drawn solid",
+     "confidence": 0.96,
+     "evidence": "All left panels with an upward\u2011pointing triangle show it as an outline, while all right panels with an upward\u2011pointing triangle show it filled.",
+     "rule": "Left = upward triangle drawn as outline, Right = upward triangle drawn solid"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "upward triangle is outline or absent",
+     "right": "upward triangle is solid",
+     "confidence": 0.94,
+     "evidence": "All left panels lack a filled upward\u2011pointing triangle, while every right panel shows a filled upward\u2011pointing triangle",
+     "rule": "Left = upward triangle is outline or absent, Right = upward triangle is solid"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "upward triangles are outlines",
+     "right": "upward triangles are solid",
+     "confidence": 0.96,
+     "evidence": "Every left panel that contains an upward\u2011pointing triangle draws it as an outline, whereas every right panel draws the upward triangle filled",
+     "rule": "Left = upward triangles are outlines, Right = upward triangles are solid"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "upward triangles are outlines",
+     "right": "upward triangles are solid",
+     "confidence": 0.96,
+     "evidence": "All left panels that contain an upward\u2011pointing triangle display it as an outline, whereas every right panel with an upward\u2011pointing triangle shows it filled.",
+     "rule": "Left = upward triangles are outlines, Right = upward triangles are solid"
+    },
+    "analyst5": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "Both sides contain mixtures of solid and outline circles and triangles of different orientations, so no single visual rule distinguishes all left panels from all right panels.",
+     "rule": ""
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "upward triangles are outlines",
+     "right": "upward triangles are solid",
+     "confidence": 0.94,
+     "evidence": "All left panels with an upward\u2011pointing triangle show it as an outline, while all right panels with an upward\u2011pointing triangle show it filled",
+     "rule": "Left = upward triangles are outlines, Right = upward triangles are solid"
+    }
+   },
+   "calls": 22,
+   "cost_usd": 0.024616499999999986,
+   "perception_cost_usd": 0.024285
+  },
+  {
+   "bp": "bp0030",
+   "rule": "Left = figure placed lower in panel, Right = figure placed higher in panel",
+   "rule_nocheck": "Left = figure placed lower in panel, Right = figure placed higher in panel",
+   "path": "synthesis-unchecked",
+   "check_score": 6,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "central figure positioned lower than panel center",
+     "right": "central figure positioned higher than panel center",
+     "confidence": 0.73,
+     "evidence": "Centroid Y values are consistently higher for left panels and lower for right panels, indicating a vertical placement difference.",
+     "rule": "Left = central figure positioned lower than panel center, Right = central figure positioned higher than panel center"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "the main figure is positioned toward the bottom of the panel",
+     "right": "the main figure is positioned toward the top of the panel",
+     "confidence": 0.85,
+     "evidence": "centroid_y values are consistently higher for left panels and lower for right panels, cleanly separating the two groups",
+     "rule": "Left = the main figure is positioned toward the bottom of the panel, Right = the main figure is positioned toward the top of the panel"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "object positioned toward the bottom half of the panel",
+     "right": "object positioned toward the top half of the panel",
+     "confidence": 0.78,
+     "evidence": "the vertical centroid of the shape is higher for all left panels and lower for all right panels",
+     "rule": "Left = object positioned toward the bottom half of the panel, Right = object positioned toward the top half of the panel"
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a clear visual property that holds for all left panels and none of the right panels.",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a single visual property that consistently distinguishes all six left panels from all six right panels.",
+     "rule": ""
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "the central figure is positioned lower in the panel",
+     "right": "the central figure is positioned higher in the panel",
+     "confidence": 0.85,
+     "evidence": "centroid_y values are consistently higher for left panels and lower for right panels",
+     "rule": "Left = the central figure is positioned lower in the panel, Right = the central figure is positioned higher in the panel"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "central figure positioned lower than panel center",
+     "right": "central figure positioned higher than panel center",
+     "confidence": 0.73,
+     "evidence": "Centroid Y values are consistently higher for left panels and lower for right panels, indicating a vertical placement difference.",
+     "rule": "Left = central figure positioned lower than panel center, Right = central figure positioned higher than panel center"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "the main figure is positioned toward the bottom of the panel",
+     "right": "the main figure is positioned toward the top of the panel",
+     "confidence": 0.85,
+     "evidence": "centroid_y values are consistently higher for left panels and lower for right panels, cleanly separating the two groups",
+     "rule": "Left = the main figure is positioned toward the bottom of the panel, Right = the main figure is positioned toward the top of the panel"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "object positioned toward the bottom half of the panel",
+     "right": "object positioned toward the top half of the panel",
+     "confidence": 0.78,
+     "evidence": "the vertical centroid of the shape is higher for all left panels and lower for all right panels",
+     "rule": "Left = object positioned toward the bottom half of the panel, Right = object positioned toward the top half of the panel"
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a clear visual property that holds for all left panels and none of the right panels.",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a single visual property that consistently distinguishes all six left panels from all six right panels.",
+     "rule": ""
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "the central figure is positioned lower in the panel",
+     "right": "the central figure is positioned higher in the panel",
+     "confidence": 0.85,
+     "evidence": "centroid_y values are consistently higher for left panels and lower for right panels",
+     "rule": "Left = the central figure is positioned lower in the panel, Right = the central figure is positioned higher in the panel"
+    }
+   },
+   "calls": 12,
+   "cost_usd": 0.010391399999999995,
+   "perception_cost_usd": 0.02169500000000002
+  },
+  {
+   "bp": "bp0033",
+   "rule": "Left = shape positioned above panel center, Right = shape positioned below panel center",
+   "rule_nocheck": "Left = shape positioned above panel center, Right = shape positioned below panel center",
+   "path": "synthesis-unchecked",
+   "check_score": 5,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "shape positioned lower in the panel",
+     "right": "shape positioned higher in the panel",
+     "confidence": 0.78,
+     "evidence": "Centroid y\u2011coordinate is higher for all left panels than for any right panel",
+     "rule": "Left = shape positioned lower in the panel, Right = shape positioned higher in the panel"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "shape is placed toward the top of the panel",
+     "right": "shape is placed toward the bottom of the panel",
+     "confidence": 0.9,
+     "evidence": "The centroid y\u2011coordinate of the left shapes is consistently higher than that of the right shapes",
+     "rule": "Left = shape is placed toward the top of the panel, Right = shape is placed toward the bottom of the panel"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "shape positioned higher in the panel",
+     "right": "shape positioned lower in the panel",
+     "confidence": 0.78,
+     "evidence": "the vertical centroid of the left shapes is consistently higher than that of the right shapes",
+     "rule": "Left = shape positioned higher in the panel, Right = shape positioned lower in the panel"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "shape positioned above the panel\u2019s center",
+     "right": "shape positioned below the panel\u2019s center",
+     "confidence": 0.9,
+     "evidence": "The average vertical centroid of left shapes is higher than that of right shapes, clearly separating the two groups.",
+     "rule": "Left = shape positioned above the panel\u2019s center, Right = shape positioned below the panel\u2019s center"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "shape positioned below the vertical centre line",
+     "right": "shape positioned above the vertical centre line",
+     "confidence": 0.85,
+     "evidence": "centroid_y values are consistently higher for left panels and lower for right panels",
+     "rule": "Left = shape positioned below the vertical centre line, Right = shape positioned above the vertical centre line"
+    },
+    "analyst6": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a single visual property that cleanly separates all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "shape positioned lower in the panel",
+     "right": "shape positioned higher in the panel",
+     "confidence": 0.78,
+     "evidence": "Centroid y\u2011coordinate is higher for all left panels than for any right panel",
+     "rule": "Left = shape positioned lower in the panel, Right = shape positioned higher in the panel"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "shape is placed toward the top of the panel",
+     "right": "shape is placed toward the bottom of the panel",
+     "confidence": 0.9,
+     "evidence": "The centroid y\u2011coordinate of the left shapes is consistently higher than that of the right shapes",
+     "rule": "Left = shape is placed toward the top of the panel, Right = shape is placed toward the bottom of the panel"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "shape positioned higher in the panel",
+     "right": "shape positioned lower in the panel",
+     "confidence": 0.78,
+     "evidence": "the vertical centroid of the left shapes is consistently higher than that of the right shapes",
+     "rule": "Left = shape positioned higher in the panel, Right = shape positioned lower in the panel"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "shape positioned above the panel\u2019s center",
+     "right": "shape positioned below the panel\u2019s center",
+     "confidence": 0.9,
+     "evidence": "The average vertical centroid of left shapes is higher than that of right shapes, clearly separating the two groups.",
+     "rule": "Left = shape positioned above the panel\u2019s center, Right = shape positioned below the panel\u2019s center"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "shape positioned below the vertical centre line",
+     "right": "shape positioned above the vertical centre line",
+     "confidence": 0.85,
+     "evidence": "centroid_y values are consistently higher for left panels and lower for right panels",
+     "rule": "Left = shape positioned below the vertical centre line, Right = shape positioned above the vertical centre line"
+    },
+    "analyst6": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a single visual property that cleanly separates all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "calls": 14,
+   "cost_usd": 0.013039499999999926,
+   "perception_cost_usd": 0.021394999999999997
+  },
+  {
+   "bp": "bp0038",
+   "rule": "Left = triangle larger than circle, Right = circle larger than triangle",
+   "rule_nocheck": "Left = triangle larger than circle, Right = circle larger than triangle",
+   "path": "synthesis",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 0.95,
+     "evidence": "All left panels show the triangle as the larger shape, while in all right panels the circle is the larger shape",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 0.95,
+     "evidence": "All left panels have a triangle that is larger than the circle, while all right panels have a circle that is larger than the triangle.",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 0.96,
+     "evidence": "All left panels have a triangle that is larger than the circle, while all right panels have a circle larger than the triangle.",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 0.95,
+     "evidence": "All left panels have a triangle that is bigger than the circle, while all right panels have a circle that is bigger than the triangle.",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "triangle smaller than circle",
+     "confidence": 0.96,
+     "evidence": "In every left panel the triangle is larger than the circle, while in every right panel the triangle is smaller than the circle.",
+     "rule": "Left = triangle larger than circle, Right = triangle smaller than circle"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 0.95,
+     "evidence": "In every left panel the triangle is larger than the circle, while in every right panel the circle is larger than the triangle.",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 0.95,
+     "evidence": "All left panels show the triangle as the larger shape, while in all right panels the circle is the larger shape",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 0.95,
+     "evidence": "All left panels have a triangle that is larger than the circle, while all right panels have a circle that is larger than the triangle.",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 0.96,
+     "evidence": "All left panels have a triangle that is larger than the circle, while all right panels have a circle larger than the triangle.",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 0.95,
+     "evidence": "All left panels have a triangle that is bigger than the circle, while all right panels have a circle that is bigger than the triangle.",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "triangle smaller than circle",
+     "confidence": 0.96,
+     "evidence": "In every left panel the triangle is larger than the circle, while in every right panel the triangle is smaller than the circle.",
+     "rule": "Left = triangle larger than circle, Right = triangle smaller than circle"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "triangle larger than circle",
+     "right": "circle larger than triangle",
+     "confidence": 0.95,
+     "evidence": "In every left panel the triangle is larger than the circle, while in every right panel the circle is larger than the triangle.",
+     "rule": "Left = triangle larger than circle, Right = circle larger than triangle"
+    }
+   },
+   "calls": 9,
+   "cost_usd": 0.005500499999999964,
+   "perception_cost_usd": 0.024625
+  },
+  {
+   "bp": "bp0046",
+   "rule": "Left = shapes clustered toward the right side of the panel, Right = shapes clustered toward the left side of the panel",
+   "rule_nocheck": "Left = shapes clustered toward the right side of the panel, Right = shapes clustered toward the left side of the panel",
+   "path": "synthesis-unchecked",
+   "check_score": 1,
+   "verified": false,
+   "rounds": 1,
+   "consensus": false,
+   "strong_consensus": false,
+   "judge_llm": null,
+   "round1": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No visual property consistently separates the two sets of panels.",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "objects positioned toward the top of the panel",
+     "right": "objects positioned toward the bottom of the panel",
+     "confidence": 0.85,
+     "evidence": "the average vertical centroid of the shapes is higher in all left panels and lower in all right panels",
+     "rule": "Left = objects positioned toward the top of the panel, Right = objects positioned toward the bottom of the panel"
+    },
+    "analyst3": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given visual attributes do not yield a simple rule that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The given attributes do not yield a simple visual property that holds for all left panels and fails for all right panels.",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property distinguishes all left panels from all right panels based on the given attributes.",
+     "rule": ""
+    },
+    "analyst6": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No visual property consistently separates the two sets.",
+     "rule": ""
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property distinguishes the left panels from the right panels.",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The left panels display many different arrangements of triangle and circle (above, below, touching, inside) and the right panels show similarly varied arrangements, so no single visual property consistently separates the two sets.",
+     "rule": ""
+    },
+    "analyst3": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property separates the left and right panels",
+     "rule": ""
+    },
+    "analyst4": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property distinguishes the left panels from the right panels across the given examples.",
+     "rule": ""
+    },
+    "analyst5": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual rule distinguishes all left panels from all right panels",
+     "rule": ""
+    },
+    "analyst6": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "No consistent visual property distinguishes all left panels from all right panels.",
+     "rule": ""
+    }
+   },
+   "calls": 32,
+   "cost_usd": 0.05361914999999989,
+   "perception_cost_usd": 0.024185000000000012
+  },
+  {
+   "bp": "bp0057",
+   "rule": "Left = two shapes of similar size, Right = two shapes of different size",
+   "rule_nocheck": "Left = two similarly sized shapes, Right = two shapes of noticeably different size",
+   "path": "checked-alternative",
+   "check_score": 12,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a single visual property that holds for all left panels while being absent in all right panels.",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a single visual property that holds for all six left panels while being absent from all six right panels.",
+     "rule": ""
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "two shapes of similar size",
+     "right": "two shapes of different size",
+     "confidence": 0.95,
+     "evidence": "All left panels contain two objects whose sizes are nearly equal, while each right panel shows a noticeable size disparity between its two objects.",
+     "rule": "Left = two shapes of similar size, Right = two shapes of different size"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "two shapes of similar size",
+     "right": "shapes of different sizes",
+     "confidence": 0.95,
+     "evidence": "In each left panel the two objects have nearly equal size, whereas every right panel contains one object that is noticeably larger than the other.",
+     "rule": "Left = two shapes of similar size, Right = shapes of different sizes"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "two similarly sized shapes",
+     "right": "shapes of different sizes",
+     "confidence": 0.95,
+     "evidence": "All left panels contain two shapes with almost identical size, whereas each right panel shows a clear size mismatch between its two shapes.",
+     "rule": "Left = two similarly sized shapes, Right = shapes of different sizes"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "two shapes of similar size",
+     "right": "one shape noticeably larger than the other",
+     "confidence": 0.93,
+     "evidence": "All left panels have shape sizes that are almost equal, while every right panel contains a clear size disparity between its two shapes.",
+     "rule": "Left = two shapes of similar size, Right = one shape noticeably larger than the other"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a single visual property that holds for all left panels while being absent in all right panels.",
+     "rule": ""
+    },
+    "analyst2": {
+     "has_rule": false,
+     "left": "",
+     "right": "",
+     "confidence": 0.0,
+     "evidence": "The provided attributes do not yield a single visual property that holds for all six left panels while being absent from all six right panels.",
+     "rule": ""
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "two shapes of similar size",
+     "right": "two shapes of different size",
+     "confidence": 0.95,
+     "evidence": "All left panels contain two objects whose sizes are nearly equal, while each right panel shows a noticeable size disparity between its two objects.",
+     "rule": "Left = two shapes of similar size, Right = two shapes of different size"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "two shapes of similar size",
+     "right": "shapes of different sizes",
+     "confidence": 0.95,
+     "evidence": "In each left panel the two objects have nearly equal size, whereas every right panel contains one object that is noticeably larger than the other.",
+     "rule": "Left = two shapes of similar size, Right = shapes of different sizes"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "two similarly sized shapes",
+     "right": "shapes of different sizes",
+     "confidence": 0.95,
+     "evidence": "All left panels contain two shapes with almost identical size, whereas each right panel shows a clear size mismatch between its two shapes.",
+     "rule": "Left = two similarly sized shapes, Right = shapes of different sizes"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "two shapes of similar size",
+     "right": "one shape noticeably larger than the other",
+     "confidence": 0.93,
+     "evidence": "All left panels have shape sizes that are almost equal, while every right panel contains a clear size disparity between its two shapes.",
+     "rule": "Left = two shapes of similar size, Right = one shape noticeably larger than the other"
+    }
+   },
+   "calls": 18,
+   "cost_usd": 0.02587214999999976,
+   "perception_cost_usd": 0.024455000000000005
+  },
+  {
+   "bp": "bp0096",
+   "rule": "Left = small central polygon, Right = large central polygon",
+   "rule_nocheck": "Left = small central polygon, Right = large central polygon",
+   "path": "synthesis-unchecked",
+   "check_score": 4,
+   "verified": false,
+   "rounds": 0,
+   "consensus": true,
+   "strong_consensus": false,
+   "judge_llm": true,
+   "round1": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "small central figure",
+     "right": "large central figure",
+     "confidence": 0.85,
+     "evidence": "The left panels show a relatively small shape in the centre while the right panels display a noticeably larger central shape",
+     "rule": "Left = small central figure, Right = large central figure"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "small central polygon",
+     "right": "large central polygon",
+     "confidence": 0.93,
+     "evidence": "The left panels contain a relatively small central shape, while the right panels contain a noticeably larger central shape.",
+     "rule": "Left = small central polygon, Right = large central polygon"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "small central figure",
+     "right": "large central figure",
+     "confidence": 0.92,
+     "evidence": "The left panels contain a relatively small central shape whereas the right panels contain a relatively large central shape, as reflected by the area fraction contrast.",
+     "rule": "Left = small central figure, Right = large central figure"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "small central polygon",
+     "right": "large central polygon",
+     "confidence": 0.92,
+     "evidence": "The left panels all have a relatively small central shape while the right panels contain a noticeably larger central shape.",
+     "rule": "Left = small central polygon, Right = large central polygon"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "small central polygon",
+     "right": "large central polygon",
+     "confidence": 0.9,
+     "evidence": "The central shape occupies a smaller area fraction on all left panels and a larger area fraction on all right panels",
+     "rule": "Left = small central polygon, Right = large central polygon"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "small central figure",
+     "right": "large central figure",
+     "confidence": 0.9,
+     "evidence": "The left panels contain a relatively small central shape while the right panels contain a noticeably larger central shape, as indicated by area and size metrics.",
+     "rule": "Left = small central figure, Right = large central figure"
+    }
+   },
+   "final_hyps": {
+    "analyst1": {
+     "has_rule": true,
+     "left": "small central figure",
+     "right": "large central figure",
+     "confidence": 0.85,
+     "evidence": "The left panels show a relatively small shape in the centre while the right panels display a noticeably larger central shape",
+     "rule": "Left = small central figure, Right = large central figure"
+    },
+    "analyst2": {
+     "has_rule": true,
+     "left": "small central polygon",
+     "right": "large central polygon",
+     "confidence": 0.93,
+     "evidence": "The left panels contain a relatively small central shape, while the right panels contain a noticeably larger central shape.",
+     "rule": "Left = small central polygon, Right = large central polygon"
+    },
+    "analyst3": {
+     "has_rule": true,
+     "left": "small central figure",
+     "right": "large central figure",
+     "confidence": 0.92,
+     "evidence": "The left panels contain a relatively small central shape whereas the right panels contain a relatively large central shape, as reflected by the area fraction contrast.",
+     "rule": "Left = small central figure, Right = large central figure"
+    },
+    "analyst4": {
+     "has_rule": true,
+     "left": "small central polygon",
+     "right": "large central polygon",
+     "confidence": 0.92,
+     "evidence": "The left panels all have a relatively small central shape while the right panels contain a noticeably larger central shape.",
+     "rule": "Left = small central polygon, Right = large central polygon"
+    },
+    "analyst5": {
+     "has_rule": true,
+     "left": "small central polygon",
+     "right": "large central polygon",
+     "confidence": 0.9,
+     "evidence": "The central shape occupies a smaller area fraction on all left panels and a larger area fraction on all right panels",
+     "rule": "Left = small central polygon, Right = large central polygon"
+    },
+    "analyst6": {
+     "has_rule": true,
+     "left": "small central figure",
+     "right": "large central figure",
+     "confidence": 0.9,
+     "evidence": "The left panels contain a relatively small central shape while the right panels contain a noticeably larger central shape, as indicated by area and size metrics.",
+     "rule": "Left = small central figure, Right = large central figure"
+    }
+   },
+   "calls": 10,
+   "cost_usd": 0.01030785000000023,
+   "perception_cost_usd": 0.022015000000000007
+  }
+ ]
+}

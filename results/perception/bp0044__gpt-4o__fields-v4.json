@@ -1,0 +1,328 @@
+{
+ "bp": "bp0044",
+ "model": "gpt-4o",
+ "cost_usd": 0.018522499999999997,
+ "fields": {
+  "left_4": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": [
+    "curve touching circle",
+    "curve touching circle",
+    "circle near circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "right_5": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "curve touching circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "right_1": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": [
+    "curve touching circle",
+    "curve near circle",
+    "circle near circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "left_1": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": [
+    "curve touching circle",
+    "curve touching circle",
+    "circle near circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "left_2": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": [
+    "curve touching circle",
+    "curve touching circle",
+    "circle near circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "left_3": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "curve touching circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "right_3": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": [
+    "curve touching circle",
+    "curve near circle",
+    "circle near circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "right_6": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": [
+    "curve touching circle",
+    "curve touching circle",
+    "circle near circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "left_5": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": [
+    "curve touching circle",
+    "curve touching circle",
+    "circle near circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "right_4": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "curve touching circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "left_6": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": [
+    "curve touching circle",
+    "curve touching circle",
+    "circle near circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "right_2": {
+   "PARTS": {
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": [
+    "curve touching circle",
+    "curve near circle",
+    "circle near circle"
+   ],
+   "WHOLE": {
+    "sym": false
+   }
+  }
+ }
+}

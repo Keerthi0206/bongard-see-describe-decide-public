@@ -1,0 +1,45 @@
+{
+ "bp": "bp0050",
+ "questions": [
+  "Is the overall arrangement symmetric?"
+ ],
+ "cost_usd": 0.003107500000000041,
+ "answers": {
+  "left_1": {
+   "Q1": "Yes"
+  },
+  "right_2": {
+   "Q1": "Yes"
+  },
+  "right_3": {
+   "Q1": "No"
+  },
+  "left_2": {
+   "Q1": "Yes"
+  },
+  "left_4": {
+   "Q1": "Yes"
+  },
+  "right_6": {
+   "Q1": "No"
+  },
+  "right_5": {
+   "Q1": "Yes"
+  },
+  "right_1": {
+   "Q1": "No"
+  },
+  "right_4": {
+   "Q1": "Yes"
+  },
+  "left_6": {
+   "Q1": "Yes"
+  },
+  "left_3": {
+   "Q1": "Yes"
+  },
+  "left_5": {
+   "Q1": "Yes"
+  }
+ }
+}

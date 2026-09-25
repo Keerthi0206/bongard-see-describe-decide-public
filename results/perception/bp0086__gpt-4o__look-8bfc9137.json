@@ -1,0 +1,97 @@
+{
+ "bp": "bp0086",
+ "questions": [
+  "Is there any closed-loop shape formed by the lines in the panel?",
+  "How many crossing points are present in the panel?",
+  "are there six objects?",
+  "Is there any point where more than two lines intersect?",
+  "How many pairs of lines are joined together in the panel?"
+ ],
+ "cost_usd": 0.006772499999999959,
+ "answers": {
+  "right_4": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "3"
+  },
+  "right_2": {
+   "Q1": "yes",
+   "Q2": "4",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "4"
+  },
+  "left_4": {
+   "Q1": "yes",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "0"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "0"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "1",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "4"
+  },
+  "right_3": {
+   "Q1": "yes",
+   "Q2": "3",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "3"
+  },
+  "left_5": {
+   "Q1": "yes",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "3"
+  },
+  "left_3": {
+   "Q1": "yes",
+   "Q2": "1",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "3"
+  },
+  "left_2": {
+   "Q1": "yes",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "0"
+  },
+  "left_1": {
+   "Q1": "no",
+   "Q2": "1",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "3"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "1"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "1",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "5"
+  }
+ }
+}

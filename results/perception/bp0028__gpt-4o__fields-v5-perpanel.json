@@ -1,0 +1,674 @@
+{
+ "bp": "bp0028",
+ "model": "gpt-4o",
+ "cost_usd": 0.10071499999999967,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    }
+   ],
+   "n": 4,
+   "k": {
+    "outline triangle": 1,
+    "outline circle": 1,
+    "solid circle": 2
+   },
+   "rel": [
+    "outline triangle above outline circle",
+    "outline triangle above solid circle",
+    "outline triangle left of outline circle",
+    "outline triangle left of solid circle",
+    "outline circle above solid circle",
+    "outline circle left of solid circle",
+    "solid circle left of solid circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "f": "solid",
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "f": "outline",
+     "p": "down"
+    }
+   ],
+   "n": 6,
+   "k": {
+    "solid circle": 3,
+    "outline circle": 1,
+    "solid triangle": 1,
+    "outline triangle": 1
+   },
+   "rel": [
+    "outline circle left of solid circle",
+    "outline circle above solid circle",
+    "solid circle near solid circle",
+    "solid circle near solid circle",
+    "solid circle below solid circle",
+    "solid triangle above solid circle",
+    "outline triangle right of solid circle",
+    "outline triangle below solid triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 5,
+   "k": {
+    "solid circle": 3,
+    "outline circle": 2
+   },
+   "rel": [
+    "solid circle near outline circle",
+    "solid circle near solid circle",
+    "solid circle near outline circle",
+    "outline circle near solid circle",
+    "outline circle near solid circle",
+    "solid circle near solid circle",
+    "solid circle near outline circle",
+    "solid circle near outline circle",
+    "outline circle near solid circle",
+    "outline circle near solid circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid",
+     "p": "down"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "p": "down"
+    }
+   ],
+   "n": 6,
+   "k": {
+    "solid circle": 2,
+    "outline circle": 1,
+    "outline triangle": 2,
+    "solid triangle": 1
+   },
+   "rel": [
+    "solid circle near solid circle",
+    "solid circle near outline circle",
+    "solid circle near outline triangle",
+    "solid circle near solid triangle",
+    "solid circle near outline triangle",
+    "solid circle near outline circle",
+    "outline circle near outline triangle",
+    "outline circle near solid triangle",
+    "outline circle near outline triangle",
+    "outline triangle near solid triangle",
+    "outline triangle near outline triangle",
+    "solid triangle near outline triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "outline",
+     "hole": true
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid",
+     "p": "down"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "p": "up",
+     "hole": true
+    }
+   ],
+   "n": 5,
+   "k": {
+    "solid triangle": 2,
+    "outline triangle": 1,
+    "solid circle": 1,
+    "outline circle": 1
+   },
+   "rel": [
+    "solid triangle above solid circle",
+    "solid triangle left of outline circle",
+    "solid triangle left of solid circle",
+    "solid triangle above outline triangle",
+    "outline circle right of solid circle",
+    "outline circle above solid circle",
+    "outline circle above outline triangle",
+    "solid circle below solid triangle",
+    "solid circle left of outline triangle",
+    "solid circle below outline circle",
+    "solid circle left of solid triangle",
+    "solid circle below outline triangle",
+    "solid triangle above outline triangle",
+    "outline triangle below solid triangle",
+    "outline triangle right of solid circle",
+    "outline triangle below outline circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    }
+   ],
+   "n": 5,
+   "k": {
+    "solid circle": 3,
+    "outline circle": 2
+   },
+   "rel": [
+    "outline circle near solid circle",
+    "solid circle near outline circle",
+    "solid circle near solid circle",
+    "outline circle near solid circle",
+    "solid circle near outline circle",
+    "solid circle near solid circle",
+    "solid circle near outline circle",
+    "outline circle near solid circle",
+    "solid circle near solid circle",
+    "solid circle near outline circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "f": "outline",
+     "p": "down"
+    }
+   ],
+   "n": 5,
+   "k": {
+    "outline circle": 2,
+    "solid circle": 1,
+    "solid triangle": 1,
+    "outline triangle": 1
+   },
+   "rel": [
+    "outline circle left of outline circle",
+    "outline circle above solid circle",
+    "outline circle above solid triangle",
+    "outline circle left of solid triangle",
+    "outline circle left of outline triangle",
+    "outline circle above outline triangle",
+    "solid circle right of outline circle",
+    "solid circle above solid triangle",
+    "solid circle left of outline triangle",
+    "solid triangle below outline circle",
+    "solid triangle below solid circle",
+    "solid triangle left of outline triangle",
+    "outline triangle right of outline circle",
+    "outline triangle right of solid circle",
+    "outline triangle right of solid triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "f": "solid",
+     "s": 3
+    },
+    {
+     "t": "triangle",
+     "f": "solid",
+     "s": 3,
+     "p": "down"
+    },
+    {
+     "t": "triangle",
+     "f": "solid",
+     "s": 3,
+     "p": "up"
+    }
+   ],
+   "n": 7,
+   "k": {
+    "outline circle": 3,
+    "solid circle": 1,
+    "solid triangle": 3
+   },
+   "rel": [
+    "outline circle left of solid circle",
+    "outline circle below solid circle",
+    "outline circle right of solid circle",
+    "solid triangle below solid circle",
+    "solid triangle left of solid triangle",
+    "solid triangle right of solid triangle",
+    "solid triangle above solid triangle",
+    "solid triangle above solid triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    }
+   ],
+   "n": 5,
+   "k": {
+    "outline circle": 3,
+    "solid circle": 2
+   },
+   "rel": [
+    "outline circle near outline circle",
+    "outline circle near solid circle",
+    "solid circle near outline circle",
+    "solid circle near solid circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid",
+     "p": "down"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid",
+     "p": "down"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid",
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "p": "right"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 7,
+   "k": {
+    "solid triangle": 3,
+    "outline triangle": 1,
+    "solid circle": 1,
+    "outline circle": 2
+   },
+   "rel": [
+    "solid triangle above solid circle",
+    "solid triangle left of solid circle",
+    "solid triangle right of solid circle",
+    "solid triangle above outline circle",
+    "solid triangle left of outline circle",
+    "solid triangle right of outline circle",
+    "solid triangle near outline triangle",
+    "solid triangle near solid circle",
+    "solid triangle near outline circle",
+    "solid triangle near outline circle",
+    "solid circle near outline circle",
+    "solid circle near outline triangle",
+    "outline circle near outline triangle",
+    "outline circle near outline triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 6,
+   "k": {
+    "solid circle": 3,
+    "outline circle": 3
+   },
+   "rel": [
+    "solid circle near outline circle",
+    "solid circle near solid circle",
+    "outline circle near outline circle",
+    "outline circle near solid circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "p": "down"
+    }
+   ],
+   "n": 5,
+   "k": {
+    "solid triangle": 1,
+    "outline circle": 1,
+    "solid circle": 1,
+    "outline triangle": 2
+   },
+   "rel": [
+    "solid triangle left of outline circle",
+    "solid triangle above solid circle",
+    "solid triangle left of outline triangle",
+    "solid triangle above outline triangle",
+    "outline circle right of solid triangle",
+    "outline circle above solid circle",
+    "outline circle left of outline triangle",
+    "outline circle above outline triangle",
+    "solid circle below solid triangle",
+    "solid circle below outline circle",
+    "solid circle left of outline triangle",
+    "solid circle below outline triangle",
+    "outline triangle right of solid triangle",
+    "outline triangle right of solid circle",
+    "outline triangle below solid triangle",
+    "outline triangle below outline circle",
+    "outline triangle below solid circle",
+    "outline triangle below outline triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  }
+ }
+}

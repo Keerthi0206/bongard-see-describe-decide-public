@@ -1,0 +1,296 @@
+{
+ "bp": "bp0057",
+ "model": "gpt-4o",
+ "cost_usd": 0.015552500000000025,
+ "fields": {
+  "left_6": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "down"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "down"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "triangle near triangle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": true
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    },
+    {
+     "t": "polygon",
+     "s": 4
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "polygon near polygon"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "triangle near triangle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "square near triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle near circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle near triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "square",
+     "s": 4
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "square near square"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle near circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "other",
+     "f": "solid"
+    },
+    {
+     "t": "other",
+     "f": "solid"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "other near other"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid",
+     "p": "down"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "down"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "triangle near triangle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "polygon near circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "square",
+     "s": 4
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "square near square"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  }
+ }
+}

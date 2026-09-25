@@ -1,0 +1,189 @@
+{
+ "bp": "bp0011",
+ "model": "gpt-4o",
+ "cost_usd": 0.06727000000000016,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "hole": true
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "triangle inside triangle"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "rectangle",
+     "hole": true
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_5": {
+   "PARTS": {
+    "ln": 2,
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "curve",
+      "len": "short"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "short curve inside long curve"
+   ],
+   "sym": false
+  },
+  "left_6": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "polygon"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "square inside square"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 6
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "circle",
+     "hole": true
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  }
+ }
+}

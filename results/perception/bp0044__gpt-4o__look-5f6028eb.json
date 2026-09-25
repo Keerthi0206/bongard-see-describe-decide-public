@@ -1,0 +1,97 @@
+{
+ "bp": "bp0044",
+ "questions": [
+  "Is there a right-angle corner in the figure?",
+  "Does the curve intersect any circle?",
+  "Do any shapes touch each other?",
+  "Does the figure contain an acute-angle corner?",
+  "Is any shape noticeably larger than the others in the panel?"
+ ],
+ "cost_usd": 0.007574999999999998,
+ "answers": {
+  "left_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  }
+ }
+}

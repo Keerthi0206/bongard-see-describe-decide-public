@@ -1,0 +1,71 @@
+{
+ "bp": "bp0020",
+ "questions": [
+  "Does the figure have an acute corner?",
+  "Is the curve closed?",
+  "Is the curve larger than the dots?"
+ ],
+ "cost_usd": 0.00541999999999998,
+ "answers": {
+  "left_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  }
+ }
+}

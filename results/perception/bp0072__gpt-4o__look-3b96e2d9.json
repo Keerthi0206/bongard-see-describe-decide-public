@@ -1,0 +1,58 @@
+{
+ "bp": "bp0072",
+ "questions": [
+  "Does any curve in the panel contain a sharp (right\u2011angle) corner?",
+  "How many curves are present in the panel?"
+ ],
+ "cost_usd": 0.004382499999999956,
+ "answers": {
+  "left_2": {
+   "Q1": "No",
+   "Q2": "1"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "1"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "1"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "1"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "1"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "1"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "1"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "1"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "1"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "1"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "1"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "1"
+  }
+ }
+}

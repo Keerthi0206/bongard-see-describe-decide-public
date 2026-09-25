@@ -1,0 +1,123 @@
+{
+ "bp": "bp0011",
+ "questions": [
+  "Is any object in the panel a perfect square?",
+  "How many distinct shape types are present in the panel?",
+  "Is any figure solid-filled?",
+  "Is a clear long\u2011axis direction shown for the main shape?",
+  "Is there a circle in the panel?",
+  "Are the two objects in the panel the same shape?",
+  "Does the panel contain a square?"
+ ],
+ "cost_usd": 0.008702500000000057,
+ "answers": {
+  "left_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "N/A",
+   "Q7": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "N/A",
+   "Q7": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "N/A",
+   "Q7": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "N/A",
+   "Q7": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "N/A",
+   "Q7": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "N/A",
+   "Q7": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "N/A",
+   "Q7": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "N/A",
+   "Q7": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "N/A",
+   "Q7": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "N/A",
+   "Q7": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "N/A",
+   "Q7": "No"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "N/A",
+   "Q7": "Yes"
+  }
+ }
+}

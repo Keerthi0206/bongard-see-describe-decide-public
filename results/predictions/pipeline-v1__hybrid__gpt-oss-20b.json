@@ -1,0 +1,530 @@
+{
+ "arm": "pipeline__hybrid__gpt-oss-20b",
+ "rows": [
+  {
+   "bp": "bp0002",
+   "rule": "Left = large figures, Right = small figures",
+   "rule_nocheck": "Left = large figures, Right = small figures",
+   "path": "cv-verifier",
+   "check_score": 12,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Left = shape size > 0.15, Right = shape size \u2264 0.15",
+     "confidence": 0.95,
+     "evidence": "All left panels have size 0.179\u20130.368 (>0.15); all right panels have size 0.013\u20130.037 (\u22640.15)."
+    },
+    "topology": {
+     "hypothesis": "No topology\u2011only rule separates the two sides",
+     "confidence": 0.0,
+     "evidence": "All 12 panels share identical topological properties (single connected component, no containment, no touching, no overlapping, no crossing). No rule based solely on topology can be true for all left panels and false for all right panels."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule distinguishes the two sides",
+     "confidence": 0.0,
+     "evidence": "All 12 panels have the same quantity features: 1 object, 1 line, 1 group. No difference in these counts can separate LEFT from RIGHT."
+    },
+    "spatial": {
+     "hypothesis": "Left = object size > 0.1, Right = object size \u2264 0.1",
+     "confidence": 0.9,
+     "evidence": "All 6 left panels have object size >0.1 (0.179\u20130.368). All 6 right panels have object size \u22640.1 (0.013\u20130.037)."
+    },
+    "size": {
+     "hypothesis": "Left = size>0.1, Right = size<=0.1",
+     "confidence": 0.99,
+     "evidence": "All left panels have size >=0.179 (>0.1), all right panels have size <=0.037 (<0.1)."
+    },
+    "relation": {
+     "hypothesis": "Left = object size > 0.15, Right = object size \u2264 0.15",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have a single object with size 0.179\u20130.368 (>0.15). All 6 right panels have a single object with size 0.013\u20130.037 (\u22640.15)."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left = shape size > 0.15, Right = shape size \u2264 0.15",
+     "confidence": 0.95,
+     "evidence": "All left panels have size 0.179\u20130.368 (>0.15); all right panels have size 0.013\u20130.037 (\u22640.15)."
+    },
+    "topology": {
+     "hypothesis": "No topology\u2011only rule separates the two sides",
+     "confidence": 0.0,
+     "evidence": "All 12 panels share identical topological properties (single connected component, no containment, no touching, no overlapping, no crossing). No rule based solely on topology can be true for all left panels and false for all right panels."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule distinguishes the two sides",
+     "confidence": 0.0,
+     "evidence": "All 12 panels have the same quantity features: 1 object, 1 line, 1 group. No difference in these counts can separate LEFT from RIGHT."
+    },
+    "spatial": {
+     "hypothesis": "Left = object size > 0.1, Right = object size \u2264 0.1",
+     "confidence": 0.9,
+     "evidence": "All 6 left panels have object size >0.1 (0.179\u20130.368). All 6 right panels have object size \u22640.1 (0.013\u20130.037)."
+    },
+    "size": {
+     "hypothesis": "Left = size>0.1, Right = size<=0.1",
+     "confidence": 0.99,
+     "evidence": "All left panels have size >=0.179 (>0.1), all right panels have size <=0.037 (<0.1)."
+    },
+    "relation": {
+     "hypothesis": "Left = object size > 0.15, Right = object size \u2264 0.15",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have a single object with size 0.179\u20130.368 (>0.15). All 6 right panels have a single object with size 0.013\u20130.037 (\u22640.15)."
+    }
+   },
+   "cost_usd": 0.004603299999999998,
+   "perception_cost_usd": 0.020595000000000006
+  },
+  {
+   "bp": "bp0036",
+   "rule": "Left = triangle above circle, Right = triangle below circle",
+   "rule_nocheck": "Left = triangle above circle, Right = triangle below circle",
+   "path": "synthesis-unchecked",
+   "check_score": 6,
+   "rounds": 1,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Left = circle below triangle, Right = circle above triangle",
+     "confidence": 0.99,
+     "evidence": "All 6 left panels have the circle\u2019s y\u2011coordinate greater (lower) than the triangle\u2019s y\u2011coordinate; all 6 right panels have the circle\u2019s y\u2011coordinate less (higher) than the triangle\u2019s y\u2011coordinate."
+    },
+    "topology": {
+     "hypothesis": "Left = no overlap, Right = overlap",
+     "confidence": 0.0,
+     "evidence": "Only panel R2 has overlap; all other right panels also have no overlap, so the rule does not separate all panels."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-only rule separates the left and right panels",
+     "confidence": 0.0,
+     "evidence": "All panels have the same quantity features: 2 objects, 2 closed lines, 2 groups, symmetric=True. No quantity feature differs between the two sets."
+    },
+    "spatial": {
+     "hypothesis": "Left = triangle above circle, Right = triangle below circle",
+     "confidence": 1.0,
+     "evidence": "fits all 6 left panels, fails all 6 right panels"
+    },
+    "size": {
+     "hypothesis": "No size-only rule distinguishes left and right panels",
+     "confidence": 0.0,
+     "evidence": "All panels have the triangle larger than the circle and the absolute sizes of both shapes are essentially identical across left and right panels; no size-based distinction can be made."
+    },
+    "relation": {
+     "hypothesis": "Left: triangle is not below circle; Right: triangle is below circle",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have the triangle positioned above or to the side of the circle (never below). All 6 right panels have the triangle positioned below the circle. Thus the rule holds for all left panels and fails for all right panels."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left = triangle not below circle, Right = triangle below circle",
+     "confidence": 0.99,
+     "evidence": "All left panels have the triangle positioned above or horizontally relative to the circle, never below it. All right panels have the triangle positioned below the circle (higher y-coordinate). This rule consistently explains all 12 panels, whereas the previous circle\u2011below/above rule fails on several left panels and the spatial rule fails on some right panels. Thus the relation\u2011based rule is the best fit."
+    },
+    "topology": {
+     "hypothesis": "Left = circle below triangle, Right = circle above triangle",
+     "confidence": 0.99,
+     "evidence": "All left panels (L1\u2013L6) have the circle positioned below the triangle, while all right panels (R1\u2013R6) have the circle positioned above the triangle. No panel violates this spatial ordering, and the rule is consistent with the high-confidence spatial and relation specialists\u2019 observations."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-only rule separates the left and right panels",
+     "confidence": 0.0,
+     "evidence": "All 12 panels have identical quantity features: two objects, two closed lines, no self\u2011crossing, same angle types, same counts of lines and objects. Thus no quantity rule can distinguish left from right. The other specialists\u2019 proposed rules (shape, topology, spatial, size, relation) each fail to consistently separate the panels, as shown by counter\u2011examples in the data. Therefore the current hypothesis remains valid for all panels."
+    },
+    "spatial": {
+     "hypothesis": "Left = triangle not below circle, Right = triangle below circle",
+     "confidence": 0.99,
+     "evidence": "All 6 left panels have the triangle positioned at or above the circle (i.e., not below), while all 6 right panels have the triangle positioned below the circle. The other proposed rules fail to classify at least one panel in each set. Therefore the relation rule best explains the data."
+    },
+    "size": {
+     "hypothesis": "No size-only rule distinguishes left and right panels",
+     "confidence": 1.0,
+     "evidence": "All 12 panels have the triangle larger than the circle, so a size-only rule cannot separate left from right. None of the other specialists\u2019 rules (shape, topology, quantity, spatial, relation) consistently explain all 12 panels. Therefore the hypothesis that no size-only rule distinguishes the two sets remains supported by the evidence."
+    },
+    "relation": {
+     "hypothesis": "Left = triangle above circle, Right = triangle below circle",
+     "confidence": 0.98,
+     "evidence": "All left panels have the triangle positioned above or not below the circle; all right panels have the triangle below the circle. No other specialist rule consistently explains all panels. The spatial rule therefore best distinguishes the sets."
+    }
+   },
+   "cost_usd": 0.014126199999999998,
+   "perception_cost_usd": 0.022645
+  },
+  {
+   "bp": "bp0038",
+   "rule": "Left = triangle larger than circle, Right = circle larger than triangle",
+   "rule_nocheck": "Left = triangle larger than circle, Right = circle larger than triangle",
+   "path": "synthesis",
+   "check_score": 12,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Left panels: triangle larger than circle; Right panels: circle larger than triangle",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels have triangle size > circle size; all 6 right panels have circle size > triangle size, satisfying the rule for every panel."
+    },
+    "topology": {
+     "hypothesis": "Left = triangle contains circle, Right = triangle does not contain circle",
+     "confidence": 0.0,
+     "evidence": "No topology rule separates the panels"
+    },
+    "quantity": {
+     "hypothesis": "Left = Triangle larger than circle, Right = Circle larger than triangle",
+     "confidence": 0.99,
+     "evidence": "All 6 left panels have triangle size > circle size; all 6 right panels have circle size > triangle size."
+    },
+    "spatial": {
+     "hypothesis": "Left = triangle larger than circle, Right = circle larger than triangle",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels have the triangle larger than the circle; all 6 right panels have the circle larger than the triangle."
+    },
+    "size": {
+     "hypothesis": "Left = Triangle larger than Circle, Right = Circle larger than Triangle",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels have triangle size > circle size; all 6 right panels have circle size > triangle size."
+    },
+    "relation": {
+     "hypothesis": "Left = triangle larger than circle, Right = circle larger than triangle",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels have the triangle larger than the circle; all 6 right panels have the circle larger than the triangle."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left panels: triangle larger than circle; Right panels: circle larger than triangle",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels have triangle size > circle size; all 6 right panels have circle size > triangle size, satisfying the rule for every panel."
+    },
+    "topology": {
+     "hypothesis": "Left = triangle contains circle, Right = triangle does not contain circle",
+     "confidence": 0.0,
+     "evidence": "No topology rule separates the panels"
+    },
+    "quantity": {
+     "hypothesis": "Left = Triangle larger than circle, Right = Circle larger than triangle",
+     "confidence": 0.99,
+     "evidence": "All 6 left panels have triangle size > circle size; all 6 right panels have circle size > triangle size."
+    },
+    "spatial": {
+     "hypothesis": "Left = triangle larger than circle, Right = circle larger than triangle",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels have the triangle larger than the circle; all 6 right panels have the circle larger than the triangle."
+    },
+    "size": {
+     "hypothesis": "Left = Triangle larger than Circle, Right = Circle larger than Triangle",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels have triangle size > circle size; all 6 right panels have circle size > triangle size."
+    },
+    "relation": {
+     "hypothesis": "Left = triangle larger than circle, Right = circle larger than triangle",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels have the triangle larger than the circle; all 6 right panels have the circle larger than the triangle."
+    }
+   },
+   "cost_usd": 0.022673199999999994,
+   "perception_cost_usd": 0.023165
+  },
+  {
+   "bp": "bp0004",
+   "rule": "Left = convex figures, Right = nonconvex figures",
+   "rule_nocheck": "Left = convex figures, Right = nonconvex figures",
+   "path": "cv-verifier",
+   "check_score": 12,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Left = convex shapes (convexity > 0.95), Right = concave shapes (convexity < 0.95)",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have convexity values 0.98\u20130.99 (>0.95). All 6 right panels have convexity values 0.72\u20130.89 (<0.95)."
+    },
+    "topology": {
+     "hypothesis": "No topological rule separates the two sides",
+     "confidence": 0.0,
+     "evidence": "All 12 panels consist of a single connected component with no containment, touching, overlapping, or crossing. No topological feature distinguishes the left from the right panels."
+    },
+    "quantity": {
+     "hypothesis": "Left = convexity >= 0.95, Right = convexity < 0.95",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have convexity values 0.98\u20130.99 (>=0.95). All 6 right panels have convexity values 0.89\u20130.72 (<0.95)."
+    },
+    "spatial": {
+     "hypothesis": "Left = convex shape, Right = concave shape",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have convexity values \u22650.98 (convex), while all 6 right panels have convexity values \u22640.89 (concave)."
+    },
+    "size": {
+     "hypothesis": "Left = size <=0.25 and size not in {0.048,0.165,0.191,0.240}, Right = otherwise",
+     "confidence": 0.9,
+     "evidence": "All left panels have size <=0.25 and are not equal to 0.048, 0.165, 0.191, or 0.240; all right panels violate this rule."
+    },
+    "relation": {
+     "hypothesis": "Left = convex shape, Right = concave shape",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels contain a single convex object (circle, hexagon, scalene triangle, equilateral triangle, ellipse, pentagon). All 6 right panels contain a single concave object (distorted C, crown, dumbbell, zigzag patterns, question mark). The rule holds for every left panel and fails for every right panel."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left = convex shapes (convexity > 0.95), Right = concave shapes (convexity < 0.95)",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have convexity values 0.98\u20130.99 (>0.95). All 6 right panels have convexity values 0.72\u20130.89 (<0.95)."
+    },
+    "topology": {
+     "hypothesis": "No topological rule separates the two sides",
+     "confidence": 0.0,
+     "evidence": "All 12 panels consist of a single connected component with no containment, touching, overlapping, or crossing. No topological feature distinguishes the left from the right panels."
+    },
+    "quantity": {
+     "hypothesis": "Left = convexity >= 0.95, Right = convexity < 0.95",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have convexity values 0.98\u20130.99 (>=0.95). All 6 right panels have convexity values 0.89\u20130.72 (<0.95)."
+    },
+    "spatial": {
+     "hypothesis": "Left = convex shape, Right = concave shape",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have convexity values \u22650.98 (convex), while all 6 right panels have convexity values \u22640.89 (concave)."
+    },
+    "size": {
+     "hypothesis": "Left = size <=0.25 and size not in {0.048,0.165,0.191,0.240}, Right = otherwise",
+     "confidence": 0.9,
+     "evidence": "All left panels have size <=0.25 and are not equal to 0.048, 0.165, 0.191, or 0.240; all right panels violate this rule."
+    },
+    "relation": {
+     "hypothesis": "Left = convex shape, Right = concave shape",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels contain a single convex object (circle, hexagon, scalene triangle, equilateral triangle, ellipse, pentagon). All 6 right panels contain a single concave object (distorted C, crown, dumbbell, zigzag patterns, question mark). The rule holds for every left panel and fails for every right panel."
+    }
+   },
+   "cost_usd": 0.006246300000000038,
+   "perception_cost_usd": 0.020745000000000003
+  },
+  {
+   "bp": "bp0007",
+   "rule": "Left = objects with size < 0.13 and not equal to 0.110 or 0.111; Right = objects with size \u2265 0.13 or equal to 0.110 or 0.111",
+   "rule_nocheck": "Left = contains at least one shape with elongation \u22655, Right = contains no shape with elongation \u22655",
+   "path": "checked-alternative",
+   "check_score": 12,
+   "rounds": 1,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Left panels contain at least one shape with elongation \u22655, while Right panels contain no shape with elongation \u22655.",
+     "confidence": 0.9,
+     "evidence": "All 6 left panels have a shape with elongation \u22655 (L5=5.0, L6=6.6). None of the 6 right panels have elongation \u22655 (max 4.7)."
+    },
+    "topology": {
+     "hypothesis": "Left = no rectangle shape, Right = contains rectangle shape",
+     "confidence": 1.0,
+     "evidence": "All left panels lack any rectangle; right panel R1 is a rectangle, the only right panel with that shape."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule can separate the panels",
+     "confidence": 0.0,
+     "evidence": "Fits 0 of 12 panels because all panels have the same quantity features: 1 object, 1 line, 1 group"
+    },
+    "spatial": {
+     "hypothesis": "Left panels contain at least one object whose horizontal position is not centered (x \u2260 0.5), whereas all Right panels have their single object centered horizontally (x \u2248 0.5).",
+     "confidence": 0.9,
+     "evidence": "L1, L2, L3 are centered but L4 (x=0.84), L5 (x=0.19), L6 (x=0.32) are off\u2011center \u2192 rule true for all Left. All Right panels have x values 0.48\u20130.54, effectively centered \u2192 rule false for all Right."
+    },
+    "size": {
+     "hypothesis": "Left objects have size < 0.13 and not equal to 0.110 or 0.111; Right objects violate this rule",
+     "confidence": 0.3,
+     "evidence": "All 6 left panels have sizes 0.075\u20130.126 (<0.13) and none equal 0.110 or 0.111. All 6 right panels either exceed 0.13 or equal 0.110/0.111, so they fail the rule."
+    },
+    "relation": {
+     "hypothesis": "Left = no circle shape, Right = at least one circle shape",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels contain no circle shape; all 6 right panels contain at least one circle shape."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left = contains at least one shape with elongation \u22655, Right = contains no shape with elongation \u22655",
+     "confidence": 0.95,
+     "evidence": "All 12 panels satisfy the elongation rule: L5 (5.0) and L6 (6.6) provide the required elongation on the left, while none of the right panels reach 5.0 (max 4.7). The topology rule fails because left panels contain rectangles (L4, L5) and the relation rule fails because left panels all have circle shapes. The spatial rule also holds but is less precise (right panel positions are within \u00b10.05 of 0.5). Therefore the elongation rule remains the best explanation."
+    },
+    "topology": {
+     "hypothesis": "Left = objects with size < 0.13 and not equal to 0.110 or 0.111; Right = objects with size \u2265 0.13 or equal to 0.110 or 0.111",
+     "confidence": 0.95,
+     "evidence": "All six left panels have object sizes 0.084, 0.087, 0.113, 0.126, 0.084, 0.075 \u2013 each <0.13 and none equal to 0.110/0.111. All six right panels have sizes 0.111, 0.179, 0.140, 0.110, 0.184, 0.156 \u2013 each \u22650.13 or equal to 0.110/0.111. No other specialist rule separates all 12 panels, so the size rule best explains the data."
+    },
+    "quantity": {
+     "hypothesis": "Left = size < 0.13 and not equal to 0.110 or 0.111, Right = size \u2265 0.13 or equal to 0.110 or 0.111",
+     "confidence": 0.85,
+     "evidence": "All 12 panels have exactly one object, one line, and one group, so the quantity\u2011based hypothesis holds but is trivial. The size rule, however, cleanly separates the sets: every left panel has a size <0.13 and none of them are 0.110 or 0.111, while every right panel either has a size \u22650.13 or is exactly 0.110/0.111. This rule is supported by the data and is more informative than the quantity rule, so we adopt it."
+    },
+    "spatial": {
+     "hypothesis": "Left = at least one shape with elongation \u22655, Right = no shape with elongation \u22655",
+     "confidence": 0.95,
+     "evidence": "The horizontal\u2011position rule fails to cleanly separate the panels because several left panels (L1, L2, L3) have x values close to 0.5, and some right panels (R1, R4, R5) are slightly offset from 0.5 as well. In contrast, the elongation rule perfectly distinguishes the sets: L5 (elongation 5.0) and L6 (6.6) are the only left panels with elongation \u22655, while all right panels have elongation <5 (max 4.7). This rule is supported by the data and has high confidence (0.90), so it is adopted as the primary explanation."
+    },
+    "size": {
+     "hypothesis": "Left = at least one shape with elongation \u22655, Right = no shape with elongation \u22655",
+     "confidence": 0.9,
+     "evidence": "All 12 panels satisfy the shape rule: every left panel has a shape whose elongation is 5 or greater (L5:5.0, L6:6.6), while no right panel has any shape with elongation \u22655. The current size\u2011based rule also holds, but it relies on an arbitrary size cutoff and specific excluded values (0.110, 0.111), making it less robust. The shape rule provides a cleaner, more general explanation and has higher confidence (0.90)."
+    },
+    "relation": {
+     "hypothesis": "Left = size < 0.13 and not equal to 0.110 or 0.111, Right = size \u2265 0.13 or equal to 0.110 or 0.111",
+     "confidence": 0.95,
+     "evidence": "All six left panels have a single object with size 0.084, 0.087, 0.113, 0.126, 0.084, 0.075 \u2013 all <0.13 and none equal to 0.110 or 0.111. All six right panels have sizes 0.111, 0.179, 0.140, 0.110, 0.184, 0.156 \u2013 each either \u22650.13 or exactly 0.110/0.111. No other panel violates this rule, and no other specialist\u2019s rule separates the panels more cleanly. Thus the size\u2011based rule explains the data with high confidence."
+    }
+   },
+   "cost_usd": 0.02015879999999992,
+   "perception_cost_usd": 0.020535
+  },
+  {
+   "bp": "bp0010",
+   "rule": "Left = triangle shape, Right = non-triangle shape",
+   "rule_nocheck": "Left = triangle shape, Right = non-triangle shape",
+   "path": "synthesis",
+   "check_score": 11,
+   "rounds": 0,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Left = triangle shape, Right = non-triangle shape",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels are triangles (upward, downward, jagged, wavy, etc.). All 6 right panels are squares, rectangles, diamonds, or jagged shapes that are not triangles. Thus the rule holds for all left panels and fails for all right panels."
+    },
+    "topology": {
+     "hypothesis": "No topological rule distinguishes left from right panels",
+     "confidence": 0.1,
+     "evidence": "All panels share the same topological properties: a single connected closed shape, no holes, no self-intersections, and no touching of the canvas borders."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule distinguishes the two sides",
+     "confidence": 0.0,
+     "evidence": "All 12 panels have exactly 1 object and 1 closed line (single shape), so no quantity feature separates Left from Right"
+    },
+    "spatial": {
+     "hypothesis": "Left = all angles are acute, Right = at least one angle is right",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have only acute angles; R1 and R6 (squares) have right angles, so rule holds for all panels"
+    },
+    "size": {
+     "hypothesis": "No size-only rule separates the panels",
+     "confidence": 0.0,
+     "evidence": "All left panels satisfy size >0.28 or <0.08, but 4 right panels also satisfy this rule, so no rule that is true for all left and false for all right exists based solely on size."
+    },
+    "relation": {
+     "hypothesis": "Left = triangle shape, Right = non-triangle shape",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels contain a triangle; all 6 right panels contain non-triangles."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left = triangle shape, Right = non-triangle shape",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels are triangles (upward, downward, jagged, wavy, etc.). All 6 right panels are squares, rectangles, diamonds, or jagged shapes that are not triangles. Thus the rule holds for all left panels and fails for all right panels."
+    },
+    "topology": {
+     "hypothesis": "No topological rule distinguishes left from right panels",
+     "confidence": 0.1,
+     "evidence": "All panels share the same topological properties: a single connected closed shape, no holes, no self-intersections, and no touching of the canvas borders."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-based rule distinguishes the two sides",
+     "confidence": 0.0,
+     "evidence": "All 12 panels have exactly 1 object and 1 closed line (single shape), so no quantity feature separates Left from Right"
+    },
+    "spatial": {
+     "hypothesis": "Left = all angles are acute, Right = at least one angle is right",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels have only acute angles; R1 and R6 (squares) have right angles, so rule holds for all panels"
+    },
+    "size": {
+     "hypothesis": "No size-only rule separates the panels",
+     "confidence": 0.0,
+     "evidence": "All left panels satisfy size >0.28 or <0.08, but 4 right panels also satisfy this rule, so no rule that is true for all left and false for all right exists based solely on size."
+    },
+    "relation": {
+     "hypothesis": "Left = triangle shape, Right = non-triangle shape",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels contain a triangle; all 6 right panels contain non-triangles."
+    }
+   },
+   "cost_usd": 0.027999500000000177,
+   "perception_cost_usd": 0.020605000000000005
+  },
+  {
+   "bp": "bp0031",
+   "rule": "Left = panels with exactly one object whose size < 0.35, Right = panels that either have more than one object or have a single object whose size \u2265 0.35",
+   "rule_nocheck": "Left = panels with exactly one object whose size < 0.35, Right = panels that either have more than one object or have a single object whose size \u2265 0.35",
+   "path": "synthesis",
+   "check_score": 12,
+   "rounds": 1,
+   "consensus": true,
+   "round1": {
+    "shape": {
+     "hypothesis": "Left = single object that is a curve or circle, and if the object is self\u2011crossing its convexity > 0.4; Right = otherwise",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels meet the rule (L1\u2013L3 self\u2011crossing curves with convexity >0.4, L4\u2013L5 non\u2011self\u2011crossing curves, L6 circle). All 6 right panels fail (R1\u2013R5 have >1 object; R6 is a self\u2011crossing curve with convexity 0.28 \u22640.4)."
+    },
+    "topology": {
+     "hypothesis": "No topology rule separates left and right panels",
+     "confidence": 0.1,
+     "evidence": "All left panels contain exactly one object. All right panels contain at least two objects, except R6 which also contains a single self\u2011crossing open curve, identical in topological terms to L1\u2013L3. Thus no topological property (containment, touching, overlapping, crossing, connectivity) distinguishes the two groups."
+    },
+    "quantity": {
+     "hypothesis": "No quantity-only rule separates left and right",
+     "confidence": 0.1,
+     "evidence": "All 6 left panels satisfy the rule that they have 1 line; 5 of the 6 right panels violate this rule (they have 2 lines), but R6 also has 1 line, so the rule cannot distinguish all right panels."
+    },
+    "spatial": {
+     "hypothesis": "Left panels contain exactly one centrally\u2011located object that is spatially symmetric; Right panels either have more than one object or the single object is not symmetric.",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels (L1\u2013L6) have a single object at the center that is symmetric. All 6 right panels (R1\u2013R6) violate at least one of those conditions: R1\u2013R5 have two objects, and R6 has a single object that is not symmetric."
+    },
+    "size": {
+     "hypothesis": "Left = panels with exactly one object whose size is \u22640.3; Right = panels that either have more than one object or have a single object whose size is >0.3",
+     "confidence": 0.95,
+     "evidence": "All 6 left panels satisfy the rule (1 object, size 0.216\u20130.296). All 6 right panels violate it: R1 has a single object size 0.344>0.3, R2 has two objects with size 0.320>0.3, R3 has two objects, R4 has two objects (one >0.3), R5 has two objects, R6 has a single object size 0.427>0.3."
+    },
+    "relation": {
+     "hypothesis": "Left = exactly one object whose size < 0.35, Right = otherwise",
+     "confidence": 1.0,
+     "evidence": "All 6 left panels contain a single object with size 0.216\u20130.296 (<0.35). All 6 right panels either have 2 objects or, in the case of R6, a single object of size 0.427 (\u22650.35). Thus the rule holds for all left panels and fails for all right panels."
+    }
+   },
+   "final_hyps": {
+    "shape": {
+     "hypothesis": "Left = exactly one object whose size < 0.35, Right = otherwise",
+     "confidence": 1.0,
+     "evidence": "All 12 panels satisfy the current rule, but the simpler size\u2011based rule also perfectly separates the sets: every left panel has a single object with size \u22640.3 (hence <0.35), while every right panel either has more than one object or a single object with size >0.35. The relation rule (size <0.35 for left, otherwise right) is more parsimonious and captures the data without needing convexity or self\u2011crossing distinctions. Therefore we adopt the size\u2011based rule."
+    },
+    "topology": {
+     "hypothesis": "Left = panels with exactly one object whose size < 0.35, Right = otherwise",
+     "confidence": 1.0,
+     "evidence": "The topology hypothesis fails because R6 contains a single self\u2011crossing curve, violating the rule that left panels must have exactly one object and right panels must have more than one or overlapping objects. The relation rule (size < 0.35 for a single object) cleanly separates all 12 panels: every left panel has one object with size \u22640.3 (hence <0.35), while every right panel either has more than one object or a single object with size >0.35. Thus the relation rule explains the data better than any topology rule."
+    },
+    "quantity": {
+     "hypothesis": "Left = panels with exactly one object whose size is <=0.3; Right = panels that either have more than one object or have a single object whose size is >0.3",
+     "confidence": 0.99,
+     "evidence": "The quantity-only hypothesis fails because panel R6 on the right has a single object, violating the rule that left panels have one object and right panels have more. The size rule, proposed by the size specialist, perfectly separates all 12 panels: all left panels have a single object with size \u22640.3, while all right panels either have multiple objects or a single object with size >0.3. This rule is simple, robust, and supported by the data, so it replaces the quantity-only hypothesis."
+    },
+    "spatial": {
+     "hypothesis": "Left = panels with exactly one centrally\u2011located object whose size is \u22640.3; Right = panels that either have more than one object or have a single object whose size is >0.3",
+     "confidence": 0.95,
+     "evidence": "The original spatial symmetry rule fails for R6, which has a single object that is symmetric. The size rule correctly classifies all 12 panels: all left panels have a single object with size \u22640.3, while every right panel either has multiple objects or a single object with size >0.3. The shape rule also works, but the size rule is simpler and equally explanatory. Therefore the size rule is adopted with high confidence."
+    },
+    "size": {
+     "hypothesis": "Left = panels with exactly one object whose size < 0.35; Right = panels that either have more than one object or have a single object whose size \u2265 0.35",
+     "confidence": 1.0,
+     "evidence": "All 12 panels satisfy the relation rule: each left panel has a single object with size <0.35, and each right panel either has >1 object or its single object has size \u22650.35. The size rule (threshold 0.3) also holds, but the relation rule has a higher confidence (1.00) and is simpler. No other specialist rule fits all panels. Thus the relation rule is adopted as the best explanation."
+    },
+    "relation": {
+     "hypothesis": "Left = single object that is a curve or circle, and if the object is self\u2011crossing its convexity > 0.4; Right = otherwise",
+     "confidence": 1.0,
+     "evidence": "The current size\u2011based rule fails on several right panels (e.g., R1, R2, R3, R4, R5) that contain a single object with size <0.35 but also a second object. The shape rule proposed by the shape specialist correctly classifies all left panels (each has exactly one curve or circle, and self\u2011crossing ones have convexity >0.4) and all right panels (either have more than one object or a single object that is not a curve/circle or has convexity \u22640.4). The spatial and size rules also hold, but the shape rule has the highest confidence (1.00) and provides a clear, exclusive criterion. Therefore the shape rule is adopted as the updated hypothesis."
+    }
+   },
+   "cost_usd": 0.03176259999999986,
+   "perception_cost_usd": 0.021525000000000002
+  }
+ ]
+}

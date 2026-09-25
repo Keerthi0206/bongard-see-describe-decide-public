@@ -1,0 +1,58 @@
+{
+ "bp": "bp0056",
+ "questions": [
+  "Is there a 'far' relation between any two objects?",
+  "Is there a pair of objects of the same shape where one is above and left of the other?"
+ ],
+ "cost_usd": 0.004399999999999987,
+ "answers": {
+  "right_2": {
+   "Q1": "No",
+   "Q2": "Yes"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "Yes"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "Yes"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "Yes"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "Yes"
+  }
+ }
+}

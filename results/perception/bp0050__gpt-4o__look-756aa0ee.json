@@ -1,0 +1,123 @@
+{
+ "bp": "bp0050",
+ "questions": [
+  "Are any of the shapes oriented with a distinct upward or downward pointing direction?",
+  "How many different shape types are present in the panel?",
+  "How many solid objects are there?",
+  "Is the largest shape higher than the other shapes in the panel?",
+  "Is there any pair of objects that are touching each other?",
+  "Is the overall figure mirror\u2011symmetric?",
+  "Is the larger shape positioned above the smaller shape?"
+ ],
+ "cost_usd": 0.008610000000000007,
+ "answers": {
+  "left_1": {
+   "Q1": "No",
+   "Q2": "3",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "3",
+   "Q3": "0",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "No"
+  },
+  "right_3": {
+   "Q1": "Yes",
+   "Q2": "2",
+   "Q3": "0",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "No",
+   "Q7": "Yes"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "2",
+   "Q3": "0",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "0",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "0",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "No",
+   "Q7": "Yes"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "3",
+   "Q3": "2",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "3",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "0",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "3",
+   "Q3": "2",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "2",
+   "Q3": "3",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "0",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  }
+ }
+}

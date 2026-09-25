@@ -1,0 +1,137 @@
+{
+ "bp": "bp0011",
+ "model": "gpt-4o",
+ "cost_usd": 0.014095000000000024,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "hull": "diamond",
+   "sym": true
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 1,
+   "hull": "ellipse",
+   "sym": true
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 1,
+   "hull": "circle",
+   "sym": true
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "hull": "triangle",
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 1,
+   "hull": "circle",
+   "sym": true
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "circle",
+     "hole": true
+    }
+   ],
+   "n": 1,
+   "hull": "circle",
+   "sym": true
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "hull": "square",
+   "sym": true
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 6
+    }
+   ],
+   "n": 1,
+   "hull": "hexagon",
+   "sym": true
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "rectangle",
+     "s": 4,
+     "hole": true
+    }
+   ],
+   "n": 1,
+   "hull": "rectangle",
+   "sym": true
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    }
+   ],
+   "n": 1,
+   "hull": "irregular",
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "curve",
+     "open": true
+    }
+   ],
+   "n": 1,
+   "hull": "irregular",
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "hull": "square",
+   "sym": true
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "bp": "bp0096",
+ "questions": [
+  "Is the total number of free line ends an even number?",
+  "Is there a dot shape present in the panel?"
+ ],
+ "cost_usd": 0.00437499999999999,
+ "answers": {
+  "right_6": {
+   "Q1": "20",
+   "Q2": "No"
+  },
+  "right_5": {
+   "Q1": "14",
+   "Q2": "No"
+  },
+  "left_2": {
+   "Q1": "20",
+   "Q2": "No"
+  },
+  "right_3": {
+   "Q1": "18",
+   "Q2": "No"
+  },
+  "right_4": {
+   "Q1": "20",
+   "Q2": "No"
+  },
+  "left_6": {
+   "Q1": "20",
+   "Q2": "No"
+  },
+  "left_4": {
+   "Q1": "12",
+   "Q2": "No"
+  },
+  "left_5": {
+   "Q1": "18",
+   "Q2": "No"
+  },
+  "left_1": {
+   "Q1": "18",
+   "Q2": "No"
+  },
+  "right_2": {
+   "Q1": "20",
+   "Q2": "No"
+  },
+  "left_3": {
+   "Q1": "18",
+   "Q2": "No"
+  },
+  "right_1": {
+   "Q1": "20",
+   "Q2": "No"
+  }
+ }
+}

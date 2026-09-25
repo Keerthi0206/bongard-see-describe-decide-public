@@ -1,0 +1,84 @@
+{
+ "bp": "bp0091",
+ "questions": [
+  "Is there at least one closed shape (e.g., circle, square, ellipse) among the objects?",
+  "How many objects are touching each other in the panel?",
+  "Is any object positioned directly above another object?",
+  "Is there a clear size difference between any two objects of the same shape?"
+ ],
+ "cost_usd": 0.0065549999999999775,
+ "answers": {
+  "left_6": {
+   "Q1": "No",
+   "Q2": "2",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "5",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "3",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "3",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No"
+  }
+ }
+}

@@ -1,0 +1,5 @@
+arm,bp,agent,kind
+pipeline__specialist__gpt-oss-120b,bp0038,shape,neutral
+pipeline__specialist__gpt-oss-120b,bp0038,size,away from correct
+pipeline__specialist__gpt-oss-120b,bp0038,relation,neutral
+pipeline__clone__gpt-oss-120b,bp0036,analyst5,neutral
