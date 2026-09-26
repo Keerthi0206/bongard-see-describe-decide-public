@@ -1,0 +1,110 @@
+{
+ "bp": "bp0046",
+ "questions": [
+  "Is the triangle's base horizontal?",
+  "Is any shape filled solidly in the panel?",
+  "Is the solid figure larger than the outline figure?",
+  "Is any shape drawn with a hole?",
+  "Is the triangle inside the circle?",
+  "Does any panel show the triangle completely inside the circle?"
+ ],
+ "cost_usd": 0.008642500000000108,
+ "answers": {
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_3": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  }
+ }
+}

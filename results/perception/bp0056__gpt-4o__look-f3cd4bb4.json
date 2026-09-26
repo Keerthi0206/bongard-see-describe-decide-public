@@ -1,0 +1,84 @@
+{
+ "bp": "bp0056",
+ "questions": [
+  "Are any triangles oriented with a point upward?",
+  "Is there at least one triangle in the panel?",
+  "Do all objects share the same fill style?",
+  "Is any shape inside another shape?"
+ ],
+ "cost_usd": 0.005842499999999973,
+ "answers": {
+  "right_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  }
+ }
+}

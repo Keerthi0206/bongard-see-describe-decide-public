@@ -1,0 +1,97 @@
+{
+ "bp": "bp0002",
+ "questions": [
+  "Does the figure contain any straight edges?",
+  "Does the panel contain both an outline figure and a solid figure?",
+  "Is there a shape with a curved (non\u2011straight) edge in the panel?",
+  "Is the single shape in the panel convex?",
+  "Is there a solid circle in the panel?"
+ ],
+ "cost_usd": 0.006782500000000004,
+ "answers": {
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_3": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  }
+ }
+}

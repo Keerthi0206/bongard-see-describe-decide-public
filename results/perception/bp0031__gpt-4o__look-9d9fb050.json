@@ -1,0 +1,84 @@
+{
+ "bp": "bp0031",
+ "questions": [
+  "Is there a square object present in the panel?",
+  "Does any panel contain a closed line that encloses a square?",
+  "Does the panel contain both a solid and an outline figure?",
+  "Is there a single closed outline that contains all other elements in the panel?"
+ ],
+ "cost_usd": 0.005879999999999996,
+ "answers": {
+  "left_3": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_3": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_2": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_4": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_1": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_5": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_2": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  }
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "bp": "bp0031",
+ "questions": [
+  "Is the primary figure filled solid or only outlined?",
+  "Do any two objects in the panel have both the same shape and the same fill?",
+  "Is there any relation such as crossing, overlapping, touching, or parallel between two shapes in the panel?",
+  "Is any shape completely enclosed within another shape?"
+ ],
+ "cost_usd": 0.006637499999999991,
+ "answers": {
+  "left_3": {
+   "Q1": "outlined",
+   "Q2": "no",
+   "Q3": "crossing",
+   "Q4": "no"
+  },
+  "right_5": {
+   "Q1": "outlined",
+   "Q2": "yes",
+   "Q3": "parallel",
+   "Q4": "no"
+  },
+  "right_3": {
+   "Q1": "outlined",
+   "Q2": "no",
+   "Q3": "crossing",
+   "Q4": "no"
+  },
+  "right_1": {
+   "Q1": "outlined",
+   "Q2": "no",
+   "Q3": "crossing",
+   "Q4": "no"
+  },
+  "right_2": {
+   "Q1": "outlined",
+   "Q2": "yes",
+   "Q3": "overlapping",
+   "Q4": "no"
+  },
+  "left_4": {
+   "Q1": "outlined",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_4": {
+   "Q1": "outlined",
+   "Q2": "no",
+   "Q3": "crossing",
+   "Q4": "no"
+  },
+  "right_6": {
+   "Q1": "outlined",
+   "Q2": "no",
+   "Q3": "crossing",
+   "Q4": "no"
+  },
+  "left_1": {
+   "Q1": "outlined",
+   "Q2": "no",
+   "Q3": "crossing",
+   "Q4": "no"
+  },
+  "left_6": {
+   "Q1": "outlined",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_5": {
+   "Q1": "outlined",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_2": {
+   "Q1": "outlined",
+   "Q2": "no",
+   "Q3": "crossing",
+   "Q4": "no"
+  }
+ }
+}

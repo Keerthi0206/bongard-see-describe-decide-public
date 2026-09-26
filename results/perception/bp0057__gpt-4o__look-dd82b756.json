@@ -1,0 +1,84 @@
+{
+ "bp": "bp0057",
+ "questions": [
+  "Do the two objects in the panel have the same fill type (both solid or both outline)?",
+  "Do the two primary objects in the panel have the same number of corners?",
+  "Are both solid and outline figures present in the panel?",
+  "Are the two objects in the panel the same shape?"
+ ],
+ "cost_usd": 0.005894999999999984,
+ "answers": {
+  "left_6": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_5": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_1": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_6": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_2": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_1": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_2": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_5": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_4": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_3": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "left_3": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  }
+ }
+}

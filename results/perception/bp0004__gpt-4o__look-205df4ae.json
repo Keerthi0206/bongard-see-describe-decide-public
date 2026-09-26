@@ -1,0 +1,123 @@
+{
+ "bp": "bp0004",
+ "questions": [
+  "Is there a clear size contrast between multiple objects in the panel?",
+  "How many separate shapes are present in the panel?",
+  "Does the panel contain both a solid figure and an outline figure?",
+  "Is any object inside another object?",
+  "Is any shape in the panel symmetric across a vertical axis?",
+  "Does any object in the panel have more than eight corners?",
+  "Is there a shape contained inside another shape?"
+ ],
+ "cost_usd": 0.008607500000000004,
+ "answers": {
+  "right_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes",
+   "Q7": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No",
+   "Q7": "No"
+  }
+ }
+}

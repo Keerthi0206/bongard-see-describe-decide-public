@@ -1,0 +1,84 @@
+{
+ "bp": "bp0097",
+ "questions": [
+  "How many triangles are present in the panel?",
+  "Is there a triangle shape in the panel?",
+  "How many solid objects are present?",
+  "Is there a triangle whose long axis is horizontal?"
+ ],
+ "cost_usd": 0.006502500000000022,
+ "answers": {
+  "left_4": {
+   "Q1": "1",
+   "Q2": "Yes",
+   "Q3": "0",
+   "Q4": "Yes"
+  },
+  "left_6": {
+   "Q1": "1",
+   "Q2": "Yes",
+   "Q3": "0",
+   "Q4": "Yes"
+  },
+  "right_4": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "1",
+   "Q4": "No"
+  },
+  "left_1": {
+   "Q1": "1",
+   "Q2": "Yes",
+   "Q3": "1",
+   "Q4": "Yes"
+  },
+  "left_3": {
+   "Q1": "1",
+   "Q2": "Yes",
+   "Q3": "0",
+   "Q4": "Yes"
+  },
+  "right_3": {
+   "Q1": "1",
+   "Q2": "Yes",
+   "Q3": "0",
+   "Q4": "Yes"
+  },
+  "right_1": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "1",
+   "Q4": "No"
+  },
+  "right_5": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "0",
+   "Q4": "No"
+  },
+  "right_2": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "0",
+   "Q4": "No"
+  },
+  "left_5": {
+   "Q1": "1",
+   "Q2": "Yes",
+   "Q3": "0",
+   "Q4": "Yes"
+  },
+  "right_6": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "1",
+   "Q4": "No"
+  },
+  "left_2": {
+   "Q1": "1",
+   "Q2": "Yes",
+   "Q3": "1",
+   "Q4": "Yes"
+  }
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "bp": "bp0025",
+ "questions": [
+  "Is there a shape that is oriented with its point facing upward?",
+  "Is there a shape with four straight edges (a square) in the panel?",
+  "Is there a single object that is larger than every other object in the panel?",
+  "Is there any triangle with a pointing direction (up or down) in the panel?",
+  "Is there a shape that appears inside the convex hull formed by the other shapes?"
+ ],
+ "cost_usd": 0.007657499999999984,
+ "answers": {
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  }
+ }
+}

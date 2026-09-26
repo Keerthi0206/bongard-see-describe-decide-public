@@ -1,0 +1,84 @@
+{
+ "bp": "bp0002",
+ "questions": [
+  "Is any shape filled solid (as opposed to just an outline)?",
+  "Is the figure located near the center of the panel?",
+  "Does any shape in the panel have a hole?",
+  "Do all objects in the panel have the same fill style (solid or outline)?"
+ ],
+ "cost_usd": 0.00588,
+ "answers": {
+  "left_6": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_3": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_2": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_5": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_3": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_4": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_2": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_1": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_5": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes"
+  }
+ }
+}

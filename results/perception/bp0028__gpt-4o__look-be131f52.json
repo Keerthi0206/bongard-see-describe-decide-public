@@ -1,0 +1,110 @@
+{
+ "bp": "bp0028",
+ "questions": [
+  "How many objects are in the panel?",
+  "How many triangles are present in the panel?",
+  "Is the larger shape positioned to the right of the smaller shape?",
+  "Do any two objects share a common boundary (touch each other) in the panel?",
+  "Are the objects arranged in a single cluster or multiple clusters?",
+  "In each panel, is there a pair of objects of the same shape where the outline version is positioned to the left of the solid version?"
+ ],
+ "cost_usd": 0.008847500000000008,
+ "answers": {
+  "left_3": {
+   "Q1": "5",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "No"
+  },
+  "left_2": {
+   "Q1": "5",
+   "Q2": "2",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "Yes"
+  },
+  "left_6": {
+   "Q1": "5",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "No"
+  },
+  "right_3": {
+   "Q1": "6",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "No"
+  },
+  "right_2": {
+   "Q1": "5",
+   "Q2": "2",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "Yes"
+  },
+  "right_4": {
+   "Q1": "6",
+   "Q2": "3",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "Yes"
+  },
+  "right_6": {
+   "Q1": "6",
+   "Q2": "3",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "Yes"
+  },
+  "right_5": {
+   "Q1": "6",
+   "Q2": "0",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "No"
+  },
+  "left_1": {
+   "Q1": "4",
+   "Q2": "2",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "Yes"
+  },
+  "left_4": {
+   "Q1": "6",
+   "Q2": "3",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "Yes"
+  },
+  "left_5": {
+   "Q1": "6",
+   "Q2": "3",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "Yes"
+  },
+  "right_1": {
+   "Q1": "5",
+   "Q2": "2",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Single cluster",
+   "Q6": "Yes"
+  }
+ }
+}

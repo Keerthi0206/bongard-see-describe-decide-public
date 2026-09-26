@@ -1,0 +1,84 @@
+{
+ "bp": "bp0031",
+ "questions": [
+  "Is there any text present in the panel?",
+  "How many objects are there?",
+  "Is there a mix of solid and outline figures in the panel?",
+  "Is there more than one separate closed shape in the panel?"
+ ],
+ "cost_usd": 0.006514999999999993,
+ "answers": {
+  "left_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "2",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "2",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes"
+  }
+ }
+}

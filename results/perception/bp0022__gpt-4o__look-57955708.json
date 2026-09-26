@@ -1,0 +1,110 @@
+{
+ "bp": "bp0022",
+ "questions": [
+  "Is any object positioned above another object?",
+  "Is any object visibly elongated (clearly longer than it is wide) in the panel?",
+  "Does any shape appear more than once in the panel?",
+  "Is any figure solid-filled in the panel?",
+  "Is any pair of objects described as \"far\" from each other?",
+  "Is any triangle pointing upward?"
+ ],
+ "cost_usd": 0.007695000000000007,
+ "answers": {
+  "left_5": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "yes"
+  },
+  "left_4": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no"
+  },
+  "right_3": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no"
+  },
+  "left_2": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no"
+  },
+  "right_2": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "yes"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no"
+  },
+  "left_3": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "yes"
+  },
+  "right_6": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no"
+  },
+  "left_1": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "yes"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "right_1": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "yes"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "yes"
+  }
+ }
+}
