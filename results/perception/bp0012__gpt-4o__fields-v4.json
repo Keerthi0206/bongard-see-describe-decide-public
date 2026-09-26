@@ -1,0 +1,158 @@
+{
+ "bp": "bp0012",
+ "model": "gpt-4o",
+ "cost_usd": 0.010932500000000003,
+ "fields": {
+  "right_3": {
+   "parts": {
+    "open": true,
+    "xs": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  },
+  "left_3": {
+   "objects": {
+    "o": [
+     {
+      "t": "ellipse"
+     }
+    ],
+    "n": 1
+   },
+   "sym": true
+  },
+  "left_2": {
+   "parts": {
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  },
+  "right_4": {
+   "objects": {
+    "o": [
+     {
+      "t": "polygon",
+      "s": 12
+     }
+    ],
+    "n": 1
+   },
+   "sym": true
+  },
+  "right_1": {
+   "objects": {
+    "o": [
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 1
+   },
+   "sym": true
+  },
+  "right_2": {
+   "objects": {
+    "o": [
+     {
+      "t": "polygon",
+      "s": 12
+     }
+    ],
+    "n": 1
+   },
+   "sym": true
+  },
+  "left_4": {
+   "objects": {
+    "o": [
+     {
+      "t": "rectangle",
+      "s": 4
+     }
+    ],
+    "n": 1
+   },
+   "sym": true
+  },
+  "left_1": {
+   "objects": {
+    "o": [
+     {
+      "t": "triangle",
+      "s": 3
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  },
+  "left_6": {
+   "parts": {
+    "open": true
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  },
+  "left_5": {
+   "objects": {
+    "o": [
+     {
+      "t": "ellipse"
+     }
+    ],
+    "n": 1
+   },
+   "sym": true
+  },
+  "right_6": {
+   "objects": {
+    "o": [
+     {
+      "t": "diamond",
+      "s": 4
+     }
+    ],
+    "n": 1
+   },
+   "sym": true
+  },
+  "right_5": {
+   "objects": {
+    "o": [
+     {
+      "t": "square",
+      "s": 4
+     }
+    ],
+    "n": 1
+   },
+   "sym": true
+  }
+ }
+}

@@ -1,0 +1,593 @@
+{
+ "bp": "bp0090",
+ "model": "gpt-4o",
+ "cost_usd": 0.028362500000000013,
+ "fields": {
+  "left_5": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 8,
+   "rel": [
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse"
+   ],
+   "cl": 2,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 8,
+   "rel": [
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse"
+   ],
+   "col": true,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 8,
+   "rel": [
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse"
+   ],
+   "cl": 2,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 8,
+   "rel": [
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse"
+   ],
+   "cl": 2,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    }
+   ],
+   "n": 8,
+   "rel": [
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse"
+   ],
+   "col": true,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 8,
+   "rel": [
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse"
+   ],
+   "cl": 2,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    }
+   ],
+   "n": 8,
+   "rel": [
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse"
+   ],
+   "cl": 2,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    }
+   ],
+   "n": 8,
+   "rel": [
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse"
+   ],
+   "cl": 2,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    }
+   ],
+   "n": 8,
+   "rel": [
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse"
+   ],
+   "cl": 2,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 8,
+   "rel": [
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "solid ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse"
+   ],
+   "col": true,
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_1": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "ellipse far from ellipse",
+    "ellipse far from ellipse",
+    "ellipse far from ellipse",
+    "ellipse far from ellipse",
+    "ellipse far from ellipse",
+    "ellipse far from ellipse"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "ellipse far from ellipse",
+    "ellipse far from ellipse",
+    "ellipse far from ellipse",
+    "ellipse far from ellipse",
+    "ellipse far from ellipse",
+    "ellipse far from ellipse"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  }
+ }
+}

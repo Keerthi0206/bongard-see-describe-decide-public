@@ -1,0 +1,172 @@
+{
+ "bp": "bp0002",
+ "model": "gpt-4o",
+ "cost_usd": 0.06727,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "other",
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5,
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4,
+     "hole": true
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5,
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_4": {
+   "PARTS": {
+    "ln": 1,
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "short"
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_6": {
+   "PARTS": {
+    "ln": 2,
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "curve"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "curve touching curve"
+   ],
+   "sym": true
+  }
+ }
+}

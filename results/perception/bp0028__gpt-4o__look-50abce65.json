@@ -1,0 +1,123 @@
+{
+ "bp": "bp0028",
+ "questions": [
+  "Do all triangles in the panel point the same way?",
+  "Do any of the closed figures consist solely of straight line segments?",
+  "How many triangles are present in the panel?",
+  "Is the number of solid figures greater than the number of outline figures?",
+  "Is there any shape that contains a hole?",
+  "Do the objects form one connected cluster or are they split into separate groups?",
+  "Is the shape that is positioned above another shape a triangle?"
+ ],
+ "cost_usd": 0.009885000000000033,
+ "answers": {
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "0",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "Yes"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "0",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "0",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "No"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "Yes"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "3",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "Yes"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "3",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "Yes"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "0",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "Yes"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "3",
+   "Q4": "Yes",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "Yes"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "3",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "One cluster",
+   "Q7": "Yes"
+  }
+ }
+}

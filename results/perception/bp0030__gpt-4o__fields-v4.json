@@ -1,0 +1,183 @@
+{
+ "bp": "bp0030",
+ "model": "gpt-4o",
+ "cost_usd": 0.016515000000000002,
+ "fields": {
+  "left_6": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_3": {
+   "ln": 1,
+   "open": true,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_5": {
+   "ln": 1,
+   "open": true,
+   "ends": 2,
+   "o": [
+    {
+     "t": "line",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_5": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_1": {
+   "ln": 2,
+   "open": true,
+   "x": 1,
+   "ends": 4,
+   "o": [
+    {
+     "t": "line",
+     "len": "long"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "line touching line"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_3": {
+   "ln": 1,
+   "open": true,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_6": {
+   "ln": 1,
+   "open": true,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_4": {
+   "ln": 1,
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_2": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_4": {
+   "ln": 2,
+   "open": true,
+   "x": 1,
+   "ends": 4,
+   "o": [
+    {
+     "t": "line",
+     "len": "long"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "line touching line"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_2": {
+   "ln": 1,
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_1": {
+   "ln": 1,
+   "open": true,
+   "ends": 2,
+   "o": [
+    {
+     "t": "line",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  }
+ }
+}

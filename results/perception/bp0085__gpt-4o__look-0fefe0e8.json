@@ -1,0 +1,84 @@
+{
+ "bp": "bp0085",
+ "questions": [
+  "How many objects are present in the panel?",
+  "Do the outer bounding boxes of the shapes overlap?",
+  "Do any two objects share a common endpoint?",
+  "Is the upper figure positioned to the left of the lower figure?"
+ ],
+ "cost_usd": 0.005857500000000002,
+ "answers": {
+  "left_5": {
+   "Q1": "3",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_5": {
+   "Q1": "4",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "right_6": {
+   "Q1": "5",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "left_4": {
+   "Q1": "3",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "left_2": {
+   "Q1": "1",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "left_3": {
+   "Q1": "4",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "right_4": {
+   "Q1": "5",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "left_1": {
+   "Q1": "3",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_2": {
+   "Q1": "1",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "left_6": {
+   "Q1": "3",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_1": {
+   "Q1": "5",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_3": {
+   "Q1": "1",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no"
+  }
+ }
+}

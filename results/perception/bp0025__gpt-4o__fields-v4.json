@@ -1,0 +1,491 @@
+{
+ "bp": "bp0025",
+ "model": "gpt-4o",
+ "cost_usd": 0.03231500000000001,
+ "fields": {
+  "right_2": {
+   "o": [
+    {
+     "t": "triangle"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "triangle left of circle",
+    "triangle left of solid circle",
+    "triangle above square",
+    "circle right of triangle",
+    "circle right of solid circle",
+    "circle above square",
+    "solid circle right of triangle",
+    "solid circle left of circle",
+    "solid circle above square",
+    "square below triangle",
+    "square below circle",
+    "square below solid circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "triangle",
+     "f": "solid"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "solid triangle left of circle",
+    "solid triangle left of triangle",
+    "solid triangle above square",
+    "circle right of solid triangle",
+    "circle right of triangle",
+    "circle above square",
+    "triangle right of solid triangle",
+    "triangle left of circle",
+    "triangle above square",
+    "square below solid triangle",
+    "square below circle",
+    "square below triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "triangle"
+    },
+    {
+     "t": "square"
+    },
+    {
+     "t": "triangle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "solid circle left of triangle",
+    "solid circle left of square",
+    "solid circle left of triangle",
+    "triangle right of solid circle",
+    "triangle above square",
+    "triangle left of triangle",
+    "square right of solid circle",
+    "square below triangle",
+    "square left of triangle",
+    "triangle right of solid circle",
+    "triangle right of square",
+    "triangle left of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "triangle"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    },
+    {
+     "t": "triangle",
+     "f": "solid"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "triangle left of circle",
+    "triangle left of square",
+    "triangle left of solid triangle",
+    "circle right of triangle",
+    "circle above square",
+    "circle left of solid triangle",
+    "square right of triangle",
+    "square below circle",
+    "square left of solid triangle",
+    "solid triangle right of triangle",
+    "solid triangle right of circle",
+    "solid triangle right of square"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "square"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "solid circle left of square",
+    "solid circle left of circle",
+    "solid circle left of triangle",
+    "square right of solid circle",
+    "square below circle",
+    "square left of triangle",
+    "circle right of solid circle",
+    "circle above square",
+    "circle left of triangle",
+    "triangle right of solid circle",
+    "triangle right of square",
+    "triangle right of circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "f": "solid"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "square left of circle",
+    "square left of solid triangle",
+    "square left of square",
+    "circle right of square",
+    "circle above solid triangle",
+    "circle left of square",
+    "solid triangle right of square",
+    "solid triangle below circle",
+    "solid triangle left of square",
+    "square right of square",
+    "square right of circle",
+    "square right of solid triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "circle left of circle",
+    "circle left of solid circle",
+    "circle above circle",
+    "circle above solid circle",
+    "circle right of circle",
+    "circle right of solid circle",
+    "circle below circle",
+    "circle below solid circle",
+    "solid circle right of circle",
+    "solid circle right of circle",
+    "solid circle below circle",
+    "solid circle below circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    },
+    {
+     "t": "triangle",
+     "f": "solid"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "circle left of circle",
+    "circle left of square",
+    "circle left of solid triangle",
+    "circle above square",
+    "circle above solid triangle",
+    "circle right of circle",
+    "circle right of square",
+    "circle right of solid triangle",
+    "square below circle",
+    "square below circle",
+    "square left of solid triangle",
+    "solid triangle right of circle",
+    "solid triangle right of square",
+    "solid triangle below circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle"
+    },
+    {
+     "t": "square"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "circle left of triangle",
+    "circle left of square",
+    "circle left of solid circle",
+    "triangle right of circle",
+    "triangle above square",
+    "triangle left of solid circle",
+    "square right of circle",
+    "square below triangle",
+    "square left of solid circle",
+    "solid circle right of circle",
+    "solid circle right of triangle",
+    "solid circle right of square"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "square"
+    },
+    {
+     "t": "triangle"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "square left of square",
+    "square left of triangle",
+    "square left of solid circle",
+    "square above triangle",
+    "square above solid circle",
+    "square right of square",
+    "square right of triangle",
+    "square right of solid circle",
+    "triangle below square",
+    "triangle below square",
+    "triangle left of solid circle",
+    "solid circle right of square",
+    "solid circle right of square",
+    "solid circle right of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "f": "solid"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "circle left of circle",
+    "circle left of solid triangle",
+    "circle above circle",
+    "circle above solid triangle",
+    "circle right of circle",
+    "circle right of solid triangle",
+    "circle below circle",
+    "circle below solid triangle",
+    "solid triangle right of circle",
+    "solid triangle right of circle",
+    "solid triangle below circle",
+    "solid triangle below circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    },
+    {
+     "t": "triangle",
+     "f": "solid"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "triangle left of circle",
+    "triangle left of square",
+    "triangle left of solid triangle",
+    "circle right of triangle",
+    "circle above square",
+    "circle left of solid triangle",
+    "square right of triangle",
+    "square below circle",
+    "square left of solid triangle",
+    "solid triangle right of triangle",
+    "solid triangle right of circle",
+    "solid triangle right of square"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  }
+ }
+}

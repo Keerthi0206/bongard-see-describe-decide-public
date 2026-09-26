@@ -1,0 +1,84 @@
+{
+ "bp": "bp0046",
+ "questions": [
+  "Is the solid shape larger than the outline shape?",
+  "Is the circle inside the triangle?",
+  "Are both shapes solid?",
+  "Is any object vertically elongated?"
+ ],
+ "cost_usd": 0.005824999999999997,
+ "answers": {
+  "left_4": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_2": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_6": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_2": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_3": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_1": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_3": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_5": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_5": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes"
+  }
+ }
+}

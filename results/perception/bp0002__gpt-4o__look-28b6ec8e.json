@@ -1,0 +1,97 @@
+{
+ "bp": "bp0002",
+ "questions": [
+  "Is there a shape in the panel that consists only of smooth curves with no straight edges?",
+  "How many distinct object types are present?",
+  "Is there both a solid and an outline figure in the panel?",
+  "Is the figure located near the centre of the panel?",
+  "Is there a single continuous outline enclosing the objects in the panel?"
+ ],
+ "cost_usd": 0.0068000000000000005,
+ "answers": {
+  "left_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "1",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  }
+ }
+}

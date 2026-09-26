@@ -1,0 +1,128 @@
+{
+ "bp": "bp0019",
+ "model": "gpt-4o",
+ "cost_usd": 0.014255000000000004,
+ "fields": {
+  "left_6": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_6": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_1": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_3": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_2": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_4": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_5": {
+   "open": true,
+   "o": [
+    {
+     "t": "polygon",
+     "s": "many"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_1": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_4": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_3": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_2": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_5": {
+   "open": true,
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  }
+ }
+}

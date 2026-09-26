@@ -1,0 +1,170 @@
+{
+ "bp": "bp0004",
+ "model": "gpt-4o",
+ "cost_usd": 0.06211749999999999,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid",
+     "p": "down",
+     "tri": "isosceles"
+    },
+    {
+     "t": "square",
+     "s": 4,
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "triangle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4,
+     "f": "outline"
+    },
+    {
+     "t": "ellipse",
+     "f": "solid"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "ellipse inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_1": {
+   "ln": 1,
+   "open": false,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5,
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_3": {
+   "ln": 1,
+   "open": false,
+   "o": [
+    {
+     "t": "other",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 6,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": "many",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "other",
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  }
+ }
+}

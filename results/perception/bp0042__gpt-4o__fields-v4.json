@@ -1,0 +1,371 @@
+{
+ "bp": "bp0042",
+ "model": "gpt-4o",
+ "cost_usd": 0.017092499999999997,
+ "fields": {
+  "right_2": {
+   "o": [
+    {
+     "t": "curve",
+     "open": false
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 5,
+   "rel": [
+    "dot inside curve",
+    "dot inside curve",
+    "dot inside curve",
+    "dot inside curve"
+   ],
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "rectangle"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 5,
+   "rel": [
+    "dot inside rectangle",
+    "dot inside rectangle",
+    "dot inside rectangle",
+    "dot inside rectangle"
+   ],
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 5,
+   "rel": [
+    "dot inside triangle",
+    "dot inside triangle",
+    "dot inside triangle",
+    "dot outside triangle"
+   ],
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside polygon",
+    "dot inside polygon",
+    "dot inside polygon",
+    "dot inside polygon",
+    "dot outside polygon"
+   ],
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "rectangle"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside rectangle",
+    "dot inside rectangle",
+    "dot inside rectangle",
+    "dot outside rectangle",
+    "dot outside rectangle"
+   ],
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot outside ellipse"
+   ],
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot inside ellipse",
+    "dot outside ellipse",
+    "dot outside ellipse"
+   ],
+   "sym": false
+  },
+  "left_1": {
+   "o": [
+    {
+     "t": "curve",
+     "open": false
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside curve",
+    "dot inside curve",
+    "dot inside curve",
+    "dot inside curve",
+    "dot outside curve"
+   ],
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside triangle",
+    "dot inside triangle",
+    "dot inside triangle",
+    "dot outside triangle",
+    "dot outside triangle"
+   ],
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "curve",
+     "open": false
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside curve",
+    "dot inside curve",
+    "dot inside curve",
+    "dot outside curve",
+    "dot outside curve"
+   ],
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 5,
+   "rel": [
+    "dot inside polygon",
+    "dot inside polygon",
+    "dot inside polygon",
+    "dot outside polygon"
+   ],
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "curve",
+     "open": false
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "dot inside curve",
+    "dot inside curve",
+    "dot inside curve",
+    "dot inside curve",
+    "dot outside curve"
+   ],
+   "sym": false
+  }
+ }
+}

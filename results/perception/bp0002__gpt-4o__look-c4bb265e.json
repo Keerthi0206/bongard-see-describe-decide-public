@@ -1,0 +1,58 @@
+{
+ "bp": "bp0002",
+ "questions": [
+  "Is there any open line in the panel?",
+  "Is there a shape with a curved outline?"
+ ],
+ "cost_usd": 0.004024999999999945,
+ "answers": {
+  "left_6": {
+   "Q1": "no",
+   "Q2": "no"
+  },
+  "left_3": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "left_2": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "no"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "right_3": {
+   "Q1": "no",
+   "Q2": "no"
+  },
+  "left_4": {
+   "Q1": "yes",
+   "Q2": "no"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "right_2": {
+   "Q1": "no",
+   "Q2": "yes"
+  },
+  "left_1": {
+   "Q1": "yes",
+   "Q2": "no"
+  },
+  "left_5": {
+   "Q1": "yes",
+   "Q2": "yes"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "no"
+  }
+ }
+}

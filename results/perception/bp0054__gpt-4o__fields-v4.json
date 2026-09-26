@@ -1,0 +1,343 @@
+{
+ "bp": "bp0054",
+ "model": "gpt-4o",
+ "cost_usd": 0.018672499999999995,
+ "fields": {
+  "left_3": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle right of triangle",
+    "circle above cross",
+    "triangle left of cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle left of triangle",
+    "circle above cross",
+    "triangle right of cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle below triangle",
+    "circle left of cross",
+    "triangle above cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle above triangle",
+    "circle right of cross",
+    "triangle left of cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_1": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle right of triangle",
+    "circle below cross",
+    "triangle left of cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle right of triangle",
+    "circle below cross",
+    "triangle left of cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle above triangle",
+    "circle left of cross",
+    "triangle below cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle above triangle",
+    "circle left of cross",
+    "triangle below cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle below triangle",
+    "circle left of cross",
+    "triangle above cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle right of triangle",
+    "circle above cross",
+    "triangle left of cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle above triangle",
+    "circle left of cross",
+    "triangle below cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "cross"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle above triangle",
+    "circle left of cross",
+    "triangle below cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  }
+ }
+}

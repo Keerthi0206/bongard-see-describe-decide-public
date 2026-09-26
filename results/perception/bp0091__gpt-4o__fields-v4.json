@@ -1,0 +1,510 @@
+{
+ "bp": "bp0091",
+ "model": "gpt-4o",
+ "cost_usd": 0.03131499999999998,
+ "fields": {
+  "left_6": {
+   "PARTS": {
+    "ln": 3,
+    "open": true,
+    "x": 1,
+    "ends": 4
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "dot"
+     },
+     {
+      "t": "dot"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 4,
+    "k": {
+     "dot": 3,
+     "curve": 1
+    }
+   },
+   "RELATIONS": [
+    "dot touching curve",
+    "dot touching curve",
+    "dot touching curve"
+   ],
+   "WHOLE": {
+    "hull": "other"
+   },
+   "SAMENESS": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_3": {
+   "PARTS": {
+    "ln": 12
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "square",
+      "s": 4
+     },
+     {
+      "t": "square",
+      "s": 4
+     },
+     {
+      "t": "square",
+      "s": 4
+     }
+    ],
+    "n": 3,
+    "k": {
+     "outline square": 3
+    }
+   },
+   "RELATIONS": [
+    "square near square",
+    "square near square",
+    "square near square"
+   ],
+   "WHOLE": {
+    "hull": "other"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_5": {
+   "PARTS": {
+    "ln": 5,
+    "open": true,
+    "ends": 10
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 5,
+    "k": {
+     "line": 5
+    }
+   },
+   "RELATIONS": [
+    "line touching line",
+    "line touching line",
+    "line touching line",
+    "line touching line"
+   ],
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_3": {
+   "PARTS": {
+    "ln": 5,
+    "open": true,
+    "ends": 10
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 5,
+    "k": {
+     "curve": 1,
+     "line": 4
+    }
+   },
+   "RELATIONS": [
+    "line touching curve",
+    "line touching curve",
+    "line touching curve",
+    "line touching curve"
+   ],
+   "WHOLE": {
+    "hull": "other"
+   },
+   "SAMENESS": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_2": {
+   "PARTS": {
+    "ln": 8
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "circle"
+     },
+     {
+      "t": "cross"
+     }
+    ],
+    "n": 2,
+    "k": {
+     "outline circle": 1,
+     "outline cross": 1
+    }
+   },
+   "RELATIONS": [
+    "cross inside circle"
+   ],
+   "WHOLE": {
+    "hull": "circle"
+   },
+   "SAMENESS": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_4": {
+   "PARTS": {
+    "ln": 4
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     },
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 4,
+    "k": {
+     "outline circle": 4
+    }
+   },
+   "RELATIONS": [
+    "circle near circle",
+    "circle near circle",
+    "circle near circle",
+    "circle near circle",
+    "circle near circle",
+    "circle near circle"
+   ],
+   "WHOLE": {
+    "hull": "other"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_1": {
+   "PARTS": {
+    "ln": 3,
+    "open": true,
+    "br": 1,
+    "ends": 3
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 3,
+    "k": {
+     "line": 3
+    }
+   },
+   "RELATIONS": [
+    "line joined to line",
+    "line joined to line",
+    "line joined to line"
+   ],
+   "WHOLE": {
+    "hull": "triangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_2": {
+   "PARTS": {
+    "ln": 3,
+    "open": true,
+    "ends": 3
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "triangle",
+      "s": 3,
+      "tri": "isosceles"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "triangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_1": {
+   "PARTS": {
+    "ln": 4
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "square",
+      "s": 4
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "square"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_5": {
+   "PARTS": {
+    "ln": 4,
+    "open": true,
+    "x": 1,
+    "ends": 8
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 4,
+    "k": {
+     "line": 4
+    }
+   },
+   "RELATIONS": [
+    "line crossing line",
+    "line crossing line",
+    "line crossing line",
+    "line crossing line",
+    "line crossing line",
+    "line crossing line"
+   ],
+   "WHOLE": {
+    "hull": "other"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_4": {
+   "PARTS": {
+    "ln": 8
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "circle"
+     },
+     {
+      "t": "other"
+     }
+    ],
+    "n": 2,
+    "k": {
+     "outline circle": 1,
+     "outline other": 1
+    }
+   },
+   "RELATIONS": [
+    "other inside circle"
+   ],
+   "WHOLE": {
+    "hull": "circle"
+   },
+   "SAMENESS": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_6": {
+   "PARTS": {
+    "ln": 8
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "ellipse"
+     },
+     {
+      "t": "ellipse"
+     },
+     {
+      "t": "ellipse"
+     },
+     {
+      "t": "ellipse"
+     }
+    ],
+    "n": 4,
+    "k": {
+     "outline ellipse": 4
+    }
+   },
+   "RELATIONS": [
+    "ellipse touching ellipse",
+    "ellipse touching ellipse",
+    "ellipse touching ellipse"
+   ],
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  }
+ }
+}

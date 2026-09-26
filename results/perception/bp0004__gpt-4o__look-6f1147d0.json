@@ -1,0 +1,97 @@
+{
+ "bp": "bp0004",
+ "questions": [
+  "Is there a noticeable size contrast between objects in the panel?",
+  "How many distinct objects are present in the panel?",
+  "Is any object inside another object?",
+  "Is any shape completely inside another shape?",
+  "Do any shapes consist solely of straight edges?"
+ ],
+ "cost_usd": 0.0067575,
+ "answers": {
+  "right_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes"
+  }
+ }
+}

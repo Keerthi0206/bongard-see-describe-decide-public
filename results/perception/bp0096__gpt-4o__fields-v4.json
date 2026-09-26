@@ -1,0 +1,139 @@
+{
+ "bp": "bp0096",
+ "model": "gpt-4o",
+ "cost_usd": 0.010772500000000018,
+ "fields": {
+  "right_6": {
+   "tex": "hatched-vertical",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "trapezoid",
+   "sym": false
+  },
+  "right_5": {
+   "tex": "hatched-diagonal",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "triangle",
+   "sym": false
+  },
+  "left_2": {
+   "tex": "hatched-vertical",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "triangle",
+   "sym": true
+  },
+  "right_3": {
+   "tex": "hatched-horizontal",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "diamond",
+   "sym": true
+  },
+  "right_4": {
+   "tex": "hatched-diagonal",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "quadrilateral",
+   "sym": false
+  },
+  "left_6": {
+   "tex": "hatched-vertical",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "trapezoid",
+   "sym": true
+  },
+  "left_4": {
+   "tex": "hatched-diagonal",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "triangle",
+   "sym": false
+  },
+  "left_5": {
+   "tex": "hatched-diagonal",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "triangle",
+   "sym": true
+  },
+  "left_1": {
+   "tex": "hatched-horizontal",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "triangle",
+   "sym": false
+  },
+  "right_2": {
+   "tex": "hatched-vertical",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "trapezoid",
+   "sym": true
+  },
+  "left_3": {
+   "tex": "hatched-diagonal",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "triangle",
+   "sym": false
+  },
+  "right_1": {
+   "tex": "hatched-diagonal",
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "hull": "square",
+   "sym": true
+  }
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "bp": "bp0033",
+ "questions": [
+  "Is there an object that appears noticeably larger than all other objects in the panel?",
+  "How many distinct objects are present in the panel?",
+  "Is there at least one solid-filled figure in the panel?",
+  "Is any object touching another object of the same type?",
+  "Is there a self\u2011crossing line in the panel?",
+  "Do any objects have right-angle corners?"
+ ],
+ "cost_usd": 0.0077025000000001675,
+ "answers": {
+  "right_2": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  }
+ }
+}

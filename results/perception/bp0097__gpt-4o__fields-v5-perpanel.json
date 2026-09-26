@@ -1,0 +1,396 @@
+{
+ "bp": "bp0097",
+ "model": "gpt-4o",
+ "cost_usd": 0.0650124999999998,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid",
+     "p": "down"
+    },
+    {
+     "t": "square",
+     "s": 4,
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "triangle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "dot",
+     "f": "outline"
+    }
+   ],
+   "n": 18,
+   "rel": [
+    "dot forming triangle with other dots"
+   ],
+   "forms": "the dots form a triangle",
+   "hull": "triangle",
+   "sym": true
+  },
+  "left_4": {
+   "ln": 15,
+   "open": true,
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 16,
+   "k": {
+    "outline triangle": 1,
+    "solid line": 15
+   },
+   "rel": [
+    "solid line inside outline triangle"
+   ],
+   "sym": false,
+   "note": "lines are hatched-diagonal"
+  },
+  "left_5": {
+   "ln": 3,
+   "open": true,
+   "tex": "dashed",
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "p": "left"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "dot",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "dot inside triangle"
+   ],
+   "cl": 1,
+   "dist": "inside",
+   "sym": true
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "square",
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "tex": "dashed",
+   "sym": true
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "hole": true,
+     "p": "up"
+    }
+   ],
+   "n": 12,
+   "k": {
+    "outline triangle": 12
+   },
+   "rel": [
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle"
+   ],
+   "cl": 1,
+   "forms": "the triangles form a circle",
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": true
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "square",
+     "f": "solid"
+    }
+   ],
+   "n": 2,
+   "k": {
+    "solid square": 1,
+    "outline circle": 1
+   },
+   "rel": [
+    "square inside circle"
+   ],
+   "sym": true,
+   "note": "circle contains a checkered pattern"
+  },
+  "right_5": {
+   "ln": 20,
+   "x": 1,
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 20,
+   "k": {
+    "solid line": 20
+   },
+   "rel": [
+    "line joined to line"
+   ],
+   "sym": true
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4,
+     "f": "outline"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  }
+ }
+}

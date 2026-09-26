@@ -1,0 +1,309 @@
+{
+ "bp": "bp0021",
+ "model": "gpt-4o",
+ "cost_usd": 0.017632499999999995,
+ "fields": {
+  "left_5": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "right"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "left"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle left of triangle",
+    "circle left of triangle",
+    "triangle right of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "right"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "triangle left of circle",
+    "triangle left of circle",
+    "circle right of circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle left of circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "right"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "left"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle left of triangle",
+    "circle left of triangle",
+    "triangle right of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "right"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "left"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "triangle right of triangle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle left of circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "down"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "triangle left of circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "down"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "circle left of circle",
+    "circle left of triangle",
+    "circle left of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_1": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "right"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle left of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "right"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "down"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "triangle left of circle",
+    "triangle left of triangle",
+    "circle right of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "right"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle left of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  }
+ }
+}

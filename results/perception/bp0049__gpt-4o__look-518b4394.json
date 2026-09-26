@@ -1,0 +1,110 @@
+{
+ "bp": "bp0049",
+ "questions": [
+  "Is the main shape in each panel drawn as an outline or as a solid fill?",
+  "Are there exactly two distinct size groups (one large figure and several much smaller figures) in the panel?",
+  "Are all objects in the panel filled the same way (all solid or all outline)?",
+  "Are the larger and smaller figures of the same shape type?",
+  "Is there any outline shape that contains a solid (filled) shape?",
+  "Do any of the small items lie both inside and outside the larger outline shape in the panel?"
+ ],
+ "cost_usd": 0.007780000000000009,
+ "answers": {
+  "left_1": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "left_5": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "left_6": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "right_6": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "right_4": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "left_2": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "right_2": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "left_3": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "right_3": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "left_4": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "right_1": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "right_5": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "no"
+  }
+ }
+}

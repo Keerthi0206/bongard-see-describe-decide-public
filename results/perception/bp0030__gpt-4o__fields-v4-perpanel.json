@@ -1,0 +1,251 @@
+{
+ "bp": "bp0030",
+ "model": "gpt-4o",
+ "cost_usd": 0.07075999999999993,
+ "fields": {
+  "left_1": {
+   "PARTS": {
+    "ln": 3,
+    "open": true,
+    "x": 1,
+    "ends": 4
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "triangle",
+      "s": 3
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "line crossing triangle"
+   ],
+   "sym": false
+  },
+  "left_2": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_3": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "xs": true,
+    "x": 1
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "irregular",
+    "sym": false
+   }
+  },
+  "left_4": {
+   "PARTS": {
+    "ln": 3,
+    "open": true,
+    "x": 1,
+    "ends": 6
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "polygon",
+      "s": 4
+     },
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": [
+    "polygon joined to line",
+    "polygon joined to line",
+    "line crossing line"
+   ],
+   "sym": false
+  },
+  "left_5": {
+   "PARTS": {
+    "open": true,
+    "xs": true,
+    "x": 1,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "RELATIONS": [],
+   "WHOLE": {
+    "sym": false
+   }
+  },
+  "left_6": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "xs": true,
+    "x": 2,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "irregular"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_1": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "line joined to line"
+   ],
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "curve",
+     "open": true
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_3": {
+   "ln": 2,
+   "open": true,
+   "x": 1,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    },
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "curve touching curve",
+    "curve crossing curve"
+   ],
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_5": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "xs": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "zigzag",
+    "sym": false
+   }
+  },
+  "right_6": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "xs": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "other"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  }
+ }
+}

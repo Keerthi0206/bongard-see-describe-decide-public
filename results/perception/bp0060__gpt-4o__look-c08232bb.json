@@ -1,0 +1,45 @@
+{
+ "bp": "bp0060",
+ "questions": [
+  "Are any two objects of the same shape different in size?"
+ ],
+ "cost_usd": 0.003122500000000028,
+ "answers": {
+  "right_4": {
+   "Q1": "Yes"
+  },
+  "left_4": {
+   "Q1": "Yes"
+  },
+  "left_5": {
+   "Q1": "Yes"
+  },
+  "right_6": {
+   "Q1": "Yes"
+  },
+  "left_6": {
+   "Q1": "Yes"
+  },
+  "right_5": {
+   "Q1": "Yes"
+  },
+  "left_1": {
+   "Q1": "Yes"
+  },
+  "right_3": {
+   "Q1": "No"
+  },
+  "right_1": {
+   "Q1": "Yes"
+  },
+  "left_3": {
+   "Q1": "Yes"
+  },
+  "right_2": {
+   "Q1": "Yes"
+  },
+  "left_2": {
+   "Q1": "Yes"
+  }
+ }
+}

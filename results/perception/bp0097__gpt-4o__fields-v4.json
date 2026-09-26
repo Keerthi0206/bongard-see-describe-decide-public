@@ -1,0 +1,221 @@
+{
+ "bp": "bp0097",
+ "model": "gpt-4o",
+ "cost_usd": 0.014502500000000002,
+ "fields": {
+  "left_4": {
+   "PARTS": {
+    "tex": "hatched-diagonal"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "triangle"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "triangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_6": {
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "forms": "the dots form a triangle",
+    "hull": "triangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_4": {
+   "PARTS": {
+    "tex": "dotted"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "circle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_1": {
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "triangle"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "triangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_3": {
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "forms": "the circles form a triangle",
+    "hull": "triangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_3": {
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "triangle"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "forms": "the triangles form a circle",
+    "hull": "circle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_1": {
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "circle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_5": {
+   "PARTS": {
+    "ln": 18,
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 18
+   },
+   "WHOLE": {
+    "hull": "circle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_2": {
+   "PARTS": {
+    "tex": "dashed"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "circle"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "circle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_5": {
+   "PARTS": {
+    "tex": "dashed"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "triangle"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "triangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_6": {
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "circle",
+      "f": "solid"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "circle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_2": {
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "triangle",
+      "f": "solid"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "triangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  }
+ }
+}

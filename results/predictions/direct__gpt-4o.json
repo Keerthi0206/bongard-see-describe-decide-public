@@ -105,6 +105,146 @@
    "bp": "bp0096",
    "rule": "Left = Lines are parallel to the base of the triangle., Right = Lines are not parallel to the base of the triangle.",
    "cost_usd": 0.0020849999999999966
+  },
+  {
+   "bp": "bp0001",
+   "rule": "Left = empty panels, Right = panels with shapes",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.0019450000000000001
+  },
+  {
+   "bp": "bp0012",
+   "rule": "Left = Shapes with pointed ends, Right = Shapes without pointed ends",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.001965
+  },
+  {
+   "bp": "bp0016",
+   "rule": "Left = Spirals are counterclockwise., Right = Spirals are clockwise.",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.0020150000000000003
+  },
+  {
+   "bp": "bp0019",
+   "rule": "Left = Shapes are symmetrical., Right = Shapes are asymmetrical.",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.0019650000000000006
+  },
+  {
+   "bp": "bp0020",
+   "rule": "Left = Dots are on the inside of the shape., Right = Dots are on the outside of the shape.",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.0020549999999999995
+  },
+  {
+   "bp": "bp0021",
+   "rule": "Left = At least one triangle is pointing upwards., Right = No triangles are pointing upwards.",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.002015000000000001
+  },
+  {
+   "bp": "bp0042",
+   "rule": "Left = All dots are inside the shape., Right = At least one dot is outside the shape.",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.0020350000000000004
+  },
+  {
+   "bp": "bp0044",
+   "rule": "Left = Circles are on the outside of curves., Right = Circles are on the inside of curves.",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.0020549999999999995
+  },
+  {
+   "bp": "bp0054",
+   "rule": "Left = Triangle points up, Right = Triangle points down",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.0019449999999999988
+  },
+  {
+   "bp": "bp0060",
+   "rule": "Left = Shapes are different from each other., Right = Shapes are the same as each other.",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.002024999999999999
+  },
+  {
+   "bp": "bp0072",
+   "rule": "Left = Single closed curve, Right = Single open curve",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.0019449999999999988
+  },
+  {
+   "bp": "bp0073",
+   "rule": "Left = All shapes are different., Right = At least two shapes are the same.",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.002005
+  },
+  {
+   "bp": "bp0076",
+   "rule": "Left = Shapes are concave, Right = Shapes are convex",
+   "verified": true,
+   "calls": 1,
+   "cost_usd": 0.0019549999999999984
+  },
+  {
+   "bp": "bp0082",
+   "rule": "Left = One circle among plus signs, Right = Two circles among plus signs",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.0019850000000000007
+  },
+  {
+   "bp": "bp0084",
+   "rule": "Left = Square outside the circle of dots, Right = Square inside the circle of dots",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.002005
+  },
+  {
+   "bp": "bp0085",
+   "rule": "Left = Shapes have three lines or sides., Right = Shapes have more than three lines or sides.",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.002035000000000002
+  },
+  {
+   "bp": "bp0086",
+   "rule": "Left = Shapes have three endpoints., Right = Shapes have more than three endpoints.",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.0019950000000000037
+  },
+  {
+   "bp": "bp0090",
+   "rule": "Left = Even number of shapes, Right = Odd number of shapes",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.0019650000000000015
+  },
+  {
+   "bp": "bp0091",
+   "rule": "Left = Contains at least one acute angle, Right = Does not contain any acute angles",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.002005
+  },
+  {
+   "bp": "bp0093",
+   "rule": "Left = All lines are made of alternating filled and unfilled circles., Right = All lines are made of either all filled or all unfilled circles.",
+   "verified": false,
+   "calls": 1,
+   "cost_usd": 0.002134999999999998
   }
  ]
 }

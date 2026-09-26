@@ -1,0 +1,97 @@
+{
+ "bp": "bp0096",
+ "questions": [
+  "Does the outline contain any right-angle corners?",
+  "Is the measured figure count a multiple of 3?",
+  "Do the figures lie approximately on a straight line?",
+  "What is the texture pattern (hatched-diagonal, hatched-horizontal, hatched-vertical) of the figure?",
+  "Does the figure have any acute corners?"
+ ],
+ "cost_usd": 0.007137500000000019,
+ "answers": {
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "hatched-vertical",
+   "Q5": "No"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "hatched-diagonal",
+   "Q5": "Yes"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "hatched-vertical",
+   "Q5": "No"
+  },
+  "right_3": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "hatched-horizontal",
+   "Q5": "Yes"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "hatched-diagonal",
+   "Q5": "Yes"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "hatched-vertical",
+   "Q5": "No"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "hatched-diagonal",
+   "Q5": "Yes"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "hatched-diagonal",
+   "Q5": "Yes"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "hatched-horizontal",
+   "Q5": "Yes"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "hatched-vertical",
+   "Q5": "No"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "hatched-diagonal",
+   "Q5": "Yes"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "hatched-diagonal",
+   "Q5": "No"
+  }
+ }
+}

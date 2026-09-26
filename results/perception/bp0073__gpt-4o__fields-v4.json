@@ -1,0 +1,379 @@
+{
+ "bp": "bp0073",
+ "model": "gpt-4o",
+ "cost_usd": 0.02591500000000002,
+ "fields": {
+  "right_6": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "triangle",
+     "p": "right"
+    },
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "ellipse left of triangle",
+    "ellipse left of rectangle",
+    "triangle right of ellipse",
+    "triangle above rectangle",
+    "rectangle below triangle",
+    "rectangle right of ellipse"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_1": {
+   "o": [
+    {
+     "t": "parallelogram"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "triangle",
+     "p": "up"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "parallelogram left of ellipse",
+    "parallelogram left of triangle",
+    "ellipse right of parallelogram",
+    "ellipse above triangle",
+    "triangle below ellipse",
+    "triangle right of parallelogram"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "triangle",
+     "p": "up"
+    },
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "ellipse above rectangle",
+    "ellipse right of triangle",
+    "triangle left of ellipse",
+    "triangle above rectangle",
+    "rectangle below ellipse",
+    "rectangle below triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "triangle",
+     "p": "up"
+    },
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "ellipse above rectangle",
+    "ellipse right of triangle",
+    "triangle left of ellipse",
+    "triangle above rectangle",
+    "rectangle below ellipse",
+    "rectangle below triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "rectangle"
+    },
+    {
+     "t": "triangle",
+     "p": "right"
+    },
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "rectangle left of triangle",
+    "rectangle above ellipse",
+    "triangle right of rectangle",
+    "triangle above ellipse",
+    "ellipse below rectangle",
+    "ellipse below triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "triangle",
+     "p": "right"
+    },
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "ellipse left of triangle",
+    "ellipse left of rectangle",
+    "triangle right of ellipse",
+    "triangle above rectangle",
+    "rectangle below triangle",
+    "rectangle right of ellipse"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "triangle",
+     "p": "right"
+    },
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "ellipse left of triangle",
+    "ellipse left of rectangle",
+    "triangle right of ellipse",
+    "triangle above rectangle",
+    "rectangle below triangle",
+    "rectangle right of ellipse"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "p": "right"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "triangle left of ellipse",
+    "triangle left of rectangle",
+    "ellipse right of triangle",
+    "ellipse above rectangle",
+    "rectangle below ellipse",
+    "rectangle right of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "triangle",
+     "p": "right"
+    },
+    {
+     "t": "parallelogram"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "ellipse left of triangle",
+    "ellipse left of parallelogram",
+    "triangle right of ellipse",
+    "triangle above parallelogram",
+    "parallelogram below triangle",
+    "parallelogram right of ellipse"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "triangle",
+     "p": "right"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "parallelogram"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "triangle left of ellipse",
+    "triangle left of parallelogram",
+    "ellipse right of triangle",
+    "ellipse above parallelogram",
+    "parallelogram below ellipse",
+    "parallelogram right of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "rectangle"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "triangle",
+     "p": "right"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "rectangle above ellipse",
+    "rectangle left of triangle",
+    "ellipse below rectangle",
+    "ellipse left of triangle",
+    "triangle right of rectangle",
+    "triangle right of ellipse"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "triangle",
+     "p": "right"
+    },
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "ellipse left of triangle",
+    "ellipse left of rectangle",
+    "triangle right of ellipse",
+    "triangle above rectangle",
+    "rectangle below triangle",
+    "rectangle right of ellipse"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  }
+ }
+}

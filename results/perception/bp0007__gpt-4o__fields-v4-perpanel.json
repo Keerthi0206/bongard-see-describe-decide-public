@@ -1,0 +1,267 @@
+{
+ "bp": "bp0007",
+ "model": "gpt-4o",
+ "cost_usd": 0.06520000000000001,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_2": {
+   "PARTS": {
+    "ln": 11,
+    "x": 10,
+    "br": 10
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 11,
+    "k": {
+     "long line": 1,
+     "short line": 10
+    }
+   },
+   "RELATIONS": [
+    "short line touching long line",
+    "short line perpendicular to long line"
+   ],
+   "WHOLE": {
+    "cl": 1,
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_3": {
+   "PARTS": {
+    "open": true,
+    "tex": "zigzag"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "rectangle"
+    },
+    {
+     "t": "polygon",
+     "s": 5
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "rectangle joined to polygon"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "left_5": {
+   "PARTS": {
+    "ln": 2,
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "curve parallel to curve"
+   ],
+   "sym": true
+  },
+  "left_6": {
+   "PARTS": {
+    "open": true,
+    "tex": "wavy"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_2": {
+   "PARTS": {
+    "ln": 10
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "triangle",
+      "s": 3,
+      "p": "left"
+     },
+     {
+      "t": "triangle",
+      "s": 3,
+      "p": "right"
+     },
+     {
+      "t": "rectangle"
+     }
+    ],
+    "n": 3
+   },
+   "RELATIONS": [
+    "triangle touching rectangle",
+    "triangle touching rectangle",
+    "triangle left of rectangle",
+    "triangle right of rectangle"
+   ],
+   "SAME": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_3": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "tex": "wavy"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  },
+  "right_4": {
+   "parts": {
+    "ln": 17,
+    "x": 16,
+    "br": 16
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     }
+    ],
+    "n": 17,
+    "k": {
+     "long line": 1,
+     "short line": 16
+    }
+   },
+   "relations": [
+    "short line touching long line"
+   ],
+   "whole": {
+    "cl": 1,
+    "hull": "rectangle"
+   },
+   "sameness": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "symmetry": {
+    "sym": true
+   }
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "ellipse"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_6": {
+   "PARTS": {
+    "open": true,
+    "tex": "wavy"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  }
+ }
+}

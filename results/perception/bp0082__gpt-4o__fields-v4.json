@@ -1,0 +1,424 @@
+{
+ "bp": "bp0082",
+ "model": "gpt-4o",
+ "cost_usd": 0.02615500000000001,
+ "fields": {
+  "left_2": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 5,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 5,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_1": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 5,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "cross"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "cross near cross",
+    "cross near cross",
+    "cross near circle",
+    "cross near circle",
+    "cross near circle",
+    "cross near cross"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  }
+ }
+}

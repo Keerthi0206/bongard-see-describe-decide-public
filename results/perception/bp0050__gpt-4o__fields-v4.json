@@ -1,0 +1,413 @@
+{
+ "bp": "bp0050",
+ "model": "gpt-4o",
+ "cost_usd": 0.021622500000000003,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "p": "up"
+    },
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "circle left of circle",
+    "triangle below circle",
+    "triangle below circle",
+    "rectangle below triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "p": "up"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "square left of circle",
+    "square left of triangle",
+    "square left of triangle",
+    "circle below triangle",
+    "circle below triangle",
+    "triangle left of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    },
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "square",
+     "s": 4
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "polygon above square",
+    "polygon above square",
+    "square left of square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    },
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "square",
+     "s": 4
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "polygon above square",
+    "polygon above square",
+    "square left of square"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "triangle",
+     "p": "up"
+    },
+    {
+     "t": "triangle",
+     "p": "up",
+     "f": "solid"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "circle left of circle",
+    "circle above square",
+    "circle above square",
+    "square left of square",
+    "triangle below circle",
+    "triangle below circle",
+    "triangle left of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "triangle",
+     "p": "up"
+    },
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "circle left of ellipse",
+    "triangle below circle",
+    "triangle below ellipse",
+    "rectangle below triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_4": {
+   "ln": 7,
+   "open": true,
+   "ends": 6,
+   "o": [
+    {
+     "t": "line",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    }
+   ],
+   "n": 7,
+   "rel": [
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line"
+   ],
+   "sym": true
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "triangle",
+     "p": "up",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "p": "up",
+     "f": "solid"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "circle left of circle",
+    "circle above square",
+    "circle above square",
+    "square left of square",
+    "triangle below square",
+    "triangle below square",
+    "triangle left of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "p": "up",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "p": "up",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "p": "down"
+    },
+    {
+     "t": "triangle",
+     "p": "down"
+    }
+   ],
+   "n": 5,
+   "rel": [
+    "circle between triangle",
+    "circle between triangle",
+    "triangle above triangle",
+    "triangle above triangle",
+    "triangle left of triangle",
+    "triangle left of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "left_5": {
+   "ln": 7,
+   "open": true,
+   "ends": 6,
+   "o": [
+    {
+     "t": "line",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    }
+   ],
+   "n": 7,
+   "rel": [
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line",
+    "line joined to line"
+   ],
+   "sym": true
+  }
+ }
+}

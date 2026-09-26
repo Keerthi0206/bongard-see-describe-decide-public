@@ -1,0 +1,84 @@
+{
+ "bp": "bp0096",
+ "questions": [
+  "Is there a dot present in the panel?",
+  "Is there a dot among the objects?",
+  "Is there any outlined (hollow) figure present in the panel?",
+  "Are any objects oriented diagonally (neither purely horizontal nor vertical)?"
+ ],
+ "cost_usd": 0.0058674999999999145,
+ "answers": {
+  "right_6": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_2": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_3": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_4": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_5": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_1": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_2": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_3": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  }
+ }
+}

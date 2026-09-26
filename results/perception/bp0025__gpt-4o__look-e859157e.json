@@ -1,0 +1,71 @@
+{
+ "bp": "bp0025",
+ "questions": [
+  "Does any figure in the panel consist solely of straight edges?",
+  "Is any triangle in the panel drawn with a pointing direction (e.g., arrowhead indicating up or down)?",
+  "Is any shape touching another shape?"
+ ],
+ "cost_usd": 0.005469999999999975,
+ "answers": {
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  }
+ }
+}

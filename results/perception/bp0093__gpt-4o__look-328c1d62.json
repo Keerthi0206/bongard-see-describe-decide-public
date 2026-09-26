@@ -1,0 +1,71 @@
+{
+ "bp": "bp0093",
+ "questions": [
+  "Is the solid dot positioned to the left of the outline dot?",
+  "How many corners does the outline have?",
+  "Is the arrangement symmetric across a vertical axis?"
+ ],
+ "cost_usd": 0.004942500000000072,
+ "answers": {
+  "left_2": {
+   "Q1": "no",
+   "Q2": "4",
+   "Q3": "yes"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "3",
+   "Q3": "yes"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "2",
+   "Q3": "no"
+  },
+  "left_1": {
+   "Q1": "no",
+   "Q2": "2",
+   "Q3": "no"
+  },
+  "left_5": {
+   "Q1": "no",
+   "Q2": "2",
+   "Q3": "no"
+  },
+  "right_3": {
+   "Q1": "no",
+   "Q2": "2",
+   "Q3": "no"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "2",
+   "Q3": "no"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "2",
+   "Q3": "no"
+  },
+  "left_4": {
+   "Q1": "no",
+   "Q2": "2",
+   "Q3": "no"
+  },
+  "left_3": {
+   "Q1": "no",
+   "Q2": "3",
+   "Q3": "yes"
+  },
+  "right_2": {
+   "Q1": "no",
+   "Q2": "3",
+   "Q3": "yes"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "4",
+   "Q3": "yes"
+  }
+ }
+}

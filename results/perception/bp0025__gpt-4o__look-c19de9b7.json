@@ -1,0 +1,58 @@
+{
+ "bp": "bp0025",
+ "questions": [
+  "Is any shape inside another shape?",
+  "How many distinct shape types (ignoring fill) are present in the panel?"
+ ],
+ "cost_usd": 0.004037500000000027,
+ "answers": {
+  "right_2": {
+   "Q1": "No",
+   "Q2": "3"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "3"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "3"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "3"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "3"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "3"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "2"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "3"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "3"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "3"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "2"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "3"
+  }
+ }
+}

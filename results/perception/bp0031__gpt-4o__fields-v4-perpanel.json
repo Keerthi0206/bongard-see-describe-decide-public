@@ -1,0 +1,278 @@
+{
+ "bp": "bp0031",
+ "model": "gpt-4o",
+ "cost_usd": 0.07850000000000007,
+ "fields": {
+  "left_1": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "xs": true,
+    "x": 1,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "irregular"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_2": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "xs": true,
+    "x": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "ellipse"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_3": {
+   "PARTS": {
+    "ln": 1,
+    "open": false,
+    "xs": true,
+    "x": 3
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_4": {
+   "PARTS": {
+    "ln": 1,
+    "open": true,
+    "xs": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "irregular",
+    "sym": false
+   }
+  },
+  "left_5": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "x": 1,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_1": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "xs": true,
+    "x": 1
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "circle"
+     },
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "curve crossing circle"
+   ],
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle overlapping circle"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_3": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "x": 1,
+    "ends": 4
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "curve crossing curve"
+   ],
+   "sym": false
+  },
+  "right_4": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "xs": true,
+    "x": 1
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "circle"
+     },
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "circle above curve",
+    "curve touching circle"
+   ],
+   "sym": false
+  },
+  "right_5": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "tex": "wavy"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": {
+    "rel": [
+     "curve left of curve",
+     "curve parallel to curve"
+    ]
+   },
+   "SAME": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_6": {
+   "ln": 1,
+   "open": true,
+   "xs": true,
+   "x": 2,
+   "ends": 2,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  }
+ }
+}

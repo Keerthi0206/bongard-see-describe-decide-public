@@ -1,0 +1,97 @@
+{
+ "bp": "bp0004",
+ "questions": [
+  "Is the single line in the panel open (has two free ends) or closed (forms a loop)?",
+  "does the figure have any self-intersections?",
+  "Is the figure positioned more to the right than to the left of the canvas center?",
+  "Is the shape noticeably elongated (significantly longer than it is wide)?",
+  "Is the shape symmetric across a line through its centre?"
+ ],
+ "cost_usd": 0.006825000000000081,
+ "answers": {
+  "right_6": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_4": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "left_6": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "left_2": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "right_1": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "left_1": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "left_5": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes",
+   "Q5": "yes"
+  },
+  "right_5": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes",
+   "Q5": "yes"
+  },
+  "left_3": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "yes"
+  },
+  "right_2": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "right_3": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "yes"
+  },
+  "left_4": {
+   "Q1": "closed",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "yes"
+  }
+ }
+}

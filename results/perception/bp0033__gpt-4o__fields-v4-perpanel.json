@@ -1,0 +1,192 @@
+{
+ "bp": "bp0033",
+ "model": "gpt-4o",
+ "cost_usd": 0.058134999999999604,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_2": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "x": 1
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve",
+      "len": "long"
+     },
+     {
+      "t": "curve",
+      "len": "long"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "curve crossing curve"
+   ],
+   "WHOLE": {
+    "hull": "ellipse"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 10
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_4": {
+   "open": true,
+   "xs": true,
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_5": {
+   "PARTS": {
+    "ln": 1,
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "hull": "rectangle"
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_6": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "curve"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "curve touching curve"
+   ],
+   "sym": true
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_2": {
+   "PARTS": {
+    "ln": 2,
+    "open": true,
+    "ends": 2
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "curve"
+     },
+     {
+      "t": "line"
+     }
+    ],
+    "n": 2
+   },
+   "RELATIONS": [
+    "curve touching line"
+   ],
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "rectangle"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  }
+ }
+}

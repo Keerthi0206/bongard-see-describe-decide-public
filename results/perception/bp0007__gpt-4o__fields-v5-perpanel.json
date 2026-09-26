@@ -1,0 +1,230 @@
+{
+ "bp": "bp0007",
+ "model": "gpt-4o",
+ "cost_usd": 0.06091000000000002,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_2": {
+   "ln": 11,
+   "open": true,
+   "br": 9,
+   "o": [
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    }
+   ],
+   "n": 11,
+   "k": {
+    "solid line": 11
+   },
+   "rel": [
+    "long line joined to short line",
+    "short line joined to long line"
+   ],
+   "sym": true
+  },
+  "left_3": {
+   "ln": 1,
+   "open": true,
+   "tex": "zigzag",
+   "o": [
+    {
+     "t": "curve",
+     "f": "solid",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "rectangle",
+     "s": 4,
+     "f": "outline"
+    },
+    {
+     "t": "polygon",
+     "s": 5,
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "rectangle touching polygon"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "other",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "open": true,
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "rectangle",
+     "f": "outline"
+    },
+    {
+     "t": "rectangle",
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "rectangle inside rectangle",
+    "rectangle touching rectangle"
+   ],
+   "same": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "p": "left"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "p": "right"
+    },
+    {
+     "t": "rectangle",
+     "s": 4,
+     "f": "outline"
+    }
+   ],
+   "n": 3,
+   "k": {
+    "outline triangle": 2,
+    "outline rectangle": 1
+   },
+   "rel": [
+    "outline triangle joined to outline rectangle",
+    "outline rectangle joined to outline triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "ln": 1,
+   "open": true,
+   "tex": "wavy",
+   "sym": false
+  },
+  "right_4": {
+   "ln": 18,
+   "o": [
+    {
+     "t": "rectangle",
+     "s": 4,
+     "f": "solid"
+    },
+    {
+     "t": "rectangle",
+     "s": 4,
+     "f": "solid"
+    }
+   ],
+   "n": 18,
+   "k": {
+    "solid rectangle": 18
+   },
+   "rel": [
+    "solid rectangle above solid rectangle",
+    "solid rectangle touching solid rectangle"
+   ],
+   "sym": true
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "ellipse",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "ln": 1,
+   "open": true,
+   "tex": "wavy",
+   "sym": false
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "bp": "bp0002",
+ "model": "gpt-4o",
+ "cost_usd": 0.017837500000000006,
+ "fields": {
+  "left_6": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5,
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "other",
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_4": {
+   "PARTS": {
+    "open": true,
+    "xs": true
+   },
+   "o": [
+    {
+     "t": "curve",
+     "len": "short"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "other",
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "other"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "dot",
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "curve",
+     "len": "long"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": true
+  }
+ }
+}

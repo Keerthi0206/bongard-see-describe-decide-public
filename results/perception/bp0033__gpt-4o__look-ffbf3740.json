@@ -1,0 +1,71 @@
+{
+ "bp": "bp0033",
+ "questions": [
+  "Does the figure contain any curved edges?",
+  "What is the object's elongation value?",
+  "Does the shape have any acute angles?"
+ ],
+ "cost_usd": 0.0054275000000000295,
+ "answers": {
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "Low",
+   "Q3": "No"
+  },
+  "right_3": {
+   "Q1": "Yes",
+   "Q2": "Low",
+   "Q3": "No"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "Medium",
+   "Q3": "No"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "Low",
+   "Q3": "Yes"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "Low",
+   "Q3": "No"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "High",
+   "Q3": "Yes"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "Medium",
+   "Q3": "No"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "Low",
+   "Q3": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "Low",
+   "Q3": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Low",
+   "Q3": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "Low",
+   "Q3": "Yes"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "High",
+   "Q3": "Yes"
+  }
+ }
+}

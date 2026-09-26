@@ -1,0 +1,97 @@
+{
+ "bp": "bp0028",
+ "questions": [
+  "Are any of the shapes triangles?",
+  "Is a larger figure placed above a smaller figure?",
+  "How many distinct groups of touching shapes are present in the panel?",
+  "Is any shape completely inside another shape?",
+  "Do the objects form more than one distinct spatial cluster?"
+ ],
+ "cost_usd": 0.006765000000000132,
+ "answers": {
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "1",
+   "Q4": "No",
+   "Q5": "No"
+  }
+ }
+}

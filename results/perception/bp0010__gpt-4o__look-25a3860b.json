@@ -1,0 +1,110 @@
+{
+ "bp": "bp0010",
+ "questions": [
+  "Does the panel contain a triangle?",
+  "Do any of the shapes contain a right angle?",
+  "Is there a clear size difference between the objects in the panel?",
+  "Is any figure solid-filled?",
+  "Is any object oriented horizontally?",
+  "Is there a triangle present in the panel?"
+ ],
+ "cost_usd": 0.008637499999999992,
+ "answers": {
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  }
+ }
+}

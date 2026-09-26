@@ -1,0 +1,84 @@
+{
+ "bp": "bp0028",
+ "questions": [
+  "How many objects in the panel contain a hole?",
+  "Is there any shape that contains a hole in the panel?",
+  "Is the largest object positioned to the left of the smaller same-shaped object?",
+  "Are all objects the same size?"
+ ],
+ "cost_usd": 0.006525000000000003,
+ "answers": {
+  "left_3": {
+   "Q1": "2",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_2": {
+   "Q1": "2",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_6": {
+   "Q1": "2",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_3": {
+   "Q1": "3",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_2": {
+   "Q1": "2",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_4": {
+   "Q1": "1",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_6": {
+   "Q1": "3",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_5": {
+   "Q1": "3",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_1": {
+   "Q1": "2",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_4": {
+   "Q1": "2",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_5": {
+   "Q1": "3",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_1": {
+   "Q1": "2",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  }
+ }
+}

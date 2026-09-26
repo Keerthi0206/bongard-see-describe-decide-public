@@ -1,0 +1,71 @@
+{
+ "bp": "bp0012",
+ "questions": [
+  "Does the figure contain any straight edges?",
+  "Does the shape have any self-intersections?",
+  "Does the shape have any right-angle corners?"
+ ],
+ "cost_usd": 0.004932499999999999,
+ "answers": {
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes"
+  }
+ }
+}

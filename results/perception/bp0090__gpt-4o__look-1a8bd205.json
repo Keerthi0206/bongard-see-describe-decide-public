@@ -1,0 +1,84 @@
+{
+ "bp": "bp0090",
+ "questions": [
+  "Are the objects arranged in a single straight line?",
+  "Is the leftmost ellipse solid?",
+  "Do any two shapes touch each other in the panel?",
+  "Is any ellipse noticeably stretched horizontally?"
+ ],
+ "cost_usd": 0.005842499999999973,
+ "answers": {
+  "left_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  }
+ }
+}

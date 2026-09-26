@@ -1,0 +1,71 @@
+{
+ "bp": "bp0010",
+ "questions": [
+  "Does the panel contain a triangle?",
+  "Is there a triangle present in the panel?",
+  "Is any shape inside another shape?"
+ ],
+ "cost_usd": 0.004925000000000068,
+ "answers": {
+  "right_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No"
+  }
+ }
+}

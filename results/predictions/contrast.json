@@ -2,22 +2,141 @@
  "arm": "contrast",
  "rows": [
   {
-   "bp": "bp0002",
-   "rule": "Left = large figures, Right = small figures",
+   "bp": "bp0001",
+   "rule": "Left = outline figures, Right = solid figures",
    "verified": true,
    "calls": 0,
    "cost_usd": 0.0
   },
   {
-   "bp": "bp0036",
-   "rule": "Left = compact figures, Right = elongated figures",
+   "bp": "bp0012",
+   "rule": "Left = elongated figures, Right = compact figures",
+   "verified": true,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0016",
+   "rule": "Left = elongated figures, Right = compact figures",
    "verified": false,
    "calls": 0,
    "cost_usd": 0.0
   },
   {
-   "bp": "bp0038",
-   "rule": "Left = figures with more corners, Right = figures with fewer corners",
+   "bp": "bp0019",
+   "rule": "Left = figures on the right side, Right = figures on the left side",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0020",
+   "rule": "Left = figures elongated horizontally, Right = figures elongated vertically",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0021",
+   "rule": "Left = solid figures, Right = outline figures",
+   "verified": true,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0042",
+   "rule": "Left = figures elongated horizontally, Right = figures elongated vertically",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0044",
+   "rule": "Left = solid figures, Right = outline figures",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0054",
+   "rule": "Left = figures with fewer corners, Right = figures with more corners",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0060",
+   "rule": "Left = figures on the right side, Right = figures on the left side",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0072",
+   "rule": "Left = figures on the left side, Right = figures on the right side",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0073",
+   "rule": "Left = nonconvex figures, Right = convex figures",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0076",
+   "rule": "Left = nonconvex figures, Right = convex figures",
+   "verified": true,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0082",
+   "rule": "Left = small figures, Right = large figures",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0084",
+   "rule": "Left = figures on the right side, Right = figures on the left side",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0085",
+   "rule": "Left = figures at the top, Right = figures at the bottom",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0086",
+   "rule": "Left = figures on the right side, Right = figures on the left side",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0090",
+   "rule": "Left = figures on the left side, Right = figures on the right side",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0091",
+   "rule": "Left = figures at the top, Right = figures at the bottom",
+   "verified": false,
+   "calls": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "bp": "bp0093",
+   "rule": "Left = figures with fewer corners, Right = figures with more corners",
    "verified": false,
    "calls": 0,
    "cost_usd": 0.0

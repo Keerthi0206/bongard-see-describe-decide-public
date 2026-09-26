@@ -1,0 +1,84 @@
+{
+ "bp": "bp0049",
+ "questions": [
+  "Does the panel contain both objects that have a hole and objects that do not have a hole?",
+  "Is there a shape that both contains some objects and has other objects outside of it?",
+  "Is a polygon shape present in the panel?",
+  "Is the larger shape positioned below the smaller shape?"
+ ],
+ "cost_usd": 0.006552499999999989,
+ "answers": {
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  },
+  "right_3": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No"
+  }
+ }
+}

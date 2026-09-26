@@ -1,0 +1,236 @@
+{
+ "bp": "bp0020",
+ "model": "gpt-4o",
+ "cost_usd": 0.0129325,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "curve"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "curve touching dot",
+    "curve touching dot",
+    "dot far from dot"
+   ],
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "curve"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "curve touching dot",
+    "curve touching dot",
+    "dot far from dot"
+   ],
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "curve"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "curve touching dot",
+    "curve touching dot",
+    "dot far from dot"
+   ],
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "curve"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "curve touching dot",
+    "curve touching dot",
+    "dot far from dot"
+   ],
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "curve"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "curve touching dot",
+    "curve touching dot",
+    "dot far from dot"
+   ],
+   "sym": false
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "curve"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "curve"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "curve touching dot",
+    "curve touching dot",
+    "dot far from dot"
+   ],
+   "sym": false
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "curve"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "curve touching dot",
+    "curve touching dot",
+    "dot far from dot"
+   ],
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "curve"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "curve touching dot",
+    "curve touching dot",
+    "dot far from dot"
+   ],
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "curve"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "curve touching dot",
+    "curve touching dot",
+    "dot far from dot"
+   ],
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "curve"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "curve touching dot",
+    "curve touching dot",
+    "dot far from dot"
+   ],
+   "sym": false
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "curve"
+    },
+    {
+     "t": "dot"
+    },
+    {
+     "t": "dot"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "curve touching dot",
+    "curve touching dot",
+    "dot far from dot"
+   ],
+   "sym": false
+  }
+ }
+}

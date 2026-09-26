@@ -1,0 +1,465 @@
+{
+ "bp": "bp0093",
+ "model": "gpt-4o",
+ "cost_usd": 0.030644999999999978,
+ "fields": {
+  "left_2": {
+   "PARTS": {
+    "open": true,
+    "x": 1
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 24,
+    "k": {
+     "solid dot": 12,
+     "outline dot": 12
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form an X",
+    "hull": "square"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_1": {
+   "PARTS": {
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 21,
+    "k": {
+     "solid dot": 11,
+     "outline dot": 10
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form a curve",
+    "hull": "triangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_4": {
+   "PARTS": {
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 22,
+    "k": {
+     "solid dot": 11,
+     "outline dot": 11
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form a curve",
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_1": {
+   "PARTS": {
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 22,
+    "k": {
+     "solid dot": 11,
+     "outline dot": 11
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form a curve",
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_5": {
+   "PARTS": {
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 22,
+    "k": {
+     "solid dot": 11,
+     "outline dot": 11
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form a curve",
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_3": {
+   "PARTS": {
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 22,
+    "k": {
+     "solid dot": 11,
+     "outline dot": 11
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form a curve",
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_6": {
+   "PARTS": {
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 24,
+    "k": {
+     "solid dot": 12,
+     "outline dot": 12
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form an X",
+    "hull": "square"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_6": {
+   "PARTS": {
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 22,
+    "k": {
+     "solid dot": 11,
+     "outline dot": 11
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form a curve",
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_4": {
+   "PARTS": {
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 24,
+    "k": {
+     "solid dot": 12,
+     "outline dot": 12
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form a curve",
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_3": {
+   "PARTS": {
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 22,
+    "k": {
+     "solid dot": 11,
+     "outline dot": 11
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form a curve",
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_2": {
+   "PARTS": {
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 22,
+    "k": {
+     "solid dot": 11,
+     "outline dot": 11
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form a U",
+    "hull": "rectangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "right_5": {
+   "PARTS": {
+    "open": true,
+    "x": 1
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot",
+      "f": "solid"
+     },
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 24,
+    "k": {
+     "solid dot": 12,
+     "outline dot": 12
+    }
+   },
+   "RELATIONS": [
+    "solid dot touching outline dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form an X",
+    "hull": "square"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  }
+ }
+}

@@ -2166,5 +2166,1525 @@
    false
   ],
   "match": false
+ },
+ "openai/gpt-oss-120b||bp0004||Left = convex figures, Right = non\u2011convex figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0004||Left = convex figures, Right = figures with dents": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0007||Left = vertical elongated figures, Right = horizontal elongated figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0007||Left = vertical-elongated figures, Right = horizontal-elongated figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0010||Left = outline triangles, Right = non\u2011triangle outlines": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0010||Left = outline triangles, Right = non-triangle outlines": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0010||Left = triangular figures, Right = non-triangular figures": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0010||Left = triangle figures, Right = non-triangle figures": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0010||Left = triangle figures, Right = non\u2011triangle figures": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0031||Left = single object, Right = multiple objects": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0031||Left = single outline figure, Right = multiple outline figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0036||Left = downward-pointing triangles, Right = triangles not pointing down": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0036||Left = triangle points down, Right = triangle does not point down": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0036||Left = triangle above circle, Right = circle above triangle": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0047||Left = outline figures only, Right = contains at least one solid figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0047||Left = all figures are outlines, Right = at least one solid figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0047||Left = triangles are inside circles, Right = triangles are not inside circles": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0047||Left = outline figures only, Right = contains a solid figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0047||Left = any containing shape is a circle, Right = any containing shape is a triangle": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0050||Left = triangle below square, Right = triangle not below square": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0050||Left = triangle under square, Right = triangle not under square": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0050||Left = larger figure never positioned below another, Right = larger figure positioned below a smaller one": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0050||Left = vertically symmetric arrangements, Right = asymmetric arrangements": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0056||Left = all figures same fill, Right = figures with mixed fill": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0056||Left = uniform fill figures, Right = mixed fill figures": {
+  "votes": [
+   false,
+   false,
+   true
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0056||Left = all objects share same fill (all solid or all outline), Right = objects have mixed fill (both solid and outline)": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0056||Left = uniform fill shapes, Right = mixed fill shapes": {
+  "votes": [
+   true,
+   true,
+   false
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0097||Left = larger figure not left of smaller, Right = larger figure left of smaller": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0097||Left = larger figure never left of smaller, Right = larger figure left of smaller (appears)": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0049||Left = larger shape positioned at or below the smaller shape, Right = larger shape positioned to the side of the smaller shape": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0049||Left = primary shape lacks clear vertical or horizontal orientation, Right = primary shape has distinct vertical or horizontal orientation": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0049||Left = large figure not axis\u2011aligned, Right = large figure axis\u2011aligned": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0011||Left = elongated figures, Right = compact figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0011||Left = figures with at least one acute corner, Right = figures without acute corners": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0011||Left = irregular outlines, Right = regular outlines": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0011||Left = elongated figures, Right = non\u2011elongated figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0022||Left = figures of similar size, Right = one figure noticeably larger than the others": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0022||Left = figures of similar size, Right = figures with a large size contrast": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0025||Left = solid triangle with outlined shapes, Right = solid circle with outlined shapes": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0025||Left = solid triangle among outlines, Right = solid circle among outlines": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0028||Left = outlined figures are the larger ones, Right = solid figures are the larger ones": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0028||Left = outlined figure is the larger same\u2011size shape, Right = solid figure is the larger same\u2011size shape": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0030||Left = figures with a crossing, Right = figures without a crossing": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0030||Left = figures with a crossing (self\u2011crossing curve or touching lines), Right = figures without any crossing": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0046||Left = triangle inside circle, Right = circle inside triangle": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0057||Left = identical figure pairs, Right = non\u2011identical figure pairs": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0057||Left = identical copies, Right = non\u2011identical figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0002||Left = large sized figures, Right = small sized figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0007||Left = figures with vertical long axis, Right = figures with horizontal long axis": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0010||Left = outline triangle figures, Right = outline non-triangle figures": {
+  "votes": [
+   false,
+   true,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0010||Left = triangle outlines, Right = non-triangle outlines": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0010||Left = outline triangle figures, Right = non-triangle figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0031||Left = single unbranched figure, Right = multiple or branched figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0036||Left = pointing down figures, Right = non-pointing figures": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0036||Left = pointing\u2011down figure, Right = no pointing\u2011down figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0047||Left = only outline figures, Right = at least one solid-filled figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0047||Left = all figures are outline, Right = at least one solid-filled figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0047||Left = circle encloses the inner figure, Right = triangle encloses the inner figure": {
+  "votes": [
+   false,
+   true,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0047||Left = all figures are outline only, Right = at least one solid figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0047||Left = triangle contacts circle, Right = triangle does not contact circle": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0047||Left = outline-only figures, Right = contains a solid figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0050||Left = panels with at least two identical-size figures, Right = panels where all figures have distinct sizes": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0050||Left = larger figure positioned above smaller figure, Right = larger figure not positioned above smaller figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0050||Left = visually symmetric arrangements, Right = visually asymmetric arrangements": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0056||Left = all figures share the same fill, Right = figures include both solid and outline": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0056||Left = all figures have the same fill (all solid or all outline), Right = figures mix solid and outline fills": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0056||Left = uniform fill across all objects, Right = mixed solid and outline fills": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0056||Left = uniform fill (all solid or all outline) figures, Right = mixed fill (both solid and outline) figures": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0056||Left = all shapes share the same fill (all solid or all outline), Right = shapes have mixed fills (both solid and outline)": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0097||Left = figures with right-angle corners, Right = figures without right-angle corners": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0097||Left = figures with a right-angle corner, Right = figures without a right-angle corner": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0097||Left = panels with a right-angle corner, Right = panels without a right-angle corner": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0049||Left = shapes without a clear vertical or horizontal axis, Right = shapes with a clear vertical or horizontal axis": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0049||Left = non\u2011axis\u2011aligned main figure, Right = axis\u2011aligned main figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0049||Left = larger outline shape is placed below the smaller round shape, Right = larger outline shape is placed to the side (left or right) of the smaller round shape": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0049||Left = main shape lacks vertical or horizontal axis, Right = main shape has vertical or horizontal axis": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0049||Left = primary shape lacks vertical/horizontal axis, Right = primary shape has vertical or horizontal axis": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0049||Left = larger outline shape is not elongated, Right = larger outline shape is elongated": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0011||Left = irregular outlines, Right = regular shapes": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0011||Left = irregular geometric shapes, Right = regular geometric shapes": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0011||Left = figures with a defined long\u2011axis direction, Right = figures without a defined long\u2011axis direction": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0025||Left = filled triangle figures, Right = filled circle figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0025||Left = filled triangle, Right = filled circle": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0030||Left = Figures with a crossing, Right = Figures without any crossing": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0030||Left = figures with a crossing (self\u2011intersection or intersecting lines), Right = figures without any crossing": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0030||Left = crossing figures, Right = non-crossing figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0038||Left = triangle larger than circle, Right = triangle not larger than circle": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0046||Left = outlined holes, Right = solid holes": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0046||Left = circle encloses triangle, Right = triangle encloses circle": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0046||Left = holes are outlined, Right = holes are solid": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0057||Left = identical figure pairs, Right = non-identical figure pairs": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0057||Left = same fill and same shape, Right = different fill or different shape": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0096||Left = acute corners on non\u2011vertical textures, Right = texture\u2011acute corner mismatch": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0096||Left = acute corners only when figure count is not a multiple of three, Right = acute corners also occur when figure count is a multiple of three": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0096||Left = acute corners appear on non\u2011vertical textured figures, Right = diagonal figures can lack acute corners": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0004||Left = convex figures, Right = non-convex figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0004||Left = regular geometric shapes, Right = irregular or non\u2011standard shapes": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0004||Left = simple geometric shapes, Right = complex or irregular shapes": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0007||Left = taller-than-wide figures, Right = wider-than-tall figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0031||Left = single figure, Right = multiple figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0031||Left = single small figure, Right = larger figure(s)": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0031||Left = single figure panels, Right = multiple figures panels": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0047||Left = containment with outer shape a circle, Right = containment with outer shape a triangle": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0022||Left = all figures are similar in size, Right = at least one figure is noticeably larger than the others": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0022||Left = figures of similar size, Right = at least one figure noticeably larger": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0025||Left = one solid triangle, Right = one solid circle": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0025||Left = solid triangle present, Right = solid circle present": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0038||Left = any containment has the circle inside the triangle, Right = containment has the triangle inside the circle": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0057||Left = identical copies, Right = non\u2011identical copies": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0057||Left = same-sized objects, Right = different-sized objects": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0057||Left = identical figures, Right = non\u2011identical figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0001||Left = zero measured figure count, Right = non-zero measured figure count": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0001||Left = empty panels, Right = panels with shapes": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0001||Left = no counted figure, Right = at least one counted figure": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0012||Left = elongated figures, Right = compact figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0012||Left = Shapes with pointed ends, Right = Shapes without pointed ends": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0012||Left = elongated figures with a clear long axis, Right = compact figures without a long axis": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0016||Left = non-self-crossing curves, Right = self-crossing curves": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0016||Left = Spirals are counterclockwise., Right = Spirals are clockwise.": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0016||Left = smooth rounded curves, Right = curves with a sharp corner": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0019||Left = polygons with sharp corners, Right = curves with sharp corners": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0019||Left = Shapes are symmetrical., Right = Shapes are asymmetrical.": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0019||Left = only polygons have sharp corners, Right = sharp corners appear on non\u2011polygon shapes": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0019||Left = Sharp corners appear only on polygons, Right = Sharp corners appear on curves": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0020||Left = figures with acute corners, Right = figures without acute corners": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0020||Left = Dots are on the inside of the shape., Right = Dots are on the outside of the shape.": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0020||Left = figures with an acute corner, Right = figures without an acute corner": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0021||Left = figures of different sizes, Right = figures of uniform size": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0021||Left = At least one triangle is pointing upwards., Right = No triangles are pointing upwards.": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0021||Left = mixed-size figures, Right = uniform-size figures": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0021||Left = larger figure positioned below smaller figure, Right = larger figure not positioned below smaller figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0042||Left = shape with complete dot set, Right = shape with incomplete dot set": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0042||Left = All dots are inside the shape., Right = At least one dot is outside the shape.": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0042||Left = six objects, Right = five objects": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0044||Left = Circles are on the outside of curves., Right = Circles are on the inside of curves.": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0054||Left = triangle above circle, Right = triangle below circle": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0054||Left = Triangle points up, Right = Triangle points down": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0054||Left = triangle is directly above, below, left or right of the circle, Right = triangle is placed diagonally (both above/below and left/right) from the circle": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0060||Left = same shape different sizes, Right = no same shape different sizes": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0060||Left = Shapes are different from each other., Right = Shapes are the same as each other.": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0060||Left = panels with at least one repeated shape, Right = panels with all distinct shapes": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0072||Left = uniform-length curves, Right = mixed-length curves": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0072||Left = Single closed curve, Right = Single open curve": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0072||Left = curves of uniform length, Right = curves of mixed lengths": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0073||Left = triangles pointing right, Right = triangles pointing up": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0073||Left = All shapes are different., Right = At least two shapes are the same.": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0076||Left = elongated figures, Right = compact figures": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0076||Left = Shapes are concave, Right = Shapes are convex": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0076||Left = dented outlines, Right = convex outlines": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0082||Left = acute angle between circle and two crosses, Right = non\u2011acute angle between circle and two crosses": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0082||Left = One circle among plus signs, Right = Two circles among plus signs": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0082||Left = figures without acute corners, Right = figures with an acute corner": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0082||Left = circle creates an acute angle with two crosses, Right = circle does not create an acute angle with any two crosses": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0084||Left = off\u2011center squares, Right = centered squares": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0084||Left = Square outside the circle of dots, Right = Square inside the circle of dots": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0084||Left = asymmetric figures, Right = symmetric figures": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0084||Left = off\u2011center square, Right = centered square": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0084||Left = square off\u2011center, Right = square centered": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0085||Left = upper figure left of lower figure, Right = upper figure right of lower figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0085||Left = Shapes have three lines or sides., Right = Shapes have more than three lines or sides.": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0085||Left = larger figure is left of smaller figure, Right = larger figure is right of smaller figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0086||Left = pairwise line joins, Right = triple line junctions": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0086||Left = Shapes have three endpoints., Right = Shapes have more than three endpoints.": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0086||Left = elongated lines, Right = compact lines": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0086||Left = no point where three lines meet, Right = a point where three lines meet": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0086||Left = no point where more than two lines intersect, Right = a point where more than two lines intersect": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0090||Left = larger ellipses above smaller ellipses, Right = larger ellipses below smaller ellipses": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0090||Left = Even number of shapes, Right = Odd number of shapes": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0090||Left = larger ellipses positioned above smaller ellipses, Right = larger ellipses positioned below smaller ellipses": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0090||Left = larger figure is above the smaller figure, Right = larger figure is below the smaller figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0090||Left = larger ellipse above smaller ellipse, Right = larger ellipse below smaller ellipse": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0091||Left = Contains at least one acute angle, Right = Does not contain any acute angles": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0093||Left = equal solid and outline dots, Right = unequal solid and outline dots": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0093||Left = All lines are made of alternating filled and unfilled circles., Right = All lines are made of either all filled or all unfilled circles.": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0093||Left = asymmetric figures, Right = symmetric figures": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0002||Left = centered figures, Right = off\u2011center figures": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0004||Left = convex figures, Right = concave figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0007||Left = vertically elongated main figures, Right = horizontally elongated main figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0010||Left = triangular outlines, Right = non\u2011triangular outlines": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0022||Left = uniform-sized figures, Right = mixed-size figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0025||Left = only outline figures, Right = solid circles": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0028||Left = even count of outlined figures, Right = odd count of outlined figures": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0030||Left = intersecting figures, Right = non-intersecting figures": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0033||Left = figures with acute corners, Right = figures with only non-acute corners": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0047||Left = triangles inside circles, Right = circles inside triangles": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0049||Left = largest shape\u2019s long axis diagonal or undefined, Right = largest shape\u2019s long axis vertical or horizontal": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0050||Left = larger shapes above smaller shapes, Right = larger shapes below smaller shapes": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0057||Left = identical shape and size figures, Right = figures of different shape or size": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
+ },
+ "openai/gpt-oss-120b||bp0096||Left = open line figures, Right = closed line figure": {
+  "votes": [
+   false,
+   false,
+   false
+  ],
+  "match": false
+ },
+ "openai/gpt-oss-120b||bp0097||Left = triangular overall shape, Right = circular overall shape": {
+  "votes": [
+   true,
+   true,
+   true
+  ],
+  "match": true
  }
 }

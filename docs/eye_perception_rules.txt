@@ -1,0 +1,175 @@
+WHAT THE EYE MUST LOOK AT — perception rules for Bongard problems
+==================================================================
+
+Why this file exists
+--------------------
+Every agent in this system reasons only over what the eye (one vision-model call) and the ruler (OpenCV)
+report. If the eye is asked the wrong questions, no amount of downstream reasoning, debate or judging can
+recover: the deciding property simply never reaches the agents. On the 21 development problems, 6 were lost
+before any reasoning started, because no agent ever saw the property the rule depends on.
+
+So the eye's questions are not a detail. They come from what the literature says a solver must perceive, and
+they are checked against the concepts the 100 problems actually need (section 4).
+
+
+1. Sources
+----------
+[S1] Mikhail M. Bongard, "Problemy uznavaniya" (Moscow, 1967); English translation "Pattern Recognition"
+     (Spartan Books, 1970). The original 100 problems appear in its appendix.
+     https://en.wikipedia.org/wiki/Bongard_problem
+[S2] Douglas R. Hofstadter, "Gödel, Escher, Bach" (1979), chapter XIX, the Bongard-problem section.
+     A summary of the relevant passages: https://metarationality.com/bongard-meta-rationality
+[S3] Harry E. Foundalis, "Phaeaco: A Cognitive Architecture Inspired by Bongard's Problems",
+     PhD dissertation, Indiana University (2006), advisor D. R. Hofstadter.
+     https://www.foundalis.com/res/diss_research.html
+[S4] Foundalis, index of Bongard problems by the visual concepts they use (primitive and composite):
+     https://www.foundalis.com/res/bps/bpidx.htm
+[S5] Foundalis, Phaeaco progress report on solved problems: https://www.foundalis.com/res/solvprog.htm
+[S6] The answer key used here comes from the same Foundalis index, which links each problem to its solution
+     (see data/bongard-classic/SOLUTIONS_PROVENANCE.md).
+
+Honest caveat: Bongard did not publish a list of solving "tricks". His problems pair opposite concepts on
+the two sides. The solving principles below are Hofstadter's and Foundalis's accounts of how people solve
+them.
+
+
+2. Principles, from the sources
+-------------------------------
+P1  Levels of description.  [S2]
+    Solvers start from simple figures and build up "properties and relationships", then "properties and
+    relationships of properties and relationships". "Choosing a vocabulary, at the right level of
+    description, for describing relevant factors, is key."
+    -> The eye describes every panel at four levels: PARTS, OBJECTS, RELATIONS, WHOLE.
+
+P2  Seeing the whole in the parts.  [S3]
+    A solver must "see known and familiar shapes as if they were something else", e.g. "a collection of
+    dots arranged in a circle as if they were a circle".
+    -> A WHOLE level: what the parts form together, how they are grouped, where they lie.
+
+P3  Sameness detection.  [S2]
+    Things can be "the same on some level while different on another". Hofstadter's solver uses
+    sameness-detectors.
+    -> A SAMENESS level: are the objects in a panel the same shape, size, fill, or identical copies?
+
+P4  Filtering and focusing.  [S2]
+    "Nearly everything you could say about a diagram is irrelevant." Generating more description does not
+    solve a problem; the solver must decide where to focus.
+    -> The eye stays exhaustive (it cannot know what matters). Focusing is done neutrally, by code, AFTER
+       perception: a property that is the same in all 12 panels cannot be the rule; only what varies across
+       the 12 panels is a candidate dimension. The code never says which side a panel is on.
+
+P5  Primitive concepts.  [S4]
+    Foundalis indexes the problems by primitive concepts (closedness, symmetry, number, clustering,
+    collinearity, convex hull, ...). A composite concept such as "equilateral triangle" decomposes into
+    primitives (vertex, angle, length, sameness of feature, number).
+    -> The eye uses a FIXED checklist that covers the primitives the 100 problems need, so it reports
+       systematically instead of describing only what stands out.
+
+P6  Descriptions are tentative.  [S2]
+    "The way a picture is represented is always tentative"; "a high-level description can be restructured".
+    -> LOOK AGAIN: after the first round, agents may send the eye back with targeted questions (one extra
+       vision call, same shuffled grid). The eye answers per panel; the agents do the reasoning.
+
+P7  The two sides are opposite concepts.  [S1][S4]
+    Bongard's right side usually shows the opposite concept, not merely "anything else".
+    -> Answers name what IS on each side ("<X>" vs "<Y>"), not "<X>" vs "no <X>".
+
+
+3. Rules for the eye
+--------------------
+E1  Describe, never solve. The eye sees the 12 panels shuffled into one grid labelled P1..P12 and does not
+    know which panels are left or right. It never looks for a rule or a grouping between panels.
+E2  Every panel gets the same checklist (section 5), at all four levels plus sameness.
+E3  Exhaustive, not salient: report EVERY pair of objects, not the most noticeable relation. (On the
+    development set the earlier eye gave no above/below at all on 59% of two-figure panels where one figure
+    was clearly higher, although it was right every time it did report one.)
+E3b Measured in practice (21 development problems): even with this rule the eye still gave no above/below on 21 of
+    32 two-figure panels. So vertical and horizontal placement also comes from the ruler, which names each figure by
+    its outline and says where it sits relative to the next one.
+E4  Describe distractors too. 13 of the 100 problems contain irrelevant elements [S4 "Noise"]; the eye
+    reports them, and the agents decide what to ignore.
+E5  Exact measurements belong to the ruler (size, position, long-axis direction, elongation, convexity,
+    corners, corner angles). The eye does not repeat them, so no fact has two sources.
+E6  Leave out defaults to keep the reply short: the eye's output is most of the vision cost.
+E7  Examples in the eye's prompt use placeholders (<shape>, <object>), never an actual answer from the set.
+
+Rules for the look-again questions
+E8  A question is about what is visible in ONE panel and is answered the same way for all 12 panels
+    (a number, yes/no, or a few words). It never mentions left, right or sides.
+E9  All distinct questions from all agents go into the single look-again call (duplicates merged).
+E10 The answers are added to every agent's facts, labelled as a second look.
+
+
+4. Are we asking the right things? Coverage audit against the 100 problems
+---------------------------------------------------------------------------
+Foundalis's index [S4] lists, for each concept, the problems that need it (99 of the 100 have concepts
+listed). A problem is "covered" when every concept it needs is reported by the eye, the ruler, or code.
+Covered is necessary, not sufficient: reported does not mean reported correctly.
+
+                                                           every needed concept reported
+  earlier eye (fields v2/v3) + ruler                          32 / 99 problems
+  eye with this checklist (fields v4) + ruler + code          83 / 99 problems
+
+Concepts the earlier eye did not report at all, by how many problems need them, and who reports them now:
+
+  problems  concept                                  reported now by
+     19     Clustering (within box)                  eye WHOLE: number of groups
+     11     Collinearity (line or curve)             eye WHOLE: items lie on one line/curve
+     10     Tracing along a line or curve            not covered (needs following a path; out of scope)
+      7     Convex hull                              eye WHOLE: outline around everything
+      7     Separation of objects joined together    eye RELATIONS: joined
+      5     All / Not all (within box)               eye SAMENESS
+      5     Branching point on a linear structure    eye PARTS: branching points
+      5     Endpoints of a line or curve             eye PARTS: free line ends
+      5     Imaginary line or curve                  eye WHOLE: what the parts form
+      5     Near / Far                               eye RELATIONS
+      5     Parallel / Perpendicular                 eye RELATIONS
+      4     Interior / Exterior of a closed area     eye WHOLE: where small items lie vs an outline
+      4     A cluster of one element                 eye WHOLE: number of groups
+      3     Length of lines or curves                eye OBJECTS: long / short line
+      3     Sameness of feature                      eye SAMENESS
+      2     Between                                  eye RELATIONS
+      2     Coincidence of 3+ lines at a point       eye PARTS: branching points
+      2     Front / Back (3-D)                       eye RELATIONS: in front of / behind
+      2     Hole                                     eye OBJECTS: has a hole
+      2     Imaginary shape                          eye WHOLE: what the parts form
+      2     Recursion                                eye WHOLE: nested copies
+      2     Sameness / similarity of shape           eye SAMENESS
+      2     Texture of a line or curve               eye PARTS: dashed, dotted, wavy
+      1     Outside, Pointing to, Regular change,    eye WHOLE / RELATIONS / SAMENESS / OBJECTS
+            Sameness of number, equilateral /
+            isosceles triangle
+
+Still not covered (16 problems: 16, 43, 52, 54, 55, 61, 67, 68, 69, 70, 72, 74, 75, 78, 81, 100):
+  tracing along a path, clockwise/counterclockwise turns, imaginary points, the two regions a curve makes,
+  semiplanes of a line, tree trunks, separable/entangled, curve endings, topological specificity. These need
+  following a path or reasoning about imagined constructions; the look-again step is the only route to them.
+
+Concepts reported before and still reported: shape, fill, number, inside, overlapping, closed/open,
+symmetry, area texture, existence, arrows, pointing (eye); size, position, horizontal/vertical, slope,
+elongation, convexity, indentation/protrusion, angles, cusps, corners (ruler).
+
+
+5. The checklist (what the eye reports for every panel)
+-------------------------------------------------------
+PARTS      number of separate lines/curves; any open line; a line crossing itself; number of crossing
+           points; number of free line ends; number of branching points; line texture (dashed, dotted,
+           wavy, zigzag) or area hatching direction
+OBJECTS    type, number of straight sides, solid fill, pointing direction, has a hole, long/short (lines),
+           triangle kind (equilateral, isosceles, right)
+COUNT      number of separate objects; count per kind when there are several kinds
+RELATIONS  for EVERY pair: inside, outside, touching, overlapping, joined, above/below, left/right,
+           between, near/far, parallel/perpendicular, pointing to, in front of/behind, larger/smaller
+WHOLE      number of groups (clusters); items lie on one straight line or curve; what the parts form
+           together; shape of the outline around everything; where small items lie relative to a closed
+           outline (inside / outside / on it); regular or irregular step-by-step change; nested copies
+SAMENESS   objects in the panel have the same shape / size / fill; identical copies; similar shapes
+SYMMETRY   mirror-symmetric or not
+NOTE       at most 10 words, only for something important not covered above
+
+RULER (OpenCV, free, exact): size, position, long-axis direction (vertical, horizontal, diagonal rising or
+falling), elongation, convexity, number of corners, acute and right-angle corners, each figure named by its
+outline (3-corner, 4-corner, round) and compared with the next figure.
+
+CODE (free): the list of properties that vary across the 12 panels (candidate dimensions) and those that
+are the same in all 12 (cannot be the rule).

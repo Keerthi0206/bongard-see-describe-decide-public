@@ -1,0 +1,359 @@
+{
+ "bp": "bp0097",
+ "model": "gpt-4o",
+ "cost_usd": 0.06715500000000019,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid",
+     "p": "down"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_3": {
+   "PARTS": {
+    "ln": 1,
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 21
+   },
+   "RELATIONS": [
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot",
+    "dot near dot"
+   ],
+   "WHOLE": {
+    "forms": "the dots form a triangle",
+    "hull": "triangle"
+   },
+   "SAMENESS": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_4": {
+   "parts": {
+    "tex": "hatched-diagonal"
+   },
+   "objects": {
+    "o": [
+     {
+      "t": "triangle",
+      "s": 3
+     }
+    ],
+    "n": 1
+   },
+   "sym": false
+  },
+  "left_5": {
+   "PARTS": {
+    "open": true,
+    "tex": "dashed"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "triangle",
+      "s": 3,
+      "p": "left"
+     }
+    ],
+    "n": 1
+   },
+   "SYMMETRY": {
+    "sym": false
+   }
+  },
+  "left_6": {
+   "PARTS": {
+    "ln": 1,
+    "open": true
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "dot"
+     }
+    ],
+    "n": 1
+   },
+   "WHOLE": {
+    "forms": "the dots form a triangle",
+    "hull": "triangle"
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 1,
+   "tex": "dashed",
+   "sym": true
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up",
+     "hole": true
+    }
+   ],
+   "n": 12,
+   "rel": [
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle",
+    "triangle near triangle"
+   ],
+   "cl": 1,
+   "forms": "the triangles form a circle",
+   "hull": "circle",
+   "same": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "sym": true
+  },
+  "right_4": {
+   "PARTS": {
+    "tex": "hatched-horizontal"
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "circle"
+     },
+     {
+      "t": "square",
+      "f": "solid"
+     }
+    ],
+    "n": 2,
+    "k": {
+     "solid square": 1,
+     "outline circle": 1
+    }
+   },
+   "RELATIONS": [
+    "square inside circle"
+   ],
+   "WHOLE": {
+    "hull": "circle"
+   },
+   "SAMENESS": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "SYMMETRY": false
+  },
+  "right_5": {
+   "PARTS": {
+    "ln": 20,
+    "x": 1,
+    "br": 1
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 20
+   },
+   "RELATIONS": [
+    "line joined to line"
+   ],
+   "WHOLE": {
+    "forms": "the lines form a starburst",
+    "hull": "circle"
+   },
+   "SAME": {
+    "shape": true,
+    "size": true,
+    "fill": true,
+    "identical": true,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "square"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  }
+ }
+}

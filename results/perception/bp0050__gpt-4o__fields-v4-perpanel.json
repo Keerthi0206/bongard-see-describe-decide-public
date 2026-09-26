@@ -1,0 +1,445 @@
+{
+ "bp": "bp0050",
+ "model": "gpt-4o",
+ "cost_usd": 0.07655500000000015,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "rectangle",
+     "s": 4
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "circle above triangle",
+    "circle above triangle",
+    "circle left of circle",
+    "triangle above rectangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "left_2": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    },
+    {
+     "t": "square"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 3,
+   "rel": [
+    "polygon above square",
+    "polygon above square",
+    "square left of square",
+    "square right of square"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "solid"
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 5,
+   "rel": [
+    "circle inside triangle",
+    "circle inside triangle",
+    "circle inside triangle",
+    "circle inside triangle",
+    "triangle touching triangle",
+    "triangle touching triangle",
+    "triangle touching triangle",
+    "triangle touching triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "left_4": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_5": {
+   "PARTS": {
+    "ln": 5,
+    "x": 1,
+    "br": 1
+   },
+   "OBJECTS": {
+    "o": [
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "short"
+     },
+     {
+      "t": "line",
+      "len": "long"
+     }
+    ],
+    "n": 5
+   },
+   "RELATIONS": [
+    "short line joined to short line",
+    "short line joined to short line",
+    "short line joined to short line",
+    "short line joined to long line",
+    "short line parallel to short line"
+   ],
+   "WHOLE": {
+    "hull": "triangle"
+   },
+   "SAME": {
+    "shape": true,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "SYMMETRY": {
+    "sym": true
+   }
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    },
+    {
+     "t": "triangle",
+     "f": "solid"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square"
+    },
+    {
+     "t": "triangle",
+     "f": "solid"
+    }
+   ],
+   "n": 6,
+   "k": {
+    "outline circle": 2,
+    "outline square": 2,
+    "solid triangle": 2
+   },
+   "rel": [
+    "circle above square",
+    "square above triangle",
+    "circle above triangle",
+    "circle left of circle",
+    "square left of square",
+    "triangle left of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": false,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "solid"
+    },
+    {
+     "t": "ellipse"
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "rectangle",
+     "hole": true
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "solid circle left of ellipse",
+    "solid circle above triangle",
+    "solid circle above rectangle",
+    "ellipse right of solid circle",
+    "ellipse above triangle",
+    "ellipse above rectangle",
+    "triangle below solid circle",
+    "triangle below ellipse",
+    "triangle above rectangle",
+    "rectangle below solid circle",
+    "rectangle below ellipse",
+    "rectangle below triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "up"
+    },
+    {
+     "t": "circle"
+    },
+    {
+     "t": "triangle",
+     "s": 3,
+     "p": "down"
+    }
+   ],
+   "n": 4,
+   "rel": [
+    "square left of triangle",
+    "square above circle",
+    "square left of circle",
+    "square above triangle",
+    "triangle right of circle",
+    "triangle above triangle",
+    "circle below triangle",
+    "circle left of triangle"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5
+    },
+    {
+     "t": "square"
+    },
+    {
+     "t": "square"
+    }
+   ],
+   "n": 3,
+   "k": {
+    "outline polygon": 1,
+    "outline square": 2
+   },
+   "rel": [
+    "polygon left of square",
+    "polygon left of square",
+    "square above square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "right_4": {
+   "ln": 7,
+   "open": true,
+   "x": 3,
+   "ends": 8,
+   "o": [
+    {
+     "t": "line",
+     "len": "long"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    },
+    {
+     "t": "line",
+     "len": "short"
+    }
+   ],
+   "n": 7,
+   "rel": [
+    "long line joined to short line",
+    "long line joined to short line",
+    "long line joined to short line",
+    "short line joined to short line",
+    "short line joined to short line",
+    "short line joined to short line",
+    "short line parallel to short line",
+    "short line parallel to short line",
+    "short line parallel to short line"
+   ],
+   "sym": false
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "circle"
+    },
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "triangle",
+     "s": 3
+    },
+    {
+     "t": "square",
+     "s": 4
+    },
+    {
+     "t": "circle"
+    }
+   ],
+   "n": 6,
+   "rel": [
+    "circle above triangle",
+    "circle left of square",
+    "square above triangle",
+    "square right of circle",
+    "triangle below circle",
+    "triangle left of triangle",
+    "triangle right of triangle",
+    "triangle below square",
+    "square left of circle",
+    "circle below square"
+   ],
+   "same": {
+    "shape": false,
+    "size": true,
+    "fill": true,
+    "identical": false,
+    "similar": true
+   },
+   "sym": true
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4
+    }
+   ],
+   "n": 1,
+   "sym": false
+  }
+ }
+}

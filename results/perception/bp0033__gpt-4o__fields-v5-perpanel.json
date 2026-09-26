@@ -1,0 +1,186 @@
+{
+ "bp": "bp0033",
+ "model": "gpt-4o",
+ "cost_usd": 0.06238749999999982,
+ "fields": {
+  "left_1": {
+   "o": [
+    {
+     "t": "triangle",
+     "s": 3,
+     "f": "outline",
+     "tri": "isosceles"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "left_2": {
+   "ln": 2,
+   "open": true,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    },
+    {
+     "t": "curve",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "curve touching curve"
+   ],
+   "sym": false
+  },
+  "left_3": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 10,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_4": {
+   "ln": 1,
+   "open": false,
+   "xs": true,
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "left_5": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 4,
+     "f": "outline"
+    },
+    {
+     "t": "line",
+     "f": "solid",
+     "len": "short"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "line inside polygon"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": false,
+    "identical": false,
+    "similar": false
+   },
+   "sym": false
+  },
+  "left_6": {
+   "o": [
+    {
+     "t": "curve",
+     "f": "solid"
+    }
+   ],
+   "n": 1,
+   "open": true,
+   "sym": false
+  },
+  "right_1": {
+   "o": [
+    {
+     "t": "polygon",
+     "s": 5,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_2": {
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline",
+     "open": true
+    },
+    {
+     "t": "line",
+     "f": "outline",
+     "len": "long"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "curve joined to line"
+   ],
+   "sym": false
+  },
+  "right_3": {
+   "o": [
+    {
+     "t": "circle",
+     "f": "outline"
+    },
+    {
+     "t": "square",
+     "f": "outline"
+    }
+   ],
+   "n": 2,
+   "rel": [
+    "circle inside square"
+   ],
+   "same": {
+    "shape": false,
+    "size": false,
+    "fill": true,
+    "identical": false,
+    "similar": false
+   },
+   "sym": true
+  },
+  "right_4": {
+   "o": [
+    {
+     "t": "other",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": true
+  },
+  "right_5": {
+   "o": [
+    {
+     "t": "rectangle",
+     "s": 4,
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  },
+  "right_6": {
+   "o": [
+    {
+     "t": "curve",
+     "f": "outline"
+    }
+   ],
+   "n": 1,
+   "sym": false
+  }
+ }
+}
