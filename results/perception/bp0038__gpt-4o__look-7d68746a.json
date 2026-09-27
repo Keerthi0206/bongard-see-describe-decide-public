@@ -1,0 +1,58 @@
+{
+ "bp": "bp0038",
+ "questions": [
+  "Is the triangle\u2019s apex pointing upward?",
+  "Is any shape completely inside the other shape?"
+ ],
+ "cost_usd": 0.00402250000000004,
+ "answers": {
+  "right_3": {
+   "Q1": "Yes",
+   "Q2": "Yes"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "Yes"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "No"
+  }
+ }
+}

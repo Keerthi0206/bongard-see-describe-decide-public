@@ -1,0 +1,84 @@
+{
+ "bp": "bp0033",
+ "questions": [
+  "Is any object in the panel noticeably larger than the other objects?",
+  "Is there any solid-filled object in the panel?",
+  "Does the figure contain any curved lines?",
+  "Is there a single continuous outline that encloses all objects in the panel?"
+ ],
+ "cost_usd": 0.005870000000000042,
+ "answers": {
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  }
+ }
+}

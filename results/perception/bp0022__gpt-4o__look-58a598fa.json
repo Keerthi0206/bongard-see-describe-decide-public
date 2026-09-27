@@ -1,0 +1,110 @@
+{
+ "bp": "bp0022",
+ "questions": [
+  "Is there a circle that contains a hole in the panel?",
+  "How many objects are touching each other in the panel?",
+  "Is any figure solid-filled?",
+  "Is there any pair of objects where one is positioned both above and left of the other?",
+  "Are any two objects touching each other?",
+  "Are there at least two objects of the same shape in the panel?"
+ ],
+ "cost_usd": 0.0077024999999999455,
+ "answers": {
+  "left_5": {
+   "Q1": "no",
+   "Q2": "2",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "yes",
+   "Q6": "no"
+  },
+  "left_4": {
+   "Q1": "no",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "no",
+   "Q6": "yes"
+  },
+  "right_3": {
+   "Q1": "no",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no",
+   "Q6": "yes"
+  },
+  "left_2": {
+   "Q1": "no",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "right_2": {
+   "Q1": "no",
+   "Q2": "2",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "yes",
+   "Q6": "no"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no",
+   "Q6": "yes"
+  },
+  "left_3": {
+   "Q1": "no",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no",
+   "Q6": "yes"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "left_1": {
+   "Q1": "no",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no",
+   "Q6": "yes"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "2",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "yes",
+   "Q6": "yes"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no",
+   "Q6": "no"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "0",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no",
+   "Q6": "yes"
+  }
+ }
+}

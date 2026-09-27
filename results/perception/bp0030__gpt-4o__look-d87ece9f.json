@@ -1,0 +1,97 @@
+{
+ "bp": "bp0030",
+ "questions": [
+  "How many objects are present?",
+  "Does the panel contain a self\u2011crossing line?",
+  "Is any object visibly longer than the other objects in the panel?",
+  "Is there a self\u2011crossing shape in the panel?",
+  "Is there at least one closed (enclosed) shape in the panel?"
+ ],
+ "cost_usd": 0.006785000000000041,
+ "answers": {
+  "left_6": {
+   "Q1": "1",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_3": {
+   "Q1": "1",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "right_5": {
+   "Q1": "1",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "left_5": {
+   "Q1": "1",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "left_1": {
+   "Q1": "1",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes",
+   "Q5": "yes"
+  },
+  "left_3": {
+   "Q1": "1",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_6": {
+   "Q1": "1",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_4": {
+   "Q1": "1",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "left_2": {
+   "Q1": "1",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "yes"
+  },
+  "left_4": {
+   "Q1": "1",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_2": {
+   "Q1": "1",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "right_1": {
+   "Q1": "1",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no"
+  }
+ }
+}

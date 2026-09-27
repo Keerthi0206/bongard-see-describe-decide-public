@@ -1,0 +1,110 @@
+{
+ "bp": "bp0033",
+ "questions": [
+  "Is there an object that appears noticeably larger than the other objects in the panel?",
+  "Are all figures in the panel outlined?",
+  "Does any shape in the panel have a right-angle corner?",
+  "Is there an open line (a line with free ends) in the panel?",
+  "Is there a single closed outline that encloses all objects in the panel?",
+  "Is there a shape with a right-angle corner in the panel?"
+ ],
+ "cost_usd": 0.007730000000000015,
+ "answers": {
+  "right_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  }
+ }
+}

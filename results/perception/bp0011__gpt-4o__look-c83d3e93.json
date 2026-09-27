@@ -1,0 +1,71 @@
+{
+ "bp": "bp0011",
+ "questions": [
+  "Is any shape a square or a circle?",
+  "Does the panel contain a square shape?",
+  "Do all objects in the panel consist solely of straight edges or solely of curves?"
+ ],
+ "cost_usd": 0.005569999999999964,
+ "answers": {
+  "left_1": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Straight edges"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Curves"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Curves"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Straight edges"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Curves"
+  },
+  "right_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Curves"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Straight edges"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Straight edges"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Straight edges"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Straight edges"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Curves"
+  },
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Straight edges"
+  }
+ }
+}

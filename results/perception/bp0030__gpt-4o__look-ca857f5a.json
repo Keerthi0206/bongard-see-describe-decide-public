@@ -1,0 +1,110 @@
+{
+ "bp": "bp0030",
+ "questions": [
+  "Is there a triangle present in the panel?",
+  "Is there a self\u2011crossing line in the panel?",
+  "Is there any self\u2011crossing (a line crossing itself or another line) in the panel?",
+  "Are there multiple outline figures in the panel?",
+  "Is any object in the panel visibly longer than it is wide?",
+  "Do any two objects intersect in the panel?"
+ ],
+ "cost_usd": 0.007709999999999995,
+ "answers": {
+  "left_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes",
+   "Q6": "Yes"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No"
+  }
+ }
+}

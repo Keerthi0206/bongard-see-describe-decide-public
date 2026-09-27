@@ -1,0 +1,123 @@
+{
+ "bp": "bp0049",
+ "questions": [
+  "Is the non\u2011round shape filled solid or only an outline?",
+  "Does any non\u2011circular shape in the panel have a vertical or horizontal major axis?",
+  "Is the largest figure oriented vertically, horizontally, or diagonally?",
+  "Is the larger shape positioned below the smaller shape?",
+  "Is there a 'left of' relation between any two objects in the panel?",
+  "Are all the small items completely inside the boundary of the larger shape?",
+  "Is the larger figure positioned to the right of the smaller figure?"
+ ],
+ "cost_usd": 0.008829999999999949,
+ "answers": {
+  "left_1": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "vertically",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "yes",
+   "Q7": "no"
+  },
+  "left_5": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "vertically",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no",
+   "Q7": "no"
+  },
+  "left_6": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "vertically",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "yes",
+   "Q7": "no"
+  },
+  "right_6": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "vertically",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no",
+   "Q7": "no"
+  },
+  "right_4": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "diagonally",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "yes",
+   "Q7": "no"
+  },
+  "left_2": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "vertically",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no",
+   "Q7": "no"
+  },
+  "right_2": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "diagonally",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no",
+   "Q7": "no"
+  },
+  "left_3": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "diagonally",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no",
+   "Q7": "no"
+  },
+  "right_3": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "vertically",
+   "Q4": "yes",
+   "Q5": "yes",
+   "Q6": "no",
+   "Q7": "no"
+  },
+  "left_4": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "diagonally",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no",
+   "Q7": "no"
+  },
+  "right_1": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "diagonally",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no",
+   "Q7": "no"
+  },
+  "right_5": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "vertically",
+   "Q4": "no",
+   "Q5": "yes",
+   "Q6": "no",
+   "Q7": "no"
+  }
+ }
+}

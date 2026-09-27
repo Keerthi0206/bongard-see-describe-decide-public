@@ -1,0 +1,84 @@
+{
+ "bp": "bp0047",
+ "questions": [
+  "Is any triangle in the panel drawn with a hole?",
+  "Is any shape visibly taller than it is wide?",
+  "Are any shapes touching each other in the panel?",
+  "Is there any solid (filled) figure in the panel?"
+ ],
+ "cost_usd": 0.005862499999999993,
+ "answers": {
+  "right_2": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_4": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "left_5": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_1": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "right_4": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_6": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_3": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "right_5": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_6": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_1": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_2": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_3": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no"
+  }
+ }
+}

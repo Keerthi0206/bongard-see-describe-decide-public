@@ -1,0 +1,84 @@
+{
+ "bp": "bp0049",
+ "questions": [
+  "Is the non\u2011round shape filled solid or only an outline?",
+  "Is the long axis of the non\u2011circular shape vertical?",
+  "Is the largest figure positioned below the next-largest figure?",
+  "Are any of the small shapes positioned both inside and outside the larger outline shape?"
+ ],
+ "cost_usd": 0.0058875000000000455,
+ "answers": {
+  "left_1": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_5": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_6": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_6": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_4": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_2": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_2": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_3": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_3": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "left_4": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_1": {
+   "Q1": "outline",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_5": {
+   "Q1": "outline",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  }
+ }
+}

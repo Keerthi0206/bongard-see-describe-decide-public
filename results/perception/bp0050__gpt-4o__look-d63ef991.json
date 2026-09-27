@@ -1,0 +1,84 @@
+{
+ "bp": "bp0050",
+ "questions": [
+  "How many shapes are touching each other?",
+  "Is the largest shape positioned above the smallest shape in the panel?",
+  "Is any pair of objects in the panel touching each other?",
+  "Is there any object that is both larger than and positioned above another object in the panel?"
+ ],
+ "cost_usd": 0.006542500000000007,
+ "answers": {
+  "left_1": {
+   "Q1": "3",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "right_2": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_3": {
+   "Q1": "0",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_2": {
+   "Q1": "0",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_4": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_6": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_5": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_1": {
+   "Q1": "3",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "right_4": {
+   "Q1": "5",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "left_6": {
+   "Q1": "0",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_3": {
+   "Q1": "0",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_5": {
+   "Q1": "5",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  }
+ }
+}

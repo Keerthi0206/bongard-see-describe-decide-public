@@ -1,0 +1,84 @@
+{
+ "bp": "bp0097",
+ "questions": [
+  "Is any shape in the panel oriented with its point (or a distinct edge) facing downward?",
+  "Is there an object that is noticeably larger than all other objects in the panel?",
+  "Is there an outline triangle present?",
+  "Is there a triangle shape present in the panel?"
+ ],
+ "cost_usd": 0.005884999999999974,
+ "answers": {
+  "left_4": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_1": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "left_3": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_3": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_2": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_5": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_2": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes"
+  }
+ }
+}

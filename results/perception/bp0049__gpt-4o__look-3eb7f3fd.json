@@ -1,0 +1,97 @@
+{
+ "bp": "bp0049",
+ "questions": [
+  "Are any of the objects filled solid versus only outlined?",
+  "Is any non\u2011circular shape tilted (its major axis diagonal) rather than aligned vertically or horizontally?",
+  "Is the main outline shape a circle?",
+  "Is the larger figure positioned below the smaller figure?",
+  "Is there any directional relation (left, right, above, or below) between two objects in the panel?"
+ ],
+ "cost_usd": 0.006822499999999954,
+ "answers": {
+  "left_1": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "left_5": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "right_4": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "left_2": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "right_2": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "left_3": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "right_3": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "yes"
+  },
+  "left_4": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "yes"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "yes"
+  }
+ }
+}

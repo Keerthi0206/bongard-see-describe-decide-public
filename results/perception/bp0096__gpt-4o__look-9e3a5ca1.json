@@ -1,0 +1,123 @@
+{
+ "bp": "bp0096",
+ "questions": [
+  "Do any of the lines form a closed loop?",
+  "Is there a visible gap between the objects?",
+  "How many distinct line segments are present?",
+  "Is there any solid dot among the objects?",
+  "Are any of the lines diagonal?",
+  "Is the outermost outline formed by the lines a triangle?",
+  "Is there a triangle shape present in the panel?"
+ ],
+ "cost_usd": 0.009719999999999951,
+ "answers": {
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "11",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "9",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No",
+   "Q7": "Yes"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "11",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "9",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "11",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "11",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "9",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "9",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "11",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "11",
+   "Q4": "No",
+   "Q5": "No",
+   "Q6": "No",
+   "Q7": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "11",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "Yes",
+   "Q7": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "11",
+   "Q4": "No",
+   "Q5": "Yes",
+   "Q6": "No",
+   "Q7": "No"
+  }
+ }
+}

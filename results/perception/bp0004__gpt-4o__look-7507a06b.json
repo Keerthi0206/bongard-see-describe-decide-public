@@ -1,0 +1,97 @@
+{
+ "bp": "bp0004",
+ "questions": [
+  "Are there two objects of noticeably different sizes in the panel?",
+  "How many separate objects are present in the panel?",
+  "Is any shape inside another shape?",
+  "Are all objects in the panel formed by closed outlines?",
+  "Is the outline of the shape convex?"
+ ],
+ "cost_usd": 0.007582500000000006,
+ "answers": {
+  "right_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_6": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_2": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_3": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "right_3": {
+   "Q1": "Yes",
+   "Q2": "2",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "No"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "1",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  }
+ }
+}

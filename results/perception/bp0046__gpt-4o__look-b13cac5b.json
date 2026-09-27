@@ -1,0 +1,97 @@
+{
+ "bp": "bp0046",
+ "questions": [
+  "Is the triangle's base horizontal?",
+  "Is any part of the contour composed of a straight line segment?",
+  "Is the solid figure positioned above the outline figure?",
+  "Is the triangle pointing in a cardinal direction (up, down, left, right)?",
+  "Is the triangle inside the circle?"
+ ],
+ "cost_usd": 0.010114999999999985,
+ "answers": {
+  "left_4": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "left_2": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_6": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "left_6": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_2": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "left_3": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "left_1": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_4": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_3": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_5": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "right_1": {
+   "Q1": "no",
+   "Q2": "yes",
+   "Q3": "no",
+   "Q4": "no",
+   "Q5": "no"
+  },
+  "left_5": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes",
+   "Q5": "yes"
+  }
+ }
+}

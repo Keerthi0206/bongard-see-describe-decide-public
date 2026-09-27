@@ -1,0 +1,97 @@
+{
+ "bp": "bp0010",
+ "questions": [
+  "Is any shape pointing downward?",
+  "Does any shape have a right angle?",
+  "Is the larger figure in each panel taller than it is wide?",
+  "Is there a triangle present in the panel?",
+  "Does any shape in the panel have an acute angle?"
+ ],
+ "cost_usd": 0.006759999999999988,
+ "answers": {
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes"
+  },
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "Yes",
+   "Q5": "Yes"
+  },
+  "right_5": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No",
+   "Q5": "Yes"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "Yes",
+   "Q4": "No",
+   "Q5": "Yes"
+  }
+ }
+}

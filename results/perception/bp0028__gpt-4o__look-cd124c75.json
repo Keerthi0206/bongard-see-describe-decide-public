@@ -1,0 +1,97 @@
+{
+ "bp": "bp0028",
+ "questions": [
+  "Is there any object that contains a hole?",
+  "Does the panel contain any shape made only of straight line segments?",
+  "How many triangles are present in the panel?",
+  "Is there any object that is directly above another object?",
+  "Is the larger same\u2011size same\u2011shape object positioned to the left of the smaller one?"
+ ],
+ "cost_usd": 0.0067949999999999955,
+ "answers": {
+  "left_3": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "0",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "left_2": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "2",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "left_6": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "0",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_3": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "0",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_2": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "2",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_4": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "3",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_6": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "3",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_5": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "0",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "left_1": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "2",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "left_4": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "2",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "left_5": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "3",
+   "Q4": "yes",
+   "Q5": "no"
+  },
+  "right_1": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "2",
+   "Q4": "yes",
+   "Q5": "no"
+  }
+ }
+}

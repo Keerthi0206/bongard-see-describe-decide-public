@@ -1,0 +1,84 @@
+{
+ "bp": "bp0050",
+ "questions": [
+  "How many distinct shape types are present in the panel?",
+  "Is the larger shape positioned above the smaller shape?",
+  "Do any two lines cross each other?",
+  "Is there a vertical line that divides the panel into mirror-image halves?"
+ ],
+ "cost_usd": 0.005862499999999993,
+ "answers": {
+  "left_1": {
+   "Q1": "4",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_2": {
+   "Q1": "3",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_3": {
+   "Q1": "2",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "left_2": {
+   "Q1": "2",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_4": {
+   "Q1": "1",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_6": {
+   "Q1": "1",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "No"
+  },
+  "right_5": {
+   "Q1": "3",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_1": {
+   "Q1": "4",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "right_4": {
+   "Q1": "2",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  },
+  "left_6": {
+   "Q1": "3",
+   "Q2": "No",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_3": {
+   "Q1": "3",
+   "Q2": "Yes",
+   "Q3": "No",
+   "Q4": "Yes"
+  },
+  "left_5": {
+   "Q1": "2",
+   "Q2": "Yes",
+   "Q3": "Yes",
+   "Q4": "Yes"
+  }
+ }
+}

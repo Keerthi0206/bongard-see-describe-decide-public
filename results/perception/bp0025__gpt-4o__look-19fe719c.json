@@ -1,0 +1,84 @@
+{
+ "bp": "bp0025",
+ "questions": [
+  "Is there a shape that is oriented with its point facing upward?",
+  "Is there a triangle in the panel?",
+  "How many different size groups (visibly distinct sizes) are present in the panel?",
+  "Is there any shape that lies inside the convex hull formed by the other shapes?"
+ ],
+ "cost_usd": 0.006550000000000056,
+ "answers": {
+  "right_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "Yes"
+  },
+  "left_4": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "Yes"
+  },
+  "right_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "Yes"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "Yes"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "Yes"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "Yes"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "No",
+   "Q3": "1",
+   "Q4": "Yes"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "Yes"
+  },
+  "right_6": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "Yes"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "Yes"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "1",
+   "Q4": "Yes"
+  },
+  "left_1": {
+   "Q1": "Yes",
+   "Q2": "Yes",
+   "Q3": "2",
+   "Q4": "Yes"
+  }
+ }
+}

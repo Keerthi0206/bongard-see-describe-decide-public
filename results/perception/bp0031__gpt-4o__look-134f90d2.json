@@ -1,0 +1,84 @@
+{
+ "bp": "bp0031",
+ "questions": [
+  "Is the background plain?",
+  "Do any two objects touch each other in the panel?",
+  "Do any two shapes touch, cross, or overlap?",
+  "Are there multiple different shape types present in the panel?"
+ ],
+ "cost_usd": 0.005849999999999994,
+ "answers": {
+  "left_3": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "right_5": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_3": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "right_1": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_2": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "left_4": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "right_4": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "yes"
+  },
+  "right_6": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "left_1": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no"
+  },
+  "left_6": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_5": {
+   "Q1": "yes",
+   "Q2": "no",
+   "Q3": "no",
+   "Q4": "no"
+  },
+  "left_2": {
+   "Q1": "yes",
+   "Q2": "yes",
+   "Q3": "yes",
+   "Q4": "no"
+  }
+ }
+}

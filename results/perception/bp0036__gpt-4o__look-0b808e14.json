@@ -1,0 +1,58 @@
+{
+ "bp": "bp0036",
+ "questions": [
+  "Does the triangle point downward?",
+  "Is the triangle positioned above the circle?"
+ ],
+ "cost_usd": 0.004014999999999991,
+ "answers": {
+  "right_1": {
+   "Q1": "No",
+   "Q2": "Yes"
+  },
+  "left_5": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "right_4": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_1": {
+   "Q1": "No",
+   "Q2": "Yes"
+  },
+  "left_4": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_6": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "right_6": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "right_5": {
+   "Q1": "Yes",
+   "Q2": "No"
+  },
+  "right_3": {
+   "Q1": "No",
+   "Q2": "Yes"
+  },
+  "right_2": {
+   "Q1": "No",
+   "Q2": "No"
+  },
+  "left_3": {
+   "Q1": "Yes",
+   "Q2": "Yes"
+  },
+  "left_2": {
+   "Q1": "Yes",
+   "Q2": "No"
+  }
+ }
+}
